@@ -27,6 +27,6 @@ jobs:
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: master
+        BASE_BRANCH: main
         BRANCH: gh-pages
         FOLDER: site
