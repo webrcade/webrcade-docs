@@ -1,0 +1,5 @@
+site_url: ''
+site_name: webRcade
+
+theme:
+  name: 'material'
