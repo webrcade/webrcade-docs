@@ -8,11 +8,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout
+      uses: actions/checkout@v1
       with:
         submodules: recursive
-    - run: docker run -v $(pwd):/docs squidfunk/mkdocs-material build
-    - uses: actions/upload-artifact@v1
+
+    - name: Build
+      run: docker run -v $(pwd):/docs squidfunk/mkdocs-material build
+      uses: actions/upload-artifact@v1
       with:
         name: site
         path: site
+
+    - name: Deploy to GitHub pages (main)
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master
+        BRANCH: gh-pages
+        FOLDER: site
