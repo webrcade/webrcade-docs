@@ -15,6 +15,8 @@ jobs:
 
     - name: Build
       run: docker run -v $(pwd):/docs squidfunk/mkdocs-material build
+
+    - name: Upload artifact
       uses: actions/upload-artifact@v1
       with:
         name: site
