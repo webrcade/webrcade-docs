@@ -1,5 +1,77 @@
 site_url: ''
-site_name: webRcade
+site_name: webЯcade Docs
+repo_url: https://github.com/webrcade/webrcade-docs
+edit_uri: edit/main/docs/
+dev_addr: '127.0.0.1:8080'
+
+nav:
+  - About: index.md
+  - User Guide:
+    - Overview: userguide/index.md
+    - User Interface: userguide/interface.md
+    - Controls: userguide/controls.md
+  - Platforms:
+    - Overview: platforms/index.md
+    - Windows (PC): platforms/windows/index.md
+    - OS X (Mac): platforms/osx/index.md
+    - iOS: platforms/ios/index.md
+    - Android: platforms/android/index.md
+    - Xbox One X/S: platforms/xbox/index.md
+  - Applications:
+    - Overview: apps/index.md
+    - Emulators: 
+      - Overview: apps/emulators/index.md
+      - Atari:
+        - 2600: apps/emulators/2600/index.md
+        - 7800: apps/emulators/7800/index.md
+      - Nintendo:
+        - NES: apps/emulators/nes/index.md
+        - SNES: apps/emulators/snes/index.md
+      - Sega:
+        - Master System: apps/emulators/mastersystem/index.md
+        - Genesis: apps/emulators/genesis/index.md
+        - Game Gear: apps/emulators/gamegear/index.md
+    - Engines: 
+      - Overview: apps/engines/index.md
+      - Classic Doom: apps/engines/doom/index.md
+  - Feeds:
+    - Overview: feeds/index.md
+ 
+plugins:
+  - search
+
+extra:  
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/webrcade
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/webrcade
 
 theme:
+  copyright: Copyright &copy; 2016 - 2020 Martin Donath
   name: 'material'
+  logo: assets/images/webrcade-logo-dark.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes    
+    - navigation.top
+    - toc.integrate
+
+
+
+
+
