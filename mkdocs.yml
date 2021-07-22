@@ -37,6 +37,14 @@ nav:
   - Feeds:
     - Overview: feeds/index.md
  
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.superfences  
+
 plugins:
   - search
 
@@ -47,29 +55,32 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/webrcade
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
-  copyright: Copyright &copy; 2016 - 2020 Martin Donath
+  copyright: Copyright &copy; 2021 webЯcade
   name: 'material'
-  logo: assets/images/webrcade-logo-dark.svg
+  logo: assets/images/webrcade-logo.svg
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode  
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
   features:
+    - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.indexes    
     - navigation.top
-    - toc.integrate
+
 
 
 

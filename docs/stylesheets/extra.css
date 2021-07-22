@@ -1,0 +1,9 @@
+.control {
+    height:48px;
+    width:48px;
+    vertical-align:middle
+}
+
+.gamepad-table-wrapper {
+    border: 10px solid red;
+}
