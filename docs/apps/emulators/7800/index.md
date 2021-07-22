@@ -6,15 +6,15 @@ The Atari 7800 application is an emulator for the Atari 7800 ProSystem game cons
 
 ## Controls
 
-1 to 2 devices, etc. etc.
+The Atari 7800 emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
 
 ### Keyboard
 
-Keyboard blah blah
+Keyboard support is only available for controller one.
 
 | __Name__ | __Keys__ | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Move | <div style="white-space: nowrap">![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}</div>  | |                  
+| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |                  
 | Fire 1 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} | |                  
 | Fire 2 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} | |                  
 | Reset | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |                  
@@ -23,7 +23,7 @@ Keyboard blah blah
 
 ### Gamepad
 
-Gamepad blah blah
+Gamepad support is available for both controllers.
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
@@ -43,11 +43,11 @@ Gamepad blah blah
 
 ## Feed 
 
-Blah blah
+This section details how Atari 7800 application instances can be added to feeds.
 
 ### Type
 
-The type name for this application is `js7800`. 
+The type name for the Atari 7800 application is `js7800`. 
 
 !!! note
     The alias `7800` also currently maps to this application. In the future, the `7800` alias may be mapped
