@@ -6,7 +6,7 @@ The Atari 7800 application is an emulator for the Atari 7800 ProSystem game cons
 
 ## Controls
 
-The Atari 7800 emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
+The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
 
 ### Keyboard
 
