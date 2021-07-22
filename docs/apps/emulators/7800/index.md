@@ -54,7 +54,7 @@ The type name for this application is `js7800`.
     to another Atari 7800 application (different emulator implementation) if it is determined to be a 
     more appropriate default.
 
-### Application Properties
+### Properties
 
 The table below contains the properties that are specific to the Atari 7800 application. These properties are
 specified in the `props` object of a feed item. 
