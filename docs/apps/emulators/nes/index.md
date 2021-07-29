@@ -40,6 +40,10 @@ Gamepad support is available for both controllers.
 | Show Menu<br>(Alternate 3)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
 | Show Menu<br>(Alternate 4)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
 
+## Battery-backed SRAM
+
+Some NES cartridges include battery-backed SRAM as a means of preserving state between sessions. The NES application supports persisting this SRAM state into the browser's local storage. The SRAM contents will be persisted to local storage whenever the top-level menu is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.
+
 ## Feed 
 
 This section details how NES application instances can be added to feeds.
