@@ -78,7 +78,7 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| game | String | Yes | The choice of game to play (one of the following):<br><br>`doom1`: Doom 1 (shareware version)<br>`freedoom1`: Freedoom Phase 1<br>`freedoom2`: Freedoom Phase 2 |
+| game | String | Yes | The choice of game to play (one of the following):<br><ul><li>`doom1` : Doom 1 (shareware version)</li><li>`freedoom1` : Freedoom Phase 1</li><li>`freedoom2` : Freedoom Phase 2</li></ul> |
 
 ### Example
 
