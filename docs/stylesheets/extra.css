@@ -7,3 +7,10 @@
 .gamepad-table-wrapper {
     border: 10px solid red;
 }
+
+
+:root {
+    --md-primary-fg-color:        #5654df;
+    --md-primary-fg-color--light: #4960ca;
+    --md-primary-fg-color--dark:  #060569;
+  }
