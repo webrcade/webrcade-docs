@@ -90,7 +90,7 @@ The following is an example of a complete feed that consists of a single Genesis
       "items": [
         {
           "title": "Ixion",
-          "type": "genplusgx-md",
+          "type": "genesis",
           "props": {
             "rom": "https://dl.dropboxusercontent.com/s/qv4vpzny6zqncmx/ixion.bin"
           }
