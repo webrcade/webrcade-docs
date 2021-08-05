@@ -10,7 +10,77 @@
 
 
 :root {
-    --md-primary-fg-color:        #5654df;
-    --md-primary-fg-color--light: #4960ca;
-    --md-primary-fg-color--dark:  #060569;
+    --md-primary-fg-color:        #970808;
+    --md-primary-fg-color--light: #ca4949;
+    --md-primary-fg-color--dark:  #690805;
   }
+
+  [data-md-color-scheme=slate] {
+    
+    /* --md-hue: 232;
+    --md-default-fg-color: hsla(var(--md-hue),75%,95%,1);
+    --md-default-fg-color--light: hsla(var(--md-hue),75%,90%,0.62);
+    --md-default-fg-color--lighter: hsla(var(--md-hue),75%,90%,0.32);
+    --md-default-fg-color--lightest: hsla(var(--md-hue),75%,90%,0.12);
+    --md-default-bg-color: hsla(var(--md-hue),15%,21%,1);
+    --md-default-bg-color--light: hsla(var(--md-hue),15%,21%,0.54);
+    --md-default-bg-color--lighter: hsla(var(--md-hue),15%,21%,0.26);
+    --md-default-bg-color--lightest: hsla(var(--md-hue),15%,21%,0.07);
+    --md-code-fg-color: hsla(var(--md-hue),18%,86%,1);
+    --md-code-bg-color: hsla(var(--md-hue),15%,15%,1);
+    --md-code-hl-color: rgba(66,135,255,0.15);
+    --md-code-hl-number-color: #e6695b;
+    --md-code-hl-special-color: #f06090;
+    --md-code-hl-function-color: #c973d9;
+    --md-code-hl-constant-color: #9383e2;
+    --md-code-hl-keyword-color: #6791e0;
+    --md-code-hl-string-color: #2fb170;
+    --md-code-hl-name-color: var(--md-code-fg-color);
+    --md-code-hl-operator-color: var(--md-default-fg-color--light);
+    --md-code-hl-punctuation-color: var(--md-default-fg-color--light);
+    --md-code-hl-comment-color: var(--md-default-fg-color--light);
+    --md-code-hl-generic-color: var(--md-default-fg-color--light);
+    --md-code-hl-variable-color: var(--md-default-fg-color--light);
+    --md-typeset-color: var(--md-default-fg-color);
+    --md-typeset-a-color: var(--md-primary-fg-color);
+    --md-typeset-mark-color: rgba(66,135,255,0.3);
+    --md-typeset-kbd-color: hsla(var(--md-hue),15%,94%,0.12);
+    --md-typeset-kbd-accent-color: hsla(var(--md-hue),15%,94%,0.2);
+    --md-typeset-kbd-border-color: hsla(var(--md-hue),15%,14%,1);
+    --md-admonition-bg-color: hsla(var(--md-hue),0%,100%,0.025);
+    --md-footer-bg-color: hsla(var(--md-hue),15%,12%,0.87);
+    --md-footer-bg-color--dark: hsla(var(--md-hue),15%,10%,1);  */
+
+
+    --md-typeset-a-color: rgb(243, 92, 92);
+    --md-default-fg-color--light: rgb(139, 139, 139);
+    --md-accent-fg-color: rgb(168, 168, 168);
+    --md-default-bg-color: rgb(45, 45, 45);
+}
+
+.md-tabs__link {
+    opacity: .6;
+}
+
+.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+    color: white;
+    opacity: 1;
+}
+
+.md-nav__title {
+    font-weight: 700;
+    color: rgb(119, 119, 119);
+}
+ 
+.md-typeset table:not([class]) th {
+    background-color: rgb(82, 82, 82);
+    color: rgb(206, 206, 206);
+}
+
+.md-typeset h1 {
+    color: rgb(167, 167, 167);
+}
+ 
+.md-typeset table strong {
+     color: rgb(156, 156, 156);;
+}

@@ -12,11 +12,17 @@ nav:
     - Controls: userguide/controls.md
   - Platforms:
     - Overview: platforms/index.md
-    - Windows (PC): platforms/windows/index.md
-    - OS X (Mac): platforms/osx/index.md
-    - iOS: platforms/ios/index.md
-    - Android: platforms/android/index.md
-    - Xbox One X/S: platforms/xbox/index.md
+    - Windows (PC):
+      - Overview: platforms/windows/index.md
+    - OS X/macOS (Mac): 
+      - Overview: platforms/osx/index.md
+      - Gamepads: platforms/osx/gamepads.md
+    - iOS: 
+      - Overview: platforms/ios/index.md
+    - Android: 
+      - Overview: platforms/android/index.md
+    - Xbox One X/S: 
+      - Overview: platforms/xbox/index.md
   - Applications:
     - Overview: apps/index.md
     - Emulators: 
@@ -64,13 +70,13 @@ theme:
   logo: assets/images/webrcade-logo.svg
   palette:
     - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode  
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to light mode  
+    # - scheme: default
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline
+    #     name: Switch to dark mode
 
   features:
     - navigation.instant
