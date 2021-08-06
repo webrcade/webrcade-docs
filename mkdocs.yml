@@ -21,7 +21,7 @@ nav:
       - Overview: platforms/ios/index.md
     - Android: 
       - Overview: platforms/android/index.md
-    - Xbox One X/S: 
+    - Xbox Series X|S: 
       - Overview: platforms/xbox/index.md
   - Applications:
     - Overview: apps/index.md
