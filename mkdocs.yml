@@ -14,7 +14,7 @@ nav:
     - Overview: platforms/index.md
     - Windows (PC):
       - Overview: platforms/windows/index.md
-    - OS X/macOS (Mac): 
+    - macOS (Mac): 
       - Overview: platforms/osx/index.md
       - Gamepads: platforms/osx/gamepads.md
     - iOS: 
@@ -50,6 +50,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.superfences  
+  - pymdownx.tasklist:
+      custom_checkbox: true  
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg      
 
 plugins:
   - search

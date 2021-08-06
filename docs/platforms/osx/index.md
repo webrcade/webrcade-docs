@@ -1,4 +1,4 @@
-# OS X/macOS (Mac)
+# macOS (Mac)
 
 ## Overview
 
@@ -6,7 +6,7 @@ This page provides information on how to obtain the optimal experience when usin
 
 ## Gamepad Support
 
-The [OS X/macOS Gamepads page](gamepads.md) provides detailed information on the various gamepads that have been tested for compatibility with webЯcade on a Mac.
+The [macOS Gamepads page](gamepads.md) provides detailed information on the various gamepads that have been tested for compatibility with webЯcade on a Mac.
 
 ## Browser Support
 
@@ -60,21 +60,3 @@ By default, "full screen mode" displays the navigation toolbar which contains th
 To remove the navigation toolbar in "full screen mode" open the `View` menu in the `Safari` menu bar and unselect the `Always Show Toolbar in Full Screen` menu item (see image below).
 
 ![](../../assets/images/platforms/osx/fullscreen-alwaysshow-zoom.png){: style="padding:15px;"}
-
-
-#### Screen Recording (Alternate controls)
-
-Safari supports the ability to initiate screen recording by double pressing on the PlayStation DualShock 4 `"Share" button` (or equivalent button on other controllers).
-
-When this button sequence is pressed, the dialog shown below will be displayed.
-
-![](../../assets/images/platforms/osx/screenrecording.png){: style="padding:15px;"}
-
-In addition to the annoyance of the dialog being displayed, other functions that are mapped to this button (select, etc.) are inconsistent in their behavior. Therefore, when using Safari with a Mac it is recommended that the following alternative buttons be used as they have been proven to work consistently. 
-
-| __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
-| --- | --- | --- |
-| Start<br>            | ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_RT.png){: class="control"} &nbsp;and&nbsp; ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Right Trigger__ and click (press down) on the __Right Thumbstick__. |
-| Select<br>           | ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_RT.png){: class="control"} &nbsp;and&nbsp; ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Right Trigger__ and click (press down) on the __Left Thumbstick__. |
-| Show Menu        | ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
-| Show Menu<br>(Alternate)        | ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
