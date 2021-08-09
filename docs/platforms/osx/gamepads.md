@@ -43,7 +43,7 @@ This section contains information related to the [8BitDo Lite Controller](https:
 
 #### Bluetooth Pairing
 
-To connect the controller to a macOS system via bluetooth perform the following steps:
+To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
 * Move the controller's `Mode` switch (middle top of controller) to `X` (rightmost location).
@@ -64,7 +64,7 @@ This section contains information related to the [8BitDo Zero 2 Controller](http
 
 #### Bluetooth Pairing
 
-To connect the controller to a macOS system via bluetooth perform the following steps:
+To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
 * While pressing and holding the `A` button press and hold the `Start` button to turn on the controller.
@@ -81,9 +81,9 @@ The Zero 2 does not have the necessary inputs to support the alternative control
 
 | __Name__ | __Keys__ | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Start | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |                  
-| Select | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | The __Right Shift Key__.|                  
-| Show Menu | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |                  
+| Start | ![](../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |                  
+| Select | ![](../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | The __Right Shift Key__.|                  
+| Show Menu | ![](../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |                  
 
 
 
@@ -95,7 +95,7 @@ This section contains information related to the [PlayStation DualShock 4 Contro
 
 #### Bluetooth Pairing
 
-To connect the controller to a macOS system via bluetooth perform the following steps:
+To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
 * While pressing and holding the `Share` button (upper left on controller) press and hold the `PS` button (bottom center) until the light bar on the back flashes.
@@ -121,7 +121,7 @@ This section contains information related to the [Xbox Wireless Controller](http
 
 #### Bluetooth Pairing
 
-To connect the controller to a macOS system via bluetooth perform the following steps:
+To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
 * Turn on the controller by pressing the `Xbox` button (Xbox logo near the center top of the controller).

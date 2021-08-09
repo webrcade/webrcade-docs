@@ -10,7 +10,7 @@ The [macOS Gamepads page](gamepads.md) provides detailed information on the vari
 
 ## Browser Support
 
-The recommended browser for use with webЯcade on a Mac is [Google Chrome](https://www.google.com/chrome/) due to its extensive gamepad compatibility and minimal configuration. The Safari web browser is also compatible but supports fewer gamepads and additional steps are required to achieve an optimal experience ([see below](#safari))
+The recommended browser for use with webЯcade on a Mac is [Google Chrome](https://www.google.com/chrome/) due to its extensive gamepad compatibility and minimal configuration. The Safari web browser is also compatible but supports fewer gamepads and additional steps are required to achieve an optimal experience ([see below](#safari)).
 
 ### Chrome
 

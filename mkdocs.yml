@@ -14,6 +14,7 @@ nav:
     - Overview: platforms/index.md
     - Windows (PC):
       - Overview: platforms/windows/index.md
+      - Gamepads: platforms/windows/gamepads.md
     - macOS (Mac): 
       - Overview: platforms/osx/index.md
       - Gamepads: platforms/osx/gamepads.md
