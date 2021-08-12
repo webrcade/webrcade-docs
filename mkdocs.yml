@@ -3,7 +3,7 @@ site_name: webЯcade Docs
 repo_url: https://github.com/webrcade/webrcade-docs
 edit_uri: edit/main/docs/
 dev_addr: '127.0.0.1:8080'
-copyright: Copyright &copy; 2021 - webЯcade
+copyright: "&copy; Copyright webЯcade 2021"
 
 nav:
   - About: index.md
