@@ -1,17 +1,35 @@
-name: ci 
-on:
-  push:
-    branches: 
-      - master
-      - main
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+name: Build
 
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      with:
+        submodules: recursive
+
+    - name: Build
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+      run: pip install mkdocs-material 
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: site
+        path: site
+
+    - name: Deploy to GitHub pages (main)
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: main
+        BRANCH: gh-pages
+        FOLDER: site
