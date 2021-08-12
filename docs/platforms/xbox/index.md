@@ -47,7 +47,7 @@ To launch webЯcade, perform the following steps:
 
 ## Alternate controls
 
-The Microsoft Edge application reserves the use of the :material-microsoft-xbox-controller-menu: `Menu` and  :material-microsoft-xbox-controller-view: `View` buttons for the `context menu` and `full screen mode` operations respectively. Therefore, the following alternative inputs must be used to trigger the `Start`, `Select`, and `Show Menu` actions.
+The Microsoft Edge application reserves the use of the :material-microsoft-xbox-controller-menu: `Menu` and  :material-microsoft-xbox-controller-view: `View` buttons for the `Context Menu` and `Full Screen Mode` operations respectively. Therefore, the following alternative inputs must be used to trigger the `Start`, `Select`, and `Show Menu` actions.
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
@@ -94,7 +94,7 @@ Another option is to refresh the webЯcade page. To refresh the page, perform th
 
 * Switch to `Browsing` mode (See ["Game and Browsing Controls"](#game-and-browsing-controls) section).
 * Use the left analog stick to move the cursor over the :material-refresh:  `Refresh` icon in the navigation bar.
-* Press the `A` button to perform the refrsh.
+* Press the `A` button to perform the refresh.
 * After the page has loaded, press `down` on the `D-pad`. This should automatically switch to `Game` mode and allow for navigation of the webЯcade front-end via the controller. 
 
 ### Close and Relaunch Edge
