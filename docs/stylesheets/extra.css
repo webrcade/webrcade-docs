@@ -91,3 +91,7 @@
 .md-typeset table strong {
      color: rgb(156, 156, 156);;
 }
+
+.md-footer__inner {
+    display: none;
+}
