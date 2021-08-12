@@ -19,7 +19,7 @@ jobs:
         python-version: 3.x          
             
     - name: Install Material             
-      run: pip install mkdocs-material 
+      run: pip install pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       
     - name: Build Documentation
       run: mkdocs build
