@@ -8,7 +8,7 @@ nav:
   - About: index.md
   - User Guide:
     - Overview: userguide/index.md
-    - User Interface: userguide/interface.md
+    - Front-end: userguide/interface.md
     - Controls: userguide/controls.md
   - Platforms:
     - Overview: platforms/index.md
