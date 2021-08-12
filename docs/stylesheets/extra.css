@@ -74,7 +74,7 @@
     opacity: 1;
 }
 
-.md-nav__title {
+.md-nav__title, label.md-nav__link {
     font-weight: 700;
     color: rgb(119, 119, 119);
 }
