@@ -80,7 +80,7 @@ Pressing the :material-microsoft-xbox-controller-view: `View` button when in ful
 
 ## Troubleshooting
 
-Unfortunatley, there may be times when webЯcade may cease to work correctly within the Microsoft Edge application. The following sections describe various mechanisms that can be used in an attempt to address such issues.
+Unfortunatley, there may be times when webЯcade ceases to work correctly within the Microsoft Edge application. The following sections describe various mechanisms that can be used in an attempt to address such issues.
 
 ### Display Guide
 
