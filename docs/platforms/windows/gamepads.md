@@ -129,5 +129,5 @@ To connect the controller to Windows via Bluetooth perform the following steps:
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Click on the device name to establish a connection from the controller to the Windows PC.
 
-![](../../assets/images/platforms/windows/bluetooth-xbox.png)
+![](../../assets/images/platforms/windows/bluetooth-xbox.png){: style="padding:5px 15px;" class="center"}
 
