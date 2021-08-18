@@ -44,6 +44,8 @@ nav:
       - Classic Doom: apps/engines/doom/index.md
   - Feeds:
     - Overview: feeds/index.md
+    - Format: feeds/format.md
+    - Tutorial: feeds/tutorial.md
  
 markdown_extensions:
   - attr_list
