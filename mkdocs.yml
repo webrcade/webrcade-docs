@@ -46,6 +46,9 @@ nav:
     - Overview: feeds/index.md
     - Format: feeds/format.md
     - Tutorial: feeds/tutorial.md
+    - Resources: 
+      - Overview: feeds/resources/index.md
+      - Imgur: feeds/resources/imgur.md
  
 markdown_extensions:
   - attr_list
@@ -54,6 +57,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.superfences  
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true  
   - pymdownx.emoji:
