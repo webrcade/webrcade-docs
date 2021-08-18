@@ -49,6 +49,7 @@ nav:
     - Resources: 
       - Overview: feeds/resources/index.md
       - Imgur: feeds/resources/imgur.md
+      - Pastebin: feeds/resources/pastebin.md
  
 markdown_extensions:
   - attr_list
