@@ -2,7 +2,7 @@
 
 The table below contains the list of all emulators that are currently supported by webЯcade. 
 
-Clicking on the name of an *Emulator* in the table will navigate to a detailed page for the emulator that includes keyboard and gamepad control mappings as well as information related to adding the emulator to a webЯcade feed.
+Clicking on the name of an *Emulator* in the table will navigate to a detailed page for the emulator that includes keyboard and gamepad control mappings as well as information related to utilizing the emulator within a webЯcade feed.
 
 | __Emulator__ | __Description__ |
 |----------|------|
