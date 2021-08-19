@@ -26,7 +26,7 @@ The following is an example of a simple webЯcade feed that contains the thumbna
 
 There is also a tab named, *"Shortened URLs*", wherein both the thumbnail and ROM URLs have been shortened (via [TinyURL](https://tinyurl.com)). Shortening of [Imgur](https://imgur.com/) URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
-=== "Default URLs"
+=== "Full URLs"
     ``` json hl_lines="6"
     {
       "title": "Imgur Example Feed",

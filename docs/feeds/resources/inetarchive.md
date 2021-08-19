@@ -39,7 +39,7 @@ The following is an example of a simple webЯcade feed that contains the archive
 
 There is also a tab named, *"Shortened URLs*", wherein the Super Uwol! URL has been shortened (via [TinyURL](https://tinyurl.com)). Shortening of [archive.org](https://archive.org) URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
-=== "Default URLs"
+=== "Full URL"
     ``` json hl_lines="11"
     {
       "title": "Archive.org Example Feed",
@@ -59,7 +59,7 @@ There is also a tab named, *"Shortened URLs*", wherein the Super Uwol! URL has b
       ]
     }    
     ```
-=== "Shortened URLs"    
+=== "Shortened URL"    
     ``` json hl_lines="11"
     {
       "title": "Archive.org Example Feed",
