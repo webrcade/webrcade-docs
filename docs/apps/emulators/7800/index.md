@@ -4,6 +4,11 @@
 
 The Atari 7800 application is an emulator for the [Atari 7800 ProSystem game console](https://en.wikipedia.org/wiki/Atari_7800). 
 
+<figure>
+  <img src="../../../assets/images/apps/7800.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <figcaption>TiME Salvo by Mike Saarna</figcaption>
+</figure>
+
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.

@@ -4,6 +4,12 @@
 
 The Sega Game Gear application is an emulator for the [Sega Game Gear handheld game console](https://en.wikipedia.org/wiki/Game_Gear). 
 
+<figure>
+  <img src="../../../assets/images/apps/gg.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <figcaption>Turrican (Demo) by Martin Konrad</figcaption>
+</figure>
+
+
 ## Controls
 
 The emulator supports one controller. The keyboard and gamepad mappings are listed in the tables below.

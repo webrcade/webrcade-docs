@@ -4,6 +4,11 @@
 
 The Atari 2600 application is an emulator for the [Atari 2600 game console](https://en.wikipedia.org/wiki/Atari_2600). 
 
+
+<figure>
+  <img src="../../../assets/images/apps/2600.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <figcaption>Thrust by Thomas Jentzsch</figcaption>
+</figure>
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.

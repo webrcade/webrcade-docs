@@ -4,6 +4,11 @@
 
 The Nintendo Entertainment System (NES) application is an emulator for the [Nintendo Entertainment System game console](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System). 
 
+<figure>
+  <img src="../../../assets/images/apps/nes.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <figcaption>Sir Ababol by The Mojon Twins</figcaption>
+</figure>
+
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.

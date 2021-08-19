@@ -4,6 +4,11 @@
 
 The Super Nintendo Entertainment System (SNES) application is an emulator for the [Super Nintendo Entertainment System game console](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System). 
 
+<figure>
+  <img src="../../../assets/images/apps/snes.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <figcaption>Super Boss Gaiden by Dieter von Laser</figcaption>
+</figure>
+
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.

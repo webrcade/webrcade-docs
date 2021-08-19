@@ -5,6 +5,11 @@
 
 The Classic Doom application is a [Doom game engine](https://en.wikipedia.org/wiki/Doom_engine) that can be used to play the shareware version of Doom as well as the freely redistributable Freedoom games. 
 
+<figure>
+  <img src="../../../assets/images/apps/doom.png" style="padding:5px 15px  0 15px;" class="center"/>
+  <figcaption>Freedoom Phase 2 by Freedoom Team </figcaption>
+</figure>
+
 ## Controls
 
 The keyboard/mouse controls and gamepad mappings are listed in the tables below.
