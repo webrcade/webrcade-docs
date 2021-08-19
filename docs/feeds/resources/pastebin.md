@@ -4,7 +4,7 @@
 
 !!! note
     Although creating and logging into a [Pastebin](https://pastebin.com/) account is not required, it is
-    highly recommended. Without an account, it is not possible to make changes to existing pastes (feeds).
+    *highly recommended*. Without an account, it is not possible to make changes to existing pastes (feeds).
     This means that updating a feed would require the creation of a new paste, which would
     result in a new feed URL.
 
