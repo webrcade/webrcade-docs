@@ -7,7 +7,7 @@ The Classic Doom application is a [Doom game engine](https://en.wikipedia.org/wi
 
 <figure>
   <img src="../../../assets/images/apps/doom.png" style="padding:5px 15px  0 15px;" class="center"/>
-  <figcaption>Freedoom Phase 2 by Freedoom Team </figcaption>
+  <figcaption>Freedoom Phase 1 by Freedoom Team </figcaption>
 </figure>
 
 ## Controls
