@@ -6,7 +6,7 @@ The Atari 7800 application is an emulator for the [Atari 7800 ProSystem game con
 
 <figure>
   <img src="../../../assets/images/apps/7800.png" style="padding:5px 15px 0 15px;" class="center"/>
-  <figcaption>TiME Salvo by Mike Saarna</figcaption>
+  <figcaption>Knight Guy in Low Res World: Castle Days by Vladimir Zuniga</figcaption>
 </figure>
 
 ## Controls
