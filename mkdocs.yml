@@ -51,6 +51,7 @@ nav:
       - Imgur: feeds/resources/imgur.md
       - Internet Archive: feeds/resources/inetarchive.md
       - Pastebin: feeds/resources/pastebin.md
+      - TinyURL: feeds/resources/tinyurl.md
  
 markdown_extensions:
   - attr_list
