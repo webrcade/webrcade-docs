@@ -1,6 +1,6 @@
 # Imgur
 
-[Imgur](https://imgur.com/) can be used to host images (backgrounds, thumbnail, etc.) that are referenced in a WebЯcade feed. 
+[Imgur](https://imgur.com/) can be used to host images (backgrounds, thumbnails, etc.) that are referenced in a WebЯcade feed. 
 
 To host an image in [Imgur](https://imgur.com/), perform the following steps (registering with [Imgur](https://imgur.com/) is optional):
 

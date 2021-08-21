@@ -48,6 +48,7 @@ nav:
     - Tutorial: feeds/tutorial.md
     - Resources: 
       - Overview: feeds/resources/index.md
+      - Dropbox: feeds/resources/dropbox.md
       - Imgur: feeds/resources/imgur.md
       - Internet Archive: feeds/resources/inetarchive.md
       - Pastebin: feeds/resources/pastebin.md
