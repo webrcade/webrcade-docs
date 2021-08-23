@@ -24,7 +24,7 @@ To host an image in [Imgur](https://imgur.com/), perform the following steps (re
 
 The following is an example of a simple webЯcade feed that contains the thumbnail image that was uploaded to [Imgur](https://imgur.com/) in the steps detailed above.
 
-There is also a tab named, *"Shortened URLs*", wherein both the thumbnail and ROM URLs have been shortened (via [TinyURL](https://tinyurl.com)). Shortening of [Imgur](https://imgur.com/) URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
+There is also a tab named, *"Shortened URLs*", wherein both the thumbnail and ROM URLs have been shortened (see [TinyURL page](./tinyurl.md#shortened-urls)). Shortening of [Imgur](https://imgur.com/) URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
 === "Full URLs"
     ``` json hl_lines="6"

@@ -30,7 +30,7 @@ The process to host files in Dropbox is as follows:
 
 The following is an example of a simple webЯcade feed that includes the Dropbox link to the excellent Sega Master System homebrew game Darc (outlined in the steps above).
 
-There is also a tab named, *"Shortened URLs*", wherein the link has been shortened (via [TinyURL](https://tinyurl.com)). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
+There is also a tab named, *"Shortened URLs*", wherein the link has been shortened (see [TinyURL page](./tinyurl.md#shortened-urls)). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
 === "Full URL"
     ``` json hl_lines="11"

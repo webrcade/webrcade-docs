@@ -37,7 +37,7 @@ much larger downloads with a non-deterministic ROM file being executed.
 
 The following is an example of a simple webЯcade feed that contains the archive.org URL to the NES version of Super Uwol! obtained via the steps outlined above. See the [Feed Format page](../format.md) for detailed information regarding the structure of webЯcade feeds.
 
-There is also a tab named, *"Shortened URLs*", wherein the Super Uwol! URL has been shortened (via [TinyURL](https://tinyurl.com)). Shortening of [archive.org](https://archive.org) URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
+There is also a tab named, *"Shortened URLs*", wherein the Super Uwol! URL has been shortened (see [TinyURL page](./tinyurl.md#shortened-urls)). Shortening of [archive.org](https://archive.org) URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
 === "Full URL"
     ``` json hl_lines="11"

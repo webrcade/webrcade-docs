@@ -34,6 +34,6 @@ The example from above can be tested by adding a feed with the following URL wit
 
 `https://pastebin.com/raw/sVhLPGkN`
 
-It is highly recommended that a link shortener such as [TinyURL](https://www.tinyurl.com) be utilized to alias the Pastebin URL to a more memorable URL. The following TinyURL-based URL will redirect to the above Pastebin URL. 
+It is highly recommended that a link shortener such as [TinyURL](https://www.tinyurl.com) be utilized to alias the Pastebin URL to a more memorable URL (see [TinyURL page](./tinyurl.md#aliased-urls)). The following TinyURL-based URL will redirect to the above Pastebin URL. 
 
 `https://tinyurl.com/pastebin-feed`
