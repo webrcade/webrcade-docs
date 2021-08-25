@@ -33,7 +33,7 @@ In addition to the annoyance of the dialog being displayed, other functions that
 
 ## Controllers
 
-The following sections proivde details regarding controllers that have been tested for compatibility with webЯcade on a Mac. 
+The following sections provide details regarding controllers that have been tested for compatibility with webЯcade on a Mac. 
 
 ### 8bitDo Lite
 
@@ -46,9 +46,10 @@ This section contains information related to the [8BitDo Lite Controller](https:
 To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
-* Move the controller's `Mode` switch (middle top of controller) to `X` (rightmost location).
-* Press the `Home` button to turn the controller on (near bottom right of controller).
-* Press the controller's `Pair` button for 2 seconds to enter pairing mode (Small button on back edge near the `R2` button).
+* To enter pairing mode on the controller:
+    * Move the controller's `Mode` switch (middle top of controller) to `X` (rightmost location).
+    * Press the `Home` button to turn the controller on (near bottom right of controller).
+    * Press the controller's `Pair` button for 2 seconds to enter pairing mode (Small button on back edge near the `R2` button).
 * The controller should appear under `Devices` in the `Bluetooth` dialog as show in the image below. 
 * The device should have a name similar to, `"8BitDo Lite gamepad"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
@@ -67,8 +68,9 @@ This section contains information related to the [8BitDo Zero 2 Controller](http
 To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
-* While pressing and holding the `A` button press and hold the `Start` button to turn on the controller.
-* Press and hold the `Select` button for 3 seconds to enter pairing mode (the LED should rapidly blink).
+* To enter pairing mode on the controller:
+    * While pressing and holding the `A` button press and hold the `Start` button to turn on the controller.
+    * Press and hold the `Select` button for 3 seconds to enter pairing mode (the LED should rapidly blink).
 * The controller should appear under `Devices` in the `Bluetooth` dialog as show in the image below. 
 * The device should have a name similar to, `"DUALSHOCK 4 Wireless Controller"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
@@ -98,7 +100,8 @@ This section contains information related to the [PlayStation DualShock 4 Contro
 To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
-* While pressing and holding the `Share` button (upper left on controller) press and hold the `PS` button (bottom center) until the light bar on the back flashes.
+* To enter pairing mode on the controller:
+    * While pressing and holding the `Share` button (upper left on controller) press and hold the `PS` button (bottom center) until the light bar on the back flashes.
 * The controller should appear under `Devices` in the `Bluetooth` dialog as show in the image below. 
 * The device should have a name similar to, `"DUALSHOCK 4 Wireless Controller"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
@@ -124,8 +127,9 @@ This section contains information related to the [Xbox Wireless Controller](http
 To connect the controller to a macOS system via Bluetooth perform the following steps:
 
 * On your Mac, choose the `Apple` menu :material-apple: > `System Preferences...`, then click `Bluetooth`.
-* Turn on the controller by pressing the `Xbox` button (Xbox logo near the center top of the controller).
-* Press the controller’s `Pair` button for 3 seconds and release (small button on back near the `Left Bumper` button).
+* To enter pairing mode on the controller:
+    * Turn on the controller by pressing the `Xbox` button (Xbox logo near the center top of the controller).
+    * Press the controller’s `Pair` button for 3 seconds and release (small button on back near the `Left Bumper` button).
 * The controller should appear under `Devices` in the `Bluetooth` dialog as show in the image below. 
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.

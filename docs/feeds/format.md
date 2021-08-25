@@ -5,13 +5,13 @@ This page details the [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Obj
 !!! note
     The dimensions of thumbnail images referenced in the feed must be `400x300` or they will not be displayed. This restriction may be removed in the future.
 
-## Root Object
+## Feed Object
 
-The root object of a webЯcade feed includes high-level information about the feed, including a title, an optional description, and optional images. The root object also includes a list of categories contained in the feed.
+The feed (root) object of a webЯcade feed includes high-level information about the feed, including a title, an optional description, and optional images. The feed object also includes a list of categories contained in the feed.
 
 ### Properties
 
-The table below contains the properties available for the root object. 
+The table below contains the properties available for the feed object. 
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
@@ -24,7 +24,7 @@ The table below contains the properties available for the root object.
 
 ### Example
 
-The following is an example of a simple webЯcade feed with the root object properties highlighted.
+The following is an example of a simple webЯcade feed with the feed object properties highlighted.
 
 ``` json hl_lines="1-7 25-28"
 {
@@ -57,7 +57,7 @@ The following is an example of a simple webЯcade feed with the root object prop
 }
 ```
 
-The following image depicts the highlighted root object properties from the feed above displayed in the webЯcade front-end (Feeds view). The title, long title, description, thumbnail, and background images of the root object are shown below.
+The following image depicts the highlighted feed object properties from the feed above displayed in the webЯcade front-end (Feeds view). The title, long title, description, thumbnail, and background images of the feed object are shown below.
 
 ![](../assets/images/feed/format/feeds.png){: style="padding:5px 15px;" class="center"}
 
