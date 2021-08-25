@@ -13,7 +13,7 @@
         
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4+insiders-2.13.1">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.5+insiders-2.13.2">
     
     
       
@@ -21,7 +21,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.da646f22.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3c274924.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.1d832a92.min.css">
@@ -610,6 +610,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../platforms/ios/gamepads/" class="md-nav__link">
+        Gamepads
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1161,11 +1175,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#root-object" class="md-nav__link">
-    Root Object
+  <a href="#feed-object" class="md-nav__link">
+    Feed Object
   </a>
   
-    <nav class="md-nav" aria-label="Root Object">
+    <nav class="md-nav" aria-label="Feed Object">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1422,11 +1436,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#root-object" class="md-nav__link">
-    Root Object
+  <a href="#feed-object" class="md-nav__link">
+    Feed Object
   </a>
   
-    <nav class="md-nav" aria-label="Root Object">
+    <nav class="md-nav" aria-label="Feed Object">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1533,10 +1547,10 @@
 <p class="admonition-title">Note</p>
 <p>The dimensions of thumbnail images referenced in the feed must be <code>400x300</code> or they will not be displayed. This restriction may be removed in the future.</p>
 </div>
-<h2 id="root-object">Root Object</h2>
-<p>The root object of a webЯcade feed includes high-level information about the feed, including a title, an optional description, and optional images. The root object also includes a list of categories contained in the feed.</p>
+<h2 id="feed-object">Feed Object</h2>
+<p>The feed (root) object of a webЯcade feed includes high-level information about the feed, including a title, an optional description, and optional images. The feed object also includes a list of categories contained in the feed.</p>
 <h3 id="properties">Properties</h3>
-<p>The table below contains the properties available for the root object. </p>
+<p>The table below contains the properties available for the feed object. </p>
 <table>
 <thead>
 <tr>
@@ -1586,7 +1600,7 @@
 </tbody>
 </table>
 <h3 id="example">Example</h3>
-<p>The following is an example of a simple webЯcade feed with the root object properties highlighted.</p>
+<p>The following is an example of a simple webЯcade feed with the feed object properties highlighted.</p>
 <div class="highlight"><pre><span></span><code><span class="hll"><span class="p">{</span>
 </span><span class="hll">  <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Example Feed&quot;</span><span class="p">,</span>
 </span><span class="hll">  <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Example Feed&quot;</span><span class="p">,</span>
@@ -1616,7 +1630,7 @@
 </span><span class="hll">  <span class="p">]</span>
 </span><span class="hll"><span class="p">}</span>
 </span></code></pre></div>
-<p>The following image depicts the highlighted root object properties from the feed above displayed in the webЯcade front-end (Feeds view). The title, long title, description, thumbnail, and background images of the root object are shown below.</p>
+<p>The following image depicts the highlighted feed object properties from the feed above displayed in the webЯcade front-end (Feeds view). The title, long title, description, thumbnail, and background images of the feed object are shown below.</p>
 <p><img alt="" class="center" src="../../assets/images/feed/format/feeds.png" style="padding:5px 15px;" /></p>
 <h2 id="category-object">Category Object</h2>
 <p>Category objects of a webЯcade feed provide a means of classifying items (games, etc.) into user-defined groups
@@ -2085,10 +2099,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.61ac8e46.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.d1f5481f.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.8cf17210.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f668328d.min.js"></script>
       
     
   </body>
