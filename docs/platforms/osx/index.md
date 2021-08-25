@@ -2,7 +2,7 @@
 
 ## Overview
 
-This page provides information on how to obtain the optimal experience when using webЯcade with the OS X/macOS operating system on a Mac.
+This page provides information on how to obtain the optimal experience when using webЯcade with the macOS operating system on a Mac.
 
 ## Gamepad Support
 
