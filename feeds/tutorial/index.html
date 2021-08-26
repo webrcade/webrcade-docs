@@ -1542,8 +1542,11 @@
                 
                 
                 <h1 id="feed-tutorial">Feed Tutorial</h1>
+<p>This tutorial walks through the various steps necessary to create a webЯcade feed. During this tutorial, many of the <a href="../resources/">Resources</a> (cloud-based services, content hosting, etc.) that have been proven to be compatible with the development of webЯcade feeds are utilized.</p>
+<p>The <a href="../format/">Format</a> of webЯcade feeds is JSON (JavaScript Object Notation), which is a text-based format. Thus, all that is required to follow along and develop the feed document is a simple text-based editor. Alternatively, using a JSON-specific editor such as <a href="https://www.tutorialspoint.com/online_json_editor.htm">Tutorials Point's Online JSON Editor</a> is recommended as it provides immediate feedback when errors are detected and allows for "beautifying" (reformatting) the document.</p>
 <h2 id="create-feed-object">Create Feed Object</h2>
-<p>blah blah</p>
+<p>The <a href="../format/#feed-object">Feed Object</a> is the root object in a webЯcade document that contains high-level meta-information about the feed. The only required fields are a <code>title</code> and an array of <code>categories</code>. </p>
+<p>Start by copying the example content below into the feed document you are creating. Update the <code>title</code>, <code>longTitle</code>, and <code>description</code> to reflect your specific feed. Alternatively, <code>longTitle</code> and <code>description</code> can be removed as they are optional (See the <a href="../format/#feed-object">Feed Object</a> documentation for more details).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1552,11 +1555,13 @@
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="add-feed-images">Add Feed Images</h3>
-<p>blah blah</p>
+<p>The <a href="../format/#feed-object">Feed Object</a> supports the ability to associate optional thumbnail and background images with the feed. These images will be displayed when the feed is selected within the, "Feeds view", of the webЯcade front-end.</p>
+<p>In this particular case, we will be using <a href="../resources/imgur/">Imgur</a> to host the images. Follow the steps outlined within the <a href="../resources/imgur/">Imgur Resource</a> page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).</p>
 <ul>
 <li>Feed Thumbnail Image<br><code>https://docs.webrcade.com/tutorial/feed-thumb.jpg</code></li>
 <li>Feed Background Image<br><code>https://docs.webrcade.com/tutorial/feed-background.jpg</code></li>
 </ul>
+<p>Copy the URLs of the newly uploaded images from Imgur (as described in the <a href="../resources/imgur/">Imgur Resource</a> page), and add them to the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (<code>thumbnail</code> and <code>background</code> images are highlighted).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial webЯcade Feed&quot;</span><span class="p">,</span>
@@ -1567,7 +1572,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="create-category-object">Create Category Object</h2>
-<p>blah blah</p>
+<p>TODO</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1584,7 +1589,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="add-category-images">Add Category Images</h3>
-<p>blah blah</p>
+<p>TODO</p>
 <ul>
 <li>Category Thumbnail Image<br><code>https://docs.webrcade.com/tutorial/category-thumb.png</code></li>
 <li>Category Background Image<br><code>https://docs.webrcade.com/tutorial/category-background.jpg</code></li>
@@ -1607,7 +1612,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="create-item-object">Create Item Object</h2>
-<p>blah blah</p>
+<p>TODO</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1632,7 +1637,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="add-item-properties">Add Item Properties</h3>
-<p>blah blah</p>
+<p>TODO</p>
 <ul>
 <li>Super Uwol! Rom<br><code>https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes</code></li>
 </ul>
@@ -1663,7 +1668,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="add-item-images">Add Item Images</h3>
-<p>blah blah</p>
+<p>TODO</p>
 <ul>
 <li>Item Thumbnail Image<br><code>https://docs.webrcade.com/tutorial/uwol-thumb.png</code></li>
 <li>Item Background Image<br><code>https://docs.webrcade.com/tutorial/uwol-background.png</code></li>
@@ -1697,7 +1702,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="shorten-feed-urls">Shorten Feed URLs</h2>
-<p>blah blah</p>
+<p>TODO</p>
 <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Full URLs</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1760,7 +1765,9 @@
 </div>
 </div>
 <h2 id="publish-feed">Publish Feed</h2>
+<p>TODO</p>
 <h2 id="alias-feed-url">Alias Feed URL</h2>
+<p>TODO</p>
                 
               
               
