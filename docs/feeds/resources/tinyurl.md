@@ -66,7 +66,7 @@ The example below contains two tabs, one containing *"Full URLs"*, and one with 
 
 ## Aliased URLs
 
- Aliasing of URLs can be utilized to provide more memorable (human-readable) URLs. Feed URLs are primary candidates for aliasing as the resulting URLs are typically easier to share with others.
+ Aliasing of URLs can be utilized to provide more memorable (human-readable) URLs. Feed document URLs are primary candidates for aliasing as the resulting URLs are typically easier to share with others.
 
 To alias a URL with [TinyURL](https://tinyurl.com/), perform the following steps:
 

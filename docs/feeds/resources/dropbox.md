@@ -1,6 +1,6 @@
 # Dropbox
 
-[Dropbox](https://dropbox.com/) can be used to host images, game-related files (ROMs, etc.), and webЯcade feeds. 
+[Dropbox](https://dropbox.com/) can be used to host images, game-related files (ROMs, etc.), and webЯcade feed documents. 
 
 !!! note
     Although it is possible to host images in Dropbox, it is *not recommended*. The time to retrieve images

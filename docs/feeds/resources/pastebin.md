@@ -1,6 +1,6 @@
 # Pastebin
 
-[Pastebin](https://pastebin.com/) can be used to host WebЯcade feeds (see [Feed Format](../format.md)). 
+[Pastebin](https://pastebin.com/) can be used to host WebЯcade feed documents (see [Feed Format](../format.md)). 
 
 !!! note
     Although creating and logging into a [Pastebin](https://pastebin.com/) account is not required, it is

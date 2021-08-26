@@ -1,8 +1,14 @@
 # Feed Tutorial
 
+This tutorial walks through the various steps necessary to create a webЯcade feed. During this tutorial, many of the [Resources](./resources/index.md) (cloud-based services, content hosting, etc.) that have been proven to be compatible with the development of webЯcade feeds are utilized.
+
+The [Format](./format.md) of webЯcade feeds is JSON (JavaScript Object Notation), which is a text-based format. Thus, all that is required to follow along and develop the feed document is a simple text-based editor. Alternatively, using a JSON-specific editor such as [Tutorials Point's Online JSON Editor](https://www.tutorialspoint.com/online_json_editor.htm) is recommended as it provides immediate feedback when errors are detected and allows for "beautifying" (reformatting) the document.
+
 ## Create Feed Object
 
-blah blah
+The [Feed Object](./format.md#feed-object) is the root object in a webЯcade document that contains high-level meta-information about the feed. The only required fields are a `title` and an array of `categories`. 
+
+Start by copying the example content below into the feed document you are creating. Update the `title`, `longTitle`, and `description` to reflect your specific feed. Alternatively, `longTitle` and `description` can be removed as they are optional (See the [Feed Object](./format.md#feed-object) documentation for more details).
 
 ``` json 
 {
@@ -15,10 +21,14 @@ blah blah
 
 ### Add Feed Images
 
-blah blah
+The [Feed Object](./format.md#feed-object) supports the ability to associate optional thumbnail and background images with the feed. These images will be displayed when the feed is selected within the, "Feeds view", of the webЯcade front-end.
+
+In this particular case, we will be using [Imgur](./resources/imgur.md) to host the images. Follow the steps outlined within the [Imgur Resource](./resources/imgur.md) page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).
 
 * Feed Thumbnail Image<br>`https://docs.webrcade.com/tutorial/feed-thumb.jpg`
 * Feed Background Image<br>`https://docs.webrcade.com/tutorial/feed-background.jpg`
+
+Copy the URLs of the newly uploaded images from Imgur (as described in the [Imgur Resource](./resources/imgur.md) page), and add them to the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (`thumbnail` and `background` images are highlighted).
 
 ``` json hl_lines="5-6"
 {
@@ -33,7 +43,7 @@ blah blah
 
 ## Create Category Object
 
-blah blah
+TODO
 
 ``` json hl_lines="8-12"
 {
@@ -54,7 +64,7 @@ blah blah
 
 ### Add Category Images
 
-blah blah
+TODO
 
 * Category Thumbnail Image<br>`https://docs.webrcade.com/tutorial/category-thumb.png`
 * Category Background Image<br>`https://docs.webrcade.com/tutorial/category-background.jpg`
@@ -80,7 +90,7 @@ blah blah
 
 ## Create Item Object
 
-blah blah
+TODO
 
 ``` json hl_lines="14-18"
 {
@@ -109,7 +119,7 @@ blah blah
 
 ### Add Item Properties
 
-blah blah
+TODO
 
 * Super Uwol! Rom<br>`https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes`
 
@@ -143,7 +153,7 @@ blah blah
 
 ### Add Item Images
 
-blah blah
+TODO
 
 * Item Thumbnail Image<br>`https://docs.webrcade.com/tutorial/uwol-thumb.png`
 * Item Background Image<br>`https://docs.webrcade.com/tutorial/uwol-background.png`
@@ -180,7 +190,7 @@ blah blah
 
 ## Shorten Feed URLs
 
-blah blah
+TODO
 
 === "Full URLs"
     ``` json hl_lines="5-6 11-12 17-18 21"
@@ -245,5 +255,8 @@ blah blah
 
 ## Publish Feed
 
+TODO
+
 ## Alias Feed URL
 
+TODO

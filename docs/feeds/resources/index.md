@@ -6,8 +6,8 @@ Clicking on the name of a *Resource* in the table will navigate to page containi
 
 | __Resource__ | __Description__ |
 |----------|------|
-| [Dropbox](./dropbox.md) | Dropbox can be used to host images, game-related files (ROMs, etc.), and webЯcade feeds. |
+| [Dropbox](./dropbox.md) | Dropbox can be used to host images, game-related files (ROMs, etc.), and webЯcade feed documents. |
 | [Imgur](./imgur.md) | Imgur can be used to host images (backgrounds, thumbnails, etc.) that are referenced in a WebЯcade feed. |
 | [Internet Archive](./inetarchive.md) | Content (ROMs, game files, artwork, etc.) stored in the Internet Archive can be utilized by webЯcade feeds. |
-| [Pastebin](./pastebin.md) | Pastebin can be used to host WebЯcade feeds.  |
+| [Pastebin](./pastebin.md) | Pastebin can be used to host WebЯcade feed documents.  |
 | [TinyURL](./tinyurl.md) | TinyURL can be used to both shorten and alias URLs. |
