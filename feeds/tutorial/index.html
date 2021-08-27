@@ -1654,10 +1654,11 @@
 <p>Each application type has a set of type-specific properties (both required and optional) that can be specified via the <code>props</code> property of an <a href="../format/#item-object">Item Object</a>. Each detailed application page contains a <em>"Feed"</em> section that includes the list of available type-specific properties. </p>
 <p>In this particular case, since we are using the NES application (<code>type</code> of <code>NES</code>), the <a href="../../apps/emulators/nes/#properties">NES Application Properties</a> section found within the <a href="../../apps/emulators/nes/">NES Application</a> page contains the set of applicable properties for this item.  </p>
 <p>The only required property in the <code>props</code> object for an NES application is <code>rom</code>. The <code>rom</code> property value must be set to a URL that points to a NES ROM file or a zip file containing a ROM file.</p>
-<p>For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the <a href="../resources/dropbox/">Dropbox Resource</a> page for details on hosting your own files on Dropbox).</p>
+<p>For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the <a href="../resources/dropbox/">Dropbox Resource</a> page for details on hosting your own files on Dropbox). </p>
 <ul>
 <li>Super Uwol! Rom<br><code>https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes</code></li>
 </ul>
+<p>Alternatively, a resource such as the <a href="../resources/inetarchive/">Internet Archive</a> can be leveraged to obtain URLs to homebrew ROMs that are already being shared publicly.</p>
 <p>Add the highlighted lines below (the <code>props</code> object) into the <a href="../format/#item-object">Item Object</a> that was added in the previous step.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
