@@ -1620,7 +1620,9 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="create-item-object">Create Item Object</h2>
-<p>TODO</p>
+<p><a href="../format/#item-object">Item objects</a> within a webЯcade feed correspond to items (games, etc.) that can be launched (played, etc.). Each item object must contain an application <code>type</code> property value (the specific emulator or game engine, etc. to launch). </p>
+<p>The <a href="../../apps/">Applications</a> page contains a listing of all the available applications. The detailed page for each application contains a <em>"Feed"</em> section that includes the application-specific <code>type</code> value. In addition to the application <code>type</code>, item objects must include a <code>title</code>.</p>
+<p>Copy the highlighted lines below into the <code>items</code> array of the <a href="../format/#category-object">Category Object</a> that was created in the previous section. The <code>description</code> property can be removed as it is optional (See the <a href="../format/#item-object">Item Object</a> documentation for more details).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1644,11 +1646,19 @@
   <span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is important to note that although only one item is being added in this tutorial, the webЯcade feed format supports multiple items per category (additional item objects would be separated by commas in the <code>items</code> array).</p>
+</div>
 <h3 id="add-item-properties">Add Item Properties</h3>
-<p>TODO</p>
+<p>Each application type has a set of type-specific properties (both required and optional) that can be specified via the <code>props</code> property of an <a href="../format/#item-object">Item Object</a>. Each detailed application page contains a <em>"Feed"</em> section that includes the list of available type-specific properties. </p>
+<p>In this particular case, since we are using the NES application (<code>type</code> of <code>NES</code>), the <a href="../../apps/emulators/nes/#properties">NES Application Properties</a> section found within the <a href="../../apps/emulators/nes/">NES Application</a> page contains the set of applicable properties for this item.  </p>
+<p>The only required property in the <code>props</code> object for an NES application is <code>rom</code>. The <code>rom</code> property value must be set to a URL that points to a NES ROM file or a zip file containing a ROM file.</p>
+<p>For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the <a href="../resources/dropbox/">Dropbox Resource</a> page for details on hosting your own files on Dropbox).</p>
 <ul>
 <li>Super Uwol! Rom<br><code>https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes</code></li>
 </ul>
+<p>Add the highlighted lines below (the <code>props</code> object) into the <a href="../format/#item-object">Item Object</a> that was added in the previous step.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1676,11 +1686,13 @@
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="add-item-images">Add Item Images</h3>
-<p>TODO</p>
+<p>The <a href="../format/#item-object">Item Object</a> supports the ability to associate optional thumbnail and background images with the item. These images will be displayed when the item is selected within the, "Items view", of the webЯcade front-end.</p>
+<p>As we did previously for the feed and category objects, <a href="../resources/imgur/">Imgur</a> will be used to host the images. Follow the steps outlined within the <a href="../resources/imgur/">Imgur Resource</a> page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).</p>
 <ul>
 <li>Item Thumbnail Image<br><code>https://docs.webrcade.com/tutorial/uwol-thumb.png</code></li>
 <li>Item Background Image<br><code>https://docs.webrcade.com/tutorial/uwol-background.png</code></li>
 </ul>
+<p>Copy the URLs of the newly uploaded images from Imgur (as described in the <a href="../resources/imgur/">Imgur Resource</a> page), and add them to the item object in the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (the item's <code>thumbnail</code> and <code>background</code> images are highlighted).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1710,7 +1722,12 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="shorten-feed-urls">Shorten Feed URLs</h2>
-<p>TODO</p>
+<p>At this point we have a fully formed and valid feed document. An <em>optional</em> step that can be performed on the feed document is shortening the URLs that are contained within it. Shortening of URLs is recommended as it reduces the overall size of the feed document and mitigates false-positive blocking by simple URL filters. </p>
+<p>For each of the URLs present in the feed document perform the following:</p>
+<ul>
+<li>Follow the steps detailed in the TinyURL resource page to <a href="../resources/tinyurl/#shortened-urls">shorten URLs</a>.</li>
+</ul>
+<p>The two tabs below show the feed document with "Full URLs" (prior to shortening) and with "Shortened URLs" (after shortening).</p>
 <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Full URLs</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1773,9 +1790,26 @@
 </div>
 </div>
 <h2 id="publish-feed">Publish Feed</h2>
-<p>TODO</p>
+<p>At this point, the feed can be published and shared for use with webЯcade. In this tutorial, we will utilize <a href="../resources/pastebin/">Pastebin</a> to host the feed document. </p>
+<p>To host the feed document in Pastebin, perform the following:</p>
+<ul>
+<li>Follow the steps outlined on the <a href="../resources/pastebin/">Pastebin Resource</a> page.</li>
+<li>Copy the final version of the feed document you developed during this tutorial into the new "paste".</li>
+</ul>
+<p>At this point you should have a URL for the webЯcade feed that resembles the following:
+<code>https://pastebin.com/raw/Fchkqw6g</code></p>
+<p>The feed can be tested by adding the feed URL within the webЯcade front-end ("Feeds" view).</p>
 <h2 id="alias-feed-url">Alias Feed URL</h2>
-<p>TODO</p>
+<p>Although the feed is now available and published, the URL that was assigned by Pastebin is not very memorable. Fortunately, we can utilize a service such as TinyURL to create a more memorable URL that is aliased to the Pastebin URL.</p>
+<p>To create an alias for the feed URL, perform the following:</p>
+<ul>
+<li>Follow the steps detailed in the TinyURL resource page to <a href="../resources/tinyurl/#aliased-urls">alias URLs</a>.</li>
+<li>Provide the Pastebin URL from the previous step as the URL to alias</li>
+<li>Provide a name to alias to the Pastebin URL</li>
+</ul>
+<p>At this point, you should have an aliased URL similar to the following:
+<code>https://tinyurl.com/tutorial-feed</code></p>
+<p>The feed can be tested by adding the feed URL within the webЯcade front-end ("Feeds" view).</p>
                 
               
               
