@@ -142,9 +142,11 @@ In this particular case, since we are using the NES application (`type` of `NES`
 
 The only required property in the `props` object for an NES application is `rom`. The `rom` property value must be set to a URL that points to a NES ROM file or a zip file containing a ROM file.
 
-For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the [Dropbox Resource](resources/dropbox.md) page for details on hosting your own files on Dropbox).
+For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the [Dropbox Resource](resources/dropbox.md) page for details on hosting your own files on Dropbox). 
 
 * Super Uwol! Rom<br>`https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes`
+
+Alternatively, a resource such as the [Internet Archive](resources/inetarchive.md) can be leveraged to obtain URLs to homebrew ROMs that are already being shared publicly.
 
 Add the highlighted lines below (the `props` object) into the [Item Object](./format.md#item-object) that was added in the previous step.
 
