@@ -2,7 +2,7 @@
 
 This tutorial walks through the various steps necessary to create a webЯcade feed. During this tutorial, many of the [Resources](./resources/index.md) (cloud-based services, content hosting, etc.) that have been proven to be compatible with the development of webЯcade feeds are utilized.
 
-The [Format](./format.md) of webЯcade feeds is JSON (JavaScript Object Notation), which is a text-based format. Thus, all that is required to follow along and develop the feed document is a simple text-based editor. Alternatively, using a JSON-specific editor such as [Tutorials Point's Online JSON Editor](https://www.tutorialspoint.com/online_json_editor.htm) is recommended as it provides immediate feedback when errors are detected and allows for "beautifying" (reformatting) the document.
+The [Format](./format.md) of webЯcade feeds is JSON (JavaScript Object Notation), which is a text-based format. Thus, all that is required to follow along and develop the feed document is a simple text-based editor. Alternatively, using a JSON-specific editor such as [Tutorials Point's Online JSON Editor](https://www.tutorialspoint.com/online_json_editor.htm){target=_blank} is recommended as it provides immediate feedback when errors are detected and allows for "beautifying" (reformatting) the document.
 
 ## Create Feed Object
 
