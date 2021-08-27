@@ -142,7 +142,7 @@ The table below contains the properties available for item objects.
 
 The following is an example of a simple webЯcade feed that includes a single item object whose properties are highlighted.
 
-The item below corresponds to the excellent Sega Genesis homebrew game Omega Blast by developer Nendo. The item has a `type` of `genesis` which corresponds to the [Sega Genesis Application](../apps/emulators/genesis/index.md). The `props` associated with the item include a `rom` value that refers to a Dropbox location hosting the Omega Blast rom file (see [Genesis Application Properties](../apps/emulators/genesis/index.md#properties)). 
+The item below corresponds to the excellent Sega Genesis homebrew game Omega Blast by developer Nendo. The item has a `type` of `genesis` which corresponds to the [Sega Genesis Application](../apps/emulators/genesis/index.md). The `props` associated with the item includes a `rom` value that refers to a Dropbox location hosting the Omega Blast rom file (see [Genesis Application Properties](../apps/emulators/genesis/index.md#properties)). 
 
 ``` json hl_lines="15-24"
 {

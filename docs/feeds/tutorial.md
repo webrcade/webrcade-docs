@@ -100,7 +100,11 @@ Copy the URLs of the newly uploaded images from Imgur (as described in the [Imgu
 
 ## Create Item Object
 
-TODO
+[Item objects](./format.md#item-object) within a webЯcade feed correspond to items (games, etc.) that can be launched (played, etc.). Each item object must contain an application `type` property value (the specific emulator or game engine, etc. to launch). 
+
+The [Applications](../apps/index.md) page contains a listing of all the available applications. The detailed page for each application contains a *"Feed"* section that includes the application-specific `type` value. In addition to the application `type`, item objects must include a `title`.
+
+Copy the highlighted lines below into the `items` array of the [Category Object](./format.md#category-object) that was created in the previous section. The `description` property can be removed as it is optional (See the [Item Object](./format.md#item-object) documentation for more details).
 
 ``` json hl_lines="14-18"
 {
@@ -127,11 +131,22 @@ TODO
 }
 ```
 
+!!! note
+    It is important to note that although only one item is being added in this tutorial, the webЯcade feed format supports multiple items per category (additional item objects would be separated by commas in the `items` array).
+
 ### Add Item Properties
 
-TODO
+Each application type has a set of type-specific properties (both required and optional) that can be specified via the `props` property of an [Item Object](./format.md#item-object). Each detailed application page contains a *"Feed"* section that includes the list of available type-specific properties. 
+
+In this particular case, since we are using the NES application (`type` of `NES`), the [NES Application Properties](../apps/emulators/nes/index.md#properties) section found within the [NES Application](../apps/emulators/nes/index.md) page contains the set of applicable properties for this item.  
+
+The only required property in the `props` object for an NES application is `rom`. The `rom` property value must be set to a URL that points to a NES ROM file or a zip file containing a ROM file.
+
+For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the [Dropbox Resource](resources/dropbox.md) page for details on hosting your own files on Dropbox).
 
 * Super Uwol! Rom<br>`https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes`
+
+Add the highlighted lines below (the `props` object) into the [Item Object](./format.md#item-object) that was added in the previous step.
 
 ``` json hl_lines="18-20"
 {
@@ -163,10 +178,14 @@ TODO
 
 ### Add Item Images
 
-TODO
+The [Item Object](./format.md#item-object) supports the ability to associate optional thumbnail and background images with the item. These images will be displayed when the item is selected within the, "Items view", of the webЯcade front-end.
+
+As we did previously for the feed and category objects, [Imgur](./resources/imgur.md) will be used to host the images. Follow the steps outlined within the [Imgur Resource](./resources/imgur.md) page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).
 
 * Item Thumbnail Image<br>`https://docs.webrcade.com/tutorial/uwol-thumb.png`
 * Item Background Image<br>`https://docs.webrcade.com/tutorial/uwol-background.png`
+
+Copy the URLs of the newly uploaded images from Imgur (as described in the [Imgur Resource](./resources/imgur.md) page), and add them to the item object in the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (the item's `thumbnail` and `background` images are highlighted).
 
 ``` json hl_lines="17-18"
 {
@@ -200,7 +219,13 @@ TODO
 
 ## Shorten Feed URLs
 
-TODO
+At this point we have a fully formed and valid feed document. An *optional* step that can be performed on the feed document is shortening the URLs that are contained within it. Shortening of URLs is recommended as it reduces the overall size of the feed document and mitigates false-positive blocking by simple URL filters. 
+
+For each of the URLs present in the feed document perform the following:
+
+* Follow the steps detailed in the TinyURL resource page to [shorten URLs](resources/tinyurl.md#shortened-urls).
+
+The two tabs below show the feed document with "Full URLs" (prior to shortening) and with "Shortened URLs" (after shortening).
 
 === "Full URLs"
     ``` json hl_lines="5-6 11-12 17-18 21"
@@ -265,8 +290,31 @@ TODO
 
 ## Publish Feed
 
-TODO
+At this point, the feed can be published and shared for use with webЯcade. In this tutorial, we will utilize [Pastebin](resources/pastebin.md) to host the feed document. 
+
+To host the feed document in Pastebin, perform the following:
+
+* Follow the steps outlined on the [Pastebin Resource](resources/pastebin.md) page.
+* Copy the final version of the feed document you developed during this tutorial into the new "paste".
+
+At this point you should have a URL for the webЯcade feed that resembles the following:
+`https://pastebin.com/raw/Fchkqw6g`
+
+The feed can be tested by adding the feed URL within the webЯcade front-end ("Feeds" view).
 
 ## Alias Feed URL
 
-TODO
+Although the feed is now available and published, the URL that was assigned by Pastebin is not very memorable. Fortunately, we can utilize a service such as TinyURL to create a more memorable URL that is aliased to the Pastebin URL.
+
+To create an alias for the feed URL, perform the following:
+
+* Follow the steps detailed in the TinyURL resource page to [alias URLs](resources/tinyurl.md#aliased-urls).
+* Provide the Pastebin URL from the previous step as the URL to alias
+* Provide a name to alias to the Pastebin URL
+
+At this point, you should have an aliased URL similar to the following:
+`https://tinyurl.com/tutorial-feed`
+
+The feed can be tested by adding the feed URL within the webЯcade front-end ("Feeds" view).
+
+
