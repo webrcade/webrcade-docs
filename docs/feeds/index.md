@@ -5,5 +5,5 @@ This section contains information related to the development of webЯcade feeds.
 See the following pages for detailed information on the development of webЯcade feeds:
 
 * [Feed Format](./format.md) - Details the JSON (JavaScript Object Notation) format of a webЯcade feed along with a fully-formed concrete example.
-* [Feed Tutorial](./format.md) - Walks through the various steps necessary to create a webЯcade feed.
+* [Feed Tutorial](./tutorial.md) - Walks through the various steps necessary to create a webЯcade feed.
 * [Feed Resources](./resources/index.md) - Describes in detail, the various resources (cloud-based services, content hosting, etc.) that have been proven to be compatible with the development of webЯcade feeds.
