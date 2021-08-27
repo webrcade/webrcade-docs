@@ -43,7 +43,10 @@ Copy the URLs of the newly uploaded images from Imgur (as described in the [Imgu
 
 ## Create Category Object
 
-TODO
+[Category objects](./format.md#category-object) of a webЯcade feed provide a means of classifying items (games, etc.) into user-defined groups
+(by game type, console type, etc.). For a feed to be considered valid it must contain at least one category object. The only required category object fields are a `title` and an array of `items`. 
+
+Copy the highlighted lines below into the `categories` array of the feed document you are developing. Update the category `title` and `description` to reflect your specific feed. Alternatively, `description` can be removed as it is optional (See the [Category Object](./format.md#category-object) documentation for more details).
 
 ``` json hl_lines="8-12"
 {
@@ -62,12 +65,19 @@ TODO
 }
 ```
 
+!!! note
+    It is important to note that although only one category is being added in this tutorial, the webЯcade feed format supports multiple categories (additional category objects would be separated by commas in the `categories` array).
+
 ### Add Category Images
 
-TODO
+The [Category Object](./format.md#category-object) supports the ability to associate optional thumbnail and background images with the category. These images will be displayed when the category is selected within the, "Categories view", of the webЯcade front-end.
+
+As we did previously for the feed object, [Imgur](./resources/imgur.md) will be used to host the images. Follow the steps outlined within the [Imgur Resource](./resources/imgur.md) page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).
 
 * Category Thumbnail Image<br>`https://docs.webrcade.com/tutorial/category-thumb.png`
 * Category Background Image<br>`https://docs.webrcade.com/tutorial/category-background.jpg`
+
+Copy the URLs of the newly uploaded images from Imgur (as described in the [Imgur Resource](./resources/imgur.md) page), and add them to the category object in the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (the category's `thumbnail` and `background` images are highlighted).
 
 ``` json hl_lines="11-12"
 {
