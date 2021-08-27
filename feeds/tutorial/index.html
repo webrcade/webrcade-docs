@@ -1572,7 +1572,9 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="create-category-object">Create Category Object</h2>
-<p>TODO</p>
+<p><a href="../format/#category-object">Category objects</a> of a webЯcade feed provide a means of classifying items (games, etc.) into user-defined groups
+(by game type, console type, etc.). For a feed to be considered valid it must contain at least one category object. The only required category object fields are a <code>title</code> and an array of <code>items</code>. </p>
+<p>Copy the highlighted lines below into the <code>categories</code> array of the feed document you are developing. Update the category <code>title</code> and <code>description</code> to reflect your specific feed. Alternatively, <code>description</code> can be removed as it is optional (See the <a href="../format/#category-object">Category Object</a> documentation for more details).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
@@ -1588,12 +1590,18 @@
 </span>  <span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is important to note that although only one category is being added in this tutorial, the webЯcade feed format supports multiple categories (additional category objects would be separated by commas in the <code>categories</code> array).</p>
+</div>
 <h3 id="add-category-images">Add Category Images</h3>
-<p>TODO</p>
+<p>The <a href="../format/#category-object">Category Object</a> supports the ability to associate optional thumbnail and background images with the category. These images will be displayed when the category is selected within the, "Categories view", of the webЯcade front-end.</p>
+<p>As we did previously for the feed object, <a href="../resources/imgur/">Imgur</a> will be used to host the images. Follow the steps outlined within the <a href="../resources/imgur/">Imgur Resource</a> page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).</p>
 <ul>
 <li>Category Thumbnail Image<br><code>https://docs.webrcade.com/tutorial/category-thumb.png</code></li>
 <li>Category Background Image<br><code>https://docs.webrcade.com/tutorial/category-background.jpg</code></li>
 </ul>
+<p>Copy the URLs of the newly uploaded images from Imgur (as described in the <a href="../resources/imgur/">Imgur Resource</a> page), and add them to the category object in the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (the category's <code>thumbnail</code> and <code>background</code> images are highlighted).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
   <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
   <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
