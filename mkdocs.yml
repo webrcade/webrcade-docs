@@ -7,8 +7,7 @@ copyright: "&copy; Copyright webЯcade 2021"
 
 nav:
   - About: index.md
-  - User Guide:
-    - Overview: userguide/index.md
+  - User Guide: userguide/index.md
   - Platforms:
     - Overview: platforms/index.md
     - Windows (PC):
