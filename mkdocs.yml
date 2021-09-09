@@ -9,8 +9,6 @@ nav:
   - About: index.md
   - User Guide:
     - Overview: userguide/index.md
-    - Front-end: userguide/interface.md
-    - Controls: userguide/controls.md
   - Platforms:
     - Overview: platforms/index.md
     - Windows (PC):

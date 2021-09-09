@@ -80,13 +80,13 @@ To connect the controller to Window via Bluetooth perform the following steps:
 
 #### Alternate Controls
 
-The Zero 2 does not have the necessary inputs to support the alternative control options. Therefore, the Zero 2 is limited to the following inputs for `Start`, `Select`, and `Show Menu` actions. 
+The Zero 2 does not have the necessary inputs to support the alternative control options. Therefore, the Zero 2 is limited to the following inputs for `Start`, `Select`, and `Show Pause Screen` actions. 
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
 | Start                        | `Start` button | |
 | Select                       | `Select` button |  | |
-| Show Menu        | `Y` button and `Select` button | Hold down the `Y` button and then press the `Select` button simultaneously. |
+| Show Pause Screen        | `Y` button and `Select` button | Hold down the `Y` button and then press the `Select` button simultaneously. |
 
 ### PlayStation DualShock 4
 
