@@ -1,10 +1,6 @@
 # User Guide
 
-This user guide details the various screens that comprise the webЯcade front-end. 
-
-The webЯcade front-end URL is listed below:
-
-* [https://play.webrcade.com](https://play.webrcade.com){target=_blank}
+This user guide details the various screens that comprise the webЯcade front-end ([https://play.webrcade.com](https://play.webrcade.com){target=_blank}). 
 
 ![](../assets/images/userguide/webrcade-annotated.png){: style="padding:5px;" class="center"}
 
