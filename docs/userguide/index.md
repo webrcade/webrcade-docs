@@ -1,6 +1,10 @@
 # User Guide
 
-This user guide details the various screens that comprise the webЯcade front-end.
+This user guide details the various screens that comprise the webЯcade front-end. 
+
+The webЯcade front-end URL is listed below:
+
+* [https://play.webrcade.com](https://play.webrcade.com){target=_blank}
 
 ![](../assets/images/userguide/webrcade-annotated.png){: style="padding:5px;" class="center"}
 
@@ -26,21 +30,21 @@ The tables below describe the thumbnail slider input mappings for the various in
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Previous | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} | Move to previous thumbnail. |                  
-| Next  | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"} | Move to next thumbnail. |                  
-| Previous Page | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Page_Up_Key_Dark.png){: class="control"} | Move to previous page of thumbnails. | 
-| Next Page | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png){: class="control"}| Move to next page of thumbnails. | 
-| Select | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | Select the current thumbnail. | 
+| Previous | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} | Move to previous thumbnail. |                  
+| Next  | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"} | Move to next thumbnail. |                  
+| Previous Page | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} or ![](../assets/images/controller/Keyboard & Mouse/Dark/Page_Up_Key_Dark.png){: class="control"} | Move to previous page of thumbnails. | 
+| Next Page | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} or ![](../assets/images/controller/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png){: class="control"}| Move to next page of thumbnails. | 
+| Select | ![](../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | Select the current thumbnail. | 
 
 **Gamepad Controls**
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
-| Previous | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Left.png){: class="control"} or ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Left` | Move to previous thumbnail. |
-| Next | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Right.png){: class="control"} or ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Right` | Move to next thumbnail. |
-| Previous Page | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | Move to previous page of thumbnails. |
-| Next Page | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RB.png){: class="control"} | Move to next page of thumbnails. |
-| Select | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"}  | Select the current thumbnail. |
+| Previous | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Left.png){: class="control"} or ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Left` | Move to previous thumbnail. |
+| Next | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Right.png){: class="control"} or ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Right` | Move to next thumbnail. |
+| Previous Page | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | Move to previous page of thumbnails. |
+| Next Page | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_RB.png){: class="control"} | Move to next page of thumbnails. |
+| Select | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"}  | Select the current thumbnail. |
 
 **Touch Controls**
 
@@ -150,17 +154,17 @@ The following tables include the button mappings that can be used to display the
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/ESC_Key_Dark.png){: class="control"} |  |                  
+| Show Pause Screen | ![](../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} |  |                  
 
 **Gamepad Controls**
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
-| Show Pause Screen | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __Left Trigger__ and press the __Menu (Start) Button__. |
-| Show Pause Screen<br>(Alternate) | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __Left Trigger__ and press the __View (Back) Button__. |
-| Show Pause Screen<br>(Alternate 2)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __X Button__ and press the __View (Back) Button__. |
-| Show Pause Screen<br>(Alternate 3)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
-| Show Pause Screen<br>(Alternate 4)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
+| Show Pause Screen | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __Left Trigger__ and press the __Menu (Start) Button__. |
+| Show Pause Screen<br>(Alternate) | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __Left Trigger__ and press the __View (Back) Button__. |
+| Show Pause Screen<br>(Alternate 2)        | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} &nbsp;and&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __X Button__ and press the __View (Back) Button__. |
+| Show Pause Screen<br>(Alternate 3)        | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
+| Show Pause Screen<br>(Alternate 4)        | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
 
 
 **Touch Controls**
