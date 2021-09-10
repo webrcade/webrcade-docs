@@ -28,16 +28,16 @@ The tables below describe the thumbnail slider input mappings for the various in
 |--------------------------|---------------------------------------------| |
 | Previous | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} | Move to previous thumbnail. |                  
 | Next  | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"} | Move to next thumbnail. |                  
-| Previous Page | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} or ![](../assets/images/controller/Keyboard & Mouse/Dark/Page_Up_Key_Dark.png){: class="control"} | Move to previous page of thumbnails. | 
-| Next Page | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} or ![](../assets/images/controller/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png){: class="control"}| Move to next page of thumbnails. | 
+| Previous Page | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} &nbsp;or&nbsp; ![](../assets/images/controller/Keyboard & Mouse/Dark/Page_Up_Key_Dark.png){: class="control"} | Move to previous page of thumbnails. | 
+| Next Page | ![](../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} &nbsp;or&nbsp; ![](../assets/images/controller/Keyboard & Mouse/Dark/Page_Down_Key_Dark.png){: class="control"}| Move to next page of thumbnails. | 
 | Select | ![](../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | Select the current thumbnail. | 
 
 **Gamepad Controls**
 
-| __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
+| __Name__ | <div style="min-width:165px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
-| Previous | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Left.png){: class="control"} or ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Left` | Move to previous thumbnail. |
-| Next | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Right.png){: class="control"} or ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Right` | Move to next thumbnail. |
+| Previous | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Left.png){: class="control"} &nbsp;or&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Left` | Move to previous thumbnail. |
+| Next | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad_Right.png){: class="control"} &nbsp;or&nbsp; ![](../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} `Right` | Move to next thumbnail. |
 | Previous Page | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | Move to previous page of thumbnails. |
 | Next Page | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_RB.png){: class="control"} | Move to next page of thumbnails. |
 | Select | ![](../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"}  | Select the current thumbnail. |
