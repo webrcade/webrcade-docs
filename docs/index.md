@@ -2,7 +2,7 @@
 
 WebЯcade consists of a simple web-based front end that provides the ability to play popular gaming content entirely within the context of the browser across a wide variety of platforms. 
 
-The content for playing games (binaries, etc.) and populating the front-end (images, etc.) is collected from web-based resources based on user-defined feeds that are registered via the webЯcade front-end.
+The content for playing games (binaries, etc.) and populating the front-end (images, etc.) is collected from [cloud-based resources](./feeds/resources/index.md) based on user-defined feeds that are registered via the webЯcade front-end.
 
 ![](assets/images/platforms/ios/safari-full.png){: style="padding:5px 15px;" class="center"}
 
@@ -17,8 +17,9 @@ Primary features:
 
 Not focused on:
 
-* Directly playing locally stored game content (ROMs, etc.)<br>(*technically possible by setting up a local web server, but not a primary use case*) 
+* Directly playing locally stored game content (ROMs, etc.)<br>(*Technically possible by using a local web server, but not a primary use case*) 
 * The "latest and greatest" emulator features and compatibility<br>(*Primary emphasis is on compatibility with popular game content across a variety of platforms while minimizing resource requirements*)
+* Touch-based (virtual) gamepad controls<br>(*The focus is native gamepad controller support via Bluetooth and USB*)
 
 ## Getting Started
 
