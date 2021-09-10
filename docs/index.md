@@ -1,6 +1,6 @@
 # About 
 
-WebЯcade consists of a simple web-based front end that provides the ability to play popular gaming content entirely within the context of the browser across a [wide variety of platforms](./apps/../platforms/index.md). 
+WebЯcade consists of a simple [web-based front end](./userguide/index.md) that provides the ability to play popular gaming content entirely within the context of the browser across a [wide variety of platforms](./apps/../platforms/index.md). 
 
 The content for playing games (binaries, etc.) and populating the front-end (images, etc.) is collected from [cloud-based resources](./feeds/resources/index.md) based on [user-defined feeds](./feeds/index.md) that are registered via the webЯcade front-end.
 
