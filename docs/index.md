@@ -1,8 +1,8 @@
 # About 
 
-WebЯcade consists of a simple web-based front end that provides the ability to play popular gaming content entirely within the context of the browser across a wide variety of platforms. 
+WebЯcade consists of a simple web-based front end that provides the ability to play popular gaming content entirely within the context of the browser across a [wide variety of platforms](./apps/../platforms/index.md). 
 
-The content for playing games (binaries, etc.) and populating the front-end (images, etc.) is collected from [cloud-based resources](./feeds/resources/index.md) based on user-defined feeds that are registered via the webЯcade front-end.
+The content for playing games (binaries, etc.) and populating the front-end (images, etc.) is collected from [cloud-based resources](./feeds/resources/index.md) based on [user-defined feeds](./feeds/index.md) that are registered via the webЯcade front-end.
 
 ![](assets/images/platforms/ios/safari-full.png){: style="padding:5px 15px;" class="center"}
 
@@ -11,9 +11,9 @@ The following lists attempt to further describe webЯcade in terms of its primar
 Primary features:
 
 * Runs entirely within the web browser leveraging JavaScript, WebAssembly, and the HTML5 gamepad and audio interfaces
-* Adaptive user interface supports a wide variety of platforms (Xbox Series X|S, iOS, Android, Windows, macOS)
+* Adaptive user interface supports [wide variety of platforms](./apps/../platforms/index.md) (Xbox Series X|S, iOS, Android, Windows, macOS)
 * Native gamepad support (Bluetooth and USB) for both front-end navigation and when playing games
-* User-defined cloud-based feeds identify the resources (images, etc.) required to populate the front-end as well as the content (binaries, etc.) required to play games
+* [User-defined cloud-based feeds](./feeds/index.md) identify the resources (images, etc.) required to populate the front-end as well as the content (binaries, etc.) required to play games
 
 Not focused on:
 
