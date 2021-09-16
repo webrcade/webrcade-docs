@@ -3,13 +3,9 @@
 [![Actions Status](https://github.com/webrcade/webrcade-docs/workflows/Build/badge.svg)](https://github.com/webrcade/webrcade-docs/actions) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This repository contains the [documentation](https://docs.webrcade.com) for [webRcade](https://docs.webrcade.com) (Feed-based gaming).
- 
-<p align="center">
- <a href="https://docs.webrcade.com">
-  <img src="https://docs.webrcade.com/assets/images/webrcade-docs.png?raw=true" width="95%">
- </a>
-</p>
 
+[![](https://docs.webrcade.com/assets/images/webrcade-docs.png?raw=true)](https://docs.webrcade.com) 
+ 
 ## Documentation
 
 The [webЯcade Documentation](https://docs.webrcade.com/) consists of a [User Guide](https://docs.webrcade.com/userguide/), instructions specific to each [Platform](https://docs.webrcade.com/platforms/) (OS, devices) supported by webЯcade, detailed information (button mappings, etc.) for the various [Application Types](https://docs.webrcade.com/apps/) (emulators, etc.), and guidance for developing your own [Feeds](https://docs.webrcade.com/feeds/).
