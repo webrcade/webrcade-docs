@@ -4,7 +4,11 @@
 
 This repository contains the [documentation](https://docs.webrcade.com) for [webRcade](https://docs.webrcade.com) (Feed-based gaming).
 
-[![](https://docs.webrcade.com/assets/images/webrcade-docs.png?raw=true)](https://docs.webrcade.com) 
+<p align="center">
+ <a href="https://docs.webrcade.com">
+  <img src="https://docs.webrcade.com/assets/images/webrcade-docs.png?raw=true" width="95%">
+ </a>
+</p>
  
 ## Documentation
 
