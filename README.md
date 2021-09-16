@@ -1,5 +1,7 @@
 # webЯcade: Documentation
 
+[![Actions Status](https://github.com/webrcade/webrcade-docs/workflows/Build/badge.svg)](https://github.com/webrcade/webrcade-docs/actions) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 This repository contains the [documentation](https://docs.webrcade.com) for [webRcade](https://docs.webrcade.com) (Feed-based gaming).
 
  [![](https://docs.webrcade.com/assets/images/webrcade-docs.png?raw=true)](https://play.webrcade.com)
