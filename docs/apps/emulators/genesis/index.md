@@ -90,7 +90,7 @@ The following is an example of a complete feed that consists of a single Genesis
   "longTitle": "Sega Genesis Example Feed",
   "categories": [
     {
-      "title": "Gensis Games",
+      "title": "Genesis Games",
       "longTitle": "Sega Genesis Games",
       "items": [
         {

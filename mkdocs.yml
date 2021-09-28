@@ -72,10 +72,15 @@ plugins:
 extra:  
   generator: false
   social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCuoR0CBb9XCnxurYg-HfCvQ
     - icon: fontawesome/brands/github
       link: https://github.com/webrcade
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/webrcade
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/webrcade
+
 
 extra_css:
   - stylesheets/extra.css
