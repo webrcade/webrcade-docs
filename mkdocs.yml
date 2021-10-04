@@ -21,6 +21,7 @@ nav:
       - Gamepads: platforms/ios/gamepads.md
     - Android: 
       - Overview: platforms/android/index.md
+      - Gamepads: platforms/android/gamepads.md
     - Xbox Series X|S: 
       - Overview: platforms/xbox/index.md
   - Applications:
