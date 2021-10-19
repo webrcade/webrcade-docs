@@ -34,6 +34,7 @@ nav:
       - Nintendo:
         - NES: apps/emulators/nes/index.md
         - SNES: apps/emulators/snes/index.md
+        - GBA: apps/emulators/gba/index.md
       - Sega:
         - Master System: apps/emulators/mastersystem/index.md
         - Genesis: apps/emulators/genesis/index.md

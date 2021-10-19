@@ -16,7 +16,7 @@ The emulator supports one controller. The keyboard and gamepad mappings are list
 
 ### Keyboard
 
-Keyboard support is only available for controller one.
+Keyboard controls are listed below.
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
@@ -28,7 +28,7 @@ Keyboard support is only available for controller one.
 
 ### Gamepad
 
-Gamepad support is available for both controllers.
+Gamepad mappings are listed below.
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
