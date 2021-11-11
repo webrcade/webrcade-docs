@@ -77,7 +77,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a Game Boy Advance ROM file or a zip file containing a ROM file. |
 | rotation | Numeric | No | How many degrees the screen should be rotated.<br><br>Valid values are 0, 90, 180, and 270. |
-| rtc | Boolean | No | Whether the cartridge utlizes a real-time clock. |
+| rtc | Boolean | No | Whether the cartridge utilizes a real-time clock. |
 | mirroring | Boolean | No | Whether the cartridge utilizes mirrored memory addresses. |
 | saveType | Numeric | No | The type of save hardware utilized by the cartridge.<br><ul><li>`0` : Auto Detect</li><li>`1` : EEPROM</li><li>`2` : SRAM</li><li>`3` : Flash</li><li>`4` : EEPROM + Sensor</li><li>`5` : None</li></ul> |
 | flashSize | Numeric | No | The size of the flash ram (only applicable for flash save type).<br><br>Valid values are 65536 and 131072. |
