@@ -46,6 +46,7 @@ nav:
     - Overview: feeds/index.md
     - Format: feeds/format.md
     - Tutorial: feeds/tutorial.md
+    - Editor: feeds/editor.md
     - Resources: 
       - Overview: feeds/resources/index.md
       - Dropbox: feeds/resources/dropbox.md
