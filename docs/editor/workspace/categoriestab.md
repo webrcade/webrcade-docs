@@ -2,7 +2,11 @@
 
 ![](../../assets/images/editor/workspace/categoriestab.png){: class="center zoomD"}
 
-## Table Toolbar
+## Categories Table
+
+TODO
+
+### Table Toolbar
 
 | __Action__ | __Icon__ | __Description__ |
 | --- | --- | --- |
@@ -13,7 +17,7 @@
 | Delete | ![](../../assets/images/editor/icons/round_delete_white_24dp.png){: class="action"} | |
 | More | ![](../../assets/images/editor/icons/round_more_horiz_white_24dp.png){: class="action"} | |
 
-## Table Columns
+### Table Columns
 
 | __Column__ |  | __Description__ |
 | --- | --- | --- |
