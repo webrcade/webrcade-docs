@@ -1,3 +1,8 @@
 # Feed Workspace
 
-![](../../assets/images/editor/workspace/main.png){: class="center zoomD"}
+![](../../assets/images/editor/workspace/main-annotated.png){: class="center zoomD"}
+
+## Components
+
+TODO
+

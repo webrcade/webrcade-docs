@@ -4,7 +4,8 @@
 
 ![](../assets/images/editor/main.png){: class="center zoomD"}
 
-## Drag and Drop
+## Components
 
-Text, Images, URLs (ROMs, etc.)
+![](../assets/images/editor/main-annotated.png){: class="center zoomD"}
+
 
