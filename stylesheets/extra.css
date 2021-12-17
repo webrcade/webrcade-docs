@@ -1,7 +1,13 @@
 .control {
-    height:48px;
-    width:48px;
-    vertical-align:middle
+    height: 48px;
+    width: 48px;
+    vertical-align: middle
+}
+
+.action {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle
 }
 
 .gamepad-table-wrapper {
@@ -14,16 +20,16 @@
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
-  }
+}
 
 :root {
-    --md-primary-fg-color:        #970808;
+    --md-primary-fg-color: #970808;
     --md-primary-fg-color--light: #ca4949;
-    --md-primary-fg-color--dark:  #690805;
-  }
+    --md-primary-fg-color--dark: #690805;
+}
 
-  [data-md-color-scheme=slate] {
-    
+[data-md-color-scheme=slate] {
+
     /* --md-hue: 232;
     --md-default-fg-color: hsla(var(--md-hue),75%,95%,1);
     --md-default-fg-color--light: hsla(var(--md-hue),75%,90%,0.62);
@@ -69,16 +75,19 @@
     opacity: .6;
 }
 
-.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+.md-tabs__link--active,
+.md-tabs__link:focus,
+.md-tabs__link:hover {
     color: white;
     opacity: 1;
 }
 
-.md-nav__title, label.md-nav__link {
+.md-nav__title,
+label.md-nav__link {
     font-weight: 700;
     color: rgb(119, 119, 119);
 }
- 
+
 .md-typeset table:not([class]) th {
     background-color: rgb(82, 82, 82);
     color: rgb(206, 206, 206);
@@ -87,9 +96,10 @@
 .md-typeset h1 {
     color: rgb(167, 167, 167);
 }
- 
+
 .md-typeset table strong {
-     color: rgb(156, 156, 156);;
+    color: rgb(156, 156, 156);
+    ;
 }
 
 .md-footer__inner {
@@ -98,4 +108,59 @@
 
 figcaption {
     margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+/* [IMAGE] */
+.zoomD {
+    cursor: zoom-in;
+}
+
+/* [LIGHTBOX BACKGROUND] */
+#lb-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(25, 25, 25, 1);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease .5s;
+}
+
+#lb-back.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* [LIGHTBOX IMAGE] */
+#lb-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    cursor: zoom-out;
+}
+
+#lb-img img {
+    /* You might want to play around with 
+       width, height, max-width, max-height
+       to fit portrait / landscape pictures properly. */
+    max-width: 95vw;
+    max-height: 95vh;
+    object-fit: contain;
+    width: 100vw;
+    height: auto; 
+
+    /* ALTERNATE EXAMPLE
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto; */
 }
