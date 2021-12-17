@@ -23,23 +23,23 @@ To launch webЯcade, perform the following steps:
 * Select the `"See all"` option.
 * A screen similar to the one shown below should be displayed.
 
-![](../../assets/images/platforms/xbox/launch-edge-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/launch-edge-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Select the `"Apps"` category on the left.
 * Select the `"Microsoft Edge"` application.
 
-![](../../assets/images/platforms/xbox/select-url-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/select-url-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * The `"Microsoft Edge"` browser should be launched and appear similar to the screen above.
 * Use the left analog stick to navigate to the address bar (see screen above).
 * Once the address is highlighted, press the `A` button.
 
-![](../../assets/images/platforms/xbox/enter-url-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/enter-url-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * At this point the text entry screen should be displayed (see screen above).
 * Enter the following address: `"play.webrcade.com"`
 
-![](../../assets/images/platforms/xbox/webrcade-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/webrcade-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * At this point, the webЯcade front-end should be displayed (see screen above).
 * The `"Game controls"` input mode should be selected by default, allowing for navigating the front-end via the controller. If this is not the case, refer to the ["Game and Browsing Controls"](#game-and-browsing-controls) section below.
@@ -61,11 +61,11 @@ The Microsoft Edge browser for Xbox support two distinct control modes, `Game` a
 
 Holding down the :material-microsoft-xbox-controller-menu: `Menu` button when in `Game` mode will switch to `Browsing` mode and display a context menu similar to the one shown in the screen below.
 
-![](../../assets/images/platforms/xbox/use-browsing-controls-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/use-browsing-controls-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 To switch to `Game` from `Browsing` mode, hold down on the :material-microsoft-xbox-controller-menu: `Menu` button until the context menu is displayed. At that point use the left analog stick to hover over the `Use game controls` option and then press the `A` button (see screen below).
 
-![](../../assets/images/platforms/xbox/use-game-controls-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/use-game-controls-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ## Full Screen Mode
 
@@ -74,7 +74,7 @@ The :material-microsoft-xbox-controller-view: `View` button can be used to toggl
 
 Hold down the :material-microsoft-xbox-controller-view: `View` button when in tabbed mode to switch to full screen mode (see screen below).
 
-![](../../assets/images/platforms/xbox/full-screen-mode-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/full-screen-mode-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 !!! note
     Due to a defect related to the view button (see [View button defect](#view-button-defect), below),
@@ -102,13 +102,13 @@ controller should be able to navigate the front-end and screens).
 If the issue is not resolved after dismissing the dialog, refer to the other methods that are documented
 in this troubleshooting section.
 
-![](../../assets/images/platforms/xbox/view-button-defect.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/view-button-defect.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### Display Guide
 
 Sometimes simply opening and closing the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller) can resolve issues. For example, opening and closing the guide will typically restore focus to the page after it has been inadvertently lost (see [View button defect](#view-button-defect), above).
 
-![](../../assets/images/platforms/xbox/display-guide-new.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/xbox/display-guide-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### Refresh Page
 

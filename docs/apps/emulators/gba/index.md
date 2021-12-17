@@ -6,7 +6,7 @@
 The Game Boy Advance (GBA) application for [webЯcade](https://www.webrcade.com) is an emulator for the [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance) handheld game console.
 
 <figure>
-  <img src="../../../assets/images/apps/gba.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <img src="../../../assets/images/apps/gba.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Anguna by Bite the Chili productions</figcaption>
 </figure>
 

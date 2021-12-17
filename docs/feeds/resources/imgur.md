@@ -6,19 +6,19 @@ To host an image in [Imgur](https://imgur.com/), perform the following steps (re
 
 * Click the "`New Post`" button in the upper-left corner of the page (see screenshot below).
 
-![](../../assets/images/feed/imgur/site.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/imgur/site.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Drag or select the image to upload (see screenshot below).
 
-![](../../assets/images/feed/imgur/upload.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/imgur/upload.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Right-click on the newly uploaded image and select "`Open image in new tab`" from the context menu (see screenshot below).
 
-![](../../assets/images/feed/imgur/openintab.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/imgur/openintab.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Select and copy the image URL from the browser's navigation bar (see screenshot below).
 
-![](../../assets/images/feed/imgur/url.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/imgur/url.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ## Example
 

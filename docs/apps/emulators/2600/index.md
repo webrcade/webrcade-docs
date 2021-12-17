@@ -6,7 +6,7 @@ The Atari 2600 application is an emulator for the [Atari 2600 game console](http
 
 
 <figure>
-  <img src="../../../assets/images/apps/2600.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <img src="../../../assets/images/apps/2600.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Slide Boy in Maze Land by Vladimir Zuniga</figcaption>
 </figure>
 ## Controls

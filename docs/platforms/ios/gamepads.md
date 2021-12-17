@@ -19,7 +19,7 @@ The iOS operating system supports the ability to initiate screen recording by do
 
 When this button sequence is pressed, a dialog similar to the following will be displayed.
 
-![](../../assets/images/platforms/ios/screen-recording-dialog.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/screen-recording-dialog.png){: style="padding:5px 15px;" class="center zoomD"}
 
 In addition to the annoyance of the dialog being displayed, other functions that are mapped to this button (select, etc.) are inconsistent in their behavior. 
 
@@ -34,13 +34,13 @@ To disable the screen capture button sequence for controllers, perform the follo
 
 * Go to `Settings` > `General` > `Game Controller` on the device (as shown in the screenshot below).
 
-![](../../assets/images/platforms/ios/settings-general-gamecontroller.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/settings-general-gamecontroller.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * For each controller listed, disable the following options (see screenshot below):
     * `Capture Screenshots`
     * `Capture Video Clips`
 
-![](../../assets/images/platforms/ios/settings-general-gamecontroller-capture.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/settings-general-gamecontroller-capture.png){: style="padding:5px 15px;" class="center zoomD"}
 
 It is important to note that these options must be disabled *for each* controller that is connected to the device (these are per-controller settings).
 
@@ -70,7 +70,7 @@ The following steps detail how to pair compatible controllers via the `Bluetooth
 * The controller should appear in the `OTHER DEVICES` list (see screenshot below).
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
-![](../../assets/images/platforms/ios/bluetooth-dualshock4.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/bluetooth-dualshock4.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### Pair via Accessibility Settings
 
@@ -79,21 +79,21 @@ The following steps outline the process to add compatible controllers via the `A
 * Go to `Settings` > `Accessibility` on the device (as shown in the screenshot below).
 * Tap the `Switch Control` option (see screenshot below).
 
-![](../../assets/images/platforms/ios/accessibility-switch-control.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/accessibility-switch-control.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Tap the `Switches` option (see screenshot below).
 
-![](../../assets/images/platforms/ios/accessibility-switch-control-switches.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/accessibility-switch-control-switches.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Tap the `Bluetooth devices...` option (see screenshot below).
 
-![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Enter pairing mode on the controller to pair (see controller-specific section for details).
 * The controller should appear in the `BLUETOOTH DEVICES...` list (see screenshot below).
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
-![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth-8bitdo-zero2.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth-8bitdo-zero2.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ## Controllers
 
@@ -118,7 +118,7 @@ To connect the controller to an iOS device perform the following steps:
 * The controller should have a name similar to, `"8BitDo Lite gamepad"`.
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
-![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth-8bitdo-lite.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth-8bitdo-lite.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### 8bitDo Zero 2
 
@@ -138,7 +138,7 @@ To connect the controller to an iOS device perform the following steps:
 * The controller should have a name similar to, `"8BitDo Zero 2 gamepad"`.
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
-![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth-8bitdo-zero2.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/accessibility-switch-control-switches-bluetooth-8bitdo-zero2.png){: style="padding:5px 15px;" class="center zoomD"}
 
 #### Alternate Controls
 
@@ -167,7 +167,7 @@ To connect the controller to an iOS device perform the following steps:
 * The device should have a name similar to, `"DUALSHOCK 4 Wireless Controller"`.
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
-![](../../assets/images/platforms/ios/bluetooth-dualshock4.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/bluetooth-dualshock4.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### Xbox Wireless Controller
 
@@ -187,6 +187,6 @@ To connect the controller to an iOS device perform the following steps:
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
-![](../../assets/images/platforms/ios/bluetooth-xbox.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/bluetooth-xbox.png){: style="padding:5px 15px;" class="center zoomD"}
 
 

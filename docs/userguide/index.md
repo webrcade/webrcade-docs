@@ -2,7 +2,7 @@
 
 This user guide details the various screens that comprise the webЯcade front-end ([https://play.webrcade.com](https://play.webrcade.com){target=_blank}). 
 
-![](../assets/images/userguide/webrcade-annotated.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/webrcade-annotated.png){: style="padding:5px;" class="center zoomD"}
 
 Three main screens form the webЯcade front-end and are hierarchical in nature:
 
@@ -75,7 +75,7 @@ Subsequently clicking, tapping, or selecting (Gamepad `A` button) the title/flyo
 
 The items view consists of items (primarily games) that can be played. 
 
-![](../assets/images/userguide/items-view-annotated.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/items-view-annotated.png){: style="padding:5px;" class="center zoomD"}
 
 The thumbnail slider (*See #1 in screenshot above*) consists of the "items" contained within the *currently selected category* (*See #4 in screenshot above*). "Items" are typically games that can be played (*See #3 in screenshot above*). In the future, the type of items (application types) will be extended to include videos and other forms of content that can be played.  
 
@@ -87,7 +87,7 @@ Clicking, tapping, or selecting (Gamepad `A` button) the title/flyout (*See #5 i
 
 The categories view consists of the categories that are included in the *current webЯcade feed*. 
 
-![](../assets/images/userguide/categories-view-annotated.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/categories-view-annotated.png){: style="padding:5px;" class="center zoomD"}
 
 The thumbnail slider (*See #1 in screenshot above*) consists of the categories included in the *current webЯcade feed*. The `Select` button (*See #2 in screenshot above*) can be pressed to display the "items" (See [Items View](#items-view)) that comprise the currently selected category. The screen title for the categories view is always, "Categories" (*See #3 in screenshot above*). 
 
@@ -98,7 +98,7 @@ Clicking, tapping, or selecting (Gamepad `A` button) the title/flyout (*See #4 i
 
 The feeds view supports the management (adding, removing) and loading of webЯcade feeds. 
 
-![](../assets/images/userguide/feeds-view-normal-feed-annotated.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/feeds-view-normal-feed-annotated.png){: style="padding:5px;" class="center zoomD"}
 
 The thumbnail slider (*See #1 in screenshot above*) consists of the feeds that have been registered with webЯcade. In addition to registered feeds, the slider includes the following two standard thumbnails:
 
@@ -115,7 +115,7 @@ The screen title for the feeds view is always, "Feeds" (*See #4 in screenshot ab
 
 The "Add Feed Dialog" allow for additional feeds to be registered with webЯcade.
 
-![](../assets/images/userguide/feeds-view-add-feed-dialog-annotated.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/feeds-view-add-feed-dialog-annotated.png){: style="padding:5px;" class="center zoomD"}
 
 To register a new feed, enter the location of the feed to add (its URL) in the feed text box (*See #1 in screenshot above*). Once the feed URL has been provided, press the `OK` button (*See #2 in screenshot above*). 
 
@@ -125,7 +125,7 @@ If the URL is valid and the feed is successfully loaded, the content associated 
 
 The "Delete Feed Dialog" allows for the selected feed to be deleted (unregistered) from webЯcade.
 
-![](../assets/images/userguide/feeds-view-delete-feed.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/feeds-view-delete-feed.png){: style="padding:5px;" class="center zoomD"}
 
 To remove the feed, select the `Yes` button within the delete dialog (See screenshot above).
 
@@ -133,7 +133,7 @@ To remove the feed, select the `Yes` button within the delete dialog (See screen
 
 The "Pause Screen" can be displayed when an item (game, etc.) is running. The pause screen supports the ability to exit the currently running item (game, etc.) and return to the webЯcade front-end.
 
-![](../assets/images/userguide/play-pause-screen-annotated.png){: style="padding:5px;" class="center"}
+![](../assets/images/userguide/play-pause-screen-annotated.png){: style="padding:5px;" class="center zoomD"}
 
 Currently, the pause screen only consists of the following two items. 
 

@@ -6,7 +6,7 @@
 The Classic Doom application is a [Doom game engine](https://en.wikipedia.org/wiki/Doom_engine) that can be used to play the shareware version of Doom as well as the freely redistributable Freedoom games. 
 
 <figure>
-  <img src="../../../assets/images/apps/doom.png" style="padding:5px 15px  0 15px;" class="center"/>
+  <img src="../../../assets/images/apps/doom.png" style="padding:5px 15px  0 15px;" class="center zoomD"/>
   <figcaption>Freedoom Phase 1 by Freedoom Team </figcaption>
 </figure>
 

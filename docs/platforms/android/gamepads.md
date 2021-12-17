@@ -26,21 +26,21 @@ To connect a Bluetooth controller to Android, perform the following steps:
 
 * Tap the :material-cog: `Settings` icon to open Android settings (upper left icon in screen below).
 
-![](../../assets/images/platforms/android/settings.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/settings.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Select the :material-wifi: `Connections` option (see screen below).
 
-![](../../assets/images/platforms/android/settings-screen.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/settings-screen.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Ensure the `Bluetooth` option is enabled (see screen below).
 * Tap on the `Bluetooth` text (see screen below).
 
-![](../../assets/images/platforms/android/connections.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/connections.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * The Android device should start searching for Bluetooth devices (see screen below).
     * If the device is not searching, tap on the `"Scan"` text in the upper right corner (Currently is shown as `"Stop"` in the screen below as a scan is already occurring).
 
-![](../../assets/images/platforms/android/bluetooth-scan.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-scan.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Refer to the controller-specific sections (below) for steps that are unique to each controller.
 
@@ -67,11 +67,11 @@ To connect the controller to Android via Bluetooth perform the following steps:
 * The device should have a name similar to, `"Pro Controller"`.
 * Click on the device name to establish a connection from the controller to the Android device.
 
-![](../../assets/images/platforms/android/bluetooth-pro-controller.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-pro-controller.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * A prompt similar to the one shown in the following screen should appear.
 
-![](../../assets/images/platforms/android/bluetooth-pro-controller-pair.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-pro-controller-pair.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Tap the `Pair` text to complete the pairing process.
 
@@ -93,11 +93,11 @@ To connect the controller to Android via Bluetooth perform the following steps:
 * The device should have a name similar to, `"8BitDo Zero 2 gamepad"`.
 * Click on the device name to establish a connection from the controller to the Android device.
 
-![](../../assets/images/platforms/android/bluetooth-zero2.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-zero2.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * A prompt similar to the one shown in the following screen should appear.
 
-![](../../assets/images/platforms/android/bluetooth-zero2-pair.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-zero2-pair.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Tap the `Pair` text to complete the pairing process.
 
@@ -128,11 +128,11 @@ To connect the controller to Android via Bluetooth perform the following steps:
 * The device should have a name similar to, `"Wireless Controller"`.
 * Click on the device name to establish a connection from the controller to the Android device.
 
-![](../../assets/images/platforms/android/bluetooth-wireless-controller.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-wireless-controller.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * A prompt similar to the one shown in the following screen should appear.
 
-![](../../assets/images/platforms/android/bluetooth-wireless-controller-pair.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-wireless-controller-pair.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Tap the `Pair` text to complete the pairing process.
 
@@ -162,10 +162,10 @@ To connect the controller to Android via Bluetooth perform the following steps:
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Click on the device name to establish a connection from the controller to the Android device.
 
-![](../../assets/images/platforms/android/bluetooth-xbox-controller.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-xbox-controller.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * A prompt similar to the one shown in the following screen should appear.
 
-![](../../assets/images/platforms/android/bluetooth-xbox-controller-pair.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/bluetooth-xbox-controller-pair.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * Tap the `Pair` text to complete the pairing process.

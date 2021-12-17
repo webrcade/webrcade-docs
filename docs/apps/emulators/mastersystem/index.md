@@ -5,7 +5,7 @@
 The Sega Master System application is an emulator for the [Sega Master System game console](https://en.wikipedia.org/wiki/Master_System). 
 
 <figure>
-  <img src="../../../assets/images/apps/sms.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <img src="../../../assets/images/apps/sms.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Silver Valley by Enrique Ruiz</figcaption>
 </figure>
 

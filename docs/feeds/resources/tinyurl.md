@@ -13,11 +13,11 @@ To shorten a URL with [TinyURL](https://tinyurl.com/), perform the following ste
 * Enter the URL to shorten in the "`Enter a long URL...`" text field (see screenshot below).
 * Click the "`Make TinyURL!`" button to shorten the URL.
 
-![](../../assets/images/feed/tinyurl/longurl.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/tinyurl/longurl.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * The shortened URL will be shown in the `"TinyURL`" result field as shown in the screenshot below.
 
-![](../../assets/images/feed/tinyurl/tinyurl.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/tinyurl/tinyurl.png){: style="padding:5px 15px;" class="center zoomD"}
 
 The example below contains two tabs, one containing *"Full URLs"*, and one with the corresponding *"Shortened URLs"*. In this particular example, the URLs being shorted are for a thumbnail image and a Sega Master System ROM.
 
@@ -76,11 +76,11 @@ To alias a URL with [TinyURL](https://tinyurl.com/), perform the following steps
     * *(Optional)* Select the domain to host the alias via the pull-down menu to the direct left of the alias text field.
 * Click the "`Make TinyURL!`" button to alias the URL.
 
-![](../../assets/images/feed/tinyurl/alias-url.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/tinyurl/alias-url.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * The aliased URL will be shown in the `"TinyURL`" result field as shown in the screenshot below.
 
-![](../../assets/images/feed/tinyurl/alias-url-done.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/tinyurl/alias-url-done.png){: style="padding:5px 15px;" class="center zoomD"}
 
 The example from above can be tested by adding a feed with the following URL within the webЯcade front-end:
 

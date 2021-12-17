@@ -13,11 +13,11 @@ The process to host files in Dropbox is as follows:
 * Upload one or more files to Dropbox.
 * Copy the link associated with each file (see screenshot below). The "`Copy link`" option will appear when a file is hovered by the cursor.
 
-![](../../assets/images/feed/dropbox/copylink.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/dropbox/copylink.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * After clicking on the "`Copy link`" option, a pop-in stating that the link has been copied to the clipboard will appear (see screenshot below).
 
-![](../../assets/images/feed/dropbox/linkcopied.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/dropbox/linkcopied.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Copied Dropbox links must be modified to be compatible with webЯcade feeds. 
      * The link below is the one copied in the example above:<br>`https://www.dropbox.com/s/mjp3odan08deqp2/DARC.sms?dl=0`

@@ -5,7 +5,7 @@
 The Atari 7800 application is an emulator for the [Atari 7800 ProSystem game console](https://en.wikipedia.org/wiki/Atari_7800). 
 
 <figure>
-  <img src="../../../assets/images/apps/7800.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <img src="../../../assets/images/apps/7800.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Knight Guy in Low Res World: Castle Days by Vladimir Zuniga</figcaption>
 </figure>
 

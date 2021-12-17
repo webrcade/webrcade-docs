@@ -59,7 +59,7 @@ The following is an example of a simple webЯcade feed with the feed object prop
 
 The following image depicts the highlighted feed object properties from the feed above displayed in the webЯcade front-end (Feeds view). The title, long title, description, thumbnail, and background images of the feed object are shown below.
 
-![](../assets/images/feed/format/feeds.png){: style="padding:5px 15px;" class="center"}
+![](../assets/images/feed/format/feeds.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ## Category Object
 
@@ -118,7 +118,7 @@ The following is an example of a simple webЯcade feed that includes a single ca
 
 The category that is selected in the webЯcade front-end (Categories view) below corresponds to the highlighted category object properties from the feed above. The title, long title, description, thumbnail, and background images of the category are displayed.
 
-![](../assets/images/feed/format/category.png){: style="padding:5px 15px;" class="center"}
+![](../assets/images/feed/format/category.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ## Item Object
 
@@ -177,7 +177,7 @@ The item below corresponds to the excellent Sega Genesis homebrew game Omega Bla
 
 The item that is selected in the webЯcade front-end (Items view) below corresponds to the highlighted item object properties from the feed above. The title, type (Sega Genesis), description, thumbnail, and background images of the item are displayed.
 
-![](../assets/images/feed/format/item.png){: style="padding:5px 15px;" class="center"}
+![](../assets/images/feed/format/item.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ## Complete Example
 

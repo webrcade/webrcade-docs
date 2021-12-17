@@ -46,7 +46,6 @@ nav:
     - Overview: feeds/index.md
     - Format: feeds/format.md
     - Tutorial: feeds/tutorial.md
-    - Editor: feeds/editor.md
     - Resources: 
       - Overview: feeds/resources/index.md
       - Dropbox: feeds/resources/dropbox.md
@@ -54,6 +53,23 @@ nav:
       - Internet Archive: feeds/resources/inetarchive.md
       - Pastebin: feeds/resources/pastebin.md
       - TinyURL: feeds/resources/tinyurl.md
+  - Editor:
+    - Overview: editor/index.md
+    - Sidebar: editor/sidebar.md
+    - Feed Workspace: 
+      - Overview: editor/workspace/index.md
+      - Tabs:
+        - Categories Tab: editor/workspace/categoriestab.md
+        - Items Tab: editor/workspace/itemstab.md
+      - Adding Items: editor/workspace/addingitems.md
+    - Editors:
+      - Feed Editor: editor/dialogs/feed-dialog.md
+      - Category Editor: editor/dialogs/category-dialog.md
+      - Item Editor: editor/dialogs/item-dialog.md
+    - General:
+      - Drag and Drop: editor/draganddrop.md
+      - Thumbnails: editor/thumbnails.md
+   
  
 markdown_extensions:
   - attr_list
@@ -87,6 +103,8 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js  
 
 theme:
   copyright: Copyright &copy; 2021 webЯcade

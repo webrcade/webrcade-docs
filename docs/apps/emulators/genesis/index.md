@@ -5,7 +5,7 @@
 The Sega Genesis application is an emulator for the [Sega Genesis game console](https://en.wikipedia.org/wiki/Sega_Genesis). 
 
 <figure>
-  <img src="../../../assets/images/apps/genesis.png" style="padding:5px 15px 0 15px;" class="center"/>
+  <img src="../../../assets/images/apps/genesis.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Omega Blast by Nendo</figcaption>
 </figure>
 

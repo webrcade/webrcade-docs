@@ -20,7 +20,7 @@ Safari is currently the recommended browser for webЯcade on iOS devices due to 
 
 A lot of potential vertical space for webЯcade is consumed by the Safari address bar and tabs, especially when the device is oriented horizontally (see screenshot below).
 
-![](../../assets/images/platforms/ios/safari-standard.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/safari-standard.png){: style="padding:5px 15px;" class="center zoomD"}
 
 Fortunately, Safari provides the ability to, "Add websites to the Home Screen". Adding webЯcade to the iOS home screen simplifies launching it and increases the available vertical space (eliminates the address bar and tabs).  
 
@@ -30,21 +30,21 @@ To add webЯcade to the Home Screen, perform the following steps:
 * A context menu similar to the one shown in the screenshot below will be displayed.
 * Select the :octicons-diff-added-16: `Add to Home Screen` menu item (see screenshot below).
 
-![](../../assets/images/platforms/ios/safari-action-share.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/safari-action-share.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * At this point, the `"Add to Home Screen"` dialog should be displayed (see screenshot below).
 * Tap the `"Add`" text located in the top right corner of the dialog to add webЯcade to the iOS Home Screen.
 
-![](../../assets/images/platforms/ios/safari-add-to-home-screen.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/safari-add-to-home-screen.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * The Home Screen should now include the webЯcade icon (see screenshot below).
 * Tapping the webЯcade icon will launch the webЯcade site.
 
-![](../../assets/images/platforms/ios/home-screen.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/home-screen.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * A screen similar to the one shown in the screenshot below should result from launching webЯcade from the Home Screen. The navigation bar and tabs should no longer be present, increasing the available vertical space.
 
-![](../../assets/images/platforms/ios/safari-full.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/ios/safari-full.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### Chrome
 

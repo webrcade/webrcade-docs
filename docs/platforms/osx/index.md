@@ -22,11 +22,11 @@ Chrome can be set to "full screen mode" by opening the `View` menu in the `Chrom
 
 By default, "full screen mode" displays the navigation toolbar which contains the current URL and navigation buttons (See image below).
 
-![](../../assets/images/platforms/osx/chrome-fullscreen-toolbar.png){: style="padding:15px;"}
+![](../../assets/images/platforms/osx/chrome-fullscreen-toolbar.png){: style="padding:15px;" class="zoomD"}
 
 To remove the navigation toolbar in "full screen mode" open the `View` menu in the `Chrome` menu bar and unselect the `Always Show Toolbar in Full Screen` menu item (see image below).
 
-![](../../assets/images/platforms/osx/chrome-fullscreen-alwaysshow-zoom.png){: style="padding:15px;"}
+![](../../assets/images/platforms/osx/chrome-fullscreen-alwaysshow-zoom.png){: style="padding:15px;" class="zoomD"}
 
 ### Safari
 
@@ -36,7 +36,7 @@ Safari is not currently the recommended browser for webЯcade due to its limited
 
 If "Auto-Play" has not been allowed for the webЯcade site, the message `"Click Screen to Unmute"` will be displayed (See image below). At this point, pressing any key or clicking on the screen will enable sound for the current game. 
 
-![](../../assets/images/platforms/osx/click-to-unmute.png)
+![](../../assets/images/platforms/osx/click-to-unmute.png){: class="zoomD"}
 
 To avoid receiving this message every time a game is launched, "Auto-Play" can be enabled for the webRcade site. 
 
@@ -47,7 +47,7 @@ To avoid receiving this message every time a game is launched, "Auto-Play" can b
     * To configure "Auto-Play" globally (for all sites), set the `When visiting other websites` pull-down at the bottom of the dialog to `Allow All Auto-Play` (see image below).
     * To configure "Auto-Play" only for the webЯcade site, select `Allow All Auto-Play` to the right of the `play.webrcade.com` site in the `Currently Open Websites` list (see image below).
 
-![](../../assets/images/platforms/osx/websites-autoplay.png)
+![](../../assets/images/platforms/osx/websites-autoplay.png){: class="zoomD"}
 
 #### Full Screen
 
@@ -55,8 +55,8 @@ Safari can be set to "full screen mode" by opening the `View` menu in the `Safar
 
 By default, "full screen mode" displays the navigation toolbar which contains the current URL and navigation buttons (See image below).
 
-![](../../assets/images/platforms/osx/fullscreen-toolbar.png){: style="padding:15px;"}
+![](../../assets/images/platforms/osx/fullscreen-toolbar.png){: style="padding:15px;" class="zoomD"}
 
 To remove the navigation toolbar in "full screen mode" open the `View` menu in the `Safari` menu bar and unselect the `Always Show Toolbar in Full Screen` menu item (see image below).
 
-![](../../assets/images/platforms/osx/fullscreen-alwaysshow-zoom.png){: style="padding:15px;"}
+![](../../assets/images/platforms/osx/fullscreen-alwaysshow-zoom.png){: style="padding:15px;" class="zoomD"}

@@ -22,12 +22,12 @@ To connect a Bluetooth controller to Windows, perform the following steps:
 
 * On the PC, press the Start button :fontawesome-brands-windows:, then choose Settings > Devices > Bluetooth & other devices (see dialog below).
 
-![](../../assets/images/platforms/windows/bluetooth-dialog.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/windows/bluetooth-dialog.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Turn on Bluetooth (see dialog above)
 * Select Add Bluetooth or other device (see dialog above)
 
-![](../../assets/images/platforms/windows/adddevice-dialog.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/windows/adddevice-dialog.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Select Bluetooth (see dialog above) 
 * The PC will begin searching for controllers.
@@ -56,7 +56,7 @@ To connect the controller to Windows via Bluetooth perform the following steps:
 * The device should have a name similar to, `"8BitDo Lite gamepad"`.
 * Click on the device name to establish a connection from the controller to the Windows PC.
 
-![](../../assets/images/platforms/windows/bluetooth-8bitdo-lite.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/windows/bluetooth-8bitdo-lite.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### 8bitDo Zero 2
 
@@ -76,7 +76,7 @@ To connect the controller to Window via Bluetooth perform the following steps:
 * The device should have a name similar to, `"8BitDo Zero 2 gamepad"`.
 * Click on the device name to establish a connection from the controller to the Windows PC.
 
-![](../../assets/images/platforms/windows/bluetooth-8bitdo-zero2.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/windows/bluetooth-8bitdo-zero2.png){: style="padding:5px 15px;" class="center zoomD"}
 
 #### Alternate Controls
 
@@ -105,7 +105,7 @@ To connect the controller to Windows via Bluetooth perform the following steps:
 * The device should have a name similar to, `"Wireless Controller"`.
 * Click on the device name to establish a connection from the controller to the Windows PC.
 
-![](../../assets/images/platforms/windows/bluetooth-dualshock4.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/windows/bluetooth-dualshock4.png){: style="padding:5px 15px;" class="center zoomD"}
 
 ### Xbox 360 Controller
 
@@ -133,5 +133,5 @@ To connect the controller to Windows via Bluetooth perform the following steps:
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Click on the device name to establish a connection from the controller to the Windows PC.
 
-![](../../assets/images/platforms/windows/bluetooth-xbox.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/windows/bluetooth-xbox.png){: style="padding:5px 15px;" class="center zoomD"}
 

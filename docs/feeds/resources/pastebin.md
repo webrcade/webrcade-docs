@@ -12,23 +12,23 @@ To host a feed in [Pastebin](https://pastebin.com/), perform the following steps
 
 * Navigate to [pastebin.com](https://pastebin.com/) and scroll (if necessary) to the text area that is titled, "`New Paste`" (see screenshot below).
 
-![](../../assets/images/feed/pastebin/site.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/pastebin/site.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Paste the WebЯcade feed content  (see [Feed Format](../format.md)) into the "`New Paste`" text area (see screenshot below).
 
-![](../../assets/images/feed/pastebin/paste.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/pastebin/paste.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * Scroll down (if necessary) until the "`Create New Paste`" button is shown. Click the "`Create New Paste`" button to create the new paste containing the WebЯcade feed (see screenshot below).
 
-![](../../assets/images/feed/pastebin/create.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/pastebin/create.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * After the paste has been created, click the "`RAW`" button (red highlight in screenshot below) to view the raw content feed.
 
-![](../../assets/images/feed/pastebin/posted.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/pastebin/posted.png){: style="padding:5px 15px;" class="center zoomD"}
 
 * The WebЯcade feed URL will be shown in the browser's navigation bar (see screenshot below).
 
-![](../../assets/images/feed/pastebin/raw.png){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/feed/pastebin/raw.png){: style="padding:5px 15px;" class="center zoomD"}
 
 The example from above can be tested by adding a feed with the following URL within the webЯcade front-end:
 

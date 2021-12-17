@@ -20,7 +20,7 @@ macOS supports the ability to initiate screen recording by double pressing on th
 
 When this button sequence is pressed, the following dialog will be displayed.
 
-![](../../assets/images/platforms/osx/screenrecording.png){: style="padding:15px;"}
+![](../../assets/images/platforms/osx/screenrecording.png){: style="padding:15px;" class="zoomD"}
 
 In addition to the annoyance of the dialog being displayed, other functions that are mapped to this button (select, etc.) are inconsistent in their behavior. Therefore, when using a Mac it is recommended that the following alternative buttons be used as they have been proven to work consistently. 
 
@@ -54,7 +54,7 @@ To connect the controller to a macOS system via Bluetooth perform the following 
 * The device should have a name similar to, `"8BitDo Lite gamepad"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
 
-![](../../assets/images/platforms/osx/bluetooth-8bitdo-lite.png)
+![](../../assets/images/platforms/osx/bluetooth-8bitdo-lite.png){: class="zoomD"}
 
 ### 8bitDo Zero 2
 
@@ -75,7 +75,7 @@ To connect the controller to a macOS system via Bluetooth perform the following 
 * The device should have a name similar to, `"DUALSHOCK 4 Wireless Controller"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
 
-![](../../assets/images/platforms/osx/bluetooth-8bitdo-zero2.png)
+![](../../assets/images/platforms/osx/bluetooth-8bitdo-zero2.png){: class="zoomD"}
 
 #### Alternate Controls
 
@@ -106,7 +106,7 @@ To connect the controller to a macOS system via Bluetooth perform the following 
 * The device should have a name similar to, `"DUALSHOCK 4 Wireless Controller"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
 
-![](../../assets/images/platforms/osx/bluetooth-dualshock4.png)
+![](../../assets/images/platforms/osx/bluetooth-dualshock4.png){: class="zoomD"}
 
 ### Xbox 360 Controller
 
@@ -134,5 +134,5 @@ To connect the controller to a macOS system via Bluetooth perform the following 
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Press the `Connect` button to the right of the device name to establish a connection from the controller to the Mac.
 
-![](../../assets/images/platforms/osx/bluetooth-xbox.png)
+![](../../assets/images/platforms/osx/bluetooth-xbox.png){: class="zoomD"}
 

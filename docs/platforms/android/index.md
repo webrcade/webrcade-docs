@@ -27,7 +27,7 @@ Chrome is currently the recommended browser for webЯcade on Android devices.
 
 A lot of potential vertical space for webЯcade is consumed by the Chrome address bar, especially when the device is oriented horizontally (see screenshot below).
 
-![](../../assets/images/platforms/android/chrome-standard.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/chrome-standard.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 Fortunately, Chrome provides the ability to, "Add websites to the Home Screen". Adding webЯcade to the Android home screen simplifies launching it and increases the available vertical space (eliminates the address bar).  
 
@@ -37,23 +37,23 @@ To add webЯcade to the Home Screen, perform the following steps:
 * A context menu similar to the one shown in the screenshot below will be displayed.
 * Select the `Add to Home Screen` menu item (see screenshot below).
 
-![](../../assets/images/platforms/android/chrome-add-to-home.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/chrome-add-to-home.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * At this point, the `"Add to Home screen"` dialog should be displayed (see screenshot below).
 * Tap the `"Add`" text located at the bottom right corner of the dialog.
 
-![](../../assets/images/platforms/android/chrome-add-to-home-prompt.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/chrome-add-to-home-prompt.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * At this point, the `"Add to Home screen?"` dialog should be displayed (see screenshot below).
 * Tap the `"Add`" text located at the bottom right corner of the dialog.
 
-![](../../assets/images/platforms/android/chrome-add-to-home-prompt-2.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/chrome-add-to-home-prompt-2.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * The Home Screen should now include the webЯcade icon (see screenshot below, bottom right icon).
 * Tapping the webЯcade icon will launch the webЯcade site.
 
-![](../../assets/images/platforms/android/android-home-screen.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/android-home-screen.jpg){: style="padding:5px 15px;" class="center zoomD"}
 
 * A screen similar to the one shown in the screenshot below should result from launching webЯcade from the Home Screen. The navigation bar should no longer be present, increasing the available vertical space.
 
-![](../../assets/images/platforms/android/chrome-full.jpg){: style="padding:5px 15px;" class="center"}
+![](../../assets/images/platforms/android/chrome-full.jpg){: style="padding:5px 15px;" class="center zoomD"}
