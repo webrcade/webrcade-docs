@@ -79,6 +79,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
 | rom | URL | Yes | URL to a Genesis ROM file or a zip file containing a ROM file. |
+| pad3button | Boolean | No | Whether to use 3-button control pads (6-button is the default). |
 
 ### Example
 
