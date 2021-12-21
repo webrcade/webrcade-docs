@@ -51,7 +51,18 @@ The "More Menu" provides additional actions that can be performed on the items t
 
 ### Add From Dropbox
 
+The "Add From Dropbox" action provides the ability to select one or more ROM files via the "Dropbox chooser" (see screenshot below) and have a set of corresponding items created and added to the current category (the chooser will prompt for login credentials if necessary).
+
 ![](../../assets/images/editor/workspace/dropbox.png){: class="center zoomD"}
+
+An *analyze* operation is performed on each of the selected ROMs that attempts to determine the following:
+
+* The [Application](../../apps/index.md) for the item.
+* The [Properties](../dialogs/item-dialog.md#properties-tab) for the item.
+* The title (and long title) for the item.
+* The artwork (thumbnail and background images) for the item.
+
+If the *analyze* operation is unable to determine an appropriate [Application](../../apps/index.md) for a particular ROM, a corresponding item will not be created. In such cases, manual creation of an item via the "Create Item" action via the [Items Table Toolbar](#table-toolbar) is required.
 
 ### Create From URLs
 
