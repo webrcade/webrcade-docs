@@ -1904,7 +1904,16 @@
 </tbody>
 </table>
 <h3 id="add-from-dropbox">Add From Dropbox</h3>
+<p>The "Add From Dropbox" action provides the ability to select one or more ROM files via the "Dropbox chooser" (see screenshot below) and have a set of corresponding items created and added to the current category (the chooser will prompt for login credentials if necessary).</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/workspace/dropbox.png" /></p>
+<p>An <em>analyze</em> operation is performed on each of the selected ROMs that attempts to determine the following:</p>
+<ul>
+<li>The <a href="../../../apps/">Application</a> for the item.</li>
+<li>The <a href="../../dialogs/item-dialog/#properties-tab">Properties</a> for the item.</li>
+<li>The title (and long title) for the item.</li>
+<li>The artwork (thumbnail and background images) for the item.</li>
+</ul>
+<p>If the <em>analyze</em> operation is unable to determine an appropriate <a href="../../../apps/">Application</a> for a particular ROM, a corresponding item will not be created. In such cases, manual creation of an item via the "Create Item" action via the <a href="#table-toolbar">Items Table Toolbar</a> is required.</p>
 <h3 id="create-from-urls">Create From URLs</h3>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/workspace/itemsfromurls.png" /></p>
                 
