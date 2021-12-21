@@ -1747,10 +1747,14 @@
                 
                 
                 <h1 id="feed-categories-tab">Feed Categories Tab</h1>
+<p>The "Feed Categories Tab" consists of the categories associated with the current feed. The order that the categories appear in the <a href="#categories-table">Categories Table</a> is identical to the order they will be presented in the <a href="../../../userguide/">webЯcade player</a> (they are not sorted alphanumerically).</p>
+<p>For a feed to be considered valid, it must contain at least one category.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/workspace/categoriestab.png" /></p>
 <h2 id="categories-table">Categories Table</h2>
-<p>TODO</p>
+<p>The "Categories Table" contains the categories associated with the current feed. </p>
+<p>The <a href="#table-toolbar">Table Toolbar</a> consists of the various category-based actions that can be performed on the categories table. The <a href="#table-columns">Table Columns</a> section describes the columns that comprise the categories table.</p>
 <h3 id="table-toolbar">Table Toolbar</h3>
+<p>The following table describes the various category-based actions that can be performed on the categories table.</p>
 <table>
 <thead>
 <tr>
@@ -1763,36 +1767,37 @@
 <tr>
 <td>Create Category</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/baseline_add_box_white_24dp.png" /></td>
-<td>This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test.</td>
+<td>Displays the <a href="../../dialogs/category-dialog/">Create Category Editor</a> which is used to add a new category to the current feed.</td>
 </tr>
 <tr>
 <td>Move Up</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_arrow_upward_white_24dp.png" /></td>
-<td></td>
+<td>Moves the currently selected categories <strong>up</strong> in the table.<br><br>The order that the categories appear in the <a href="#categories-table">Categories Table</a> is identical to the order they will be presented in the <a href="../../../userguide/">webЯcade player</a> (they are not sorted alphanumerically).</td>
 </tr>
 <tr>
 <td>Move Down</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_arrow_downward_white_24dp.png" /></td>
-<td></td>
+<td>Moves the currently selected categories <strong>down</strong> in the table.<br><br>The order that the categories appear in the <a href="#categories-table">Categories Table</a> is identical to the order they will be presented in the <a href="../../../userguide/">webЯcade player</a> (they are not sorted alphanumerically).</td>
 </tr>
 <tr>
 <td>Duplicate</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_content_copy_white_24dp.png" /></td>
-<td></td>
+<td>Creates duplicate copies of the currently selected categories.<br><br>The copy operations performed are <em>"deep clones"</em> which include copies of the items that are associated with each selected category.</td>
 </tr>
 <tr>
 <td>Delete</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_delete_white_24dp.png" /></td>
-<td></td>
+<td>Deletes the currently selected categories.</td>
 </tr>
 <tr>
 <td>More</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_more_horiz_white_24dp.png" /></td>
-<td></td>
+<td>Displays the <a href="#more-menu">More Menu</a>.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="table-columns">Table Columns</h3>
+<p>The following table describes the columns that comprise the categories table.</p>
 <table>
 <thead>
 <tr>
@@ -1805,22 +1810,24 @@
 <tr>
 <td>Title</td>
 <td></td>
-<td>This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test.</td>
+<td>The title of the category associated with the row.</td>
 </tr>
 <tr>
 <td>Edit</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_edit_white_24dp.png" /></td>
-<td></td>
+<td>When the pencil icon is clicked, the <a href="../../dialogs/category-dialog/">Category Editor</a> is displayed, providing the ability to edit the category associated with the row.</td>
 </tr>
 <tr>
 <td>Item Count</td>
 <td></td>
-<td></td>
+<td>The count of items that are included in the category.<br><br>Clicking on the <em>item count</em> will navigate to the <a href="../itemstab/">Feed Items Tab</a> and display the items included in the category associated with the row.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="more-menu">More Menu</h2>
+<p>The "More Menu" provides additional actions that can be performed on the categories table.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/workspace/categoriesmoremenu.png" /></p>
+<p>The following table describes the additional actions that can be performed on the categories table.</p>
 <table>
 <thead>
 <tr>
@@ -1833,7 +1840,7 @@
 <tr>
 <td>Analyze</td>
 <td><img alt="" class="action" src="../../../assets/images/editor/icons/round_find_in_page_white_24dp.png" /></td>
-<td>This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test.</td>
+<td><em>Analyzes</em> the items associated with the currently selected categories.<br><br>Analysis of an item consists of determining and updating the following aspects of the item (if able to be discovered):<br><ul><li>The <a href="../../../apps/">Application</a> for the item. (for ROM-based items)</li><li>The <a href="../../dialogs/item-dialog/#properties-tab">Properties</a> for the item. (for ROM-based items)</li><li>The title (and long title) for the item.</li><li>The artwork (thumbnail and background images) for the item.</li></ul> The <em>analyze</em> operation is similar to <em>scraping</em> functionality found in other front-ends. The primary difference is that the <em>analyze</em> operation attempts to determine the application type and related properties in addition to meta-data (titles and artwork).</td>
 </tr>
 </tbody>
 </table>

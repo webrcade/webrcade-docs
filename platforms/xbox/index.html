@@ -1862,7 +1862,7 @@
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The Xbox Series X|S Edge browser was recently updated to use Blink as its browser engine
-(part of Chomium). As this is a very recent change, several defects have been detected
+(part of Chromium). As this is a very recent change, several defects have been detected
 and reported (see <a href="#view-button-defect">View button defect</a>, below). This page will be updated
 to reflect newly reported bugs and if previous defects have been resolved. </p>
 </div>
@@ -1894,8 +1894,8 @@ to reflect newly reported bugs and if previous defects have been resolved. </p>
 </ul>
 <p><img alt="" class="center zoomD" src="../../assets/images/platforms/xbox/webrcade-new.png" style="padding:5px 15px;" /></p>
 <ul>
-<li>At this point, the webЯcade front-end should be displayed (see screen above).</li>
-<li>The <code>"Game controls"</code> input mode should be selected by default, allowing for navigating the front-end via the controller. If this is not the case, refer to the <a href="#game-and-browsing-controls">"Game and Browsing Controls"</a> section below.</li>
+<li>At this point, the webЯcade player should be displayed (see screen above).</li>
+<li>The <code>"Game controls"</code> input mode should be selected by default, allowing for navigating the webЯcade player (front-end) via the controller. If this is not the case, refer to the <a href="#game-and-browsing-controls">"Game and Browsing Controls"</a> section below.</li>
 </ul>
 <h2 id="alternate-controls">Alternate controls</h2>
 <p>Due to defects (see <a href="#view-button-defect">View button defect</a>, below) present in the recently introduced Blink-based Microsoft Edge browser for the Xbox Series X|S, the following alternate inputs are highly-recommended to trigger the <code>Start</code>, <code>Select</code>, and <code>Show Pause Screen</code> actions.</p>
@@ -1931,7 +1931,7 @@ to reflect newly reported bugs and if previous defects have been resolved. </p>
 </tbody>
 </table>
 <h2 id="game-and-browsing-controls">Game and Browsing Controls</h2>
-<p>The Microsoft Edge browser for Xbox support two distinct control modes, <code>Game</code> and <code>Browsing</code>. <code>Game</code> mode is used when navigating the webЯcade front-end or playing games. The <code>Browsing</code> mode can be used to access the navigation bar at the top (address, settings, etc.).</p>
+<p>The Microsoft Edge browser for Xbox support two distinct control modes, <code>Game</code> and <code>Browsing</code>. <code>Game</code> mode is used when navigating the webЯcade player (front-end) or playing games. The <code>Browsing</code> mode can be used to access the navigation bar at the top (address, settings, etc.).</p>
 <p>Holding down the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M6 7h12v2H6V7m0 4h12v2H6v-2m0 4h12v2H6v-2z"/></svg></span> <code>Menu</code> button when in <code>Game</code> mode will switch to <code>Browsing</code> mode and display a context menu similar to the one shown in the screen below.</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/platforms/xbox/use-browsing-controls-new.png" style="padding:5px 15px;" /></p>
 <p>To switch to <code>Game</code> from <code>Browsing</code> mode, hold down on the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M6 7h12v2H6V7m0 4h12v2H6v-2m0 4h12v2H6v-2z"/></svg></span> <code>Menu</code> button until the context menu is displayed. At that point use the left analog stick to hover over the <code>Use game controls</code> option and then press the <code>A</code> button (see screen below).</p>
@@ -1953,10 +1953,9 @@ page to lose focus. When presented with this alert dialog, simply click the <cod
 <h3 id="view-button-defect">View Button Defect</h3>
 <p>A defect currently exists in the recently released Microsoft Edge browser for Xbox that results in 
 focus being lost from the current page when the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M6 7h9v2H8v5H6V7m3 3h9v7H9v-7m2 2v3h5v-3h-5z"/></svg></span> <code>View</code>
-button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade
-front-end or related screens. </p>
+button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade player (front-end) or related screens. </p>
 <p>When webЯcade detects that this issue is about to occur, the alert dialog shown in the screen below will be displayed. Simply click the <code>B</code> button to dismiss the dialog, and focus should be correctly restored (the
-controller should be able to navigate the front-end and screens).</p>
+controller should be able to navigate the webЯcade player (front-end) and screens).</p>
 <p>If the issue is not resolved after dismissing the dialog, refer to the other methods that are documented
 in this troubleshooting section.</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/platforms/xbox/view-button-defect.png" style="padding:5px 15px;" /></p>
