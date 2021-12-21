@@ -1,6 +1,6 @@
 # Left Sidebar
 
-![](../assets/images/editor/sidebar/sidebar.png){: class="center zoomD"}
+![](../assets/images/editor/sidebar/sidebar-annotated.png){: class="center zoomD"}
 
 | __Action__ | __Icon__ | __Description__ |
 | --- | --- | --- |

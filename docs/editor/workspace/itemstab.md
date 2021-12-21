@@ -1,42 +1,53 @@
 # Feed Items Tab
 
-![](../../assets/images/editor/workspace/itemstab.png){: class="center zoomD"}
+The "Feed Items Tab" consists of the items (games, etc.) contained in the currently selected category for the current feed. 
 
+![](../../assets/images/editor/workspace/itemstab-annotated.png){: class="center zoomD"}
+
+The category drop-down list (*See #1 in screenshot above*) is used to selected the category whose items are displayed.
 
 ## Items Table
 
-TODO
+The "Items Table" contains the items (games, etc.) associated with the currently selected category (*See #1 in screenshot above*). 
+
+The [Table Toolbar](#table-toolbar) consists of the various item-based actions that can be performed on the items table. The [Table Columns](#table-columns) section describes the columns that comprise the items table.
 
 ### Table Toolbar
 
+The following table describes the various item-based actions that can be performed on the items table.
+
 | __Action__ | __Icon__ | __Description__ |
 | --- | --- | --- |
-| Create Item | ![](../../assets/images/editor/icons/baseline_add_box_white_24dp.png){: class="action"} | This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test. |
-| Cut | ![](../../assets/images/editor/icons/round_content_cut_white_24dp.png){: class="action"} | |
-| Copy | ![](../../assets/images/editor/icons/round_content_copy_white_24dp.png){: class="action"} | |
-| Paste | ![](../../assets/images/editor/icons/round_content_paste_white_24dp.png){: class="action"} | |
-| Delete | ![](../../assets/images/editor/icons/round_delete_white_24dp.png){: class="action"} | |
-| More | ![](../../assets/images/editor/icons/round_more_horiz_white_24dp.png){: class="action"} | |
+| Create Item | ![](../../assets/images/editor/icons/baseline_add_box_white_24dp.png){: class="action"} | Displays the [Create Item Editor](../dialogs/item-dialog.md) which is used to *manually* add a new item to the current category.<br><br>There are several methods available that simplify adding items to a category. See the [Adding Items](addingitems.md) section for more information. |
+| Cut | ![](../../assets/images/editor/icons/round_content_cut_white_24dp.png){: class="action"} | Cuts the selected items from the current category and stores them on the clipboard. |
+| Copy | ![](../../assets/images/editor/icons/round_content_copy_white_24dp.png){: class="action"} | Copies the selected items and stores them on the clipboard. |
+| Paste | ![](../../assets/images/editor/icons/round_content_paste_white_24dp.png){: class="action"} | Pastes the items that are on the clipboard into the current category.  |
+| Delete | ![](../../assets/images/editor/icons/round_delete_white_24dp.png){: class="action"} | Deletes the currently selected items. |
+| More | ![](../../assets/images/editor/icons/round_more_horiz_white_24dp.png){: class="action"} | Displays the [More Menu](#more-menu). |
 
 ### Table Columns
 
+The following table describes the columns that comprise the items table.
+
 | __Column__ |  | __Description__ |
 | --- | --- | --- |
-| Title | | This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test. |
-| Edit | ![](../../assets/images/editor/icons/round_edit_white_24dp.png){: class="action"} | |
-| Play | ![](../../assets/images/editor/icons/round_play_arrow_white_24dp.png){: class="action"} | |
-| Application | | |
-| Date Added | | |
+| Title | | The title of the item associated with the row. |
+| Edit | ![](../../assets/images/editor/icons/round_edit_white_24dp.png){: class="action"} | When the pencil icon is clicked, the [Item Editor](../dialogs/item-dialog.md) is displayed, providing the ability to edit the item associated with the row. |
+| Play | ![](../../assets/images/editor/icons/round_play_arrow_white_24dp.png){: class="action"} | When the play icon is clicked, the item (game, etc.) will be launched. Exiting the item (game, etc.) will return back to the feed editor. |
+| Application | | The name of the [Application](../../apps/index.md) (emulator, etc.) associated with the item. |
+| Date Added | | The date/time that the item associated with the row was added to the category.<br><br>Sorting by this column in descending order is very useful as it ensures that recently added items appear near the top of the table's first page. This simplifies the process of finding and validating newly added items (See [Adding Items](addingitems.md)). |
 
 ## More Menu
+
+The "More Menu" provides additional actions that can be performed on the items table.
 
 ![](../../assets/images/editor/workspace/itemsmoremenu.png){: class="center zoomD"}
 
 | __Menu Item__ | __Icon__ | __Description__ |
 | --- | --- | --- |
-| Create From URLs | ![](../../assets/images/editor/icons/round_auto_awesome_white_24dp.png){: class="action"} | This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test. |
-| Add from Dropbox | ![](../../assets/images/editor/icons/dropbox.png){: class="action"} |  |
-| Analyze | ![](../../assets/images/editor/icons/round_find_in_page_white_24dp.png){: class="action"} |  |
+| Create From URLs | ![](../../assets/images/editor/icons/round_auto_awesome_white_24dp.png){: class="action"} | Displays the "Create Items From URLs" dialog.<br><br>See the [Create From URLS](#create-from-urls) section for complete information. |
+| Add from Dropbox | ![](../../assets/images/editor/icons/dropbox.png){: class="action"} | Displays the "Dropbox chooser".<br><br>See the [Add from Dropbox](#add-from-dropbox) section for complete information.   |
+| Analyze | ![](../../assets/images/editor/icons/round_find_in_page_white_24dp.png){: class="action"} |  *Analyzes* the currently selected items.<br><br>Analysis of an item consists of determining and updating the following aspects of the item (if able to be discovered):<br><ul><li>The [Application](../../apps/index.md) for the item. (for ROM-based items)</li><li>The [Properties](../dialogs/item-dialog.md#properties-tab) for the item. (for ROM-based items)</li><li>The title (and long title) for the item.</li><li>The artwork (thumbnail and background images) for the item.</li></ul> The *analyze* operation is similar to *scraping* functionality found in other front-ends. The primary difference is that the *analyze* operation attempts to determine the application type and related properties in addition to meta-data (titles and artwork). |
 
 ### Add From Dropbox
 
