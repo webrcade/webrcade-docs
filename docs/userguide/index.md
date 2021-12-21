@@ -1,10 +1,10 @@
 # User Guide
 
-This user guide details the various screens that comprise the webЯcade front-end ([https://play.webrcade.com](https://play.webrcade.com){target=_blank}). 
+This user guide details the various screens that comprise the webЯcade player ([https://play.webrcade.com](https://play.webrcade.com){target=_blank}). 
 
 ![](../assets/images/userguide/webrcade-annotated.png){: style="padding:5px;" class="center zoomD"}
 
-Three main screens form the webЯcade front-end and are hierarchical in nature:
+Three main screens form the webЯcade player (front-end) and are hierarchical in nature:
 
 * [Feeds View](#feeds-view) - Supports the management (adding, removing) and loading of webЯcade feeds. 
 * [Categories View](#categories-view) - Consists of the categories that comprise the *currently loaded feed*.
@@ -14,7 +14,7 @@ Each of the views supports descending or ascending between the views described a
 
 ## Components
 
-The components described below are common across the various webЯcade front-end views.
+The components described below are common across the various webЯcade player views.
 
 ### Thumbnail Slider
 
@@ -131,7 +131,7 @@ To remove the feed, select the `Yes` button within the delete dialog (See screen
 
 ## Pause Screen
 
-The "Pause Screen" can be displayed when an item (game, etc.) is running. The pause screen supports the ability to exit the currently running item (game, etc.) and return to the webЯcade front-end.
+The "Pause Screen" can be displayed when an item (game, etc.) is running. The pause screen supports the ability to exit the currently running item (game, etc.) and return to the webЯcade player (front-end).
 
 ![](../assets/images/userguide/play-pause-screen-annotated.png){: style="padding:5px;" class="center zoomD"}
 

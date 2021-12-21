@@ -6,7 +6,7 @@ This page provides information on how to obtain the optimal experience when usin
 
 !!! note
     The Xbox Series X|S Edge browser was recently updated to use Blink as its browser engine
-    (part of Chomium). As this is a very recent change, several defects have been detected
+    (part of Chromium). As this is a very recent change, several defects have been detected
     and reported (see [View button defect](#view-button-defect), below). This page will be updated
     to reflect newly reported bugs and if previous defects have been resolved. 
 
@@ -41,8 +41,8 @@ To launch webЯcade, perform the following steps:
 
 ![](../../assets/images/platforms/xbox/webrcade-new.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* At this point, the webЯcade front-end should be displayed (see screen above).
-* The `"Game controls"` input mode should be selected by default, allowing for navigating the front-end via the controller. If this is not the case, refer to the ["Game and Browsing Controls"](#game-and-browsing-controls) section below.
+* At this point, the webЯcade player should be displayed (see screen above).
+* The `"Game controls"` input mode should be selected by default, allowing for navigating the webЯcade player (front-end) via the controller. If this is not the case, refer to the ["Game and Browsing Controls"](#game-and-browsing-controls) section below.
 
 ## Alternate controls
 
@@ -57,7 +57,7 @@ Due to defects (see [View button defect](#view-button-defect), below) present in
 
 ## Game and Browsing Controls
 
-The Microsoft Edge browser for Xbox support two distinct control modes, `Game` and `Browsing`. `Game` mode is used when navigating the webЯcade front-end or playing games. The `Browsing` mode can be used to access the navigation bar at the top (address, settings, etc.).
+The Microsoft Edge browser for Xbox support two distinct control modes, `Game` and `Browsing`. `Game` mode is used when navigating the webЯcade player (front-end) or playing games. The `Browsing` mode can be used to access the navigation bar at the top (address, settings, etc.).
 
 Holding down the :material-microsoft-xbox-controller-menu: `Menu` button when in `Game` mode will switch to `Browsing` mode and display a context menu similar to the one shown in the screen below.
 
@@ -93,11 +93,10 @@ Unfortunately, there may be times when webЯcade ceases to work correctly within
 
 A defect currently exists in the recently released Microsoft Edge browser for Xbox that results in 
 focus being lost from the current page when the :material-microsoft-xbox-controller-view: `View`
-button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade
-front-end or related screens. 
+button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade player (front-end) or related screens. 
 
 When webЯcade detects that this issue is about to occur, the alert dialog shown in the screen below will be displayed. Simply click the `B` button to dismiss the dialog, and focus should be correctly restored (the
-controller should be able to navigate the front-end and screens).
+controller should be able to navigate the webЯcade player (front-end) and screens).
 
 If the issue is not resolved after dismissing the dialog, refer to the other methods that are documented
 in this troubleshooting section.

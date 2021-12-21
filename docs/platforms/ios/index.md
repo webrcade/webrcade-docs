@@ -48,6 +48,6 @@ To add webЯcade to the Home Screen, perform the following steps:
 
 ### Chrome
 
-Chrome is not the currently recommended browser for webЯcade on iOS devices due to its lack of support for iOS specific features (ability to add websites to the Home Screen, etc.). Additionally, Chrome has been reported to periodically exhibit rendering glitches when navigating the webЯcade front-end.
+Chrome is not the currently recommended browser for webЯcade on iOS devices due to its lack of support for iOS specific features (ability to add websites to the Home Screen, etc.). Additionally, Chrome has been reported to periodically exhibit rendering glitches when navigating the [webЯcade player](../../userguide/index.md) (front-end).
 
 

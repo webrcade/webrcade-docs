@@ -107,7 +107,7 @@ The following is an example of a complete feed that consists of a single Genesis
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the webЯcade front-end:
+This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
 
 `https://tinyurl.com/sample-genesis-feed`
 

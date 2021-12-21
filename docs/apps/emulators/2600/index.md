@@ -93,7 +93,7 @@ The following is an example of a complete feed that consists of a single Atari 2
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the webЯcade front-end:
+This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
 
 `https://tinyurl.com/2600-feed`
 

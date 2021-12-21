@@ -30,7 +30,7 @@ To host a feed in [Pastebin](https://pastebin.com/), perform the following steps
 
 ![](../../assets/images/feed/pastebin/raw.png){: style="padding:5px 15px;" class="center zoomD"}
 
-The example from above can be tested by adding a feed with the following URL within the webЯcade front-end:
+The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
 
 `https://pastebin.com/raw/sVhLPGkN`
 

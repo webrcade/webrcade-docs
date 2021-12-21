@@ -21,7 +21,7 @@ Start by copying the example content below into the feed document you are creati
 
 ### Add Feed Images
 
-The [Feed Object](./format.md#feed-object) supports the ability to associate optional thumbnail and background images with the feed. These images will be displayed when the feed is selected within the, "Feeds view", of the webЯcade front-end.
+The [Feed Object](./format.md#feed-object) supports the ability to associate optional thumbnail and background images with the feed. These images will be displayed when the feed is selected within the, "Feeds view", of the webЯcade player.
 
 In this particular case, we will be using [Imgur](./resources/imgur.md) to host the images. Follow the steps outlined within the [Imgur Resource](./resources/imgur.md) page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).
 
@@ -70,7 +70,7 @@ Copy the highlighted lines below into the `categories` array of the feed documen
 
 ### Add Category Images
 
-The [Category Object](./format.md#category-object) supports the ability to associate optional thumbnail and background images with the category. These images will be displayed when the category is selected within the, "Categories view", of the webЯcade front-end.
+The [Category Object](./format.md#category-object) supports the ability to associate optional thumbnail and background images with the category. These images will be displayed when the category is selected within the, "Categories view", of the webЯcade player.
 
 As we did previously for the feed object, [Imgur](./resources/imgur.md) will be used to host the images. Follow the steps outlined within the [Imgur Resource](./resources/imgur.md) page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).
 
@@ -180,7 +180,7 @@ Add the highlighted lines below (the `props` object) into the [Item Object](./fo
 
 ### Add Item Images
 
-The [Item Object](./format.md#item-object) supports the ability to associate optional thumbnail and background images with the item. These images will be displayed when the item is selected within the, "Items view", of the webЯcade front-end.
+The [Item Object](./format.md#item-object) supports the ability to associate optional thumbnail and background images with the item. These images will be displayed when the item is selected within the, "Items view", of the webЯcade player.
 
 As we did previously for the feed and category objects, [Imgur](./resources/imgur.md) will be used to host the images. Follow the steps outlined within the [Imgur Resource](./resources/imgur.md) page to upload the two images listed below. When prompted to choose a photo, simply paste in the following URLs (one at a time).
 
@@ -302,7 +302,7 @@ To host the feed document in Pastebin, perform the following:
 At this point you should have a URL for the webЯcade feed that resembles the following:
 `https://pastebin.com/raw/Fchkqw6g`
 
-The feed can be tested by adding the feed URL within the webЯcade front-end ("Feeds" view).
+The feed can be tested by adding the feed URL within the webЯcade player ("Feeds" view).
 
 ## Alias Feed URL
 
@@ -317,6 +317,6 @@ To create an alias for the feed URL, perform the following:
 At this point, you should have an aliased URL similar to the following:
 `https://tinyurl.com/tutorial-feed`
 
-The feed can be tested by adding the feed URL within the webЯcade front-end ("Feeds" view).
+The feed can be tested by adding the feed URL within the webЯcade player ("Feeds" view).
 
 

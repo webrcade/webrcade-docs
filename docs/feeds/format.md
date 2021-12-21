@@ -17,7 +17,7 @@ The table below contains the properties available for the feed object.
 |----------|------|----------|---------|
 | title | String | Yes | A title for the feed. |
 | longTitle | String | No | A long title for the feed (will be used in locations with additional room for display). |
-| categories | Array of [Category](#category-object) objects | Yes | An array containing the categories associated with the feed (see [Category](#category-object) object).<br><br>The order that the categories appear in the array is identical to the order they will be presented in the front-end (they are not sorted).<br><br>A feed must contain at least one category. |
+| categories | Array of [Category](#category-object) objects | Yes | An array containing the categories associated with the feed (see [Category](#category-object) object).<br><br>The order that the categories appear in the array is identical to the order they will be presented in the [webЯcade player](../userguide/index.md) (they are not sorted).<br><br>A feed must contain at least one category. |
 | description | String | No | A description of the feed. |
 | thumbnail | URL | No | The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be `400x300`. |
 | background | URL | No | The location (URL) of a background image for the feed. |
@@ -57,7 +57,7 @@ The following is an example of a simple webЯcade feed with the feed object prop
 }
 ```
 
-The following image depicts the highlighted feed object properties from the feed above displayed in the webЯcade front-end (Feeds view). The title, long title, description, thumbnail, and background images of the feed object are shown below.
+The following image depicts the highlighted feed object properties from the feed above displayed in the webЯcade player (Feeds view). The title, long title, description, thumbnail, and background images of the feed object are shown below.
 
 ![](../assets/images/feed/format/feeds.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -70,13 +70,13 @@ For a feed to be considered valid it must contain at least one category object.
 
 ### Properties
 
-The table below contains the properties available for categoy objects. 
+The table below contains the properties available for category objects. 
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | title | String | Yes | A title for the category. |
 | longTitle | String | No | A long title for the category (will be used in locations with additional room for display). |
-| items | Array of [Item](#item-object) objects | Yes | An array containing the items associated with the category (see [Item](#item-object) object).<br><br>The items will be sorted alphanumerically prior to being displayed in the front-end. |
+| items | Array of [Item](#item-object) objects | Yes | An array containing the items associated with the category (see [Item](#item-object) object).<br><br>The items will be sorted alphanumerically prior to being displayed in the webЯcade player. |
 | description | String | No | A description of the category. |
 | thumbnail | URL | No | The location (URL) of a thumbnail image for the category.<br><br>The dimensions of the image must be `400x300`. |
 | background | URL | No | The location (URL) of a background image for the category. |
@@ -116,7 +116,7 @@ The following is an example of a simple webЯcade feed that includes a single ca
 }
 ```
 
-The category that is selected in the webЯcade front-end (Categories view) below corresponds to the highlighted category object properties from the feed above. The title, long title, description, thumbnail, and background images of the category are displayed.
+The category that is selected in the webЯcade player (Categories view) below corresponds to the highlighted category object properties from the feed above. The title, long title, description, thumbnail, and background images of the category are displayed.
 
 ![](../assets/images/feed/format/category.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -175,7 +175,7 @@ The item below corresponds to the excellent Sega Genesis homebrew game Omega Bla
 }
 ```
 
-The item that is selected in the webЯcade front-end (Items view) below corresponds to the highlighted item object properties from the feed above. The title, type (Sega Genesis), description, thumbnail, and background images of the item are displayed.
+The item that is selected in the webЯcade player (Items view) below corresponds to the highlighted item object properties from the feed above. The title, type (Sega Genesis), description, thumbnail, and background images of the item are displayed.
 
 ![](../assets/images/feed/format/item.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -368,6 +368,6 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
     }
     ```
 
-This example can be tested by adding a feed with the following URL within the webЯcade front-end:
+This example can be tested by adding a feed with the following URL within the [webЯcade player](../userguide/index.md):
 
 `http://tiny.cc/example-feed`

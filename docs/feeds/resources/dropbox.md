@@ -5,7 +5,7 @@
 !!! note
     Although it is possible to host images in Dropbox, it is *not recommended*. The time to retrieve images
     from Dropbox is significantly slower than dedicated image hosting sites (see [Imgur page](./imgur.md)), leading to an
-    inconsistent front-end experience (slow loading images with visible pop-ins, etc.).
+    inconsistent webЯcade player (front-end) experience (slow loading images with visible pop-ins, etc.).
 
 The process to host files in Dropbox is as follows:
 
@@ -75,6 +75,6 @@ There is also a tab named, *"Shortened URLs*", wherein the link has been shorten
     }    
     ```
 
-The example from above can be tested by adding a feed with the following URL within the webЯcade front-end:
+The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
 
 `https://tinyurl.com/dropbox-feed-example`

@@ -1,6 +1,6 @@
 # Feeds
 
-This section contains information related to the development of webЯcade feeds. All of the content that is presented within the webЯcade front-end is directed by the *currently* loaded feed (only one feed can be loaded at a time). This content includes the images, meta-information (titles, descriptions, etc.), categories, and items (games, etc.) that are available for launching.
+This section contains information related to the development of webЯcade feeds. All of the content that is presented within the webЯcade player (front-end) is directed by the *currently* loaded feed (only one feed can be loaded at a time). This content includes the images, meta-information (titles, descriptions, etc.), categories, and items (games, etc.) that are available for launching.
 
 See the following pages for detailed information on the development of webЯcade feeds:
 

@@ -1,6 +1,6 @@
 # TinyURL
 
-[TinyURL](https://tinyurl.com/) can be used to both shorten and alias URLs. [Shortening of URLs](#shortened-urls) is recommended as it reduces the overall size of webЯcade feeds and mitigates false-positive blocking by simple URL filters. [Aliasing of URLs](#aliased-urls) can be utilized to provide more memorable (human-redable) URLs.
+[TinyURL](https://tinyurl.com/) can be used to both shorten and alias URLs. [Shortening of URLs](#shortened-urls) is recommended as it reduces the overall size of webЯcade feeds and mitigates false-positive blocking by simple URL filters. [Aliasing of URLs](#aliased-urls) can be utilized to provide more memorable (human-readable) URLs.
 
 
 ## Shortened URLs
@@ -82,6 +82,6 @@ To alias a URL with [TinyURL](https://tinyurl.com/), perform the following steps
 
 ![](../../assets/images/feed/tinyurl/alias-url-done.png){: style="padding:5px 15px;" class="center zoomD"}
 
-The example from above can be tested by adding a feed with the following URL within the webЯcade front-end:
+The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
 
 `https://tinyurl.com/my-simple-feed`

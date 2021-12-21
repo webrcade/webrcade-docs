@@ -4,7 +4,7 @@ Content (ROMs, game files, artwork, etc.) stored in the [Internet Archive](https
 
 The following steps detail the process of adding an NES homebrew game (ROM file) hosted in the [Internet Archive](https://archive.org) to a webЯcade feed:
 
-* The first step is to search for content within the [Internet Archive](https://archive.org). Although, the [Internet Archive](https://archive.org) does provide its own search mechanism, Google typically provides faster and more accurate search results.<br><br>To limit the Google search to the Internet Archive, add "`site:archive.org`" after your search critera (see screenshot below).<br><br>In the example shown below, the full search text is as follows:<br>`retro pie homebrew site:archive.org`
+* The first step is to search for content within the [Internet Archive](https://archive.org). Although, the [Internet Archive](https://archive.org) does provide its own search mechanism, Google typically provides faster and more accurate search results.<br><br>To limit the Google search to the Internet Archive, add "`site:archive.org`" after your search criteria (see screenshot below).<br><br>In the example shown below, the full search text is as follows:<br>`retro pie homebrew site:archive.org`
 
 ![](../../assets/images/feed/inetarchive/search-google.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -16,7 +16,7 @@ The following steps detail the process of adding an NES homebrew game (ROM file)
   
 ![](../../assets/images/feed/inetarchive/show-all.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* Click on the "`View Contents`" link to the right of the ISO file to view its contents (see screenshot below).<br><br>It is *extermely important* to descend to the lowest possible level within an archive. There are a number of homebrew collections within the Internet Archive that package multiple-ROM variants in a single zip file. Using a link to the zip file (versus a specific ROM file) will result in
+* Click on the "`View Contents`" link to the right of the ISO file to view its contents (see screenshot below).<br><br>It is *extremely important* to descend to the lowest possible level within an archive. There are a number of homebrew collections within the Internet Archive that package multiple-ROM variants in a single zip file. Using a link to the zip file (versus a specific ROM file) will result in
 much larger downloads with a non-deterministic ROM file being executed.
 
 !!! note
@@ -27,7 +27,7 @@ much larger downloads with a non-deterministic ROM file being executed.
 
 ![](../../assets/images/feed/inetarchive/view-iso-contents.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* Select a file within the ISO and copy its link address (See screenshot below).<br><br>In this particular case, the link being copied is for the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins.<br><br>It is also worth noting that in this particular case, the Internet Archive did not provide an opportunity to descend into the .zip file (a "`View Contents`" link was not provided, which would have been preferrable).
+* Select a file within the ISO and copy its link address (See screenshot below).<br><br>In this particular case, the link being copied is for the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins.<br><br>It is also worth noting that in this particular case, the Internet Archive did not provide an opportunity to descend into the .zip file (a "`View Contents`" link was not provided, which would have been preferable).
 
 ![](../../assets/images/feed/inetarchive/copy-link.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -80,6 +80,6 @@ There is also a tab named, *"Shortened URLs*", wherein the Super Uwol! URL has b
     }    
     ```
 
-The example from above can be tested by adding a feed with the following URL within the webЯcade front-end:
+The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
 
 `https://tinyurl.com/inet-archive-example`

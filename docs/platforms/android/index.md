@@ -17,7 +17,7 @@ The [Android Gamepads page](gamepads.md) provides detailed information on the va
 
 ## Browser Support
 
-The recommended browser for use with webЯcade on an Android device is Chome.
+The recommended browser for use with webЯcade on an Android device is Chrome.
 
 ### Chrome
 
