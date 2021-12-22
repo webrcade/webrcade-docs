@@ -62,8 +62,23 @@ An *analyze* operation is performed on each of the selected ROMs that attempts t
 * The title (and long title) for the item.
 * The artwork (thumbnail and background images) for the item.
 
-If the *analyze* operation is unable to determine an appropriate [Application](../../apps/index.md) for a particular ROM, a corresponding item will not be created. In such cases, manual creation of an item via the "Create Item" action via the [Items Table Toolbar](#table-toolbar) is required.
+If the *analyze* operation is unable to determine an appropriate [Application](../../apps/index.md) for a particular ROM, a corresponding item will not be created. In such cases, manual creation of an item via the "Create Item" action of the [Items Table Toolbar](#table-toolbar) is required.
 
 ### Create From URLs
 
+The "Create From URLs" action provides the ability to specify one or more URLs that point to ROM files and have a set of corresponding items created and added to the current category.
+
 ![](../../assets/images/editor/workspace/itemsfromurls.png){: class="center zoomD"}
+
+As shown in the screenshot above, three URLs are specified that point to homebrew ROM files within the [OpenHomeBrew](https://archive.org/details/openhomebew) repository in the Internet Archive (See the [Internet Archive Resource](../../feeds/resources/inetarchive.md) section for more information on using URLs from the Internet Archive).
+
+In addition to typing or pasting in URLs manually, the "Create Items from URLs" dialog supports drag and drop functionality (see the [Create from URLs Dialog](../draganddrop.md#create-from-urls-dialog) section of the [Drag and Drop](../draganddrop.md) documentation for more information).
+
+An *analyze* operation is performed on each of the ROMs located at the URLs provided that attempts to determine the following:
+
+* The [Application](../../apps/index.md) for the item.
+* The [Properties](../dialogs/item-dialog.md#properties-tab) for the item.
+* The title (and long title) for the item.
+* The artwork (thumbnail and background images) for the item.
+
+If the *analyze* operation is unable to determine an appropriate [Application](../../apps/index.md) for a particular ROM, a corresponding item will not be created. In such cases, manual creation of an item via the "Create Item" action of the [Items Table Toolbar](#table-toolbar) is required.
