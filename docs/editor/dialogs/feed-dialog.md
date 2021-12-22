@@ -2,7 +2,7 @@
 
 The "Feed Properties Editor" is used to edit high-level information about the feed, including a title, an optional description, and optional images. 
 
-  * Categories can be added to the current feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md). 
+  * Categories can be added to the active feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md). 
   * Items can be added to categories via the [Items Tab](../workspace/itemstab.md) of the [Feed Workspace](../workspace/index.md).
 
 !!! note

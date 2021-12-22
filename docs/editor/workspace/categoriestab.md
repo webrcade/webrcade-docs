@@ -1,6 +1,6 @@
 # Feed Categories Tab
 
-The "Feed Categories Tab" consists of the categories associated with the current feed. The order that the categories appear in the [Categories Table](#categories-table) is identical to the order they will be presented in the [webЯcade player](../../userguide/index.md) (they are not sorted alphanumerically).
+The "Feed Categories Tab" consists of the categories associated with the active feed. The order that the categories appear in the [Categories Table](#categories-table) is identical to the order they will be presented in the [webЯcade player](../../userguide/index.md) (they are not sorted alphanumerically).
 
 For a feed to be considered valid, it must contain at least one category.
 
@@ -8,7 +8,7 @@ For a feed to be considered valid, it must contain at least one category.
 
 ## Categories Table
 
-The "Categories Table" contains the categories associated with the current feed. 
+The "Categories Table" contains the categories associated with the active feed. 
 
 The [Table Toolbar](#table-toolbar) consists of the various category-based actions that can be performed on the categories table. The [Table Columns](#table-columns) section describes the columns that comprise the categories table.
 
@@ -18,7 +18,7 @@ The following table describes the various category-based actions that can be per
 
 | __Action__ | __Icon__ | __Description__ |
 | --- | --- | --- |
-| Create Category | ![](../../assets/images/editor/icons/baseline_add_box_white_24dp.png){: class="action"} | Displays the [Create Category Editor](../dialogs/category-dialog.md) which is used to add a new category to the current feed. |
+| Create Category | ![](../../assets/images/editor/icons/baseline_add_box_white_24dp.png){: class="action"} | Displays the [Create Category Editor](../dialogs/category-dialog.md) which is used to add a new category to the active feed. |
 | Move Up | ![](../../assets/images/editor/icons/round_arrow_upward_white_24dp.png){: class="action"} | Moves the currently selected categories **up** in the table.<br><br>The order that the categories appear in the [Categories Table](#categories-table) is identical to the order they will be presented in the [webЯcade player](../../userguide/index.md) (they are not sorted alphanumerically). |
 | Move Down | ![](../../assets/images/editor/icons/round_arrow_downward_white_24dp.png){: class="action"} | Moves the currently selected categories **down** in the table.<br><br>The order that the categories appear in the [Categories Table](#categories-table) is identical to the order they will be presented in the [webЯcade player](../../userguide/index.md) (they are not sorted alphanumerically). |
 | Duplicate | ![](../../assets/images/editor/icons/round_content_copy_white_24dp.png){: class="action"} | Creates duplicate copies of the currently selected categories.<br><br>The copy operations performed are *"deep clones"* which include copies of the items that are associated with each selected category.  |

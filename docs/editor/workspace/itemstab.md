@@ -1,6 +1,6 @@
 # Feed Items Tab
 
-The "Feed Items Tab" consists of the items (games, etc.) contained in the currently selected category for the current feed. 
+The "Feed Items Tab" consists of the items (games, etc.) contained in the currently selected category of the active feed. 
 
 ![](../../assets/images/editor/workspace/itemstab-annotated.png){: class="center zoomD"}
 

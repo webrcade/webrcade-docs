@@ -5,7 +5,7 @@ The "Category Editor" is used to create and/or edit "category" entries within a 
 
 For a feed to be considered valid it must contain at least one category object.
 
-  * Categories can be added to the current feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md). 
+  * Categories can be added to the active feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md). 
   * Items can be added to categories via the [Items Tab](../workspace/itemstab.md) of the [Feed Workspace](../workspace/index.md).
 
 !!! note

@@ -2,7 +2,9 @@
 
 ## Overview
 
-This page provides information on how to obtain the optimal experience when using webЯcade with the Xbox Series X|S game consoles. It is important to note that while webЯcade is functional on previous generations of Xbox One consoles, there will most likely be significant performance issues.
+This page provides information on how to obtain the optimal experience when using webЯcade with the Xbox Series X|S game consoles. 
+
+*It is important to note that while webЯcade is fully functional on previous generations of Xbox One consoles, there will most likely be performance issues.*
 
 !!! note
     The Xbox Series X|S Edge browser was recently updated to use Blink as its browser engine
