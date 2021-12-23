@@ -1380,6 +1380,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#test-action" class="md-nav__link">
+    Test Action
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#load-action" class="md-nav__link">
     Load Action
   </a>
@@ -1387,7 +1394,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#test-action" class="md-nav__link">
+  <a href="#test-action_1" class="md-nav__link">
     Test Action
   </a>
   
@@ -1741,6 +1748,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#test-action" class="md-nav__link">
+    Test Action
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#load-action" class="md-nav__link">
     Load Action
   </a>
@@ -1748,7 +1762,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#test-action" class="md-nav__link">
+  <a href="#test-action_1" class="md-nav__link">
     Test Action
   </a>
   
@@ -1785,7 +1799,9 @@
                 
                 
                 <h1 id="left-sidebar">Left Sidebar</h1>
+<p>The "Left Sidebar" (highlighted in red in the screenshot below) contains the top-level actions that can be performed within the webЯcade editor.</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/sidebar-annotated.png" /></p>
+<p>Each of the actions located in the "Left Sidebar" are described in the table below.</p>
 <table>
 <thead>
 <tr>
@@ -1798,39 +1814,41 @@
 <tr>
 <td>New</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_note_add_white_24dp.png" /></td>
-<td>This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test.</td>
+<td>Displays a context menu containing several options for creating a new feed.<br><br>See the <a href="#new-action">New Action</a> section for more information.</td>
 </tr>
 <tr>
 <td>Import</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_publish_white_24dp.png" /></td>
-<td></td>
+<td>Displays the "Import Feed" dialog.<br><br>See the <a href="#import-action">Import Action</a> section for more information.</td>
 </tr>
 <tr>
 <td>Export</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_download_white_24dp.png" /></td>
-<td></td>
+<td>Exports the <em>active feed</em> (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.<br><br>See the <a href="#export-action">Export Action</a> section for more information.</td>
 </tr>
 <tr>
 <td>Test</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_check_circle_white_24dp.png" /></td>
-<td></td>
+<td>Displays the <em>active feed</em> (the feed currently being edited in the feed workspace) in the <a href="../../userguide/">webЯcade player</a>.<br><br>See the <a href="#test-action">Test Action</a> section for more information.</td>
 </tr>
 <tr>
 <td>Load</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_open_white_24dp.png" /></td>
-<td></td>
+<td>Displays the "Load Feed" dialog.<br><br>See the <a href="#load-action">Load Action</a> section for more information.</td>
 </tr>
 <tr>
 <td>Save</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_save_white_24dp.png" /></td>
-<td></td>
+<td>Saves the <em>active feed</em> (the feed currently being edited in the feed workspace) to the browser's <em>local</em> storage. The title of the feed is used to uniquely identify it.<br><br>See the <a href="#load-action">Save Action</a> section for more information.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="actions">Actions</h2>
-<p>TODO</p>
+<p>The following sections describe in detail the various actions that are located in the "Left Sidebar".</p>
 <h3 id="new-action">New Action</h3>
+<p>The new action initiates the creation of a new feed within the webЯcade editor. After creation, the new feed becomes the <em>active feed</em> (the feed currently being edited in the feed workspace) in the editor.  </p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/newmenu.png" /></p>
+<p>When the "New Action" is clicked, a context menu is displayed containing several options for creating a new feed. The options within the context menu are detailed in the table below.</p>
 <table>
 <thead>
 <tr>
@@ -1843,27 +1861,30 @@
 <tr>
 <td>Clone example feed</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_copy_white_24dp.png" /></td>
-<td>This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test.</td>
+<td>Creates a copy of the <em>example feed</em> (a feed consisting of two categories with three items each) and makes it the <em>active feed</em> (the feed currently being edited in the feed workspace).</td>
 </tr>
 <tr>
 <td>Clone default feed</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_copy_white_24dp.png" /></td>
-<td></td>
+<td>Creates a copy of the <em>default feed</em> (the default feed for webЯcade comprised of high-quality homebrew across the various application types supported by webЯcade) and makes it the <em>active feed</em> (the feed currently being edited in the feed workspace).</td>
 </tr>
 <tr>
 <td>Empty feed</td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_copy_white_24dp.png" /></td>
-<td></td>
+<td>Creates an empty feed comprised of a single category and no items and makes it the <em>active feed</em> (the feed currently being edited in the feed workspace).</td>
 </tr>
 </tbody>
 </table>
 <h3 id="import-action">Import Action</h3>
-<p>TODO</p>
+<p>The "Import Action" creates a copy of a feed located remotely (via URL) or locally (via a file) and makes it the <em>active feed</em> (the feed currently being edited in the feed workspace).</p>
+<p>When the "Import Action" is clicked, a dialog is displayed that allows for selecting a remote (via URL) or local (via file) feed. The following two sections describe each of these scenarios.</p>
 <p><strong>Import from URL</strong></p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/importurl.png" /></p>
 <p><strong>Import From File</strong></p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/importfile.png" /></p>
 <h3 id="export-action">Export Action</h3>
+<p>TODO</p>
+<h3 id="test-action">Test Action</h3>
 <p>TODO</p>
 <h3 id="load-action">Load Action</h3>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/loadfeed.png" /></p>
@@ -1871,7 +1892,7 @@
 <p>TODO</p>
 <p><strong>Table Columns</strong></p>
 <p>TODO</p>
-<h3 id="test-action">Test Action</h3>
+<h3 id="test-action_1">Test Action</h3>
 <p>TODO</p>
 <h3 id="save-action">Save Action</h3>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/overwritefeed.png" /></p>
