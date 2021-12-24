@@ -8,12 +8,12 @@ Each of the actions located in the "Left Sidebar" are described in the table bel
 
 | __Action__ | __Icon__ | __Description__ |
 | --- | --- | --- |
-| New | ![](../assets/images/editor/icons/round_note_add_white_24dp.png){: class="action"} | Displays a context menu containing several options for creating a new feed.<br><br>See the [New Action](#new-action) section for more information. |
-| Import | ![](../assets/images/editor/icons/round_publish_white_24dp.png){: class="action"} | Displays the "Import Feed" dialog.<br><br>See the [Import Action](#import-action) section for more information.   |
-| Export | ![](../assets/images/editor/icons/round_file_download_white_24dp.png){: class="action"} | Exports the *active feed* (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.<br><br>See the [Export Action](#export-action) section for more information.  |
-| Test | ![](../assets/images/editor/icons/round_check_circle_white_24dp.png){: class="action"} | Displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md).<br><br>See the [Test Action](#test-action) section for more information.  |
-| Load | ![](../assets/images/editor/icons/round_file_open_white_24dp.png){: class="action"} | Displays the "Load Feed" dialog.<br><br>See the [Load Action](#load-action) section for more information.
-| Save | ![](../assets/images/editor/icons/round_save_white_24dp.png){: class="action"} | Saves the *active feed* (the feed currently being edited in the feed workspace) to the browser's *local* storage. The title of the feed is used to uniquely identify it.<br><br>See the [Save Action](#load-action) section for more information.  |
+| [New](#new-action) | ![](../assets/images/editor/icons/round_note_add_white_24dp.png){: class="action"} | Displays a context menu containing several options for creating a new feed.<br><br>See the [New Action](#new-action) section for more information. |
+| [Import](#import-action) | ![](../assets/images/editor/icons/round_publish_white_24dp.png){: class="action"} | Displays the "Import Feed" dialog.<br><br>See the [Import Action](#import-action) section for more information.   |
+| [Export](#export-action) | ![](../assets/images/editor/icons/round_file_download_white_24dp.png){: class="action"} | Exports the *active feed* (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.<br><br>See the [Export Action](#export-action) section for more information.  |
+| [Test](#test-action) | ![](../assets/images/editor/icons/round_check_circle_white_24dp.png){: class="action"} | Displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md).<br><br>See the [Test Action](#test-action) section for more information.  |
+| [Load](#load-action) | ![](../assets/images/editor/icons/round_file_open_white_24dp.png){: class="action"} | Displays the "Load Feed" dialog.<br><br>See the [Load Action](#load-action) section for more information.
+| [Save](#save-action) | ![](../assets/images/editor/icons/round_save_white_24dp.png){: class="action"} | Saves the *active feed* (the feed currently being edited in the feed workspace) to the browser's *local* storage. The title of the feed is used to uniquely identify it.<br><br>See the [Save Action](#load-action) section for more information.  |
 
 
 ## Actions
@@ -42,15 +42,25 @@ When the "Import Action" is clicked, a dialog is displayed that allows for selec
 
 **Import from URL**
 
+To import a remote feed, select the `URL` tab as shown in the screenshot below. Next, enter the URL for the remote feed in the `Feed Location` text field and press the `OK` button.
+
 ![](../assets/images/editor/sidebar/importurl.png){: class="center zoomD"}
+
+If the download is successful, a copy of the feed will become the *active feed* (the feed currently being edited in the feed workspace).
 
 **Import From File**
 
+To import a feed from a local file, select the `File` tab as shown in the screenshot below. Next, click the `Select Feed File...` button and select the local file. Once the file has been selected, click the `OK` button.
+
 ![](../assets/images/editor/sidebar/importfile.png){: class="center zoomD"}
+
+If a valid feed is found in the selected file, a copy of the feed will become the *active feed* (the feed currently being edited in the feed workspace).
 
 ### Export Action
 
-TODO
+The "Export Action" exports the *active feed* (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.
+
+Once exported, the file (or its contents) can be shared for use by others (or between your devices) using a cloud-based hosting service such as Pastebin or Dropbox (See the [Pastebin Resource](../feeds/resources/pastebin.md) and [Dropbox Resource](../feeds/resources/dropbox.md) documentation sections).
 
 ### Test Action
 

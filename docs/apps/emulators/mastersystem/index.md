@@ -68,7 +68,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
 | rom | URL | Yes | URL to a Master System ROM file or a zip file containing a ROM file. |
-| sms2 | Boolean | No | Whether to emulate the Sega Master System II console. The Master System II contains the 315-5246 VDP which supports the extra-height 224 and 240-line modes. |
+| hwType | Numeric | No | The type of hardware to emulate.<br>(defaults to Master System II)<br><ul><li>`0` : Master System II</li><li>`1` : Master System</li><li>`2` : SG-1000</li></ul> |
 | ym2413 | Boolean | No | Whether to emulator the YM2413 FM sound generator produced by Yamaha. The YM2413 was an add-on for the Sega Mark III and is built into the Japanese Sega Master System. |
 
 ### Example
