@@ -1812,32 +1812,32 @@
 </thead>
 <tbody>
 <tr>
-<td>New</td>
+<td><a href="#new-action">New</a></td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_note_add_white_24dp.png" /></td>
 <td>Displays a context menu containing several options for creating a new feed.<br><br>See the <a href="#new-action">New Action</a> section for more information.</td>
 </tr>
 <tr>
-<td>Import</td>
+<td><a href="#import-action">Import</a></td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_publish_white_24dp.png" /></td>
 <td>Displays the "Import Feed" dialog.<br><br>See the <a href="#import-action">Import Action</a> section for more information.</td>
 </tr>
 <tr>
-<td>Export</td>
+<td><a href="#export-action">Export</a></td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_download_white_24dp.png" /></td>
 <td>Exports the <em>active feed</em> (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.<br><br>See the <a href="#export-action">Export Action</a> section for more information.</td>
 </tr>
 <tr>
-<td>Test</td>
+<td><a href="#test-action">Test</a></td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_check_circle_white_24dp.png" /></td>
 <td>Displays the <em>active feed</em> (the feed currently being edited in the feed workspace) in the <a href="../../userguide/">webЯcade player</a>.<br><br>See the <a href="#test-action">Test Action</a> section for more information.</td>
 </tr>
 <tr>
-<td>Load</td>
+<td><a href="#load-action">Load</a></td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_open_white_24dp.png" /></td>
 <td>Displays the "Load Feed" dialog.<br><br>See the <a href="#load-action">Load Action</a> section for more information.</td>
 </tr>
 <tr>
-<td>Save</td>
+<td><a href="#save-action">Save</a></td>
 <td><img alt="" class="action" src="../../assets/images/editor/icons/round_save_white_24dp.png" /></td>
 <td>Saves the <em>active feed</em> (the feed currently being edited in the feed workspace) to the browser's <em>local</em> storage. The title of the feed is used to uniquely identify it.<br><br>See the <a href="#load-action">Save Action</a> section for more information.</td>
 </tr>
@@ -1879,11 +1879,16 @@
 <p>The "Import Action" creates a copy of a feed located remotely (via URL) or locally (via a file) and makes it the <em>active feed</em> (the feed currently being edited in the feed workspace).</p>
 <p>When the "Import Action" is clicked, a dialog is displayed that allows for selecting a remote (via URL) or local (via file) feed. The following two sections describe each of these scenarios.</p>
 <p><strong>Import from URL</strong></p>
+<p>To import a remote feed, select the <code>URL</code> tab as shown in the screenshot below. Next, enter the URL for the remote feed in the <code>Feed Location</code> text field and press the <code>OK</code> button.</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/importurl.png" /></p>
+<p>If the download is successful, a copy of the feed will become the <em>active feed</em> (the feed currently being edited in the feed workspace).</p>
 <p><strong>Import From File</strong></p>
+<p>To import a feed from a local file, select the <code>File</code> tab as shown in the screenshot below. Next, click the <code>Select Feed File...</code> button and select the local file. Once the file has been selected, click the <code>OK</code> button.</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/importfile.png" /></p>
+<p>If a valid feed is found in the selected file, a copy of the feed will become the <em>active feed</em> (the feed currently being edited in the feed workspace).</p>
 <h3 id="export-action">Export Action</h3>
-<p>TODO</p>
+<p>The "Export Action" exports the <em>active feed</em> (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.</p>
+<p>Once exported, the file (or its contents) can be shared for use by others (or between your devices) using a cloud-based hosting service such as Pastebin or Dropbox (See the <a href="../../feeds/resources/pastebin/">Pastebin Resource</a> and <a href="../../feeds/resources/dropbox/">Dropbox Resource</a> documentation sections).</p>
 <h3 id="test-action">Test Action</h3>
 <p>TODO</p>
 <h3 id="load-action">Load Action</h3>
