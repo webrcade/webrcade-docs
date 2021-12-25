@@ -64,24 +64,39 @@ Once exported, the file (or its contents) can be shared for use by others (or be
 
 ### Test Action
 
-TODO
+The "Test Action" displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md). 
+
+This provides the ability to quickly examine how the current feed will appear in the player without requiring the feed to be formally registered.
 
 ### Load Action
+
+The "Load Action" creates a copy of a feed (either local or remote) and makes it the *active feed* (the feed currently being edited in the feed workspace).
 
 ![](../assets/images/editor/sidebar/loadfeed.png){: class="center zoomD"}
 
 **Table Toolbar**
 
-TODO
+The following table describes the actions found in the toolbar of the "Load Feed" table.
+
+| __Action__ | __Icon__ | __Description__ |
+| --- | --- | --- |
+| Show Remote Feeds | ![](../assets/images/editor/icons/outline_toggle_off_white_24dp.png){: class="action"} | Determines whether to display *remote* feeds that were registered within the [webЯcade player](../userguide/index.md). |
+| Delete | ![](../assets/images/editor/icons/round_delete_white_24dp.png){: class="action"} | Deletes the currently selected feeds.<br><br>*Remote* feeds are simply unregistered (the remote feed is not actually deleted). |
 
 **Table Columns**
 
-TODO
+The following table describes the columns that comprise the "Load Feed" table.
 
-### Test Action
-
-TODO
+| __Column__ |  | __Description__ |
+| --- | --- | --- |
+| Feed | | The title of the feed associated with the row. |
+| Load | ![](../assets/images/editor/icons/round_file_open_white_24dp.png){: class="action"} | When the load icon is clicked, the feed associated with the row is retrieved, a copy of the feed is made, and it becomes the *active feed* (the feed currently being edited in the feed workspace).  |
+| Location | | Whether the feed is a located locally (in the browser's local storage) or remotely (via a URL).<br><br>If the feed is *remote* its associated URL is displayed. |
 
 ### Save Action
 
+The "Save Action" saves the active feed (the feed currently being edited in the feed workspace) to the browser's local storage. The title of the feed is used to uniquely identify it.
+
 ![](../assets/images/editor/sidebar/overwritefeed.png){: class="center zoomD"}
+
+If a feed already exists in the browser's local storage with the same title, a prompt for overwriting is displayed (see screenshot above). 

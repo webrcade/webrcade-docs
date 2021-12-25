@@ -1,6 +1,10 @@
 # Feed Tutorial
 
-This tutorial walks through the various steps necessary to create a webЯcade feed. During this tutorial, many of the [Resources](./resources/index.md) (cloud-based services, content hosting, etc.) that have been proven to be compatible with the development of webЯcade feeds are utilized.
+This tutorial walks through the various steps necessary to create a webЯcade feed manually. During this tutorial, many of the [Resources](./resources/index.md) (cloud-based services, content hosting, etc.) that have been proven to be compatible with the development of webЯcade feeds are utilized.
+
+!!! note
+    The [Feed Editor](../editor/index.md) provides a much simpler alternative to creating feeds manually. The editor interface allows for quickly creating webЯcade feeds without requiring any knowledge of the underlying document format.
+
 
 The [Format](./format.md) of webЯcade feeds is JSON (JavaScript Object Notation), which is a text-based format. Thus, all that is required to follow along and develop the feed document is a simple text-based editor. Alternatively, using a JSON-specific editor such as [Tutorials Point's Online JSON Editor](https://www.tutorialspoint.com/online_json_editor.htm){target=_blank} is recommended as it provides immediate feedback when errors are detected and allows for "beautifying" (reformatting) the document.
 

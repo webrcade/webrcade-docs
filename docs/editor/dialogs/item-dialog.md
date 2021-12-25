@@ -22,7 +22,13 @@ The general tab consists of basic information about the item (title, description
 
 ## Properties Tab
 
+The properties tab consists of fields that are specific to the [Application](../../apps/index.md) type that is associated with the item being edited.
+
 ![](../../assets/images/editor/itemeditor/propstab.png){: class="center zoomD"}
+
+The fields in the screenshot above are specific to the [Game Boy Advance Application](../../apps/emulators/gba/index.md) type. Each application type's documentation page contains a `Properties` section that details the properties specific to the type. For example, the [Game Boy Advance Application Properties](../../apps/emulators/gba/index.md#properties) section describes the fields present in the screenshot above.
+
+All items associated with an emulator-based application contain a `ROM` field which is a URL that points to a ROM file or a zip file that contains a ROM file. The webЯcade editor provides several options for quickly creating emulator-based items that have a ROM URL. See the [Adding Items](../workspace/addingitems.md) and [Drag and Drop](../draganddrop.md) sections for information on rapidly creating ROM-based items.
 
 ## Thumbnail Tab
 
