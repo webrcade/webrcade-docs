@@ -1394,13 +1394,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#test-action_1" class="md-nav__link">
-    Test Action
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#save-action" class="md-nav__link">
     Save Action
   </a>
@@ -1762,13 +1755,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#test-action_1" class="md-nav__link">
-    Test Action
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#save-action" class="md-nav__link">
     Save Action
   </a>
@@ -1890,17 +1876,66 @@
 <p>The "Export Action" exports the <em>active feed</em> (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.</p>
 <p>Once exported, the file (or its contents) can be shared for use by others (or between your devices) using a cloud-based hosting service such as Pastebin or Dropbox (See the <a href="../../feeds/resources/pastebin/">Pastebin Resource</a> and <a href="../../feeds/resources/dropbox/">Dropbox Resource</a> documentation sections).</p>
 <h3 id="test-action">Test Action</h3>
-<p>TODO</p>
+<p>The "Test Action" displays the <em>active feed</em> (the feed currently being edited in the feed workspace) in the <a href="../../userguide/">webЯcade player</a>. </p>
+<p>This provides the ability to quickly examine how the current feed will appear in the player without requiring the feed to be formally registered.</p>
 <h3 id="load-action">Load Action</h3>
+<p>The "Load Action" creates a copy of a feed (either local or remote) and makes it the <em>active feed</em> (the feed currently being edited in the feed workspace).</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/loadfeed.png" /></p>
 <p><strong>Table Toolbar</strong></p>
-<p>TODO</p>
+<p>The following table describes the actions found in the toolbar of the "Load Feed" table.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Action</strong></th>
+<th><strong>Icon</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Show Remote Feeds</td>
+<td><img alt="" class="action" src="../../assets/images/editor/icons/outline_toggle_off_white_24dp.png" /></td>
+<td>Determines whether to display <em>remote</em> feeds that were registered within the <a href="../../userguide/">webЯcade player</a>.</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td><img alt="" class="action" src="../../assets/images/editor/icons/round_delete_white_24dp.png" /></td>
+<td>Deletes the currently selected feeds.<br><br><em>Remote</em> feeds are simply unregistered (the remote feed is not actually deleted).</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Table Columns</strong></p>
-<p>TODO</p>
-<h3 id="test-action_1">Test Action</h3>
-<p>TODO</p>
+<p>The following table describes the columns that comprise the "Load Feed" table.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Column</strong></th>
+<th></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Feed</td>
+<td></td>
+<td>The title of the feed associated with the row.</td>
+</tr>
+<tr>
+<td>Load</td>
+<td><img alt="" class="action" src="../../assets/images/editor/icons/round_file_open_white_24dp.png" /></td>
+<td>When the load icon is clicked, the feed associated with the row is retrieved, a copy of the feed is made, and it becomes the <em>active feed</em> (the feed currently being edited in the feed workspace).</td>
+</tr>
+<tr>
+<td>Location</td>
+<td></td>
+<td>Whether the feed is a located locally (in the browser's local storage) or remotely (via a URL).<br><br>If the feed is <em>remote</em> its associated URL is displayed.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="save-action">Save Action</h3>
+<p>The "Save Action" saves the active feed (the feed currently being edited in the feed workspace) to the browser's local storage. The title of the feed is used to uniquely identify it.</p>
 <p><img alt="" class="center zoomD" src="../../assets/images/editor/sidebar/overwritefeed.png" /></p>
+<p>If a feed already exists in the browser's local storage with the same title, a prompt for overwriting is displayed (see screenshot above). </p>
                 
                   
 

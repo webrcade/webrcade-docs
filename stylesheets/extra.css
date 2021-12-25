@@ -10,6 +10,14 @@
     vertical-align: middle
 }
 
+.tableicon {
+    height: 16px;
+    width: 16px;
+    color: white;
+    vertical-align: middle
+}
+
+
 .gamepad-table-wrapper {
     border: 10px solid red;
 }
