@@ -6,7 +6,7 @@ The webЯcade feed editor, located at [editor.webrcade.com](https://editor.webrc
 
 The editor also includes a ROM *analyzer* that is capable of determining the appropriate [Application](../apps/index.md) type (emulator, etc.) for ROMs as well as any associated meta-information (title, properties, description, and related artwork). The *analyze* operation is similar to *scraping* functionality found in other front-ends with the primary difference being that in addition to meta-information the analyzer also establishes the application type and related properties.
 
-The editor provides [multiple ways](workspace/addingitems.md) of creating and adding new items (games, etc.) to feeds. The simplest way being to simply [drag and drop ROM-based links](draganddrop.md#drag-rom-urls) into the editor's [workspace](workspace/index.md).
+The editor provides [several ways](workspace/addingitems.md) to create and add items (games, etc.) to feeds. The simplest way being to simply [drag and drop ROM-based links](draganddrop.md#drag-rom-urls) into the editor's [workspace](workspace/index.md).
 
 ## Components
 
