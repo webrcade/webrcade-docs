@@ -1075,6 +1075,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../sg1000/" class="md-nav__link">
+        SG-1000
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../mastersystem/" class="md-nav__link">
         Master System
       </a>
@@ -2053,25 +2067,25 @@ specified in the <code>props</code> object of a feed item. </p>
 </table>
 <h3 id="example">Example</h3>
 <p>The following is an example of a complete feed that consists of a single Game Boy Advance application instance (<code>type</code> value of <code>gba</code>). The <code>rom</code> property value is a URL that points to a Dropbox location that contains the excellent homebrew game Anguna by Bite the Chili productions.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-  <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Game Boy Advance Feed&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;Nintendo Game Boy Advance Example Feed&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;categories&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Game Boy Advance Games&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;longTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;Nintendo Game Boy Advance Games&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;items&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="p">{</span>
-          <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Anguna&quot;</span><span class="p">,</span>
-<span class="hll">          <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;gba&quot;</span><span class="p">,</span>
-</span>          <span class="nt">&quot;props&quot;</span><span class="p">:</span> <span class="p">{</span>              
-<span class="hll">            <span class="nt">&quot;rom&quot;</span><span class="p">:</span> <span class="s2">&quot;https://dl.dropboxusercontent.com/s/hsx4gu0olyparyn/anguna.gba&quot;</span>
-</span>          <span class="p">}</span>
-        <span class="p">}</span>
-      <span class="p">]</span>
-    <span class="p">}</span>
-  <span class="p">]</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Game Boy Advance Feed&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nintendo Game Boy Advance Example Feed&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Game Boy Advance Games&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nintendo Game Boy Advance Games&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Anguna&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gba&quot;</span><span class="p">,</span><span class="w"></span>
+</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">              </span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/hsx4gu0olyparyn/anguna.gba&quot;</span><span class="w"></span>
+</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">      </span><span class="p">]</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="w">  </span><span class="p">]</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 <p>This example can be tested by adding a feed with the following URL within the <a href="../../../userguide/">webЯcade player</a>:</p>
 <p><code>https://tinyurl.com/sample-gba-feed</code></p>
@@ -2124,13 +2138,13 @@ specified in the <code>props</code> object of a feed item. </p>
       
       
         
-        <a href="../mastersystem/" class="md-footer__link md-footer__link--next" aria-label="Next: Master System" rel="next">
+        <a href="../sg1000/" class="md-footer__link md-footer__link--next" aria-label="Next: SG-1000" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Master System
+              SG-1000
             </div>
           </div>
           <div class="md-footer__button md-icon">
