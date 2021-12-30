@@ -36,6 +36,7 @@ nav:
         - SNES: apps/emulators/snes/index.md
         - GBA: apps/emulators/gba/index.md
       - Sega:
+        - SG-1000: apps/emulators/sg1000/index.md
         - Master System: apps/emulators/mastersystem/index.md
         - Genesis: apps/emulators/genesis/index.md
         - Game Gear: apps/emulators/gamegear/index.md
