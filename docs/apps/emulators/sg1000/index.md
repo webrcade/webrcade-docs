@@ -69,7 +69,7 @@ specified in the `props` object of a feed item.
 
 The following is an example of a complete feed that consists of a single SG-1000 application instance (`type` value of `sg1000`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent homebrew game Cheril Perils Classic by Mojon Twins.
 
-``` json hl_lines="11 13 14"
+``` json hl_lines="12 14"
 {
   "title": "SG-1000 Feed",
   "longTitle": "Sega SG-1000 Example Feed",
