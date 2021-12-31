@@ -5,7 +5,7 @@
 The Game Boy application for [webЯcade](https://www.webrcade.com) is an emulator for the [Game Boy](https://en.wikipedia.org/wiki/Game_Boy) handheld game console.
 
 <figure>
-  <img src="../../../assets/images/apps/gb.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
+  <img src="../../../assets/images/apps/gb-border.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Rocket Man (Demo) by Light Games</figcaption>
 </figure>
 
@@ -70,14 +70,17 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a Game Boy ROM file or a zip file containing a ROM file. |
-| hwType | Numeric | No | The type of hardware to emulate.<br><ul><li>`0` : Automatic</li><li>`1` : Game Boy Color</li><li>`2` : Super Game Boy</li><li>`3` : Game Boy</li><li>`4` : Game Boy Advance</li><li>`5` : Super Game Boy 2</li></ul> |
-| colors | Numeric | No | The palette to use for the Game Boy screen colors (only applicable for the `Game Boy` hardware type).<br><ul><li>`0` : Standard</li><li>`1` : Blue Sea</li><li>`2` : Dark Night</li><li>`3` : Green Forest</li><li>`4` : Hot Desert</li><li>`5` : Pink Dreams</li><li>`6` : Odd Colors</li><li>`7` : Game Boy</li><li>`8` : Game Boy on GBA SP</li></ul> |
+| hwType | Numeric | No | The type of hardware to emulate (defaults to `Automatic`).<br><ul><li>`0` : Automatic</li><li>`1` : Game Boy Color</li><li>`2` : Super Game Boy</li><li>`3` : Game Boy</li><li>`4` : Game Boy Advance</li><li>`5` : Super Game Boy 2</li></ul> |
+| colors | Numeric | No | The palette to use for the Game Boy screen colors (only applicable for the `Game Boy` hardware type, defaults to `Standard`).<br><ul><li>`0` : Standard</li><li>`1` : Blue Sea</li><li>`2` : Dark Night</li><li>`3` : Green Forest</li><li>`4` : Hot Desert</li><li>`5` : Pink Dreams</li><li>`6` : Odd Colors</li><li>`7` : Game Boy</li><li>`8` : Game Boy on GBA SP</li></ul> |
+| border | Numeric | No | Whether to display a border around the screen (defaults to `Off`).<br><ul><li>`0` : Off</li><li>`1` : On</li><li>`2` : Automatic</li></ul> |
 
 ### Example
 
-The following is an example of a complete feed that consists of a single Game Boy application instance (`type` value of `gb`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent homebrew game Rocket Man (Demo) by Light Games. It is also important to note that the `hwType` value has also been set to `5` to force the emulated hardware to be the `Super Game Boy 2`.
+The following is an example of a complete feed that consists of a single Game Boy application instance (`type` value of `gb`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent demo of the homebrew game Rocket Man by Light Games. 
 
-``` json hl_lines="12 14-15"
+The `hwType` value has been set to `5` to force the emulated hardware to be the `Super Game Boy 2`. The `border` value has also been set to `1` to enable the game's custom border on the Super Game Boy. Neither of these options are required, but can be used to customize the experience for each game.
+
+``` json hl_lines="12 14-16"
 {
   "title": "Game Boy Feed",
   "longTitle": "Nintendo Game Boy Example Feed",
@@ -92,7 +95,8 @@ The following is an example of a complete feed that consists of a single Game Bo
           "type": "gb",
           "props": {              
             "rom": "https://dl.dropboxusercontent.com/s/0z8wwdxk54v9dgi/Rocket%20Man%20%28Demo%29%20v1.2.1.gb",
-            "hwType": 5
+            "hwType": 5,
+            "border": 1
           }
         }
       ]
