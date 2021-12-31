@@ -71,7 +71,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a Game Boy ROM file or a zip file containing a ROM file. |
 | hwType | Numeric | No | The type of hardware to emulate (defaults to `Automatic`).<br><ul><li>`0` : Automatic</li><li>`1` : Game Boy Color</li><li>`2` : Super Game Boy</li><li>`3` : Game Boy</li><li>`4` : Game Boy Advance</li><li>`5` : Super Game Boy 2</li></ul> |
-| colors | Numeric | No | The palette to use for the Game Boy screen colors (only applicable for the `Game Boy` hardware type, defaults to `Standard`).<br><ul><li>`0` : Standard</li><li>`1` : Blue Sea</li><li>`2` : Dark Night</li><li>`3` : Green Forest</li><li>`4` : Hot Desert</li><li>`5` : Pink Dreams</li><li>`6` : Odd Colors</li><li>`7` : Game Boy</li><li>`8` : Game Boy on GBA SP</li></ul> |
+| colors | Numeric | No | The palette to use for the Game Boy screen colors (only applicable for the `Game Boy` hardware type, defaults to `Standard`).<br><ul><li>`0` : Standard</li><li>`1` : Game Boy</li><li>`2` : Game Boy on GBA SP</li></ul> |
 | border | Numeric | No | Whether to display a border around the screen (defaults to `Off`).<br><ul><li>`0` : Off</li><li>`1` : On</li><li>`2` : Automatic</li></ul> |
 
 ### Example
