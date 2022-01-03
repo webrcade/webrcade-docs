@@ -1042,6 +1042,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../gbc/" class="md-nav__link">
+        Game Boy Color
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../gba/" class="md-nav__link">
         Game Boy Advance
       </a>
@@ -2036,7 +2050,13 @@ specified in the <code>props</code> object of a feed item. </p>
 <td>colors</td>
 <td>Numeric</td>
 <td>No</td>
-<td>The palette to use for the Game Boy screen colors (only applicable for the <code>Game Boy</code> hardware type, defaults to <code>Standard</code>).<br><ul><li><code>0</code> : Standard</li><li><code>1</code> : Game Boy</li><li><code>2</code> : Game Boy on GBA SP</li></ul></td>
+<td>The category of colors to use for the display. (defaults to Grayscale).<br><ul><li><code>0</code> : Grayscale</li><li><code>1</code> : Greenscale</li><li><code>2</code> : Super Game Boy</li></ul></td>
+</tr>
+<tr>
+<td>palette</td>
+<td>Numeric</td>
+<td>No</td>
+<td>The specific palette to use within the selected color category (see <code>colors</code> property).<br><br> This value defaults to the first palette available within the selected color category.<br><br>Each color category has a set of palettes available for selection. The simplest way to determine a specific palette value for this property is by using the <a href="../../../editor/">Feed Editor</a>, selecting a palette, exporting the feed and viewing the numeric value for the selected palette.</td>
 </tr>
 <tr>
 <td>border</td>
@@ -2123,13 +2143,13 @@ specified in the <code>props</code> object of a feed item. </p>
       
       
         
-        <a href="../gba/" class="md-footer__link md-footer__link--next" aria-label="Next: Game Boy Advance" rel="next">
+        <a href="../gbc/" class="md-footer__link md-footer__link--next" aria-label="Next: Game Boy Color" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Game Boy Advance
+              Game Boy Color
             </div>
           </div>
           <div class="md-footer__button md-icon">
