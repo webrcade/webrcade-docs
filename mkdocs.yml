@@ -35,6 +35,7 @@ nav:
         - NES: apps/emulators/nes/index.md
         - SNES: apps/emulators/snes/index.md
         - Game Boy: apps/emulators/gb/index.md
+        - Game Boy Color: apps/emulators/gbc/index.md
         - Game Boy Advance: apps/emulators/gba/index.md
       - Sega:
         - SG-1000: apps/emulators/sg1000/index.md

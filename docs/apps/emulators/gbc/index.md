@@ -1,12 +1,12 @@
-# Nintendo Game Boy
+# Nintendo Game Boy Color
 
 ## Overview
 
-The Game Boy application for [webЯcade](https://www.webrcade.com) is an emulator for the [Game Boy](https://en.wikipedia.org/wiki/Game_Boy) handheld game console.
+The Game Boy Color (GBC) application for [webЯcade](https://www.webrcade.com) is an emulator for the [Game Boy Color](https://en.wikipedia.org/wiki/Game_Boy_Color) handheld game console.
 
 <figure>
-  <img src="../../../assets/images/apps/gb-border.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
-  <figcaption>Rocket Man (Demo) by Light Games</figcaption>
+  <img src="../../../assets/images/apps/gbc.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
+  <figcaption>µCity by Antonio Niño Díaz</figcaption>
 </figure>
 
 
@@ -48,56 +48,47 @@ Gamepad mappings are listed below.
 
 ## Battery-backed SRAM
 
-Some Game Boy cartridges include battery-backed SRAM as a means of preserving state between sessions. The Game Boy application supports persisting this SRAM state into the browser's local storage. The SRAM contents will be persisted to local storage whenever the pause screen is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.
+Some Game Boy Color cartridges include battery-backed SRAM as a means of preserving state between sessions. The Game Boy Color application supports persisting this SRAM state into the browser's local storage. The SRAM contents will be persisted to local storage whenever the pause screen is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.
 
 ## Feed 
 
-This section details how Game Boy application instances can be added to feeds.
+This section details how Game Boy Color application instances can be added to feeds.
 
 ### Type
 
-The type name for the Game Boy application is `vba-m-gb`. 
+The type name for the Game Boy Color application is `vba-m-gbc`. 
 
 !!! note
-    The alias `gb` also currently maps to this application. In the future, the `gb` alias may be mapped
-    to another Nintendo Game Boy application (different emulator implementation) if it is determined to be a more appropriate default.
+    The alias `gbc` also currently maps to this application. In the future, the `gbc` alias may be mapped
+    to another Nintendo Game Boy Color application (different emulator implementation) if it is determined to be a more appropriate default.
 
 ### Properties
 
-The table below contains the properties that are specific to the Game Boy application. These properties are
+The table below contains the properties that are specific to the Game Boy Color application. These properties are
 specified in the `props` object of a feed item. 
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| rom | URL | Yes | URL to a Game Boy ROM file or a zip file containing a ROM file. |
-| hwType | Numeric | No | The type of hardware to emulate (defaults to `Automatic`).<br><ul><li>`0` : Automatic</li><li>`1` : Game Boy Color</li><li>`2` : Super Game Boy</li><li>`3` : Game Boy</li><li>`4` : Game Boy Advance</li><li>`5` : Super Game Boy 2</li></ul> |
-| colors | Numeric | No | The category of colors to use for the display. (defaults to Grayscale).<br><ul><li>`0` : Grayscale</li><li>`1` : Greenscale</li><li>`2` : Super Game Boy</li></ul> |
-| palette | Numeric | No | The specific palette to use within the selected color category (see `colors` property).<br><br> This value defaults to the first palette available within the selected color category.<br><br>Each color category has a set of palettes available for selection. The simplest way to determine a specific palette value for this property is by using the [Feed Editor](../../../editor/index.md), selecting a palette, exporting the feed and viewing the numeric value for the selected palette.  |
-| border | Numeric | No | Whether to display a border around the screen (defaults to `Off`).<br><ul><li>`0` : Off</li><li>`1` : On</li><li>`2` : Automatic</li></ul> |
+| rom | URL | Yes | URL to a Game Boy Color ROM file or a zip file containing a ROM file. |
 
 ### Example
 
-The following is an example of a complete feed that consists of a single Game Boy application instance (`type` value of `gb`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent demo of the homebrew game Rocket Man by Light Games. 
-
-The `hwType` value has been set to `5` to force the emulated hardware to be the `Super Game Boy 2`. The `border` value has also been set to `1` to enable the game's custom border on the Super Game Boy. Neither of these options are required, but can be used to customize the experience for each game.
+The following is an example of a complete feed that consists of a single Game Boy Color application instance (`type` value of `gbc`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent homebrew game µCity by Antonio Niño Díaz
 
 ``` json hl_lines="12 14-16"
 {
-  "title": "Game Boy Feed",
-  "longTitle": "Nintendo Game Boy Example Feed",
+  "title": "Game Boy Color Feed",
+  "longTitle": "Nintendo Game Boy Color Example Feed",
   "categories": [
     {
-      "title": "Game Boy Games",
-      "longTitle": "Nintendo Game Boy Games",
+      "title": "Game Boy Color Games",
+      "longTitle": "Nintendo Game Boy Color Games",
       "items": [
         {
-          "title": "Rocket Man",
-          "longTitle": "Rocket Man (Demo)",
-          "type": "gb",
+          "title": "µCity",
+          "type": "gbc",
           "props": {              
-            "rom": "https://dl.dropboxusercontent.com/s/0z8wwdxk54v9dgi/Rocket%20Man%20%28Demo%29%20v1.2.1.gb",
-            "hwType": 5,
-            "border": 1
+            "rom": "https://dl.dropboxusercontent.com/s/l7iwsmwbcbjqyfe/ucity.gbc"
           }
         }
       ]
@@ -108,8 +99,8 @@ The `hwType` value has been set to `5` to force the emulated hardware to be the 
 
 This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
 
-`https://tinyurl.com/sample-gb-feed`
+`https://tinyurl.com/sample-gbc-feed`
 
 ## References
 
-- [Nintendo Game Boy Application GitHub Repository](https://github.com/webrcade/webrcade-app-vba-m)
+- [Nintendo Game Boy Color Application GitHub Repository](https://github.com/webrcade/webrcade-app-vba-m)
