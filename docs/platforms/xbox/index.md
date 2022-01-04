@@ -25,26 +25,39 @@ To launch webЯcade, perform the following steps:
 * Select the `"See all"` option.
 * A screen similar to the one shown below should be displayed.
 
-![](../../assets/images/platforms/xbox/launch-edge-new.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-launch-edge.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 * Select the `"Apps"` category on the left.
 * Select the `"Microsoft Edge"` application.
 
-![](../../assets/images/platforms/xbox/select-url-new.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-select-url.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 * The `"Microsoft Edge"` browser should be launched and appear similar to the screen above.
 * Use the left analog stick to navigate to the address bar (see screen above).
 * Once the address is highlighted, press the `A` button.
 
-![](../../assets/images/platforms/xbox/enter-url-new.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-enter-url.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 * At this point the text entry screen should be displayed (see screen above).
 * Enter the following address: `"play.webrcade.com"`
 
-![](../../assets/images/platforms/xbox/webrcade-new.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-webrcade.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 * At this point, the webЯcade player should be displayed (see screen above).
-* The `"Game controls"` input mode should be selected by default, allowing for navigating the webЯcade player (front-end) via the controller. If this is not the case, refer to the ["Game and Browsing Controls"](#game-and-browsing-controls) section below.
+* Unfortunately, at the time of this writing, the Edge browser defaults to `Browsing Controls` mode (versus `Game Controls` mode) when webЯcade is loaded.
+    * The current mode can be confirmed by examining the controller icon in the navigation bar (highlighted in red in the screenshot above). If a red `X` is shown in the bottom-right portion of the controller, the page is currently in `Browsing Controls` mode.  
+
+![](../../assets/images/platforms/xbox/new-browsing-controls-message.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* WebЯcade continually examines gamepad inputs and attempts to detect when the page is operating in `Browsing Controls` mode. If it determines the page is in `Browsing Controls` mode, the message shown in the screenshot above will be displayed, prompting for a switch to `Game Controls` mode.
+
+![](../../assets/images/platforms/xbox/new-use-browsing-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* To switch to `Game Controls` from `Browsing Controls` mode, hold down on the :material-microsoft-xbox-controller-menu: `Menu` button until the context menu is displayed. At that point use the left analog stick to hover over the `Use game controls` option and then press the `A` button (see screenshot above).
+
+![](../../assets/images/platforms/xbox/new-game-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* At this point, the controller icon in the navigation bar (highlighted in red in the screenshot above) should be light blue in color without the red `X`, indicating that the page is in `Game Controls` mode.
 
 ## Alternate controls
 
@@ -59,32 +72,31 @@ Due to defects (see [View button defect](#view-button-defect), below) present in
 
 ## Game and Browsing Controls
 
-The Microsoft Edge browser for Xbox support two distinct control modes, `Game` and `Browsing`. `Game` mode is used when navigating the webЯcade player (front-end) or playing games. The `Browsing` mode can be used to access the navigation bar at the top (address, settings, etc.).
+The Microsoft Edge browser for Xbox supports two distinct control modes, `Game Controls` and `Browsing Controls`. `Game` mode is used when navigating the webЯcade player (front-end) or playing games. The `Browsing` mode can be used to access the navigation bar at the top (address, settings, etc.).
 
-Holding down the :material-microsoft-xbox-controller-menu: `Menu` button when in `Game` mode will switch to `Browsing` mode and display a context menu similar to the one shown in the screen below.
+![](../../assets/images/platforms/xbox/new-use-browsing-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-![](../../assets/images/platforms/xbox/use-browsing-controls-new.png){: style="padding:5px 15px;" class="center zoomD"}
+To switch to `Game Controls` from `Browsing Controls` mode, hold down on the :material-microsoft-xbox-controller-menu: `Menu` button until the context menu is displayed. At that point use the left analog stick to hover over the `Use game controls` option and then press the `A` button (see screen above).
 
-To switch to `Game` from `Browsing` mode, hold down on the :material-microsoft-xbox-controller-menu: `Menu` button until the context menu is displayed. At that point use the left analog stick to hover over the `Use game controls` option and then press the `A` button (see screen below).
+![](../../assets/images/platforms/xbox/new-game-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-![](../../assets/images/platforms/xbox/use-game-controls-new.png){: style="padding:5px 15px;" class="center zoomD"}
+* At this point, the controller icon in the navigation bar (highlighted in red in the screenshot above) should be light blue in color without a red `X`, indicating that the page is in `Game Controls` mode.
+
+Holding down the :material-microsoft-xbox-controller-menu: `Menu` button when in `Game Controls` mode will switch to `Browsing Controls` mode. The controller icon in the navigation bar will have a red `X` in the bottom-right portion of the controller, indicating that the page is currently in `Browsing Controls` mode.
 
 ## Full Screen Mode
 
 The :material-microsoft-xbox-controller-view: `View` button can be used to toggle between "Full Screen" and "Standard" (with top navigation bar) display modes.
 
+Hold down the :material-microsoft-xbox-controller-view: `View` button when in standard mode to switch to full screen mode (see screen below).
 
-Hold down the :material-microsoft-xbox-controller-view: `View` button when in tabbed mode to switch to full screen mode (see screen below).
-
-![](../../assets/images/platforms/xbox/full-screen-mode-new.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-view-button-defect.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 !!! note
     Due to a defect related to the view button (see [View button defect](#view-button-defect), below),
-    the alert dialog shown in the screen above will be displayed each time the view button is pressed. 
-    This alert dialog attempts to work around an issue where pressing the view button causes the current
-    page to lose focus. When presented with this alert dialog, simply click the `B` button to close it.    
+    the message shown in the screen above will be displayed each time the view button is pressed. This message indicates that the page has lost focus. To regain focus when this occurs, simply open and close the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller). 
 
-Hold down the :material-microsoft-xbox-controller-view: `View` button when in full screen mode to switch back to tabbed mode.
+Hold down the :material-microsoft-xbox-controller-view: `View` button when in full screen mode to switch back to standard mode.
 
 
 ## Troubleshooting
@@ -97,19 +109,17 @@ A defect currently exists in the recently released Microsoft Edge browser for Xb
 focus being lost from the current page when the :material-microsoft-xbox-controller-view: `View`
 button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade player (front-end) or related screens. 
 
-When webЯcade detects that this issue is about to occur, the alert dialog shown in the screen below will be displayed. Simply click the `B` button to dismiss the dialog, and focus should be correctly restored (the
-controller should be able to navigate the webЯcade player (front-end) and screens).
+When webЯcade detects that focus has been lost, the message shown in the screen below will be displayed. To regain focus when this occurs, simply open and close the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller).
 
-If the issue is not resolved after dismissing the dialog, refer to the other methods that are documented
-in this troubleshooting section.
+If focus has not been restored after opening and closing the guide menu, refer to the other troubleshooting methods described in this section.
 
-![](../../assets/images/platforms/xbox/view-button-defect.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-view-button-defect.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 ### Display Guide
 
 Sometimes simply opening and closing the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller) can resolve issues. For example, opening and closing the guide will typically restore focus to the page after it has been inadvertently lost (see [View button defect](#view-button-defect), above).
 
-![](../../assets/images/platforms/xbox/display-guide-new.png){: style="padding:5px 15px;" class="center zoomD"}
+![](../../assets/images/platforms/xbox/new-display-guide.png){:style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 ### Refresh Page
 
