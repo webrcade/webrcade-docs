@@ -3,7 +3,7 @@ site_name: webЯcade Docs
 repo_url: https://github.com/webrcade/webrcade-docs
 edit_uri: edit/main/docs/
 dev_addr: '127.0.0.1:8080'
-copyright: "&copy; Copyright webЯcade 2021"
+copyright: "&copy; Copyright webЯcade 2022"
 
 nav:
   - About: index.md
@@ -110,7 +110,7 @@ extra_javascript:
   - javascripts/extra.js  
 
 theme:
-  copyright: Copyright &copy; 2021 webЯcade
+  copyright: Copyright &copy; 2022 webЯcade
   name: 'material'
   logo: assets/images/webrcade-logo.svg
   palette:
