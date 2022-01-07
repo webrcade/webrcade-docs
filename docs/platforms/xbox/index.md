@@ -33,6 +33,29 @@ To launch webЯcade, perform the following steps:
 ![](../../assets/images/platforms/xbox/new-select-url.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
 * The `"Microsoft Edge"` browser should be launched and appear similar to the screen above.
+
+![](../../assets/images/platforms/xbox/edge-menu-settings.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+Prior to navigating to webЯcade, it is critical to ensure that Microsoft Edge does not have *borders* enabled. It is not clear why, but having *borders* enabled causes significant performance issues. 
+
+To check whether *borders* are enabled, perform the following steps:
+
+* Click the *more options* icon (:material-dots-horizontal:) on the right side of the navigation bar (see screen above).
+* Then, click the *Settings* icon (:material-cog-outline:) (see screen above).
+
+![](../../assets/images/platforms/xbox/edge-settings.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* Click the *System* icon (:fontawesome-solid-desktop:) within the left navigation bar (see screen above).
+* Click the *Link* icon (:octicons-link-external-16:) on the right side of the *Hide border* group within the *System* settings section (see screen above).
+
+![](../../assets/images/platforms/xbox/disable-border.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* Ensure that the *Apps can add a border* checkbox is disabled within the *Overscan border* section (or uncheck if currently enabled) (see screen above).
+* Press the `B` button twice to return to the Microsoft Edge browser.
+
+![](../../assets/images/platforms/xbox/new-select-url.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* At this point, we can go ahead and launch webЯcade. 
 * Use the left analog stick to navigate to the address bar (see screen above).
 * Once the address is highlighted, press the `A` button.
 
@@ -45,19 +68,19 @@ To launch webЯcade, perform the following steps:
 
 * At this point, the webЯcade player should be displayed (see screen above).
 * Unfortunately, at the time of this writing, the Edge browser defaults to `Browsing Controls` mode (versus `Game Controls` mode) when webЯcade is loaded.
-    * The current mode can be confirmed by examining the controller icon in the navigation bar (highlighted in red in the screenshot above). If a red `X` is shown in the bottom-right portion of the controller, the page is currently in `Browsing Controls` mode.  
+    * The current mode can be confirmed by examining the controller icon in the navigation bar (highlighted in red in the screen above). If a red `X` is shown in the bottom-right portion of the controller, the page is currently in `Browsing Controls` mode.  
 
 ![](../../assets/images/platforms/xbox/new-browsing-controls-message.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-* WebЯcade continually examines gamepad inputs and attempts to detect when the page is operating in `Browsing Controls` mode. If it determines the page is in `Browsing Controls` mode, the message shown in the screenshot above will be displayed, prompting for a switch to `Game Controls` mode.
+* WebЯcade continually examines gamepad inputs and attempts to detect when the page is operating in `Browsing Controls` mode. If it determines the page is in `Browsing Controls` mode, the message shown in the screen above will be displayed, prompting for a switch to `Game Controls` mode.
 
 ![](../../assets/images/platforms/xbox/new-use-browsing-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-* To switch to `Game Controls` from `Browsing Controls` mode, hold down on the :material-microsoft-xbox-controller-menu: `Menu` button until the context menu is displayed. At that point use the left analog stick to hover over the `Use game controls` option and then press the `A` button (see screenshot above).
+* To switch to `Game Controls` from `Browsing Controls` mode, hold down on the :material-microsoft-xbox-controller-menu: `Menu` button until the context menu is displayed. At that point use the left analog stick to hover over the `Use game controls` option and then press the `A` button (see screen above).
 
 ![](../../assets/images/platforms/xbox/new-game-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-* At this point, the controller icon in the navigation bar (highlighted in red in the screenshot above) should be light blue in color without the red `X`, indicating that the page is in `Game Controls` mode.
+* At this point, the controller icon in the navigation bar (highlighted in red in the screen above) should be light blue in color without the red `X`, indicating that the page is in `Game Controls` mode.
 
 ## Alternate controls
 
@@ -80,7 +103,7 @@ To switch to `Game Controls` from `Browsing Controls` mode, hold down on the :ma
 
 ![](../../assets/images/platforms/xbox/new-game-controls.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-* At this point, the controller icon in the navigation bar (highlighted in red in the screenshot above) should be light blue in color without a red `X`, indicating that the page is in `Game Controls` mode.
+* At this point, the controller icon in the navigation bar (highlighted in red in the screen above) should be light blue in color without a red `X`, indicating that the page is in `Game Controls` mode.
 
 Holding down the :material-microsoft-xbox-controller-menu: `Menu` button when in `Game Controls` mode will switch to `Browsing Controls` mode. The controller icon in the navigation bar will have a red `X` in the bottom-right portion of the controller, indicating that the page is currently in `Browsing Controls` mode.
 
@@ -147,6 +170,25 @@ Another option is to close the Microsoft Edge application and relaunch it. To re
 * Select the `Quit` option.
 * Select the `Microsoft Edge` application and press the `A` button to launch it.
 
+### Performance Issues (Disable Borders)
+
+It is critical to ensure that Microsoft Edge does not have *borders* enabled. It is not clear why, but having *borders* enabled causes significant performance issues. 
+
+![](../../assets/images/platforms/xbox/edge-menu-settings.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+To check whether *borders* are enabled, perform the following steps:
+
+* Click the *more options* icon (:material-dots-horizontal:) on the right side of the navigation bar (see screen above).
+* Then, click the *Settings* icon (:material-cog-outline:) (see screen above).
+
+![](../../assets/images/platforms/xbox/edge-settings.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* Click the *System* icon (:fontawesome-solid-desktop:) within the left navigation bar (see screen above).
+* Click the *Link* icon (:octicons-link-external-16:) on the right side of the *Hide border* group within the *System* settings section (see screen above).
+
+![](../../assets/images/platforms/xbox/disable-border.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
+
+* Ensure that the *Apps can add a border* checkbox is disabled within the *Overscan border* section (or uncheck if currently enabled) (see screen above).
 
 
 
