@@ -75,7 +75,7 @@ specified in the `props` object of a feed item.
 
 The following is an example of a complete feed that consists of a single Game Boy Color application instance (`type` value of `gbc`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent homebrew game µCity by Antonio Niño Díaz
 
-``` json hl_lines="12 14-16"
+``` json hl_lines="11 13"
 {
   "title": "Game Boy Color Feed",
   "longTitle": "Nintendo Game Boy Color Example Feed",
