@@ -1896,7 +1896,7 @@
 <p>This page details the <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> (JavaScript Object Notation) format of a webЯcade feed along with a fully-formed <a href="#complete-example">concrete example</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The dimensions of thumbnail images referenced in the feed must be <code>400x300</code> or they will not be displayed. This restriction may be removed in the future.</p>
+<p>The dimensions of thumbnail images referenced in the feed must be <code>400x300</code> or they may not be displayed (a proxy server is used in an attempt to dynamically resize non-conformant images, but is not guaranteed to work). This restriction may be removed in the future.</p>
 </div>
 <h2 id="feed-object">Feed Object</h2>
 <p>The feed (root) object of a webЯcade feed includes high-level information about the feed, including a title, an optional description, and optional images. The feed object also includes a list of categories contained in the feed.</p>
@@ -1940,7 +1940,7 @@
 <td>thumbnail</td>
 <td>URL</td>
 <td>No</td>
-<td>The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be <code>400x300</code>.</td>
+<td>The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be <code>400x300</code> or it may not be displayed.</td>
 </tr>
 <tr>
 <td>background</td>
@@ -2027,7 +2027,7 @@
 <td>thumbnail</td>
 <td>URL</td>
 <td>No</td>
-<td>The location (URL) of a thumbnail image for the category.<br><br>The dimensions of the image must be <code>400x300</code>.</td>
+<td>The location (URL) of a thumbnail image for the category.<br><br>The dimensions of the image must be <code>400x300</code> or it may not be displayed.</td>
 </tr>
 <tr>
 <td>background</td>
@@ -2118,7 +2118,7 @@
 <td>thumbnail</td>
 <td>URL</td>
 <td>No</td>
-<td>The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be <code>400x300</code>.</td>
+<td>The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be <code>400x300</code> or it may not be displayed.</td>
 </tr>
 <tr>
 <td>background</td>
