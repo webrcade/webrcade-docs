@@ -3,7 +3,7 @@
 This page details the [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) format of a webЯcade feed along with a fully-formed [concrete example](#complete-example).
 
 !!! note
-    The dimensions of thumbnail images referenced in the feed must be `400x300` or they will not be displayed. This restriction may be removed in the future.
+    The dimensions of thumbnail images referenced in the feed must be `400x300` or they may not be displayed (a proxy server is used in an attempt to dynamically resize non-conformant images, but is not guaranteed to work). This restriction may be removed in the future.
 
 ## Feed Object
 
@@ -19,7 +19,7 @@ The table below contains the properties available for the feed object.
 | longTitle | String | No | A long title for the feed (will be used in locations with additional room for display). |
 | categories | Array of [Category](#category-object) objects | Yes | An array containing the categories associated with the feed (see [Category](#category-object) object).<br><br>The order that the categories appear in the array is identical to the order they will be presented in the [webЯcade player](../userguide/index.md) (they are not sorted).<br><br>A feed must contain at least one category. |
 | description | String | No | A description of the feed. |
-| thumbnail | URL | No | The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be `400x300`. |
+| thumbnail | URL | No | The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be `400x300` or it may not be displayed. |
 | background | URL | No | The location (URL) of a background image for the feed. |
 
 ### Example
@@ -78,7 +78,7 @@ The table below contains the properties available for category objects.
 | longTitle | String | No | A long title for the category (will be used in locations with additional room for display). |
 | items | Array of [Item](#item-object) objects | Yes | An array containing the items associated with the category (see [Item](#item-object) object).<br><br>The items will be sorted alphanumerically prior to being displayed in the webЯcade player. |
 | description | String | No | A description of the category. |
-| thumbnail | URL | No | The location (URL) of a thumbnail image for the category.<br><br>The dimensions of the image must be `400x300`. |
+| thumbnail | URL | No | The location (URL) of a thumbnail image for the category.<br><br>The dimensions of the image must be `400x300` or it may not be displayed. |
 | background | URL | No | The location (URL) of a background image for the category. |
 
 ### Example
@@ -135,7 +135,7 @@ The table below contains the properties available for item objects.
 | type | String | Yes | The `type` of the item.<br><br>Refer to the [Applications](../apps/index.md) page for a list of available applications.<br><br>Each detailed application page contains a *"Feed"* section that includes the application-specific `type` value (see the [NES Application Type](../apps/emulators/nes/index.md#type) as an example). |
 | props | Type-specific object | Yes | The type-specific properties associated with the item.<br><br>Refer to the [Applications](../apps/index.md) section for the list of available applications.<br><br>Each detailed application page contains a *"Feed"* section that includes the list of available application-specific properties (see the [NES Application Properties](../apps/emulators/nes/index.md#properties) as an example). |
 | description | String | No | A description of the item. |
-| thumbnail | URL | No |  The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be `400x300`. |
+| thumbnail | URL | No |  The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be `400x300` or it may not be displayed. |
 | background | URL | No | The location (URL) of a background image for the item. |
 
 ### Example

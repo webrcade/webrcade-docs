@@ -32,16 +32,20 @@ All items associated with an emulator-based application contain a `ROM` field wh
 
 ## Thumbnail Tab
 
+The thumbnail tab allows a thumbnail for the item to be specified. The thumbnail image will be displayed in the [webЯcade player](../../userguide/index.md).
+
 ![](../../assets/images/editor/itemeditor/thumbnailtab.png){: class="center zoomD"}
 
 ### Fields
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Thumbnail location (URL) | This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test. |
-| Thumbnail image |  |
+| Thumbnail location (URL) | The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be 400x300 or it may not be displayed (see [Thumbnails](../thumbnails.md) section for more information).<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
+| Thumbnail image | The image corresponding to the specified URL in `Thumbnail location`.<br><br>Image-based URLs can be dragged and dropped on the image to set the `Thumbnail location` (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 
 ## Background Tab
+
+The background tab allows a background image for the item to be specified. The background image will be displayed in the [webЯcade player](../../userguide/index.md).
 
 ![](../../assets/images/editor/itemeditor/backgroundtab.png){: class="center zoomD"}
 
@@ -49,6 +53,6 @@ All items associated with an emulator-based application contain a `ROM` field wh
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Background location (URL) | This is a test to see what long text looks like in here. This text will ultimately be replaced, this is only a test. |
-| Pixelated Scaling |  |
-| Background image |  |
+| Background location (URL) | The location (URL) of a background image for the item.<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
+| Pixelated Scaling | Whether to pixelate the image when it is sized to fit the dimensions of the [webЯcade player](../../userguide/index.md). This option should typically be enabled when a screenshot with smaller dimensions is being used as a background image. Without enabling this option, the screenshot will most likely appear blurry when stretched to fit the player's dimensions. |
+| Background image | The image corresponding to the specified URL in `Background location`.<br><br>Image-based URLs can be dragged and dropped on the image to set the `Background location` (see [Drag Images](../draganddrop.md#drag-images) for more information).   |
