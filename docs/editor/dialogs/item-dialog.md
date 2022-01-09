@@ -40,7 +40,7 @@ The thumbnail tab allows a thumbnail for the item to be specified. The thumbnail
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Thumbnail location (URL) | The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be 400x300 or it may not be displayed (see [Thumbnails](../thumbnails.md) section for more information).<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
+| Thumbnail location (URL) | The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be `400x300` or it may not be displayed (see [Thumbnails](../thumbnails.md) section for more information).<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 | Thumbnail image | The image corresponding to the specified URL in `Thumbnail location`.<br><br>Image-based URLs can be dragged and dropped on the image to set the `Thumbnail location` (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 
 ## Background Tab
