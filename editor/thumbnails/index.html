@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#thumbnails" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1618,6 +1623,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Thumbnails
@@ -1648,6 +1655,25 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -1659,9 +1685,17 @@
                 
                 
                 
-                  <h1>Thumbnails</h1>
-                
-                
+                <h1 id="thumbnails">Thumbnails</h1>
+<p>Currently, the required dimensions for thumbnail images within webЯcade is <code>400x300</code>. If an image is used that does not meet those specifications a yellow warning border will appear around the URL fields located on <code>Thumbnail Tabs</code> in the editor (see screen below).</p>
+<p><img alt="" class="center zoomD" src="../../assets/images/editor/thumbnails.png" /></p>
+<p>When a non-compliant image is used, webЯcade attempts to use an external image processing proxy to resize it dynamically. This solution is less than ideal as it isn't compatible with all images or hosts, and isn't guaranteed to work long term. </p>
+<p>Therefore, it is recommended that non-compliant images are cropped and/or resized and subsequently published to an appropriate image hosting service (such as <a href="../../feeds/resources/imgur/">Imgur</a>).</p>
+<p>There are several options for resizing the image.</p>
+<ul>
+<li>If the image is displayed on the <code>Thumbnail Tab</code> (as is shown in the screen above), that indicates that the image proxy was able to successfully resize it. If that is the case, you can simply right click on the image and save it (it will be saved with the correct dimensions).</li>
+<li>Use the <a href="https://www.birme.net/?target_width=400&amp;target_height=300&amp;auto_focal=false">Birme</a> image resizing site (A link to the site is displayed directly under the <code>Thumbnail location</code> text field for non-compliant images, see image above).</li>
+<li>Use the <a href="https://onlinepngtools.com/fit-png-in-rectangle">PNG in Rectangle Fitter</a> image resizing site (A link to the site is displayed directly under the <code>Thumbnail location</code> text field for non-compliant images, see image above).</li>
+</ul>
                 
                   
 
