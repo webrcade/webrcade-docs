@@ -1893,7 +1893,7 @@
 </figure>
 
 <h2 id="controls">Controls</h2>
-<p>The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.</p>
+<p>The emulator supports up to five controllers (when Multitap is enabled). The keyboard and gamepad mappings are listed in the tables below.</p>
 <h3 id="keyboard">Keyboard</h3>
 <p>Keyboard support is only available for controller one.</p>
 <table>
@@ -1958,7 +1958,7 @@
 </tbody>
 </table>
 <h3 id="gamepad">Gamepad</h3>
-<p>Gamepad support is available for both controllers.</p>
+<p>Gamepad support is available for all controllers.</p>
 <table>
 <thead>
 <tr>
@@ -2086,6 +2086,12 @@ specified in the <code>props</code> object of a feed item. </p>
 <td>URL</td>
 <td>Yes</td>
 <td>URL to an SNES ROM file or a zip file containing a ROM file.</td>
+</tr>
+<tr>
+<td>port2</td>
+<td>Numeric</td>
+<td>No</td>
+<td>The type of controller that is plugged into port #2 (defaults to <code>Standard</code>).<br><ul><li><code>0</code> : Standard controller</li><li><code>1</code> : Multitap adapter (up to 5 controllers)</li></ul></td>
 </tr>
 </tbody>
 </table>
