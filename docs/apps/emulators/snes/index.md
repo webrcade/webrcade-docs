@@ -11,7 +11,7 @@ The Super Nintendo Entertainment System (SNES) application is an emulator for th
 
 ## Controls
 
-The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
+The emulator supports up to five controllers (when Multitap is enabled). The keyboard and gamepad mappings are listed in the tables below.
 
 ### Keyboard
 
@@ -32,7 +32,7 @@ Keyboard support is only available for controller one.
 
 ### Gamepad
 
-Gamepad support is available for both controllers.
+Gamepad support is available for all controllers.
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
@@ -79,6 +79,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
 | rom | URL | Yes | URL to an SNES ROM file or a zip file containing a ROM file. |
+| port2 | Numeric | No | The type of controller that is plugged into port #2 (defaults to `Standard`).<br><ul><li>`0` : Standard controller</li><li>`1` : Multitap adapter (up to 5 controllers)</li></ul> | 
 
 ### Example
 
