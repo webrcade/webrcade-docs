@@ -21,6 +21,7 @@ The table below contains the properties available for the feed object.
 | description | String | No | A description of the feed. |
 | thumbnail | URL | No | The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be `400x300` or it may not be displayed. |
 | background | URL | No | The location (URL) of a background image for the feed. |
+| props | Type-specific properties | No | Type-specific application properties that are global within the feed. For example, the [Atari Lynx Boot ROM](../apps/emulators/lynx/index.md#feed-properties) is specified within this set of properties.  |
 
 ### Example
 

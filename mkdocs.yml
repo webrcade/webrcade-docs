@@ -31,6 +31,7 @@ nav:
       - Atari:
         - 2600: apps/emulators/2600/index.md
         - 7800: apps/emulators/7800/index.md
+        - Lynx: apps/emulators/lynx/index.md
       - Bandai:
         - WonderSwan: apps/emulators/ws/index.md
       - NEC:        

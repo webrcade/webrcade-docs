@@ -1,4 +1,4 @@
-# Neo Geo Pocket (and Neo Geo Pocket Color)
+# SNK Neo Geo Pocket (and Neo Geo Pocket Color)
 
 ## Overview
 

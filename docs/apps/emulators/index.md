@@ -8,6 +8,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 |----------|------|
 | [Atari 2600](2600/index.md) | Emulator for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) game console |
 | [Atari 7800](7800/index.md) | Emulator for the [Atari 7800 ProSystem](https://en.wikipedia.org/wiki/Atari_7800) game console |
+| [Atari Lynx](lynx/index.md) | Emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console |
 | [Bandai WonderSwan](ws/index.md) | Emulator for the [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) and [WonderSwan Color](https://en.wikipedia.org/wiki/WonderSwan) handheld game consoles |
 | [NEC PC Engine](pce/index.md) | Emulator for the [PC Engine](https://en.wikipedia.org/wiki/TurboGrafx-16) and [TurboGrafx-16](https://en.wikipedia.org/wiki/TurboGrafx-16) game consoles |
 | [NEC SuperGrafx](sgx/index.md) | Emulator for the [PC Engine SuperGrafx](https://en.wikipedia.org/wiki/PC_Engine_SuperGrafx) game console |

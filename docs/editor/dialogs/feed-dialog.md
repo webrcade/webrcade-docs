@@ -22,6 +22,14 @@ The general tab consists of basic information about the feed (title, description
 | Long title | A long title for the feed (will be used in locations with additional room for display). |
 | Description | A description of the feed. |
 
+## Properties Tab
+
+The properties tab consists of fields that are global for the various [Application](../../apps/index.md) types that are contained within the feed. 
+
+![](../../assets/images/editor/feededitor/propertiestab.png){: class="center zoomD"}
+
+For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items.
+
 ## Thumbnail Tab
 
 The thumbnail tab allows a thumbnail for the feed to be specified. The thumbnail image will be displayed in the [webЯcade player](../../userguide/index.md).
