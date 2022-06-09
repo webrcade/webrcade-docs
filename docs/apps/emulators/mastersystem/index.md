@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Sega Master System application is an emulator for the [Sega Master System game console](https://en.wikipedia.org/wiki/Master_System). 
+The Sega Master System application is an emulator for the [Sega Master System game console](https://en.wikipedia.org/wiki/Master_System).
 
 <figure>
   <img src="../../../assets/images/apps/sms.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
@@ -19,11 +19,11 @@ Keyboard support is only available for controller one.
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |                  
-| 1/Start | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} | |                  
-| 2 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} | |                  
-| Pause | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |                  
-| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |                  
+| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |
+| 1/Start | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} | |
+| 2 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} | |
+| Pause | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |
+| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
 
 ### Gamepad
 
@@ -46,23 +46,23 @@ Gamepad support is available for both controllers.
 
 Some Master System cartridges include battery-backed SRAM as a means of preserving state between sessions. The Master System application supports persisting this SRAM state into the browser's local storage. The SRAM contents will be persisted to local storage whenever the pause screen is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.
 
-## Feed 
+## Feed
 
 This section details how Master System application instances can be added to feeds.
 
 ### Type
 
-The type name for the Master System application is `genplusgx-sms`. 
+The type name for the Master System application is `genplusgx-sms`.
 
 !!! note
     The alias `sms` also currently maps to this application. In the future, the `sms` alias may be mapped
-    to another Sega Master System application (different emulator implementation) if it is determined to be a 
+    to another Sega Master System application (different emulator implementation) if it is determined to be a
     more appropriate default.
 
 ### Properties
 
 The table below contains the properties that are specific to the Master System application. These properties are
-specified in the `props` object of a feed item. 
+specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|

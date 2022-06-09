@@ -1,11 +1,12 @@
 # Emulators
 
-The table below contains the list of all emulators that are currently supported by webЯcade. 
+The table below contains the list of all emulators that are currently supported by webЯcade.
 
 Clicking on the name of an *Emulator* in the table will navigate to a detailed page for the emulator that includes keyboard and gamepad control mappings as well as information related to utilizing the emulator within a webЯcade feed.
 
 | __Emulator__ | __Description__ |
 |----------|------|
+| [Arcade](arcade/index.md) | Emulator for various arcade hardware (both pre and post 90s) |
 | [Atari 2600](2600/index.md) | Emulator for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) game console |
 | [Atari 7800](7800/index.md) | Emulator for the [Atari 7800 ProSystem](https://en.wikipedia.org/wiki/Atari_7800) game console |
 | [Atari Lynx](lynx/index.md) | Emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console |
@@ -22,5 +23,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Sega Master System](mastersystem/index.md) | Emulator for the [Sega Master System](https://en.wikipedia.org/wiki/Master_System) game console |
 | [Sega Genesis](genesis/index.md) | Emulator for the [Sega Genesis](https://en.wikipedia.org/wiki/Sega_Genesis) game console |
 | [Sega Game Gear](gamegear/index.md) | Emulator for the [Sega Game Gear](https://en.wikipedia.org/wiki/Game_Gear) handheld game console |
+| [SNK Neo Geo](neogeo/index.md) | Emulator for the [Neo Geo](https://en.wikipedia.org/wiki/Neo_Geo_(system)) MVS (arcade) and AES (console) systems |
 | [SNK Neo Geo Pocket](ngp/index.md) | Emulator for the [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) and [Neo Geo Pocket Color](https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color) handheld game consoles |
+
 

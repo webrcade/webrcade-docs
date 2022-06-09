@@ -11,7 +11,7 @@ The feed (root) object of a webЯcade feed includes high-level information about
 
 ### Properties
 
-The table below contains the properties available for the feed object. 
+The table below contains the properties available for the feed object.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
@@ -21,7 +21,7 @@ The table below contains the properties available for the feed object.
 | description | String | No | A description of the feed. |
 | thumbnail | URL | No | The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be `400x300` or it may not be displayed. |
 | background | URL | No | The location (URL) of a background image for the feed. |
-| props | Type-specific properties | No | Type-specific application properties that are global within the feed. For example, the [Atari Lynx Boot ROM](../apps/emulators/lynx/index.md#feed-properties) is specified within this set of properties.  |
+| props | Type-specific properties | No | Type-specific application properties that are global within the feed. For example, the [Atari Lynx Boot ROM](../apps/emulators/lynx/index.md#feed-properties) and [Neo Geo BIOS](../apps/emulators/neogeo/index.md#feed-properties) are specified within this set of properties.  |
 
 ### Example
 
@@ -40,7 +40,7 @@ The following is an example of a simple webЯcade feed with the feed object prop
       "longTitle": "Shooter Games",
       "description": "A \"shoot 'em up\", also known as a \"shmup\" or \"STG\" (the common Japanese abbreviation for \"shooting games\"), is a game in which the protagonist combats a large number of enemies by shooting at them while dodging their fire.",
       "thumbnail": "https://i.imgur.com/OjDedze.jpg",
-      "background": "https://i.imgur.com/IfvC9S8.jpg",    
+      "background": "https://i.imgur.com/IfvC9S8.jpg",
       "items": [
         {
           "title": "Astro Force",
@@ -71,7 +71,7 @@ For a feed to be considered valid it must contain at least one category object.
 
 ### Properties
 
-The table below contains the properties available for category objects. 
+The table below contains the properties available for category objects.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
@@ -99,7 +99,7 @@ The following is an example of a simple webЯcade feed that includes a single ca
       "longTitle": "Shooter Games",
       "description": "A \"shoot 'em up\", also known as a \"shmup\" or \"STG\" (the common Japanese abbreviation for \"shooting games\"), is a game in which the protagonist combats a large number of enemies by shooting at them while dodging their fire.",
       "thumbnail": "https://i.imgur.com/OjDedze.jpg",
-      "background": "https://i.imgur.com/IfvC9S8.jpg",    
+      "background": "https://i.imgur.com/IfvC9S8.jpg",
       "items": [
         {
           "title": "Astro Force",
@@ -127,7 +127,7 @@ Item objects within a webЯcade feed correspond to items (games, etc.) that can 
 
 ### Properties
 
-The table below contains the properties available for item objects. 
+The table below contains the properties available for item objects.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
@@ -143,7 +143,7 @@ The table below contains the properties available for item objects.
 
 The following is an example of a simple webЯcade feed that includes a single item object whose properties are highlighted.
 
-The item below corresponds to the excellent Sega Genesis homebrew game Omega Blast by developer Nendo. The item has a `type` of `genesis` which corresponds to the [Sega Genesis Application](../apps/emulators/genesis/index.md). The `props` associated with the item includes a `rom` value that refers to a Dropbox location hosting the Omega Blast rom file (see [Genesis Application Properties](../apps/emulators/genesis/index.md#properties)). 
+The item below corresponds to the excellent Sega Genesis homebrew game Omega Blast by developer Nendo. The item has a `type` of `genesis` which corresponds to the [Sega Genesis Application](../apps/emulators/genesis/index.md). The `props` associated with the item includes a `rom` value that refers to a Dropbox location hosting the Omega Blast rom file (see [Genesis Application Properties](../apps/emulators/genesis/index.md#properties)).
 
 ``` json hl_lines="15-24"
 {
@@ -158,12 +158,12 @@ The item below corresponds to the excellent Sega Genesis homebrew game Omega Bla
       "longTitle": "Shooter Games",
       "description": "A \"shoot 'em up\", also known as a \"shmup\" or \"STG\" (the common Japanese abbreviation for \"shooting games\"), is a game in which the protagonist combats a large number of enemies by shooting at them while dodging their fire.",
       "thumbnail": "https://i.imgur.com/OjDedze.jpg",
-      "background": "https://i.imgur.com/IfvC9S8.jpg",    
+      "background": "https://i.imgur.com/IfvC9S8.jpg",
       "items": [
         {
           "title": "Omega Blast",
           "type": "genesis",
-          "description": "Omega Blast was created by homebrew developer Nendo. It is a bullet hell shooter in which you have 2 minutes to blast everything you possibly can to achieve the highest score.",          
+          "description": "Omega Blast was created by homebrew developer Nendo. It is a bullet hell shooter in which you have 2 minutes to blast everything you possibly can to achieve the highest score.",
           "thumbnail": "https://i.imgur.com/b0hu9rV.png",
           "background": "https://i.imgur.com/o0zxHO3.png",
           "props": {
@@ -187,7 +187,7 @@ The following is a complete example of a webЯcade feed that consists of two cat
 There is also a tab named, *"Shortened URLs*", wherein the links have been shortened (see [TinyURL page](./resources/tinyurl.md#shortened-urls)). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
 === "Full URLs"
-    ``` json 
+    ``` json
     {
       "title": "Example Feed",
       "longTitle": "WebЯcade Example Feed",
@@ -200,7 +200,7 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
           "longTitle": "Shooter Games",
           "description": "A \"shoot 'em up\", also known as a \"shmup\" or \"STG\" (the common Japanese abbreviation for \"shooting games\"), is a game in which the protagonist combats a large number of enemies by shooting at them while dodging their fire.",
           "thumbnail": "https://i.imgur.com/OjDedze.jpg",
-          "background": "https://i.imgur.com/IfvC9S8.jpg",    
+          "background": "https://i.imgur.com/IfvC9S8.jpg",
           "items": [
             {
               "title": "Astro Force",
@@ -225,7 +225,7 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
             {
               "title": "Omega Blast",
               "type": "genesis",
-              "description": "Omega Blast was created by homebrew developer Nendo. It is a bullet hell shooter in which you have 2 minutes to blast everything you possibly can to achieve the highest score.",          
+              "description": "Omega Blast was created by homebrew developer Nendo. It is a bullet hell shooter in which you have 2 minutes to blast everything you possibly can to achieve the highest score.",
               "thumbnail": "https://i.imgur.com/b0hu9rV.png",
               "background": "https://i.imgur.com/o0zxHO3.png",
               "props": {
@@ -239,7 +239,7 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
           "longTitle": "Puzzle Games",
           "description": "Puzzle video games make up a broad genre of video games that emphasize puzzle-solving. The types of puzzles can test many problem-solving skills including logic, pattern recognition, sequence solving, spatial recognition, and word completion.",
           "thumbnail": "https://i.imgur.com/rnKiCqW.jpg",
-          "background": "https://i.imgur.com/SikCzND.jpg",    
+          "background": "https://i.imgur.com/SikCzND.jpg",
           "items": [
             {
               "title": "Alter Ego",
@@ -250,11 +250,11 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
               "props": {
                 "rom": "https://dl.dropboxusercontent.com/s/v61vhu3nhzc0jt9/alterego.nes"
               }
-            }, 
+            },
             {
               "title": "Skipp and Friends",
               "type": "snes",
-              "description": "The object of the game is to move all three characters to the exit in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.",          
+              "description": "The object of the game is to move all three characters to the exit in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.",
               "thumbnail": "https://i.imgur.com/zNp5I6B.png",
               "background": "https://i.imgur.com/VaPqpBG.png",
               "props": {
@@ -277,8 +277,8 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
       ]
     }
     ```
-=== "Shortened URLs"   
-    ``` json 
+=== "Shortened URLs"
+    ``` json
     {
       "title": "Example Feed",
       "longTitle": "WebЯcade Example Feed",
@@ -291,7 +291,7 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
           "longTitle": "Shooter Games",
           "description": "A \"shoot 'em up\", also known as a \"shmup\" or \"STG\" (the common Japanese abbreviation for \"shooting games\"), is a game in which the protagonist combats a large number of enemies by shooting at them while dodging their fire.",
           "thumbnail": "http://tiny.cc/w1nluz",
-          "background": "http://tiny.cc/z1nluz",    
+          "background": "http://tiny.cc/z1nluz",
           "items": [
             {
               "title": "Astro Force",
@@ -316,7 +316,7 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
             {
               "title": "Omega Blast",
               "type": "genesis",
-              "description": "Omega Blast was created by homebrew developer Nendo. It is a bullet hell shooter in which you have 2 minutes to blast everything you possibly can to achieve the highest score.",          
+              "description": "Omega Blast was created by homebrew developer Nendo. It is a bullet hell shooter in which you have 2 minutes to blast everything you possibly can to achieve the highest score.",
               "thumbnail": "https://i.imgur.com/b0hu9rV.png",
               "background": "https://i.imgur.com/o0zxHO3.png",
               "props": {
@@ -330,7 +330,7 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
           "longTitle": "Puzzle Games",
           "description": "Puzzle video games make up a broad genre of video games that emphasize puzzle-solving. The types of puzzles can test many problem-solving skills including logic, pattern recognition, sequence solving, spatial recognition, and word completion.",
           "thumbnail": "http://tiny.cc/a2nluz",
-          "background": "http://tiny.cc/b2nluz",    
+          "background": "http://tiny.cc/b2nluz",
           "items": [
             {
               "title": "Alter Ego",
@@ -341,11 +341,11 @@ There is also a tab named, *"Shortened URLs*", wherein the links have been short
               "props": {
                 "rom": "http://tiny.cc/h2nluz"
               }
-            }, 
+            },
             {
               "title": "Skipp and Friends",
               "type": "snes",
-              "description": "The object of the game is to move all three characters to the exit in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.",          
+              "description": "The object of the game is to move all three characters to the exit in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.",
               "thumbnail": "http://tiny.cc/j2nluz",
               "background": "http://tiny.cc/l2nluz",
               "props": {

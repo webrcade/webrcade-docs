@@ -13,28 +13,29 @@ nav:
     - Windows (PC):
       - Overview: platforms/windows/index.md
       - Gamepads: platforms/windows/gamepads.md
-    - macOS (Mac): 
+    - macOS (Mac):
       - Overview: platforms/osx/index.md
       - Gamepads: platforms/osx/gamepads.md
-    - iOS: 
+    - iOS:
       - Overview: platforms/ios/index.md
       - Gamepads: platforms/ios/gamepads.md
-    - Android: 
+    - Android:
       - Overview: platforms/android/index.md
       - Gamepads: platforms/android/gamepads.md
-    - Xbox Series X|S: 
+    - Xbox Series X|S:
       - Overview: platforms/xbox/index.md
   - Applications:
     - Overview: apps/index.md
-    - Emulators: 
+    - Emulators:
       - Overview: apps/emulators/index.md
+      - Arcade: apps/emulators/arcade/index.md
       - Atari:
         - 2600: apps/emulators/2600/index.md
         - 7800: apps/emulators/7800/index.md
         - Lynx: apps/emulators/lynx/index.md
       - Bandai:
         - WonderSwan: apps/emulators/ws/index.md
-      - NEC:        
+      - NEC:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
         - SuperGrafx: apps/emulators/sgx/index.md
       - Nintendo:
@@ -50,15 +51,16 @@ nav:
         - Genesis: apps/emulators/genesis/index.md
         - Game Gear: apps/emulators/gamegear/index.md
       - SNK:
+        - Neo Geo: apps/emulators/neogeo/index.md
         - Neo Geo Pocket: apps/emulators/ngp/index.md
-    - Engines: 
+    - Engines:
       - Overview: apps/engines/index.md
       - Classic Doom: apps/engines/doom/index.md
   - Feeds:
     - Overview: feeds/index.md
     - Format: feeds/format.md
     - Tutorial: feeds/tutorial.md
-    - Resources: 
+    - Resources:
       - Overview: feeds/resources/index.md
       - Dropbox: feeds/resources/dropbox.md
       - Imgur: feeds/resources/imgur.md
@@ -68,7 +70,7 @@ nav:
   - Editor:
     - Overview: editor/index.md
     - Sidebar: editor/sidebar.md
-    - Feed Workspace: 
+    - Feed Workspace:
       - Overview: editor/workspace/index.md
       - Tabs:
         - Categories Tab: editor/workspace/categoriestab.md
@@ -81,26 +83,26 @@ nav:
     - General:
       - Drag and Drop: editor/draganddrop.md
       - Thumbnails: editor/thumbnails.md
-   
- 
+
+
 markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
-  - pymdownx.superfences  
+  - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.tasklist:
-      custom_checkbox: true  
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg      
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search
 
-extra:  
+extra:
   generator: false
   social:
     - icon: fontawesome/brands/youtube
@@ -116,7 +118,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
-  - javascripts/extra.js  
+  - javascripts/extra.js
 
 theme:
   copyright: Copyright &copy; 2022 webЯcade
@@ -126,7 +128,7 @@ theme:
     - scheme: slate
     #   toggle:
     #     icon: material/toggle-switch
-    #     name: Switch to light mode  
+    #     name: Switch to light mode
     # - scheme: default
     #   toggle:
     #     icon: material/toggle-switch-off-outline
@@ -136,11 +138,11 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections    
+    - navigation.sections
     - navigation.top
     - navigation.expand
-    #- navigation.indexes        
-    
+    #- navigation.indexes
+
 
 
 
