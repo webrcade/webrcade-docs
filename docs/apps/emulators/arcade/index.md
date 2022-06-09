@@ -4,7 +4,7 @@
 
 The Arcade application is an emulator for various arcade hardware (both pre and post 90s). The underlying emulator is [FinalBurn Neo](https://github.com/finalburnneo/FBNeo) version 1.0.0.2.
 
-See [this page](https://play-staging.webrcade.com/app/neo/js/gamelist-arcade.txt) for a detailed list of all games supported by this application.
+See [this page](https://play.webrcade.com/app/neo/js/gamelist-arcade.txt) for a detailed list of all games supported by this application.
 
 <figure>
   <img src="../../../assets/images/apps/arcade.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
@@ -71,9 +71,9 @@ Unlike other applications, the Arcade application supports multiple types. Havin
 
 | __Type__ | __Alias__ | __Game List__ | __Description__ |
 | --- | --- | --- | --- |
-| `fbneo-arcade` | `arcade` | [Supported Games](https://play-staging.webrcade.com/app/neo/js/gamelist-arcade.txt)  | This type supports all of the games that are compatible with the Arcade application. |
-| `fbneo-capcom` | `arcade-capcom` | [Supported Games](https://play-staging.webrcade.com/app/neo/js/gamelist-capcom.txt)  | This type supports Capcom games that are compatible with the Arcade application. |
-| `fbneo-konami` | `arcade-konami` | [Supported Games](https://play-staging.webrcade.com/app/neo/js/gamelist-konami.txt)  | This type supports Konami games that are compatible with the Arcade application. |
+| `fbneo-arcade` | `arcade` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-arcade.txt)  | This type supports all of the games that are compatible with the Arcade application. |
+| `fbneo-capcom` | `arcade-capcom` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-capcom.txt)  | This type supports Capcom games that are compatible with the Arcade application. |
+| `fbneo-konami` | `arcade-konami` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-konami.txt)  | This type supports Konami games that are compatible with the Arcade application. |
 
 !!! note
     The aliases listed above may be mapped to another arcade-based application (different emulator implementation)

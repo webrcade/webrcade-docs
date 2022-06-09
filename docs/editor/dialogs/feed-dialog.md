@@ -1,8 +1,8 @@
 # Feed Properties Editor
 
-The "Feed Properties Editor" is used to edit high-level information about the feed, including a title, an optional description, and optional images. 
+The "Feed Properties Editor" is used to edit high-level information about the feed, including a title, an optional description, and optional images.
 
-  * Categories can be added to the active feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md). 
+  * Categories can be added to the active feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md).
   * Items can be added to categories via the [Items Tab](../workspace/itemstab.md) of the [Feed Workspace](../workspace/index.md).
 
 !!! note
@@ -24,11 +24,12 @@ The general tab consists of basic information about the feed (title, description
 
 ## Properties Tab
 
-The properties tab consists of fields that are global for the various [Application](../../apps/index.md) types that are contained within the feed. 
+The properties tab consists of fields that are global for the various [Application](../../apps/index.md) types that are contained within the feed.
 
 ![](../../assets/images/editor/feededitor/propertiestab.png){: class="center zoomD"}
 
-For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items.
+For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items. The *Neo Geo BIOS* field is used to specify the location (URL) of a `.zip` file containing one or more Neo Geo BIOS files required by [Neo Geo](../../apps/emulators/neogeo/index.md) items.
+
 
 ## Thumbnail Tab
 

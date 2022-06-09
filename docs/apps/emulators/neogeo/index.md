@@ -6,7 +6,7 @@ The Neo Geo application is an emulator for the [Neo Geo](https://en.wikipedia.or
 
 The underlying emulator is [FinalBurn Neo](https://github.com/finalburnneo/FBNeo) version 1.0.0.2.
 
-See [this page](https://play-staging.webrcade.com/app/neo/js/gamelist-neogeo.txt) for a detailed list of all games supported by this application.
+See [this page](https://play.webrcade.com/app/neo/js/gamelist-neogeo.txt) for a detailed list of all games supported by this application.
 
 <figure>
   <img src="../../../assets/images/apps/neogeo.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
