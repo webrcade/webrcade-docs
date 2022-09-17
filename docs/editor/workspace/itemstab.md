@@ -1,6 +1,6 @@
 # Feed Items Tab
 
-The "Feed Items Tab" consists of the items (games, etc.) contained in the currently selected category of the active feed. 
+The "Feed Items Tab" consists of the items (games, etc.) contained in the currently selected category of the active feed.
 
 ![](../../assets/images/editor/workspace/itemstab-annotated.png){: class="center zoomD"}
 
@@ -8,7 +8,7 @@ The category drop-down list (*See #1 in screenshot above*) is used to selected t
 
 ## Items Table
 
-The "Items Table" contains the items (games, etc.) associated with the currently selected category (*See #1 in screenshot above*). 
+The "Items Table" contains the items (games, etc.) associated with the currently selected category (*See #1 in screenshot above*).
 
 The [Table Toolbar](#table-toolbar) consists of the various item-based actions that can be performed on the items table. The [Table Columns](#table-columns) section describes the columns that comprise the items table.
 
@@ -47,6 +47,7 @@ The "More Menu" provides additional actions that can be performed on the items t
 | --- | --- | --- |
 | Create From URLs | ![](../../assets/images/editor/icons/round_auto_awesome_white_24dp.png){: class="action"} | Displays the "Create Items From URLs" dialog.<br><br>See the [Create From URLS](#create-from-urls) section for complete information. |
 | Add from Dropbox | ![](../../assets/images/editor/icons/dropbox.png){: class="action"} | Displays the "Dropbox chooser".<br><br>See the [Add from Dropbox](#add-from-dropbox) section for complete information.   |
+| Copy stand-alone link (URL) | ![](../../assets/images/editor/icons/outline_link_white_24dp.png){: class="action"} | Creates a stand-alone link (direct link) to the selected item (game, etc.).<br><br>Stand-alone links can be shared, hosted via embedding, or added directly to mobile device home screens.<br><br>See the [Stand-alone](../../standalone/index.md) section for more information. |
 | Analyze | ![](../../assets/images/editor/icons/round_find_in_page_white_24dp.png){: class="action"} |  *Analyzes* the currently selected items.<br><br>Analysis of an item consists of determining and updating the following aspects of the item (if able to be discovered):<br><ul><li>The [Application](../../apps/index.md) for the item. (for ROM-based items)</li><li>The [Properties](../dialogs/item-dialog.md#properties-tab) for the item. (for ROM-based items)</li><li>The title (and long title) for the item.</li><li>The artwork (thumbnail and background images) for the item.</li></ul> The *analyze* operation is similar to *scraping* functionality found in other front-ends. The primary difference is that the *analyze* operation attempts to determine the application type and related properties in addition to meta-data (titles and artwork). |
 
 ### Add From Dropbox

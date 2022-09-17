@@ -2,7 +2,7 @@
 
 ## Overview
 
-This page provides information on how to obtain the optimal experience when using webЯcade with the Xbox Series X|S game consoles. 
+This page provides information on how to obtain the optimal experience when using webЯcade with the Xbox Series X|S game consoles.
 
 *It is important to note that while webЯcade is fully functional on previous generations of Xbox One consoles, there will most likely be performance issues.*
 
@@ -10,7 +10,7 @@ This page provides information on how to obtain the optimal experience when usin
     The Xbox Series X|S Edge browser was recently updated to use Blink as its browser engine
     (part of Chromium). As this is a very recent change, several defects have been detected
     and reported (see [View button defect](#view-button-defect), below). This page will be updated
-    to reflect newly reported bugs and if previous defects have been resolved. 
+    to reflect newly reported bugs and if previous defects have been resolved.
 
 ## Browser Support
 
@@ -36,7 +36,7 @@ To launch webЯcade, perform the following steps:
 
 ![](../../assets/images/platforms/xbox/edge-menu-settings.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-Prior to navigating to webЯcade, it is critical to ensure that Microsoft Edge does not have *borders* enabled. It is not clear why, but having *borders* enabled causes significant performance issues. 
+Prior to navigating to webЯcade, it is critical to ensure that Microsoft Edge does not have *borders* enabled. It is not clear why, but having *borders* enabled causes significant performance issues.
 
 To check whether *borders* are enabled, perform the following steps:
 
@@ -55,7 +55,7 @@ To check whether *borders* are enabled, perform the following steps:
 
 ![](../../assets/images/platforms/xbox/new-select-url.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
-* At this point, we can go ahead and launch webЯcade. 
+* At this point, we can go ahead and launch webЯcade.
 * Use the left analog stick to navigate to the address bar (see screen above).
 * Once the address is highlighted, press the `A` button.
 
@@ -68,7 +68,7 @@ To check whether *borders* are enabled, perform the following steps:
 
 * At this point, the webЯcade player should be displayed (see screen above).
 * Unfortunately, at the time of this writing, the Edge browser defaults to `Browsing Controls` mode (versus `Game Controls` mode) when webЯcade is loaded.
-    * The current mode can be confirmed by examining the controller icon in the navigation bar (highlighted in red in the screen above). If a red `X` is shown in the bottom-right portion of the controller, the page is currently in `Browsing Controls` mode.  
+    * The current mode can be confirmed by examining the controller icon in the navigation bar (highlighted in red in the screen above). If a red `X` is shown in the bottom-right portion of the controller, the page is currently in `Browsing Controls` mode.
 
 ![](../../assets/images/platforms/xbox/new-browsing-controls-message.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 
@@ -117,7 +117,7 @@ Hold down the :material-microsoft-xbox-controller-view: `View` button when in st
 
 !!! note
     Due to a defect related to the view button (see [View button defect](#view-button-defect), below),
-    the message shown in the screen above will be displayed each time the view button is pressed. This message indicates that the page has lost focus. To regain focus when this occurs, simply open and close the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller). 
+    the message shown in the screen above will be displayed each time the view button is pressed. This message indicates that the page has lost focus. To regain focus when this occurs, simply open and close the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller).
 
 Hold down the :material-microsoft-xbox-controller-view: `View` button when in full screen mode to switch back to standard mode.
 
@@ -128,9 +128,9 @@ Unfortunately, there may be times when webЯcade ceases to work correctly within
 
 ### View Button Defect
 
-A defect currently exists in the recently released Microsoft Edge browser for Xbox that results in 
+A defect currently exists in the recently released Microsoft Edge browser for Xbox that results in
 focus being lost from the current page when the :material-microsoft-xbox-controller-view: `View`
-button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade player (front-end) or related screens. 
+button is pressed. This ultimately results in the controller no longer being able to navigate the webЯcade player (front-end) or related screens.
 
 When webЯcade detects that focus has been lost, the message shown in the screen below will be displayed. To regain focus when this occurs, simply open and close the Guide menu (press the :fontawesome-brands-xbox: `Xbox` button on the controller).
 
@@ -172,7 +172,7 @@ Another option is to close the Microsoft Edge application and relaunch it. To re
 
 ### Performance Issues (Disable Borders)
 
-It is critical to ensure that Microsoft Edge does not have *borders* enabled. It is not clear why, but having *borders* enabled causes significant performance issues. 
+It is critical to ensure that Microsoft Edge does not have *borders* enabled. It is not clear why, but having *borders* enabled causes significant performance issues.
 
 ![](../../assets/images/platforms/xbox/edge-menu-settings.png){: style="margin:5px; border: 1px solid #666" class="center zoomD"}
 

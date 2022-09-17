@@ -1,6 +1,6 @@
 # Pastebin
 
-[Pastebin](https://pastebin.com/) can be used to host WebЯcade feed documents (see [Feed Format](../format.md)). 
+[Pastebin](https://pastebin.com/) can be used to host webЯcade feed documents (see [Feed Format](../format.md)).
 
 !!! note
     Although creating and logging into a [Pastebin](https://pastebin.com/) account is not required, it is
@@ -14,11 +14,11 @@ To host a feed in [Pastebin](https://pastebin.com/), perform the following steps
 
 ![](../../assets/images/feed/pastebin/site.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* Paste the WebЯcade feed content  (see [Feed Format](../format.md)) into the "`New Paste`" text area (see screenshot below).
+* Paste the webЯcade feed content  (see [Feed Format](../format.md)) into the "`New Paste`" text area (see screenshot below).
 
 ![](../../assets/images/feed/pastebin/paste.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* Scroll down (if necessary) until the "`Create New Paste`" button is shown. Click the "`Create New Paste`" button to create the new paste containing the WebЯcade feed (see screenshot below).
+* Scroll down (if necessary) until the "`Create New Paste`" button is shown. Click the "`Create New Paste`" button to create the new paste containing the webЯcade feed (see screenshot below).
 
 ![](../../assets/images/feed/pastebin/create.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -26,7 +26,7 @@ To host a feed in [Pastebin](https://pastebin.com/), perform the following steps
 
 ![](../../assets/images/feed/pastebin/posted.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* The WebЯcade feed URL will be shown in the browser's navigation bar (see screenshot below).
+* The webЯcade feed URL will be shown in the browser's navigation bar (see screenshot below).
 
 ![](../../assets/images/feed/pastebin/raw.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -34,6 +34,6 @@ The example from above can be tested by adding a feed with the following URL wit
 
 `https://pastebin.com/raw/sVhLPGkN`
 
-It is highly recommended that a link shortener such as [TinyURL](https://www.tinyurl.com) be utilized to alias the Pastebin URL to a more memorable URL (see [TinyURL page](./tinyurl.md#aliased-urls)). The following TinyURL-based URL will redirect to the above Pastebin URL. 
+It is highly recommended that a link shortener such as [TinyURL](https://www.tinyurl.com) be utilized to alias the Pastebin URL to a more memorable URL (see [TinyURL page](./tinyurl.md#aliased-urls)). The following TinyURL-based URL will redirect to the above Pastebin URL.
 
 `https://tinyurl.com/pastebin-feed`

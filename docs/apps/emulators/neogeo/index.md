@@ -58,7 +58,7 @@ Button B                       | ![](../../../assets/images/controller/Xbox Seri
 
 ## NVRAM and Memory Card Persistence
 
-Some Neo Geo games include NVRAM and/or support memory cards as a means of preserving state between sessions. The Neo Geo application supports persisting this state into the browser's local storage. The state will be persisted to local storage whenever the pause screen is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support such storage to ensure state is properly persisted.
+Some Neo Geo games include NVRAM and/or support memory cards as a means of preserving state between sessions. The Neo Geo application supports persisting this state into the browser's local storage or optionally to [cloud-based storage](../../../storage/index.md). The state will be persisted to storage whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support such storage to ensure state is properly persisted.
 
 ## Feed
 

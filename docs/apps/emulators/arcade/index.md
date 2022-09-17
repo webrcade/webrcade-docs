@@ -57,7 +57,7 @@ Common gamepad mappings (not game-specific) are listed in the table below.
 
 ## High Scores and NVRAM
 
-Some arcade games include NVRAM and/or High Score state as a means of preserving state between sessions. The Arcade application supports persisting this state into the browser's local storage. The state will be persisted to local storage whenever the pause screen is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support such storage to ensure state is properly persisted.
+Some arcade games include NVRAM and/or High Score state as a means of preserving state between sessions. The Arcade application supports persisting this state into the browser's local storage or optionally to [cloud-based storage](../../../storage/index.md). The state will be persisted whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support such storage to ensure state is properly persisted.
 
 ## Feed
 

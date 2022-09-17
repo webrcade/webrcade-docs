@@ -39,6 +39,7 @@ nav:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
         - SuperGrafx: apps/emulators/sgx/index.md
       - Nintendo:
+        - N64 (Experimental): apps/emulators/n64/index.md
         - NES: apps/emulators/nes/index.md
         - SNES: apps/emulators/snes/index.md
         - Game Boy: apps/emulators/gb/index.md
@@ -66,6 +67,7 @@ nav:
       - Imgur: feeds/resources/imgur.md
       - Internet Archive: feeds/resources/inetarchive.md
       - Pastebin: feeds/resources/pastebin.md
+      - Snippet.host: feeds/resources/snippet.md
       - TinyURL: feeds/resources/tinyurl.md
   - Editor:
     - Overview: editor/index.md
@@ -75,6 +77,7 @@ nav:
       - Tabs:
         - Categories Tab: editor/workspace/categoriestab.md
         - Items Tab: editor/workspace/itemstab.md
+      - Settings Dialog: editor/workspace/settings.md
       - Adding Items: editor/workspace/addingitems.md
     - Editors:
       - Feed Editor: editor/dialogs/feed-dialog.md
@@ -83,7 +86,8 @@ nav:
     - General:
       - Drag and Drop: editor/draganddrop.md
       - Thumbnails: editor/thumbnails.md
-
+  - Stand-alone: standalone/index.md
+  - Cloud Storage: storage/index.md
 
 markdown_extensions:
   - attr_list
@@ -105,10 +109,12 @@ plugins:
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCuoR0CBb9XCnxurYg-HfCvQ
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/C4gXN2HJAv
     - icon: fontawesome/brands/github
       link: https://github.com/webrcade
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCuoR0CBb9XCnxurYg-HfCvQ
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/webrcade
     - icon: fontawesome/brands/facebook

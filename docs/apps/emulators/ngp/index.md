@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Neo Geo Pocket application is an emulator for the [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) and [Neo Geo Pocket Color](https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color) game consoles. 
+The Neo Geo Pocket application is an emulator for the [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) and [Neo Geo Pocket Color](https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color) game consoles.
 
 <figure>
   <img src="../../../assets/images/apps/ngp.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
@@ -20,11 +20,11 @@ Keyboard controls are listed below.
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |                  
-| A | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |  
-| B | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} |  |                  
-| Option | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |                  
-| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |                  
+| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |
+| A | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |
+| B | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} |  |
+| Option | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |
+| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
 
 ### Gamepad
 
@@ -45,9 +45,9 @@ Gamepad mappings are listed below.
 
 ## Flash Memory
 
-Some Neo Geo Pocket cartridges include flash memory as a means of preserving state between sessions. The Neo Geo Pocket application supports persisting this flash memory state into the browser's local storage. The flash memory contents will be persisted to local storage whenever the pause screen is displayed (or the game is existed). Therefore, the menu should be displayed periodically for games that support flash memory to ensure the state is properly persisted.
+Some Neo Geo Pocket cartridges include flash memory as a means of preserving state between sessions. The Neo Geo Pocket application supports persisting this flash memory state into the browser's local storage or optionally to [cloud-based storage](../../../storage/index.md). The flash memory contents will be persisted to storage whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support flash memory to ensure the state is properly persisted.
 
-## Feed 
+## Feed
 
 This section details how Neo Geo Pocket  application instances can be added to feeds.
 
@@ -55,8 +55,8 @@ This section details how Neo Geo Pocket  application instances can be added to f
 
 The type names for the Neo Geo Pocket application are listed below:
 
-   *  Neo Geo Pocket: `mednafen-ngp` 
-   *  Neo Geo Pocket Color: `mednafen-ngc` 
+   *  Neo Geo Pocket: `mednafen-ngp`
+   *  Neo Geo Pocket Color: `mednafen-ngc`
 
 !!! note
     The aliases `ngp` and `ngc` also currently map to the Neo Geo Pocket and Neo Geo Pocket Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.
@@ -64,7 +64,7 @@ The type names for the Neo Geo Pocket application are listed below:
 ### Properties
 
 The table below contains the properties that are specific to the Neo Geo Pocket application. These properties are
-specified in the `props` object of a feed item. 
+specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|

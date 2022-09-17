@@ -22,7 +22,7 @@ The following sections describe in detail the various actions that are located i
 
 ### New Action
 
-The new action initiates the creation of a new feed within the webЯcade editor. After creation, the new feed becomes the *active feed* (the feed currently being edited in the feed workspace) in the editor.  
+The new action initiates the creation of a new feed within the webЯcade editor. After creation, the new feed becomes the *active feed* (the feed currently being edited in the feed workspace) in the editor.
 
 ![](../assets/images/editor/sidebar/newmenu.png){: class="center zoomD"}
 
@@ -58,13 +58,22 @@ If a valid feed is found in the selected file, a copy of the feed will become th
 
 ### Export Action
 
-The "Export Action" exports the *active feed* (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.
+The "Export Action" exports the *active feed* (the feed currently being edited in the feed workspace).
+
+![](../assets/images/editor/sidebar/exportfile.png){: class="center zoomD"}
+
+The export dialog includes the following options:
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Compress (zip) | Whether to compress the feed. This will create a zip file that contains a single file (the feed).<br><br>Using this option has been shown to greatly reduce the feed size. |
+| Base64 encoding (text) | Whether to base64 encode the feed. This will force the feed to be in a text format (even if it is being compressed/zipped).<br><br>Using this option allows for posting compressed feeds on text pasting services (such as Pastebin). Additionally, it will avoid false positives for abusive language as the file is no longer human-readable (it is base64 encoded). |
 
 Once exported, the file (or its contents) can be shared for use by others (or between your devices) using a cloud-based hosting service such as Pastebin or Dropbox (See the [Pastebin Resource](../feeds/resources/pastebin.md) and [Dropbox Resource](../feeds/resources/dropbox.md) documentation sections).
 
 ### Test Action
 
-The "Test Action" displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md). 
+The "Test Action" displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md).
 
 This provides the ability to quickly examine how the current feed will appear in the player without requiring the feed to be formally registered.
 
@@ -99,4 +108,4 @@ The "Save Action" saves the active feed (the feed currently being edited in the 
 
 ![](../assets/images/editor/sidebar/overwritefeed.png){: class="center zoomD"}
 
-If a feed already exists in the browser's local storage with the same title, a prompt for overwriting is displayed (see screenshot above). 
+If a feed already exists in the browser's local storage with the same title, a prompt for overwriting is displayed (see screenshot above).
