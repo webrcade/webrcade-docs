@@ -20,6 +20,9 @@
 
 The Sony PlayStation application is an emulator for the [Sony PlayStation game console](https://en.wikipedia.org/wiki/PlayStation_(console)).
 
+!!! note
+    In addition to Sony PlayStation Disc images, a set of *PlayStation BIOS files* must be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Sony PlayStation Feed Properties](#feed-properties) sections).
+
 <figure>
   <img src="../../../assets/images/apps/psx.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Magic Castle by KAIGA</figcaption>
