@@ -13,7 +13,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Bandai WonderSwan](ws/index.md) | Emulator for the [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) and [WonderSwan Color](https://en.wikipedia.org/wiki/WonderSwan) handheld game consoles |
 | [NEC PC Engine](pce/index.md) | Emulator for the [PC Engine](https://en.wikipedia.org/wiki/TurboGrafx-16) and [TurboGrafx-16](https://en.wikipedia.org/wiki/TurboGrafx-16) game consoles |
 | [NEC SuperGrafx](sgx/index.md) | Emulator for the [PC Engine SuperGrafx](https://en.wikipedia.org/wiki/PC_Engine_SuperGrafx) game console |
-| [Nintendo 64 (Experimental)](n64/index.md) | Emulator for the [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) game console |
+| [Nintendo 64](n64/index.md) (Experimental) | Emulator for the [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) game console |
 | [Nintendo NES](nes/index.md) | Emulator for the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) game console |
 | [Nintendo SNES](snes/index.md) |  Emulator for the [Super Nintendo Entertainment System](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) game console |
 | [Nintendo Game Boy](gb/index.md) |  Emulator for the [Game Boy](https://en.wikipedia.org/wiki/Game_Boy) handheld game console |
@@ -26,5 +26,5 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Sega Game Gear](gamegear/index.md) | Emulator for the [Sega Game Gear](https://en.wikipedia.org/wiki/Game_Gear) handheld game console |
 | [SNK Neo Geo](neogeo/index.md) | Emulator for the [Neo Geo](https://en.wikipedia.org/wiki/Neo_Geo_(system)) MVS (arcade) and AES (console) systems |
 | [SNK Neo Geo Pocket](ngp/index.md) | Emulator for the [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) and [Neo Geo Pocket Color](https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color) handheld game consoles |
-
+| [Sony PlayStation](psx/index.md) (Experimental) | Emulator for the [Sony PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console)) game console |
 

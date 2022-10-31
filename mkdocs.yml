@@ -54,6 +54,8 @@ nav:
       - SNK:
         - Neo Geo: apps/emulators/neogeo/index.md
         - Neo Geo Pocket: apps/emulators/ngp/index.md
+      - Sony:
+        - PlayStation (Experimental): apps/emulators/psx/index.md
     - Engines:
       - Overview: apps/engines/index.md
       - Classic Doom: apps/engines/doom/index.md
