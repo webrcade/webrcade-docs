@@ -9,7 +9,7 @@ This repository contains the [documentation](https://docs.webrcade.com) for [web
   <img src="https://docs.webrcade.com/assets/images/webrcade-docs.png?raw=true" width="95%">
  </a>
 </p>
- 
+
 ## Documentation
 
 The [webЯcade Documentation](https://docs.webrcade.com/) consists of a [User Guide](https://docs.webrcade.com/userguide/), instructions specific to each [Platform](https://docs.webrcade.com/platforms/) (OS, devices) supported by webЯcade, detailed information (button mappings, etc.) for the various [Application Types](https://docs.webrcade.com/apps/) (emulators, etc.), and guidance for developing your own [Feeds](https://docs.webrcade.com/feeds/).
@@ -19,6 +19,22 @@ The following steps are recommended for getting started with webЯcade:
 * Review the [User Guide](https://docs.webrcade.com/userguide/) in order to familiarize yourself with the webЯcade front-end.
 * Read the documentation for the [Platform](https://docs.webrcade.com/platforms/) (OS, device) you will be using with webЯcade to learn platform-specific details such as how to optimize the experience and how to connect gamepads.
 * Review the documentation for each [Application](https://docs.webrcade.com/apps/) that is launched to determine its keyboard and gamepad mappings as well as any other application-specific notes (an application is the emulator or engine being used to play a particular game, etc.).
+
+## Contributing to Documentation
+
+Any help is more than welcome here.
+
+### Prerequisites
+
+* [Python](https://www.python.org/downloads/)
+* [mkdocs](https://www.mkdocs.org/getting-started/)
+* [Material for mkdocs](https://github.com/squidfunk/mkdocs-material)
+* A code editor like [Visual Studio Code](https://code.visualstudio.com/download)
+
+Run `mkdocs serve` while inside the project directory to locally serve the documentation.
+It can be reached at `http://127.0.0.1:8080/`
+
+While editing, we ask that you conform to the syntax standards of makrdownlint.
 
 ## LICENSE
 

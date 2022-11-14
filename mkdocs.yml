@@ -7,6 +7,7 @@ copyright: "&copy; Copyright webЯcade 2022"
 
 nav:
   - About: index.md
+  - Quick Start: quickstart/index.md
   - User Guide: userguide/index.md
   - Platforms:
     - Overview: platforms/index.md
@@ -24,6 +25,8 @@ nav:
       - Gamepads: platforms/android/gamepads.md
     - Xbox Series X|S:
       - Overview: platforms/xbox/index.md
+    - Steam Deck:
+      - Overview: platforms/steamdeck/index.md
   - Applications:
     - Overview: apps/index.md
     - Emulators:
