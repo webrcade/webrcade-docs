@@ -45,7 +45,7 @@ Its recommended to have your ROMs in their own system folder structure:
 When setting up games/feeds with the editor, use the following example URLs:
 
 !!! example
-    - /content/nes/Sonic Advance (U).nes
+    - /content/nes/Super Mario Bros. (U).nes
     - /content/gba/Sonic Advance (U).gba
     - /content/myfeed.json
 
