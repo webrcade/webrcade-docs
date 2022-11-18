@@ -1210,6 +1210,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../apps/emulators/segacd/" class="md-nav__link">
+        Sega CD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../apps/emulators/gamegear/" class="md-nav__link">
         Game Gear
       </a>
@@ -1319,7 +1333,7 @@
   
     <li class="md-nav__item">
       <a href="../../../apps/emulators/psx/" class="md-nav__link">
-        PlayStation (Experimental)
+        PlayStation
       </a>
     </li>
   
@@ -1863,6 +1877,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#disc-based-items" class="md-nav__link">
+    Disc-based Items
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2110,6 +2131,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#disc-based-items" class="md-nav__link">
+    Disc-based Items
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2129,9 +2157,9 @@
                 
                 
                 <h1 id="adding-items">Adding Items</h1>
-<p>One of the predominant uses of the feed editor is adding items (games, etc.) to feeds. To simplify that process, the editor provides multiple methods of adding items which are detailed below. </p>
+<p>One of the predominant uses of the feed editor is adding items (games, etc.) to feeds. To simplify that process, the editor provides multiple methods of adding items which are detailed below.</p>
 <h2 id="manual-item-creation">Manual Item Creation</h2>
-<p>Items can be manually created via the, <em>Create Item</em> action, within the <a href="../itemstab/#items-table">Items Table Toolbar</a>. </p>
+<p>Items can be manually created via the, <em>Create Item</em> action, within the <a href="../itemstab/#items-table">Items Table Toolbar</a>.</p>
 <p>Manually creating an item requires more effort than the other options detailed on this page, but it is sometimes necessary if the editor is unable to automatically determine the appropriate application type (emulator, etc.) for a ROM-based URL.</p>
 <h2 id="add-from-dropbox">Add From Dropbox</h2>
 <p>Items can be created for ROM files that are hosted in your Dropbox account. See the <em>Add From Dropbox</em> action in the <a href="../itemstab/#more-menu">Items Table More Menu</a> for more information.</p>
@@ -2139,6 +2167,29 @@
 <p>Items can be created and added to feeds based on URLs that point to ROM files. See the <em>Create from URLs</em> action in the <a href="../itemstab/#more-menu">Items Table More Menu</a> for more information.</p>
 <h2 id="drag-and-drop-rom-urls">Drag and Drop ROM URLs</h2>
 <p>Items can also be created by dragging and dropping URLs that point to ROM files onto the editor workspace or its dialogs. See the <a href="../../draganddrop/#drag-rom-urls">Drag and Drop ROM URLs</a> section for more information.</p>
+<h2 id="disc-based-items">Disc-based Items</h2>
+<p>Due to large disc image sizes, adding disc-based items (games, etc.) in the <a href="../../">Feed Editor</a> must be done manually (versus using auto-detection).</p>
+<p>To add a disc-based item, perform the following steps.</p>
+<ul>
+<li>
+<p>Navigate to the "Items" tab in the Feed Editor (See <a href="../itemstab/">Feed Items Tab</a> documentation).</p>
+</li>
+<li>
+<p>Select the "Create Item" action in the "Items Table" toolbar (See <a href="../itemstab/#table-toolbar">Items Table</a> documentation). The <a href="../../dialogs/item-dialog/">Create Item Editor</a> will be displayed.</p>
+</li>
+<li>
+<p>On the <a href="../../dialogs/item-dialog/#general-tab">General Tab</a> of the <a href="../../dialogs/item-dialog/">Create Item Editor</a> perform the following steps:</p>
+<ul>
+<li>Select the appropriate application (<code>Sony PlayStation</code>, etc.) in the "Application" pull-down.</li>
+<li>In the "Title" field, start to type in the name of the game that is being added. An <em>autocomplete list</em> will be displayed directly below the <em>title</em> field. Select one of the items in the <em>autocomplete list</em> to have the game's description and artwork retrieved.</li>
+</ul>
+</li>
+<li>On the <a href="../../dialogs/item-dialog/#properties-tab">Properties Tab</a> of the <a href="../../dialogs/item-dialog/">Create Item Editor</a> perform the following steps:<ul>
+<li>Provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field).</li>
+</ul>
+</li>
+<li>Click the <code>OK</code> button to add the newly created item to the feed.</li>
+</ul>
                 
                   
 

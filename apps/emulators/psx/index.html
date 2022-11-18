@@ -17,7 +17,7 @@
     
     
       
-        <title>PlayStation (Experimental) - webЯcade Docs</title>
+        <title>PlayStation - webЯcade Docs</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sony-playstation-experimental" class="md-skip">
+        <a href="#sony-playstation" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              PlayStation (Experimental)
+              PlayStation
             
           </span>
         </div>
@@ -1214,6 +1214,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../segacd/" class="md-nav__link">
+        Sega CD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../gamegear/" class="md-nav__link">
         Game Gear
       </a>
@@ -1334,12 +1348,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          PlayStation (Experimental)
+          PlayStation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        PlayStation (Experimental)
+        PlayStation
       </a>
       
         
@@ -1361,6 +1375,20 @@
         <li class="md-nav__item">
   <a href="#overview" class="md-nav__link">
     Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-games-feed-editor" class="md-nav__link">
+    Adding Games (Feed Editor)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bios-files" class="md-nav__link">
+    BIOS Files
   </a>
   
 </li>
@@ -1389,13 +1417,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-games-feed-editor" class="md-nav__link">
-    Adding Games (Feed Editor)
-  </a>
   
 </li>
       
@@ -2187,6 +2208,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#adding-games-feed-editor" class="md-nav__link">
+    Adding Games (Feed Editor)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bios-files" class="md-nav__link">
+    BIOS Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#settings" class="md-nav__link">
     Settings
   </a>
@@ -2210,13 +2245,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-games-feed-editor" class="md-nav__link">
-    Adding Games (Feed Editor)
-  </a>
   
 </li>
       
@@ -2320,42 +2348,28 @@
                 
                 
                 
-                <h1 id="sony-playstation-experimental">Sony PlayStation (Experimental)</h1>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The Sony PlayStation application is currently designated as an <em>experimental</em> application.
-<p>
-This designation has been applied due to the following:
-</p>
-<ul>
-<li>The resource requirements to properly run the emulator are high.</li>
-<li>Disc images are large and can take a substantial amount of time to download.</li>
-</ul>
-<p>
-By default, <em>Experimental</em> applications are not displayed in the webЯcade <em><a href="../../../userguide/">player</a></em> or <em><a href="../../../editor/">feed editor</a></em>.
-</p>
-<p>
-To enable the Sony PlayStation application, refer to the <em>advanced settings</em> sections of the player (<a href="../../../userguide/#advanced-settings-tab">player advanced settings</a>) or editor (<a href="../../../editor/workspace/settings/#advanced-tab">editor advanced settings</a>).
-</p></p>
-</div>
+                <h1 id="sony-playstation">Sony PlayStation</h1>
 <h2 id="overview">Overview</h2>
 <p>The Sony PlayStation application is an emulator for the <a href="https://en.wikipedia.org/wiki/PlayStation_(console)">Sony PlayStation game console</a>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>In addition to Sony PlayStation Disc images, a set of <em>PlayStation BIOS files</em> must be specified globally within the feed (See the <a href="../../../editor/dialogs/feed-dialog/#properties-tab">Feed Properties Dialog</a> and <a href="#feed-properties">Sony PlayStation Feed Properties</a> sections).</p>
-</div>
 <figure>
   <img src="../../../assets/images/apps/psx.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Magic Castle by KAIGA</figcaption>
 </figure>
 
-<p>Due to its high resource requirements (see <em>warning</em> at top of this page), the following devices are minimally recommended for running this application:</p>
+<p>Due to its high resource requirements, the following devices are minimally recommended for running this application:</p>
 <ul>
 <li>Modern PC or Mac</li>
 <li>iPhone 11 or iPad 9th Generation (or newer)</li>
 <li>Xbox Series X|S gaming consoles</li>
 <li>Newer Android devices with a highly performant processor (high single core speed)</li>
 </ul>
+<h2 id="adding-games-feed-editor">Adding Games (Feed Editor)</h2>
+<p>Due to large Disc image sizes, adding PlayStation games in the <a href="../../../editor/">Feed Editor</a> must be done manually (versus using auto-detection).</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The PlayStation application only supports <code>.CHD</code> and <code>.PBP</code> disc file formats (<code>.ISO</code>, <code>.BIN</code>, and <code>.CUE</code> are not supported).</p>
+</div>
+<p>See the <a href="../../../editor/workspace/addingitems/#disc-based-items">Disc-based Items</a> section for the list of steps required to add a PlayStation game in the <a href="../../../editor/">Feed Editor</a>.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).
@@ -2363,9 +2377,73 @@ To enable the Sony PlayStation application, refer to the <em>advanced settings</
 The current limit is around 450 megabytes. Therefore, loading larger disc sizes may fail.
 </p>
 <p>
-To increase the likelihood of a game with a larger disc size loading, it is recommended to launch the game using a standalone-based link (versus launching the game within the webЯcade player or editor). See the <a href="../../../standalone/">Standalone</a> section of this documentation for further information (On Xbox, you would most likely want to bookmark the direct link. On iOS, you would most likely want to add the game to the home screen).
+To increase the likelihood of a game with a larger disc size loading, you can optionally choose to launch the game using a standalone-based link (versus launching the game within the webЯcade player or editor). See the <a href="../../../standalone/">Standalone</a> section of this documentation for further information (On Xbox, you would most likely want to bookmark the direct link. On iOS, you would most likely want to add the game to the home screen).
 </p></p>
 </div>
+<h2 id="bios-files">BIOS Files</h2>
+<p>In addition to Sony PlayStation Disc images, a set of <em>PlayStation BIOS files</em> must be specified globally within the feed (See the <a href="../../../editor/dialogs/feed-dialog/#properties-tab">Feed Properties Dialog</a> and <a href="#feed-properties">Sony PlayStation Feed Properties</a> sections).</p>
+<p>The BIOS files specified must be one of the following three sets:</p>
+<p><em>The BIOS files originally used on the PlayStation 1</em>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>File</strong></th>
+<th><strong>Hash (MD5)</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>scph5500.bin</code></td>
+<td>8dd7d5296a650fac7319bce665a6a53c</td>
+<td>PlayStation 1 Japan BIOS</td>
+</tr>
+<tr>
+<td><code>scph5501.bin</code></td>
+<td>490f666e1afb15b7362b406ed1cea246</td>
+<td>PlayStation 1 USA BIOS</td>
+</tr>
+<tr>
+<td><code>scph5502.bin</code></td>
+<td>32736f17079d0b2b7024407c39bd3050</td>
+<td>PlayStation 1 Europe BIOS</td>
+</tr>
+</tbody>
+</table>
+<p><em>The PlayStation 1 BIOS file used on the PlayStation Portable</em>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>File</strong></th>
+<th><strong>Hash (MD5)</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PSXONPSP660.bin</code></td>
+<td>c53ca5908936d412331790f4426c6c33</td>
+<td>PlayStation Portable</td>
+</tr>
+</tbody>
+</table>
+<p><em>The PlayStation 1 BIOS file used on the PlayStation 3</em>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>File</strong></th>
+<th><strong>Hash (MD5)</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ps1_rom.bin</code></td>
+<td>81bbe60ba7a3d1cea1d48c14cbcc647b</td>
+<td>PlayStation 3</td>
+</tr>
+</tbody>
+</table>
 <h2 id="settings">Settings</h2>
 <p>The Sony PlayStation Application includes a custom settings dialog.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/apps/psx/psx-settings.png" /></p>
@@ -2408,33 +2486,6 @@ To increase the likelihood of a game with a larger disc size loading, it is reco
 </tbody>
 </table>
 <p><img alt="" class="center zoomD" src="../../../assets/images/apps/psx/psx-display-settings.png" /></p>
-<h2 id="adding-games-feed-editor">Adding Games (Feed Editor)</h2>
-<p>Due to large Disc image sizes, adding PlayStation games in the <a href="../../../editor/">Feed Editor</a> must be done manually (versus using auto-detection).</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>The PlayStation application only supports <code>.CHD</code> and <code>.PBP</code> disc file formats (<code>.ISO</code>, <code>.BIN</code>, and <code>.CUE</code> are not supported).</p>
-</div>
-<p>To add a game, perform the following steps.</p>
-<ul>
-<li>
-<p>Navigate to the "Items" tab in the Feed Editor (See <a href="../../../editor/workspace/itemstab/">Feed Items Tab</a> documentation).</p>
-</li>
-<li>
-<p>Select the "Create Item" action in the "Items Table" toolbar (See <a href="../../../editor/workspace/itemstab/#table-toolbar">Items Table</a> documentation). The <a href="../../../editor/dialogs/item-dialog/">Create Item Editor</a> will be displayed.</p>
-</li>
-<li>
-<p>On the <a href="../../../editor/dialogs/item-dialog/#general-tab">General Tab</a> of the <a href="../../../editor/dialogs/item-dialog/">Create Item Editor</a> perform the following steps:</p>
-<ul>
-<li>Select <code>Sony PlayStation</code> in the "Application" pull-down.</li>
-<li>In the "Title" field, start to type in the name of the game that is being added. An <em>autocomplete list</em> will be displayed directly below the <em>title</em> field. Select one of the items in the <em>autocomplete list</em> to have the game's description and artwork retrieved.</li>
-</ul>
-</li>
-<li>On the <a href="../../../editor/dialogs/item-dialog/#properties-tab">Properties Tab</a> of the <a href="../../../editor/dialogs/item-dialog/">Create Item Editor</a> perform the following steps:<ul>
-<li>Provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field). It is important to note that the PlayStation application only supports <code>.CHD</code> and <code>.PBP</code> disc file formats.</li>
-</ul>
-</li>
-<li>Click the <code>OK</code> button to add the newly created item to the feed.</li>
-</ul>
 <h2 id="controls">Controls</h2>
 <p>The emulator supports up to four controllers. The keyboard and gamepad mappings are listed in the tables below.</p>
 <h3 id="keyboard">Keyboard</h3>
@@ -2684,6 +2735,30 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>Array of URLs</td>
 <td>Yes</td>
 <td><p>Array of URLs to one or more (for multi-disc games) PlayStation game discs.</p><p>The PlayStation application only supports <code>.CHD</code> and <code>.PBP</code> disc file formats (<code>.ISO</code>, <code>.BIN</code>, and <code>.CUE</code> are not supported).</p></td>
+</tr>
+<tr>
+<td>zoomLevel</td>
+<td>Numeric</td>
+<td>No</td>
+<td>A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some PlayStation games.</td>
+</tr>
+<tr>
+<td>analog</td>
+<td>Boolean</td>
+<td>No</td>
+<td>Enables <em>Analog mode</em> on the PlayStation DualShock controller. Some games will automatically force this mode. However, this setting allows for forcing the controller into analog mode.</td>
+</tr>
+<tr>
+<td>multitap</td>
+<td>Boolean</td>
+<td>No</td>
+<td>Enables multi-tap functionality when enabled (4 controllers).</td>
+</tr>
+<tr>
+<td>skipBios</td>
+<td>Boolean</td>
+<td>No</td>
+<td>Skips the PlayStation BIOS animation that is displayed when starting a game.</td>
 </tr>
 </tbody>
 </table>
