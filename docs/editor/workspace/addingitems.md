@@ -30,10 +30,15 @@ To add a disc-based item, perform the following steps.
 
 * Select the "Create Item" action in the "Items Table" toolbar (See [Items Table](itemstab.md#table-toolbar) documentation). The [Create Item Editor](../dialogs/item-dialog.md) will be displayed.
 
+![](../../assets/images/editor/workspace/create-item-autocomplete.png){: class="center zoomD"}
 
 * On the [General Tab](../dialogs/item-dialog.md#general-tab) of the [Create Item Editor](../dialogs/item-dialog.md) perform the following steps:
-    * Select the appropriate application (`Sony PlayStation`, etc.) in the "Application" pull-down.
-    * In the "Title" field, start to type in the name of the game that is being added. An *autocomplete list* will be displayed directly below the *title* field. Select one of the items in the *autocomplete list* to have the game's description and artwork retrieved.
+    * Select the appropriate application (`Sony PlayStation`, etc.) in the "Application" pull-down (*See #1 in screenshot above*).
+    * In the "Title" field, start to type in the name of the game that is being added. An *autocomplete list* will be displayed directly below the *title* field (*See #2 in screenshot above*).
+    * Select one of the items in the *autocomplete list* to have the game's description and artwork retrieved (*See #3 in screenshot above*).
+
+![](../../assets/images/editor/workspace/create-item-discs.png){: class="center zoomD"}
+
 * On the [Properties Tab](../dialogs/item-dialog.md#properties-tab) of the [Create Item Editor](../dialogs/item-dialog.md) perform the following steps:
-    * Provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field).
+    * Provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field) (*See #1 in screenshot above*).
 * Click the `OK` button to add the newly created item to the feed.
