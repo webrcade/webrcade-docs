@@ -50,12 +50,13 @@ nav:
         - SG-1000: apps/emulators/sg1000/index.md
         - Master System: apps/emulators/mastersystem/index.md
         - Genesis: apps/emulators/genesis/index.md
+        - Sega CD: apps/emulators/segacd/index.md
         - Game Gear: apps/emulators/gamegear/index.md
       - SNK:
         - Neo Geo: apps/emulators/neogeo/index.md
         - Neo Geo Pocket: apps/emulators/ngp/index.md
       - Sony:
-        - PlayStation (Experimental): apps/emulators/psx/index.md
+        - PlayStation: apps/emulators/psx/index.md
     - Engines:
       - Overview: apps/engines/index.md
       - Classic Doom: apps/engines/doom/index.md

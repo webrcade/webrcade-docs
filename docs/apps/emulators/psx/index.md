@@ -1,39 +1,29 @@
-# Sony PlayStation (Experimental)
-
-!!! warning
-    The Sony PlayStation application is currently designated as an *experimental* application.
-    <p>
-    This designation has been applied due to the following:
-    </p>
-    <ul>
-    <li>The resource requirements to properly run the emulator are high.</li>
-    <li>Disc images are large and can take a substantial amount of time to download.</li>
-    </ul>
-    <p>
-    By default, *Experimental* applications are not displayed in the webЯcade *[player](../../../userguide/index.md)* or *[feed editor](../../../editor/index.md)*.
-    </p>
-    <p>
-    To enable the Sony PlayStation application, refer to the *advanced settings* sections of the player ([player advanced settings](../../../userguide/index.md#advanced-settings-tab)) or editor ([editor advanced settings](../../../editor/workspace/settings.md#advanced-tab)).
-    </p>
+# Sony PlayStation
 
 ## Overview
 
 The Sony PlayStation application is an emulator for the [Sony PlayStation game console](https://en.wikipedia.org/wiki/PlayStation_(console)).
-
-!!! note
-    In addition to Sony PlayStation Disc images, a set of *PlayStation BIOS files* must be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Sony PlayStation Feed Properties](#feed-properties) sections).
 
 <figure>
   <img src="../../../assets/images/apps/psx.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Magic Castle by KAIGA</figcaption>
 </figure>
 
-Due to its high resource requirements (see *warning* at top of this page), the following devices are minimally recommended for running this application:
+Due to its high resource requirements, the following devices are minimally recommended for running this application:
 
 * Modern PC or Mac
 * iPhone 11 or iPad 9th Generation (or newer)
 * Xbox Series X|S gaming consoles
 * Newer Android devices with a highly performant processor (high single core speed)
+
+## Adding Games (Feed Editor)
+
+Due to large Disc image sizes, adding PlayStation games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
+
+!!! important
+    The PlayStation application only supports `.CHD` and `.PBP` disc file formats (`.ISO`, `.BIN`, and `.CUE` are not supported).
+
+See the [Disc-based Items](../../../editor/workspace/addingitems.md#disc-based-items) section for the list of steps required to add a PlayStation game in the [Feed Editor](../../../editor/index.md).
 
 !!! important
     Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).
@@ -41,8 +31,35 @@ Due to its high resource requirements (see *warning* at top of this page), the f
     The current limit is around 450 megabytes. Therefore, loading larger disc sizes may fail.
     </p>
     <p>
-    To increase the likelihood of a game with a larger disc size loading, it is recommended to launch the game using a standalone-based link (versus launching the game within the webЯcade player or editor). See the [Standalone](../../../standalone/index.md) section of this documentation for further information (On Xbox, you would most likely want to bookmark the direct link. On iOS, you would most likely want to add the game to the home screen).
+    To increase the likelihood of a game with a larger disc size loading, you can optionally choose to launch the game using a standalone-based link (versus launching the game within the webЯcade player or editor). See the [Standalone](../../../standalone/index.md) section of this documentation for further information (On Xbox, you would most likely want to bookmark the direct link. On iOS, you would most likely want to add the game to the home screen).
     </p>
+
+## BIOS Files
+
+In addition to Sony PlayStation Disc images, a set of *PlayStation BIOS files* must be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Sony PlayStation Feed Properties](#feed-properties) sections).
+
+The BIOS files specified must be one of the following three sets:
+
+*The BIOS files originally used on the PlayStation 1*.
+
+| __File__ | __Hash (MD5)__ | __Description__ |
+| --- | --- | --- |
+| `scph5500.bin` | 8dd7d5296a650fac7319bce665a6a53c | PlayStation 1 Japan BIOS |
+| `scph5501.bin` | 490f666e1afb15b7362b406ed1cea246 | PlayStation 1 USA BIOS |
+| `scph5502.bin` | 32736f17079d0b2b7024407c39bd3050 | PlayStation 1 Europe BIOS |
+
+*The PlayStation 1 BIOS file used on the PlayStation Portable*.
+
+| __File__ | __Hash (MD5)__| __Description__ |
+| --- | --- | --- |
+| `PSXONPSP660.bin` | c53ca5908936d412331790f4426c6c33 | PlayStation Portable |
+
+*The PlayStation 1 BIOS file used on the PlayStation 3*.
+
+| __File__ | __Hash (MD5)__| __Description__ |
+| --- | --- | --- |
+| `ps1_rom.bin` | 81bbe60ba7a3d1cea1d48c14cbcc647b | PlayStation 3 |
+
 
 ## Settings
 
@@ -72,28 +89,6 @@ The PlayStation Application "display tab" settings are detailed below.
 | Force bilinear filter | <p>Forces bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</p><p>Enabling this setting will override the global bilinear filter setting for the PlayStation application.</p>  |
 
 ![](../../../assets/images/apps/psx/psx-display-settings.png){: class="center zoomD"}
-
-## Adding Games (Feed Editor)
-
-Due to large Disc image sizes, adding PlayStation games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
-
-!!! important
-    The PlayStation application only supports `.CHD` and `.PBP` disc file formats (`.ISO`, `.BIN`, and `.CUE` are not supported).
-
-To add a game, perform the following steps.
-
-* Navigate to the "Items" tab in the Feed Editor (See [Feed Items Tab](../../../editor/workspace/itemstab.md) documentation).
-
-
-* Select the "Create Item" action in the "Items Table" toolbar (See [Items Table](../../../editor/workspace/itemstab.md#table-toolbar) documentation). The [Create Item Editor](../../../editor/dialogs/item-dialog.md) will be displayed.
-
-
-* On the [General Tab](../../../editor/dialogs/item-dialog.md#general-tab) of the [Create Item Editor](../../../editor/dialogs/item-dialog.md) perform the following steps:
-    * Select `Sony PlayStation` in the "Application" pull-down.
-    * In the "Title" field, start to type in the name of the game that is being added. An *autocomplete list* will be displayed directly below the *title* field. Select one of the items in the *autocomplete list* to have the game's description and artwork retrieved.
-* On the [Properties Tab](../../../editor/dialogs/item-dialog.md#properties-tab) of the [Create Item Editor](../../../editor/dialogs/item-dialog.md) perform the following steps:
-    * Provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field). It is important to note that the PlayStation application only supports `.CHD` and `.PBP` disc file formats.
-* Click the `OK` button to add the newly created item to the feed.
 
 ## Controls
 
@@ -180,6 +175,10 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all PlayStation games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
 | discs | Array of URLs | Yes | <p>Array of URLs to one or more (for multi-disc games) PlayStation game discs.</p><p>The PlayStation application only supports `.CHD` and `.PBP` disc file formats (`.ISO`, `.BIN`, and `.CUE` are not supported).</p> |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some PlayStation games. |
+| analog | Boolean | No | Enables *Analog mode* on the PlayStation DualShock controller. Some games will automatically force this mode. However, this setting allows for forcing the controller into analog mode. |
+| multitap | Boolean | No | Enables multi-tap functionality when enabled (4 controllers). |
+| skipBios | Boolean | No | Skips the PlayStation BIOS animation that is displayed when starting a game. |
 
 ### Example
 

@@ -23,8 +23,9 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Sega SG-1000](sg1000/index.md) | Emulator for the [Sega SG-1000](https://en.wikipedia.org/wiki/SG-1000) game console |
 | [Sega Master System](mastersystem/index.md) | Emulator for the [Sega Master System](https://en.wikipedia.org/wiki/Master_System) game console |
 | [Sega Genesis](genesis/index.md) | Emulator for the [Sega Genesis](https://en.wikipedia.org/wiki/Sega_Genesis) game console |
+| [Sega CD](segacd/index.md) | Emulator for the [Sega CD (CD-ROM accessory)](https://en.wikipedia.org/wiki/Sega_CD) for the Sega Genesis |
 | [Sega Game Gear](gamegear/index.md) | Emulator for the [Sega Game Gear](https://en.wikipedia.org/wiki/Game_Gear) handheld game console |
 | [SNK Neo Geo](neogeo/index.md) | Emulator for the [Neo Geo](https://en.wikipedia.org/wiki/Neo_Geo_(system)) MVS (arcade) and AES (console) systems |
 | [SNK Neo Geo Pocket](ngp/index.md) | Emulator for the [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) and [Neo Geo Pocket Color](https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color) handheld game consoles |
-| [Sony PlayStation](psx/index.md) (Experimental) | Emulator for the [Sony PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console)) game console |
+| [Sony PlayStation](psx/index.md) | Emulator for the [Sony PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console)) game console |
 

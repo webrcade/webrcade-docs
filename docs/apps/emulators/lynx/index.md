@@ -2,16 +2,16 @@
 
 ## Overview
 
-The Atari Lynx application is an emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console. 
+The Atari Lynx application is an emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console.
 
 <figure>
   <img src="../../../assets/images/apps/lynx.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
   <figcaption>Xump 2 by Retroguru</figcaption>
 </figure>
 
-!!! note
-    In addition to Atari Lynx ROM files, an *Atari Lynx Boot ROM* must be specified globally
-    within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Atari Lynx Feed Properties](#feed-properties) sections).
+## Boot ROM File
+
+In addition to Atari Lynx ROM files, an *Atari Lynx Boot ROM* (typically named `lynxboot.img`) must be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Atari Lynx Feed Properties](#feed-properties) sections).
 
 ## Controls
 
@@ -23,13 +23,13 @@ Keyboard controls are listed below.
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |                  
-| A | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} |  |                  
-| B | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |  
-| Option 1 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Q_Key_Dark.png){: class="control"} | |      
-| Option 2 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/W_Key_Dark.png){: class="control"} | |      
-| Lynx Pause | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |                  
-| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |                  
+| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |
+| A | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} |  |
+| B | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |
+| Option 1 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Q_Key_Dark.png){: class="control"} | |
+| Option 2 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/W_Key_Dark.png){: class="control"} | |
+| Lynx Pause | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |
+| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
 
 ### Gamepad
 
@@ -50,19 +50,19 @@ Gamepad mappings are listed below.
 | Show Pause Screen<br>(Alternate 3)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
 | Show Pause Screen<br>(Alternate 4)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
 
-## Feed 
+## Feed
 
 This section details how Atari Lynx application instances can be added to feeds.
 
 ### Type
 
-The type name for the Atari Lynx application is `mednafen-lnx`. 
+The type name for the Atari Lynx application is `mednafen-lnx`.
 
 !!! note
     The alias `lnx` also currently maps to this application. In the future, the `lnx` alias may be mapped
-    to another Atari Lynx application (different emulator implementation) if it is determined to be a 
+    to another Atari Lynx application (different emulator implementation) if it is determined to be a
     more appropriate default.
-    
+
 ### Feed Properties
 
 The table below contains global Atari Lynx feed properties. These properties must be specified in the `props` object of the feed's [Feed Object](../../../feeds/format.md#feed-object).
@@ -74,7 +74,7 @@ The table below contains global Atari Lynx feed properties. These properties mus
 ### Item Properties
 
 The table below contains the properties that are specific to the Atari Lynx application. These properties are
-specified in the `props` object of a feed item. 
+specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
