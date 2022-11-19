@@ -12,7 +12,7 @@ docker run -rm \
   --name=webrcade \
   -p 80:80 \
   -v /path/to/content:/var/www/html/content \
-  --restart unless-stopped \
+  --restart=unless-stopped \
   webrcade/webrcade:latest
 ```
 
