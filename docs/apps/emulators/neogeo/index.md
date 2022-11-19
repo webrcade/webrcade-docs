@@ -12,9 +12,14 @@ See [this page](https://play.webrcade.com/app/neo/js/gamelist-neogeo.txt) for a 
   <img src="../../../assets/images/apps/neogeo.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
 </figure>
 
-!!! note
-    In addition to Neo Geo ROM files, a *Neo Geo BIOS* (.zip file) must be specified globally
-    within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Neo Geo Feed Properties](#feed-properties) sections).
+## BIOS Files
+
+In addition to Neo Geo ROM files, a *Neo Geo BIOS* (.zip file) must be specified globally
+within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Neo Geo Feed Properties](#feed-properties) sections).
+
+| __File__ | __Description__ |
+| --- | --- |
+| `neogeo.zip` |  A zip file containing one or more Neo Geo BIOS files. |
 
 ## Controls
 
