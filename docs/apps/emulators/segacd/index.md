@@ -13,7 +13,7 @@ The Sega CD application (also known as Mega-CD) is an emulator for the [Sega CD 
 Due to large Disc image sizes, adding Sega CD-based games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
 
 !!! important
-    The Sega CD application only supports `.CHD` and `.PBP` disc file formats (`.ISO`, `.BIN`, and `.CUE` are not supported).
+    The Sega CD application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).
 
 See the [Disc-based Items](../../../editor/workspace/addingitems.md#disc-based-items) section for the list of steps required to add a Sega CD game in the [Feed Editor](../../../editor/index.md).
 
@@ -137,7 +137,7 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all Sega CD games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
-| discs | Array of URLs | Yes | <p>Array of URLs to one or more (for multi-disc games) Sega CD game discs.</p><p>The Sega CD application only supports `.CHD` and `.PBP` disc file formats (`.ISO`, `.BIN`, and `.CUE` are not supported).</p> |
+| discs | Array of URLs | Yes | <p>Array of URLs to one or more (for multi-disc games) Sega CD game discs.</p><p>The Sega CD application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some Sega CD games. |
 
 ### Example

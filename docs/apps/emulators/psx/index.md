@@ -179,6 +179,7 @@ specified in the `props` object of a feed item.
 | analog | Boolean | No | Enables *Analog mode* on the PlayStation DualShock controller. Some games will automatically force this mode. However, this setting allows for forcing the controller into analog mode. |
 | multitap | Boolean | No | Enables multi-tap functionality when enabled (4 controllers). |
 | skipBios | Boolean | No | Skips the PlayStation BIOS animation that is displayed when starting a game. |
+| disableMemCard1 | Boolean | No | Whether to disable the use of memory card 1 (memory card 0 will still be available). |
 
 ### Example
 

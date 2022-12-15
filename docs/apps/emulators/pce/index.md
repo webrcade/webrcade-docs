@@ -22,8 +22,8 @@ Keyboard support is only available for controller one.
 | Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |
 | I | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} | __A Key__ only available in 2-button mode.  |
 | II | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} or ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | __S Key__ only available in 2-button mode. |
-| III | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | Only in 6-button mode. |
-| IV | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} | Only in 6-button mode. |
+| III | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} | Only in 6-button mode. |
+| IV | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | Only in 6-button mode. |
 | V | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Q_Key_Dark.png){: class="control"} | Only in 6-button mode. |
 | VI | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/W_Key_Dark.png){: class="control"} | Only in 6-button mode. |
 | Run | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |
@@ -39,8 +39,8 @@ Gamepad support is available for both controllers.
 | Move                         | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad.png){: class="control"} &nbsp;or&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} | |
 | I                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"} or ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} |  __X Button__ only available in 2-button mode. |
 | II                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} or ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"} | __Y Button__ only available in 2-button mode. |
-| III                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"} | Only in 6-button mode. |
-| IV                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"}  | Only in 6-button mode. |
+| III                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} | Only in 6-button mode. |
+| IV                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"}  | Only in 6-button mode. |
 | V           | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | Only in 6-button mode. |
 | VI          | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RB.png){: class="control"}  | Only in 6-button mode. |
 | Run                        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __Menu (Start) Button__. |
@@ -76,6 +76,7 @@ The table below contains the properties that are specific to the PC Engine (Turb
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a PC Engine (TurboGrafx-16) ROM file or a zip file containing a ROM file. |
 | pad6button | Boolean | No | Whether to use 6-button control pads (2 button is the default). |
+| mapRunSelect | Boolean | No | Whether to map `RUN` and `SELECT` to standard buttons.  |
 
 
 ### Example

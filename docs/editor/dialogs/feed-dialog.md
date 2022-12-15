@@ -28,8 +28,17 @@ The properties tab consists of fields that are global for the various [Applicati
 
 ![](../../assets/images/editor/feededitor/propertiestab.png){: class="center zoomD"}
 
-For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items. The *Neo Geo BIOS* field is used to specify the location (URL) of a `.zip` file containing one or more Neo Geo BIOS files required by [Neo Geo](../../apps/emulators/neogeo/index.md) items.
+Use the `Application` pull-down to select the application to edit settings for (*See #1 in screenshot above*).
 
+### Fields
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Application | Used to select the application to edit settings for (*See #1 in screenshot above*). |
+
+![](../../assets/images/editor/feededitor/propertiestab-lynx.png){: class="center zoomD"}
+
+Once an application type is selected, its corresponding fields will be displayed. For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items. 
 
 ## Thumbnail Tab
 

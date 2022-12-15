@@ -4,9 +4,7 @@
 
 WebЯcade optionally supports linking each of your devices and/or browsers to cloud storage (currently limited to [Dropbox](https://www.dropbox.com)) as a means of sharing persistent state information between devices.
 
-Examples of persistent state information include: in-game saves, high scores, hardware configuration settings (for arcade-based systems), etc.
-
-It is important to note that webЯcade only supports in-game state persistence at this time (state that the original game persisted to non-volatile memory). It does not currently support save states. Save states will be coming in a future release.
+Examples of persistent state information include: [save states](#save-states), in-game saves, high scores, hardware configuration settings (for arcade-based systems), etc.
 
 The following sections detail how to link webЯcade to cloud storage within the WebЯcade [player](#player), [feed editor](#feed-editor), or when playing a game in [stand-alone](#stand-alone) mode.
 
@@ -76,3 +74,27 @@ The Dropbox Linking page walks through the steps necessary to link webЯcade to 
 
 The linking process will include authenticating with Dropbox and confirming that
 webЯcade is allowed to access a restricted portion of the user's Dropbox account.
+
+## Save States
+
+!!! important
+    Save states are only available when cloud storage is enabled.
+
+The majority of emulator-based applications support save states. Save states allow for saving and subsequently resuming at any point of a particular game (regardless of whether the game intrinsically supports saves).
+
+![](../assets/images/cloudstorage/select-savestates.png){: style="padding:5px;" class="center zoomD"}
+
+The "Save States Screen" can be accessed via the "Pause Screen" by selecting the "Save States" item (as shown in the screenshot above).
+
+![](../assets/images/cloudstorage/savestates.png){: style="padding:5px;" class="center zoomD"}
+
+Eight separate save slots are available for each game. The arrow buttons (*See #1 in screenshot above*) are used to move between the save slots for the current game.
+
+### Fields
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Load | The `Load` button loads the save state associated with the current slot. |
+| Save | The `Save` button creates a new save state and associates it with the current slot. |
+| Delete | The `Delete` button deletes the save state associated with the current slot. |
+

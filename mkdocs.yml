@@ -37,6 +37,7 @@ nav:
         - WonderSwan: apps/emulators/ws/index.md
       - NEC:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
+        - PC Engine CD (TurboGrafx-CD): apps/emulators/pcecd/index.md
         - SuperGrafx: apps/emulators/sgx/index.md
       - Nintendo:
         - N64 (Experimental): apps/emulators/n64/index.md

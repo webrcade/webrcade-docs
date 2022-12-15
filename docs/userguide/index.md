@@ -197,6 +197,10 @@ While each application (emulator, etc.) can provide their own unique options wit
 * `View Controls` (*See #2 in screenshot above*) - Displays the gamepad and keyboard controls for the current item (game, etc.).
 * `Resume` (*See #3 in screenshot above*) - Resumes playing the current item (game, etc.).
 
+The majority of emulator-based applications support save states. Save states require [cloud storage](../storage/) to be enabled.
+
+* `Save States` - Displays the save state management screen. (See the [Save States](../storage/#save-states) section of the [Cloud Storage](../storage/) documentation).
+
 The *application type* of the currently playing item (game, etc.) is displayed directly under its title (*See #4 in screenshot above*). Refer to the [Applications](../apps/index.md) section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the [Super Nintendo Application](../apps/emulators/snes/index.md) type as an example).
 
 The following tables include the button mappings that can be used to display the "Pause Screen" when an item (game, etc.) is running.
