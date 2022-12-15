@@ -990,6 +990,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../apps/emulators/pcecd/" class="md-nav__link">
+        PC Engine CD (TurboGrafx-CD)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../apps/emulators/sgx/" class="md-nav__link">
         SuperGrafx
       </a>
@@ -2064,6 +2078,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#save-states" class="md-nav__link">
+    Save States
+  </a>
+  
+    <nav class="md-nav" aria-label="Save States">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2134,6 +2168,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#save-states" class="md-nav__link">
+    Save States
+  </a>
+  
+    <nav class="md-nav" aria-label="Save States">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2155,8 +2209,7 @@
                 <h1 id="cloud-storage">Cloud Storage</h1>
 <h2 id="overview">Overview</h2>
 <p>WebЯcade optionally supports linking each of your devices and/or browsers to cloud storage (currently limited to <a href="https://www.dropbox.com">Dropbox</a>) as a means of sharing persistent state information between devices.</p>
-<p>Examples of persistent state information include: in-game saves, high scores, hardware configuration settings (for arcade-based systems), etc.</p>
-<p>It is important to note that webЯcade only supports in-game state persistence at this time (state that the original game persisted to non-volatile memory). It does not currently support save states. Save states will be coming in a future release.</p>
+<p>Examples of persistent state information include: <a href="#save-states">save states</a>, in-game saves, high scores, hardware configuration settings (for arcade-based systems), etc.</p>
 <p>The following sections detail how to link webЯcade to cloud storage within the WebЯcade <a href="#player">player</a>, <a href="#feed-editor">feed editor</a>, or when playing a game in <a href="#stand-alone">stand-alone</a> mode.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -2205,6 +2258,39 @@ and/or browser that is being used with webЯcade.</p>
 </div>
 <p>The linking process will include authenticating with Dropbox and confirming that
 webЯcade is allowed to access a restricted portion of the user's Dropbox account.</p>
+<h2 id="save-states">Save States</h2>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Save states are only available when cloud storage is enabled.</p>
+</div>
+<p>The majority of emulator-based applications support save states. Save states allow for saving and subsequently resuming at any point of a particular game (regardless of whether the game intrinsically supports saves).</p>
+<p><img alt="" class="center zoomD" src="../assets/images/cloudstorage/select-savestates.png" style="padding:5px;" /></p>
+<p>The "Save States Screen" can be accessed via the "Pause Screen" by selecting the "Save States" item (as shown in the screenshot above).</p>
+<p><img alt="" class="center zoomD" src="../assets/images/cloudstorage/savestates.png" style="padding:5px;" /></p>
+<p>Eight separate save slots are available for each game. The arrow buttons (<em>See #1 in screenshot above</em>) are used to move between the save slots for the current game.</p>
+<h3 id="fields">Fields</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Load</td>
+<td>The <code>Load</code> button loads the save state associated with the current slot.</td>
+</tr>
+<tr>
+<td>Save</td>
+<td>The <code>Save</code> button creates a new save state and associates it with the current slot.</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>The <code>Delete</code> button deletes the save state associated with the current slot.</td>
+</tr>
+</tbody>
+</table>
                 
                   
 
