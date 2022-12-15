@@ -94,7 +94,7 @@ Eight separate save slots are available for each game. The arrow buttons (*See #
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Load | The `Load` button loads the save state associated with the current slot. |
-| Save | The `Save` button creates a new save state and associates it with the current slot. |
-| Delete | The `Delete` button deletes the save state associated with the current slot. |
+| Load | The `Load` button loads the save state associated with the current slot (*See #2 in screenshot above*). |
+| Save | The `Save` button creates a new save state and associates it with the current slot (*See #3 in screenshot above*). |
+| Delete | The `Delete` button deletes the save state associated with the current slot (*See #4 in screenshot above*). |
 
