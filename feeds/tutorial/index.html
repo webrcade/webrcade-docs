@@ -2284,12 +2284,12 @@
 <h2 id="create-feed-object">Create Feed Object</h2>
 <p>The <a href="../format/#feed-object">Feed Object</a> is the root object in a webЯcade document that contains high-level meta-information about the feed. The only required fields are a <code>title</code> and an array of <code>categories</code>. </p>
 <p>Start by copying the example content below into the feed document you are creating. Update the <code>title</code>, <code>longTitle</code>, and <code>description</code> to reflect your specific feed. Alternatively, <code>longTitle</code> and <code>description</code> can be removed as they are optional (See the <a href="../format/#feed-object">Feed Object</a> documentation for more details).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h3 id="add-feed-images">Add Feed Images</h3>
 <p>The <a href="../format/#feed-object">Feed Object</a> supports the ability to associate optional thumbnail and background images with the feed. These images will be displayed when the feed is selected within the, "Feeds view", of the webЯcade player.</p>
@@ -2299,33 +2299,33 @@
 <li>Feed Background Image<br><code>https://docs.webrcade.com/tutorial/feed-background.jpg</code></li>
 </ul>
 <p>Copy the URLs of the newly uploaded images from Imgur (as described in the <a href="../resources/imgur/">Imgur Resource</a> page), and add them to the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (<code>thumbnail</code> and <code>background</code> images are highlighted).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial webЯcade Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial webЯcade Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="create-category-object">Create Category Object</h2>
 <p><a href="../format/#category-object">Category objects</a> of a webЯcade feed provide a means of classifying items (games, etc.) into user-defined groups
 (by game type, console type, etc.). For a feed to be considered valid it must contain at least one category object. The only required category object fields are a <code>title</code> and an array of <code>items</code>. </p>
 <p>Copy the highlighted lines below into the <code>categories</code> array of the feed document you are developing. Update the category <code>title</code> and <code>description</code> to reflect your specific feed. Alternatively, <code>description</code> can be removed as it is optional (See the <a href="../format/#category-object">Category Object</a> documentation for more details).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="hll"><span class="w">    </span><span class="p">{</span><span class="w"></span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w"></span>
-</span><span class="hll"><span class="w">    </span><span class="p">}</span><span class="w"></span>
-</span><span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="hll"><span class="w">    </span><span class="p">{</span>
+</span><span class="hll"><span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
+</span><span class="hll"><span class="w">    </span><span class="p">}</span>
+</span><span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -2339,49 +2339,49 @@
 <li>Category Background Image<br><code>https://docs.webrcade.com/tutorial/category-background.jpg</code></li>
 </ul>
 <p>Copy the URLs of the newly uploaded images from Imgur (as described in the <a href="../resources/imgur/">Imgur Resource</a> page), and add them to the category object in the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (the category's <code>thumbnail</code> and <code>background</code> images are highlighted).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span>
+</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="create-item-object">Create Item Object</h2>
 <p><a href="../format/#item-object">Item objects</a> within a webЯcade feed correspond to items (games, etc.) that can be launched (played, etc.). Each item object must contain an application <code>type</code> property value (the specific emulator or game engine, etc. to launch). </p>
 <p>The <a href="../../apps/">Applications</a> page contains a listing of all the available applications. The detailed page for each application contains a <em>"Feed"</em> section that includes the application-specific <code>type</code> value. In addition to the application <code>type</code>, item objects must include a <code>title</code>.</p>
 <p>Copy the highlighted lines below into the <code>items</code> array of the <a href="../format/#category-object">Category Object</a> that was created in the previous section. The <code>description</code> property can be removed as it is optional (See the <a href="../format/#item-object">Item Object</a> documentation for more details).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="hll"><span class="w">        </span><span class="p">{</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="p">}</span><span class="w"></span>
-</span><span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="hll"><span class="w">        </span><span class="p">{</span>
+</span><span class="hll"><span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">        </span><span class="p">}</span>
+</span><span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -2397,31 +2397,31 @@
 </ul>
 <p>Alternatively, a resource such as the <a href="../resources/inetarchive/">Internet Archive</a> can be leveraged to obtain URLs to homebrew ROMs that are already being shared publicly.</p>
 <p>Add the highlighted lines below (the <code>props</code> object) into the <a href="../format/#item-object">Item Object</a> that was added in the previous step.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="p">}</span><span class="w"></span>
-</span><span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span>
+</span><span class="hll"><span class="w">          </span><span class="p">}</span>
+</span><span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h3 id="add-item-images">Add Item Images</h3>
 <p>The <a href="../format/#item-object">Item Object</a> supports the ability to associate optional thumbnail and background images with the item. These images will be displayed when the item is selected within the, "Items view", of the webЯcade player.</p>
@@ -2431,33 +2431,33 @@
 <li>Item Background Image<br><code>https://docs.webrcade.com/tutorial/uwol-background.png</code></li>
 </ul>
 <p>Copy the URLs of the newly uploaded images from Imgur (as described in the <a href="../resources/imgur/">Imgur Resource</a> page), and add them to the item object in the webЯcade feed document that is being developed. At this point the feed document should appear similar to the one shown below (the item's <code>thumbnail</code> and <code>background</code> images are highlighted).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/yJ2xKHK.png&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ZUHJNjW.png&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span><span class="w"></span>
-<span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/yJ2xKHK.png&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ZUHJNjW.png&quot;</span><span class="p">,</span>
+</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="shorten-feed-urls">Shorten Feed URLs</h2>
 <p>At this point we have a fully formed and valid feed document. An <em>optional</em> step that can be performed on the feed document is shortening the URLs that are contained within it. Shortening of URLs is recommended as it reduces the overall size of the feed document and mitigates false-positive blocking by simple URL filters. </p>
@@ -2467,63 +2467,63 @@
 </ul>
 <p>The two tabs below show the feed document with "Full URLs" (prior to shortening) and with "Shortened URLs" (after shortening).</p>
 <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Full URLs</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/yJ2xKHK.png&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ZUHJNjW.png&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
+</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span>
+</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/yJ2xKHK.png&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ZUHJNjW.png&quot;</span><span class="p">,</span>
+</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Shortened URLs</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/5b8e2brx&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/yentv7y6&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/cepxkn7h&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/vsk6d3py&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/mh3epukr&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/eebpj6u7&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/wfknhbhc&quot;</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/5b8e2brx&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/yentv7y6&quot;</span><span class="p">,</span>
+</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/cepxkn7h&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/vsk6d3py&quot;</span><span class="p">,</span>
+</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/mh3epukr&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/eebpj6u7&quot;</span><span class="p">,</span>
+</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/wfknhbhc&quot;</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 </div>
 </div>

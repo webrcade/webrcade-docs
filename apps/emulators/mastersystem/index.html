@@ -2430,26 +2430,26 @@ specified in the <code>props</code> object of a feed item.</p>
 </table>
 <h3 id="example">Example</h3>
 <p>The following is an example of a complete feed that consists of a single Master System application instance (<code>type</code> value of <code>sms</code>). The <code>rom</code> property value is a URL that points to a Dropbox location that contains the excellent homebrew game DARC by Richard Cornelisse and John Hassink (Music). It is also important to note that the <code>ym2413</code> value has also been set to <code>true</code> to enable Yamaha-based FM music support (this particular game requires YM2413 support for its music).</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Master System Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega Master System Example Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Master System Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega Master System Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DARC&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sms&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;ym2413&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/mjp3odan08deqp2/DARC.sms&quot;</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Master System Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega Master System Example Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Master System Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega Master System Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;DARC&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sms&quot;</span><span class="p">,</span>
+</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;ym2413&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+</span><span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/mjp3odan08deqp2/DARC.sms&quot;</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>This example can be tested by adding a feed with the following URL within the <a href="../../../userguide/">webЯcade player</a>:</p>
 <p><code>https://tinyurl.com/sample-sms-feed</code></p>

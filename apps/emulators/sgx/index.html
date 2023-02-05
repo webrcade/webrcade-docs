@@ -2470,24 +2470,24 @@
 </table>
 <h3 id="example">Example</h3>
 <p>The following is an example of a complete feed that consists of a single SuperGrafx application instance (<code>type</code> value of <code>sgx</code>). The <code>rom</code> property value is a URL that points to a Dropbox location that contains the excellent SuperGrafx Demo by Chris Covell.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Example Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Demo&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sgx&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/mu78bstb7teulyn/Axelay_Demo%20%281%29.zip&quot;</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Example Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SuperGrafx Demo&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sgx&quot;</span><span class="p">,</span>
+</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/mu78bstb7teulyn/Axelay_Demo%20%281%29.zip&quot;</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>This example can be tested by adding a feed with the following URL within the <a href="../../../userguide/">webЯcade player</a>:</p>
 <p><code>https://tinyurl.com/sample-sgx-feed</code></p>

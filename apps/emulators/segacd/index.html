@@ -2681,33 +2681,33 @@ specified in the <code>props</code> object of a feed item.</p>
 <h3 id="example">Example</h3>
 <p>The following is an example of a complete feed that consists of a single Sega CD application instance (<code>type</code> value of <code>segacd</code>). The <code>discs</code> property value contains a URL that points to a Sega CD game disc image. The <code>uid</code> property value contains a unique identifier for this specific game (must be unique across all Sega CD games).</p>
 <p>It is also worth noting that the <em>Sega CD BIOS locations</em> (<code>segacd_bios</code>) is specified globally within the <a href="../../../feeds/format/#feed-object">Feed Object's</a> <code>props</code> object.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega CD&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">    </span><span class="nt">&quot;segacd_bios&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/bios_CD_E.BIN&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/bios_CD_J.BIN&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/bios_CD_U.BIN&quot;</span><span class="w"></span>
-</span><span class="hll"><span class="w">    </span><span class="p">]</span><span class="w"></span>
-</span><span class="w">  </span><span class="p">},</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega CD Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Some Game&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;segacd&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;uid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;6c93b5db-47fe-40a8-902d-036353a28d70&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="nt">&quot;discs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-</span><span class="hll"><span class="w">                </span><span class="s2">&quot;https://&lt;host&gt;/somegame.chd&quot;</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="p">]</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega CD&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">    </span><span class="nt">&quot;segacd_bios&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/bios_CD_E.BIN&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/bios_CD_J.BIN&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/bios_CD_U.BIN&quot;</span>
+</span><span class="hll"><span class="w">    </span><span class="p">]</span>
+</span><span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sega CD Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Some Game&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;segacd&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;uid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;6c93b5db-47fe-40a8-902d-036353a28d70&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">            </span><span class="nt">&quot;discs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="hll"><span class="w">                </span><span class="s2">&quot;https://&lt;host&gt;/somegame.chd&quot;</span>
+</span><span class="hll"><span class="w">            </span><span class="p">]</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="references">References</h2>
 <ul>

@@ -2785,33 +2785,33 @@ specified in the <code>props</code> object of a feed item.</p>
 <h3 id="example">Example</h3>
 <p>The following is an example of a complete feed that consists of a single PlayStation application instance (<code>type</code> value of <code>psx</code>). The <code>discs</code> property value contains a URL that points to a Dropbox location that contains the excellent homebrew game Magic Castle by KAIGA. The <code>uid</code> property value contains a unique identifier for this specific game (must be unique across all PlayStation games).</p>
 <p>It is also worth noting that the <em>PlayStation BIOS locations</em> (<code>psx_bios</code>) is specified globally within the <a href="../../../feeds/format/#feed-object">Feed Object's</a> <code>props</code> object.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sony PlayStation&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">    </span><span class="nt">&quot;psx_bios&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/scph5500.bin&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/scph5501.bin&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/scph5502.bin&quot;</span><span class="w"></span>
-</span><span class="hll"><span class="w">    </span><span class="p">]</span><span class="w"></span>
-</span><span class="w">  </span><span class="p">},</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sony PlayStation Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Magic Castle&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;psx&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;uid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;60f942b4-b4e5-47c0-9759-5d9d191c58e8&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="nt">&quot;discs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-</span><span class="hll"><span class="w">                </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/1fkmiszh1hj98d0/magiccastle.chd&quot;</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="p">]</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sony PlayStation&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">    </span><span class="nt">&quot;psx_bios&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/scph5500.bin&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/scph5501.bin&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">        </span><span class="s2">&quot;https://&lt;host&gt;/scph5502.bin&quot;</span>
+</span><span class="hll"><span class="w">    </span><span class="p">]</span>
+</span><span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sony PlayStation Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Magic Castle&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;psx&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;uid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;60f942b4-b4e5-47c0-9759-5d9d191c58e8&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">            </span><span class="nt">&quot;discs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span class="hll"><span class="w">                </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/1fkmiszh1hj98d0/magiccastle.chd&quot;</span>
+</span><span class="hll"><span class="w">            </span><span class="p">]</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="references">References</h2>
 <ul>

@@ -2451,28 +2451,28 @@ specified in the <code>props</code> object of a feed item.</p>
 <h3 id="example">Example</h3>
 <p>The following is an example of a complete feed that consists of a single Game Boy application instance (<code>type</code> value of <code>gb</code>). The <code>rom</code> property value is a URL that points to a Dropbox location that contains the excellent demo of the homebrew game Rocket Man by Light Games.</p>
 <p>The <code>hwType</code> value has been set to <code>5</code> to force the emulated hardware to be the <code>Super Game Boy 2</code>. The <code>border</code> value has also been set to <code>1</code> to enable the game's custom border on the Super Game Boy. Neither of these options are required, but can be used to customize the experience for each game.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Game Boy Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nintendo Game Boy Example Feed&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Game Boy Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nintendo Game Boy Games&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
-<span class="w">        </span><span class="p">{</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rocket Man&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">          </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rocket Man (Demo)&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gb&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/0z8wwdxk54v9dgi/Rocket%20Man%20%28Demo%29%20v1.2.1.gb&quot;</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="nt">&quot;hwType&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"></span>
-</span><span class="hll"><span class="w">            </span><span class="nt">&quot;border&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
-</span><span class="w">          </span><span class="p">}</span><span class="w"></span>
-<span class="w">        </span><span class="p">}</span><span class="w"></span>
-<span class="w">      </span><span class="p">]</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">  </span><span class="p">]</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Game Boy Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nintendo Game Boy Example Feed&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Game Boy Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nintendo Game Boy Games&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rocket Man&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rocket Man (Demo)&quot;</span><span class="p">,</span>
+<span class="hll"><span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gb&quot;</span><span class="p">,</span>
+</span><span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/0z8wwdxk54v9dgi/Rocket%20Man%20%28Demo%29%20v1.2.1.gb&quot;</span><span class="p">,</span>
+</span><span class="hll"><span class="w">            </span><span class="nt">&quot;hwType&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+</span><span class="hll"><span class="w">            </span><span class="nt">&quot;border&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+</span><span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>This example can be tested by adding a feed with the following URL within the <a href="../../../userguide/">webЯcade player</a>:</p>
 <p><code>https://tinyurl.com/sample-gb-feed</code></p>
