@@ -137,7 +137,7 @@ The following is an example of a complete feed that consists of a single PC Engi
 
 It is also worth noting that the *PC Engine CD BIOS location* (`pcecd_bios`) is specified globally within the [Feed Object's](../../../feeds/format.md#feed-object) `props` object.
 
-``` json hl_lines="4 14-17"
+``` json hl_lines="4 12 14-17"
 {
   "title": "PC Engine CD",
   "props": {

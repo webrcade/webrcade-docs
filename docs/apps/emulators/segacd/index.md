@@ -146,7 +146,7 @@ The following is an example of a complete feed that consists of a single Sega CD
 
 It is also worth noting that the *Sega CD BIOS locations* (`segacd_bios`) is specified globally within the [Feed Object's](../../../feeds/format.md#feed-object) `props` object.
 
-``` json hl_lines="4-8 18-21"
+``` json hl_lines="4-8 16 18-21"
 {
   "title": "Sega CD",
   "props": {

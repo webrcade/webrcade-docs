@@ -8,12 +8,15 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 |----------|------|
 | [Arcade](arcade/index.md) | Emulator for various arcade hardware (both pre and post 90s) |
 | [Atari 2600](2600/index.md) | Emulator for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) game console |
+| [Atari 5200](5200/index.md) (Experimental) | Emulator for the [Atari 5200](https://en.wikipedia.org/wiki/Atari_5200) game console |
 | [Atari 7800](7800/index.md) | Emulator for the [Atari 7800 ProSystem](https://en.wikipedia.org/wiki/Atari_7800) game console |
 | [Atari Lynx](lynx/index.md) | Emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console |
 | [Bandai WonderSwan](ws/index.md) | Emulator for the [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) and [WonderSwan Color](https://en.wikipedia.org/wiki/WonderSwan) handheld game consoles |
+| [ColecoVision](colecovision/index.md) | Emulator for the [ColecoVision](https://en.wikipedia.org/wiki/ColecoVision) game console |
 | [NEC PC Engine](pce/index.md) | Emulator for the [PC Engine](https://en.wikipedia.org/wiki/TurboGrafx-16) and [TurboGrafx-16](https://en.wikipedia.org/wiki/TurboGrafx-16) game consoles |
 | [NEC PC Engine CD](pcecd/index.md) | Emulator for the [CD-ROM accessory](https://en.wikipedia.org/wiki/TurboGrafx-16#Add-ons) for the PC Engine |
 | [NEC SuperGrafx](sgx/index.md) | Emulator for the [PC Engine SuperGrafx](https://en.wikipedia.org/wiki/PC_Engine_SuperGrafx) game console |
+| [NEC PC-FX](pcfx/index.md) | Emulator for the [PC-FX](https://en.wikipedia.org/wiki/PC-FX) game console |
 | [Nintendo 64](n64/index.md) (Experimental) | Emulator for the [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) game console |
 | [Nintendo NES](nes/index.md) | Emulator for the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) game console |
 | [Nintendo SNES](snes/index.md) |  Emulator for the [Super Nintendo Entertainment System](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) game console |

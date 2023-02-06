@@ -31,14 +31,17 @@ nav:
       - Arcade: apps/emulators/arcade/index.md
       - Atari:
         - 2600: apps/emulators/2600/index.md
+        - 5200 (Experimental): apps/emulators/5200/index.md
         - 7800: apps/emulators/7800/index.md
         - Lynx: apps/emulators/lynx/index.md
       - Bandai:
         - WonderSwan: apps/emulators/ws/index.md
+      - ColecoVision: apps/emulators/colecovision/index.md
       - NEC:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
         - PC Engine CD (TurboGrafx-CD): apps/emulators/pcecd/index.md
         - SuperGrafx: apps/emulators/sgx/index.md
+        - PC-FX: apps/emulators/pcfx/index.md
       - Nintendo:
         - N64 (Experimental): apps/emulators/n64/index.md
         - NES: apps/emulators/nes/index.md
