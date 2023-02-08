@@ -2672,12 +2672,12 @@ To increase the likelihood of a game with a larger disc size loading, you can op
 </tbody>
 </table>
 <h3 id="example">Example</h3>
-<p>The following is an example of a complete feed that consists of a single PC-FX application instance (<code>type</code> value of <code>pcecd</code>). The <code>discs</code> property value contains a URL that points to a PC-FX game disc image. The <code>uid</code> property value contains a unique identifier for this specific game (must be unique across all PC-FX games).</p>
+<p>The following is an example of a complete feed that consists of a single PC-FX application instance (<code>type</code> value of <code>pcfx</code>). The <code>discs</code> property value contains a URL that points to a PC-FX game disc image. The <code>uid</code> property value contains a unique identifier for this specific game (must be unique across all PC-FX games).</p>
 <p>It is also worth noting that the <em>PC-FX BIOS location</em> (<code>pcfx_bios</code>) is specified globally within the <a href="../../../feeds/format/#feed-object">Feed Object's</a> <code>props</code> object.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;PC-FX&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="hll"><span class="w">    </span><span class="nt">&quot;pcecd_bios&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://&lt;host&gt;/pcfx.rom&quot;</span>
+<span class="hll"><span class="w">    </span><span class="nt">&quot;pcfx_bios&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://&lt;host&gt;/pcfx.rom&quot;</span>
 </span><span class="w">  </span><span class="p">},</span>
 <span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
