@@ -43,9 +43,9 @@ nav:
         - SuperGrafx: apps/emulators/sgx/index.md
         - PC-FX: apps/emulators/pcfx/index.md
       - Nintendo:
-        - N64 (Experimental): apps/emulators/n64/index.md
         - NES: apps/emulators/nes/index.md
         - SNES: apps/emulators/snes/index.md
+        - N64 (Experimental): apps/emulators/n64/index.md
         - Game Boy: apps/emulators/gb/index.md
         - Game Boy Color: apps/emulators/gbc/index.md
         - Game Boy Advance: apps/emulators/gba/index.md
