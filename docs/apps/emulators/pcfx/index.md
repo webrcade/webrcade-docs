@@ -131,7 +131,7 @@ The table below contains the properties that are specific to the PC-FX applicati
 
 ### Example
 
-The following is an example of a complete feed that consists of a single PC-FX application instance (`type` value of `pcecd`). The `discs` property value contains a URL that points to a PC-FX game disc image. The `uid` property value contains a unique identifier for this specific game (must be unique across all PC-FX games).
+The following is an example of a complete feed that consists of a single PC-FX application instance (`type` value of `pcfx`). The `discs` property value contains a URL that points to a PC-FX game disc image. The `uid` property value contains a unique identifier for this specific game (must be unique across all PC-FX games).
 
 It is also worth noting that the *PC-FX BIOS location* (`pcfx_bios`) is specified globally within the [Feed Object's](../../../feeds/format.md#feed-object) `props` object.
 
@@ -139,7 +139,7 @@ It is also worth noting that the *PC-FX BIOS location* (`pcfx_bios`) is specifie
 {
   "title": "PC-FX",
   "props": {
-    "pcecd_bios": "https://<host>/pcfx.rom"
+    "pcfx_bios": "https://<host>/pcfx.rom"
   },
   "categories": [
     {
