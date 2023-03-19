@@ -23,7 +23,7 @@ Due to large Disc image sizes, adding PlayStation games in the [Feed Editor](../
 !!! important
     The PlayStation application only supports `.CHD` and `.PBP` disc file formats (`.ISO`, `.BIN`, and `.CUE` are not supported).
 
-See the [Disc-based Items](../../../editor/workspace/addingitems.md#disc-based-items) section for the list of steps required to add a PlayStation game in the [Feed Editor](../../../editor/index.md).
+See the [Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for the list of steps required to add a PlayStation game in the [Feed Editor](../../../editor/index.md).
 
 !!! important
     Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).

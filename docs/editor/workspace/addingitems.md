@@ -20,11 +20,11 @@ Items can be created and added to feeds based on URLs that point to ROM files. S
 
 Items can also be created by dragging and dropping URLs that point to ROM files onto the editor workspace or its dialogs. See the [Drag and Drop ROM URLs](../draganddrop.md#drag-rom-urls) section for more information.
 
-## Disc-based Items
+## Disc and Archive-based Items
 
-Due to large disc image sizes, adding disc-based items (games, etc.) in the [Feed Editor](../index.md) must be done manually (versus using auto-detection).
+Due to their large sizes, adding disc and archive-based items (games, etc.) in the [Feed Editor](../index.md) must be done manually (versus using auto-detection).
 
-To add a disc-based item, perform the following steps.
+To add a disc or archive-based item, perform the following steps.
 
 * Navigate to the "Items" tab in the Feed Editor (See [Feed Items Tab](itemstab.md) documentation).
 
@@ -40,5 +40,6 @@ To add a disc-based item, perform the following steps.
 ![](../../assets/images/editor/workspace/create-item-discs.png){: class="center zoomD"}
 
 * On the [Properties Tab](../dialogs/item-dialog.md#properties-tab) of the [Create Item Editor](../dialogs/item-dialog.md) perform the following steps:
-    * Provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field) (*See #1 in screenshot above*).
+    * For CD-based items, provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field) (*See #1 in screenshot above*).
+    * For archive-based items, select the archive (`.zip`) file in the "Archive (URL)"  text field (directly or via the chooser button to the right of the field).
 * Click the `OK` button to add the newly created item to the feed.

@@ -40,7 +40,7 @@ Gamepad support is available for both controllers.
 | I                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"} or ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} |  __X Button__ only available in 2-button mode. |
 | II                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} or ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"} | __Y Button__ only available in 2-button mode. |
 | III                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} | Only in 6-button mode. |
-| IV                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeY.png){: class="control"}  | Only in 6-button mode. |
+| IV                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"}  | Only in 6-button mode. |
 | V           | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | Only in 6-button mode. |
 | VI          | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RB.png){: class="control"}  | Only in 6-button mode. |
 | Run                        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __Menu (Start) Button__. |

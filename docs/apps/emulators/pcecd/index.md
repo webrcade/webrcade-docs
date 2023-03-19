@@ -15,7 +15,7 @@ Due to large Disc image sizes, adding PC Engine CD-based games in the [Feed Edit
 !!! important
     The PC Engine CD application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).
 
-See the [Disc-based Items](../../../editor/workspace/addingitems.md#disc-based-items) section for the list of steps required to add a PC Engine CD game in the [Feed Editor](../../../editor/index.md).
+See the [Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for the list of steps required to add a PC Engine CD game in the [Feed Editor](../../../editor/index.md).
 
 !!! important
     Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).
