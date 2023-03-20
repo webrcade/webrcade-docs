@@ -58,12 +58,14 @@ nav:
         - Game Gear: apps/emulators/gamegear/index.md
       - SNK:
         - Neo Geo: apps/emulators/neogeo/index.md
+        - Neo Geo CD: apps/emulators/neogeocd/index.md
         - Neo Geo Pocket: apps/emulators/ngp/index.md
       - Sony:
         - PlayStation: apps/emulators/psx/index.md
     - Engines:
       - Overview: apps/engines/index.md
-      - Classic Doom: apps/engines/doom/index.md
+      - Doom: apps/engines/doom/index.md
+      - Quake: apps/engines/quake/index.md
   - Feeds:
     - Overview: feeds/index.md
     - Format: feeds/format.md
