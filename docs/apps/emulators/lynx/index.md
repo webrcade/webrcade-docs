@@ -80,6 +80,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to an Atari Lynx ROM file or a zip file containing a ROM file. |
 | rotation | Numeric | No | How many degrees the screen should be rotated.<br><br>Valid values are 0, 90, and 270. |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

@@ -34,23 +34,6 @@ In addition to PC-FX Disc images, the following BIOS file must be specified glob
 | --- | --- |
 | `pcfx.rom` | 08e36edbea28a017f79f8d4f7ff9b6d7 |
 
-## Settings
-
-The PC-FX Application includes a custom settings dialog.
-
-![](../../../assets/images/apps/pcfx/pcfx-settings.png){: class="center zoomD"}
-
-To access these settings, display the "Pause" screen and select the "PC-FX Settings" option (*See screenshot above*).
-
-### Display Tab
-
-The PC-FX Application "display tab" settings are detailed below.
-
-| __Field__ | __Description__ |
-| --- | --- |
-| Force bilinear filter | <p>Forces bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</p><p>Enabling this setting will override the global bilinear filter setting for the PC-FX application.</p>  |
-
-![](../../../assets/images/apps/pcfx/pcfx-display.png){: class="center zoomD"}
 
 ## Controls
 

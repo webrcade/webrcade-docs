@@ -80,16 +80,6 @@ The PlayStation Application "controller tab" settings are detailed below. It is 
 | Analog mode | Enables *Analog mode* on the PlayStation DualShock controller. Some games will automatically force this mode. However, this setting allows for forcing the controller into analog mode. |
 | Swap controllers (ports 1 and 2) | Swaps controllers 1 and 2. This is necessary in some games as they require the use of both controller ports (even during a single player game). |
 
-### Display Tab
-
-The PlayStation Application "display tab" settings are detailed below.
-
-| __Field__ | __Description__ |
-| --- | --- |
-| Force bilinear filter | <p>Forces bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</p><p>Enabling this setting will override the global bilinear filter setting for the PlayStation application.</p>  |
-
-![](../../../assets/images/apps/psx/psx-display-settings.png){: class="center zoomD"}
-
 ## Controls
 
 The emulator supports up to four controllers. The keyboard and gamepad mappings are listed in the tables below.

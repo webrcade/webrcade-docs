@@ -153,6 +153,7 @@ The settings contained in this tab are detailed below:
 
 | __Field__ | __Description__ |
 | --- | --- |
+| Screen size | The screen size to use when playing a game.<br><br>Options include:<br><ul><li>`Native` : The application's native resolution</li><li>`16:9` : Widescreen resolution</li><li>`Fill` : Fill the entire contents of the screen</li></ul> |
 | Vertical sync | Enables vertical sync (VSync) when playing games. Vertical sync attempts to synchronize the frame rate of the game with the display (screen) which eliminates artifacts such as screen tearing.<br><br>This setting can be disabled if performance-related issues are experienced.  |
 | Bilinear filter | Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced. |
 
@@ -193,9 +194,10 @@ The "Pause Screen" can be displayed when an item (game, etc.) is running. The pa
 
 While each application (emulator, etc.) can provide their own unique options within the pause screen, the following will always be available.
 
-* `Return to Browse` (*See #1 in screenshot above*) - Returns to the most recent [Items View](#items-view).
+* `Return to Browse (or Editor)` (*See #1 in screenshot above*) - Returns to the most recent [Items View](#items-view) (or editor if launched from within the [Editor](../editor)).
 * `View Controls` (*See #2 in screenshot above*) - Displays the gamepad and keyboard controls for the current item (game, etc.).
-* `Resume` (*See #3 in screenshot above*) - Resumes playing the current item (game, etc.).
+* `Application Settings` (*See #3 in screenshot above*) - Displays the settings for the current application (emulator, etc.). See the [Application Settings Screen](#application-settings-screen) section for more information.
+* `Resume` (*See #4 in screenshot above*) - Resumes playing the current item (game, etc.).
 
 The majority of emulator-based applications support save states. Save states require [cloud storage](../storage/) to be enabled.
 
@@ -228,4 +230,19 @@ The following tables include the button mappings that can be used to display the
 | --- | --- | --- |
 | Show Pause Screen | :material-gesture-tap:{ style="transform: scale(2.1); padding-right:5px" } Tap | Tap screen to show pause screen.  |
 
+### Application Settings Screen
 
+The application settings screen contains tabs with settings that are specific to the current application (emulator, etc). While many of the tabs are application-specific, the "Display Settings Tab" (detailed below), will be present for the majority of applications.
+
+#### Display Settings Tab
+
+The "Display Settings Tab" contains settings that are used to control the output display for the current application (emulator, etc.).
+
+![](../assets/images/userguide/system-settings-display-setting-tab.png){: style="padding:5px;" class="center zoomD"}
+
+The settings contained in this tab are detailed below:
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Screen size | The screen size to use when playing a game.<br><br>Options include:<br><ul><li>`(Default)` : Use the global setting (found in the [Player Settings Dialog](#settings-dialog) and [Editor Settings Dialog](../editor/workspace/settings#settings-dialog)).</li><li>`Native` : The application's native resolution</li><li>`16:9` : Widescreen resolution</li><li>`Fill` : Fill the entire contents of the screen</li></ul> |
+| Bilinear filter | Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced. |

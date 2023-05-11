@@ -70,6 +70,7 @@ specified in the `props` object of a feed item.
 | rom | URL | Yes | URL to a Master System ROM file or a zip file containing a ROM file. |
 | hwType | Numeric | No | The type of hardware to emulate.<br>(defaults to Master System II)<br><ul><li>`0` : Master System II</li><li>`1` : Master System</li><li>`2` : SG-1000</li></ul> |
 | ym2413 | Boolean | No | Whether to emulator the YM2413 FM sound generator produced by Yamaha. The YM2413 was an add-on for the Sega Mark III and is built into the Japanese Sega Master System. |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

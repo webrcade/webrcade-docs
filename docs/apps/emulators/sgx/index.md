@@ -76,7 +76,7 @@ The table below contains the properties that are specific to the SuperGrafx appl
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a SuperGrafx ROM file or a zip file containing a ROM file. |
 | pad6button | Boolean | No | Whether to use 6-button control pads (2 button is the default). |
-
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

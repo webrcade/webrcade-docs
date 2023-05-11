@@ -80,6 +80,7 @@ specified in the `props` object of a feed item.
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
 | rom | URL | Yes | URL to a Genesis ROM file or a zip file containing a ROM file. |
 | pad3button | Boolean | No | Whether to use 3-button control pads (6-button is the default). |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

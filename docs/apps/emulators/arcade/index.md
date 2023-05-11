@@ -91,6 +91,7 @@ specified in the `props` object of a feed item.
 | samples | URL | No | URL to a zip file containing audio samples for the arcade game. A subset of games support the optional use of audio samples for sounds that are not currently emulated. |
 | volAdjust | Numeric | No | Adjusts the volume from its default level.<br><br>Possible values range from `-99` to `99`.<br><br>In the vast majority of cases this setting should never be utilized. But, for some games where the default volume level is extremely low (inaudible), this property can be used to make the sound audible. |
 | playerOrder | String | No | This string is used to determine the order of the players.<br><br>This is typically used for games that have characters that are mapped to a particular coin/start button. In many of these cases, the "preferred" characters are associated with players two and three. Using this string allows for mapping those players to gamepads one and two.<br><br>In the string below, gamepads one and two (zero-based) are mapped to players two and three.<br><br>`2:0:1:3` |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

@@ -34,24 +34,6 @@ In addition to PC Engine CD Disc images, the following BIOS file must be specifi
 | --- | --- |
 | `syscard3.pce` | '38179df8f4ac870017db21ebcbf53114' |
 
-## Settings
-
-The PC Engine CD Application includes a custom settings dialog.
-
-![](../../../assets/images/apps/pcecd/pcecd-settings.png){: class="center zoomD"}
-
-To access these settings, display the "Pause" screen and select the "PC Engine Settings" option (*See screenshot above*).
-
-### Display Tab
-
-The PC Engine CD Application "display tab" settings are detailed below.
-
-| __Field__ | __Description__ |
-| --- | --- |
-| Force bilinear filter | <p>Forces bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</p><p>Enabling this setting will override the global bilinear filter setting for the PC Engine CD application.</p>  |
-
-![](../../../assets/images/apps/pcecd/pcecd-display-settings.png){: class="center zoomD"}
-
 ## Controls
 
 The emulator supports up to four controllers. The keyboard and gamepad mappings are listed in the tables below.

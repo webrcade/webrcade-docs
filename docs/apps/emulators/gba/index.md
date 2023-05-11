@@ -82,7 +82,7 @@ specified in the `props` object of a feed item.
 | saveType | Numeric | No | The type of save hardware utilized by the cartridge.<br><ul><li>`0` : Auto Detect</li><li>`1` : EEPROM</li><li>`2` : SRAM</li><li>`3` : Flash</li><li>`4` : EEPROM + Sensor</li><li>`5` : None</li></ul> |
 | flashSize | Numeric | No | The size of the flash ram (only applicable for flash save type).<br><br>Valid values are 65536 and 131072. |
 | disableLookup | Boolean | No | <p>Disables looking up a game's settings based on Game ID.</p><p>This allows  all settings to be overridden even if the game is recognized. This is typically useful for "hacks" that are based on a standard game ID, but have unique settings (use of Real-time clock, etc.).</p> |
-
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

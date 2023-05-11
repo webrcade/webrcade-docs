@@ -80,6 +80,7 @@ specified in the `props` object of a feed item.
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
 | rom | URL | Yes | URL to an SNES ROM file or a zip file containing a ROM file. |
 | port2 | Numeric | No | The type of controller that is plugged into port #2 (defaults to `Standard`).<br><ul><li>`0` : Standard controller</li><li>`1` : Multitap adapter (up to 5 controllers)</li></ul> |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

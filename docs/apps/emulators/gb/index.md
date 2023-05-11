@@ -74,6 +74,7 @@ specified in the `props` object of a feed item.
 | colors | Numeric | No | The category of colors to use for the display. (defaults to Grayscale).<br><ul><li>`0` : Grayscale</li><li>`1` : Greenscale</li><li>`2` : Super Game Boy</li></ul> |
 | palette | Numeric | No | The specific palette to use within the selected color category (see `colors` property).<br><br> This value defaults to the first palette available within the selected color category.<br><br>Each color category has a set of palettes available for selection. The simplest way to determine a specific palette value for this property is by using the [Feed Editor](../../../editor/index.md), selecting a palette, exporting the feed and viewing the numeric value for the selected palette.  |
 | border | Numeric | No | Whether to display a border around the screen (defaults to `Off`).<br><ul><li>`0` : Off</li><li>`1` : On</li><li>`2` : Automatic</li></ul> |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 

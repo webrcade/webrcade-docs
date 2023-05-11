@@ -43,24 +43,6 @@ A single BIOS file for each region (USA, Japan, and Europe) must be specified (f
 | `bios_CD_E.bin` | 9b562ebf2d095bf1dabadbc1881f519a | Europe | Model 2 v2.00 (1993) |
 | `bios_CD_E.bin` | b10c0a97abc57b758497d3fae6ab35a4 | Europe | Model 2 v2.00w (1993) |
 
-## Settings
-
-The Sega CD Application includes a custom settings dialog.
-
-![](../../../assets/images/apps/segacd/segacd-settings.png){: class="center zoomD"}
-
-To access these settings, display the "Pause" screen and select the "Sega CD Settings" option (*See screenshot above*).
-
-### Display Tab
-
-The Sega CD Application "display tab" settings are detailed below.
-
-| __Field__ | __Description__ |
-| --- | --- |
-| Force bilinear filter | <p>Forces bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</p><p>Enabling this setting will override the global bilinear filter setting for the Sega CD application.</p>  |
-
-![](../../../assets/images/apps/segacd/segacd-display-settings.png){: class="center zoomD"}
-
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.

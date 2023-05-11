@@ -70,6 +70,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a Neo Geo Pocket (or Color) ROM file or a zip file containing a ROM file. |
 | language | Numeric | No | The language to use for displaying game text (if applicable) (defaults to `English`).<br><ul><li>`0` : English</li><li>`1` : Japanese</li><ul> |
+| zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
 
