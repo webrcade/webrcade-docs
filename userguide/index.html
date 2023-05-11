@@ -13,7 +13,7 @@
         
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-7.3.6+insiders-3.2.1">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-7.3.6+insiders-3.2.1">
     
     
       
@@ -529,6 +529,32 @@
   <a href="#pause-screen" class="md-nav__link">
     Pause Screen
   </a>
+  
+    <nav class="md-nav" aria-label="Pause Screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-settings-screen" class="md-nav__link">
+    Application Settings Screen
+  </a>
+  
+    <nav class="md-nav" aria-label="Application Settings Screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#display-settings-tab_1" class="md-nav__link">
+    Display Settings Tab
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2406,6 +2432,32 @@
     Pause Screen
   </a>
   
+    <nav class="md-nav" aria-label="Pause Screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-settings-screen" class="md-nav__link">
+    Application Settings Screen
+  </a>
+  
+    <nav class="md-nav" aria-label="Application Settings Screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#display-settings-tab_1" class="md-nav__link">
+    Display Settings Tab
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -2609,6 +2661,10 @@
 </thead>
 <tbody>
 <tr>
+<td>Screen size</td>
+<td>The screen size to use when playing a game.<br><br>Options include:<br><ul><li><code>Native</code> : The application's native resolution</li><li><code>16:9</code> : Widescreen resolution</li><li><code>Fill</code> : Fill the entire contents of the screen</li></ul></td>
+</tr>
+<tr>
 <td>Vertical sync</td>
 <td>Enables vertical sync (VSync) when playing games. Vertical sync attempts to synchronize the frame rate of the game with the display (screen) which eliminates artifacts such as screen tearing.<br><br>This setting can be disabled if performance-related issues are experienced.</td>
 </tr>
@@ -2672,9 +2728,10 @@
 <p><img alt="" class="center zoomD" src="../assets/images/userguide/play-pause-screen-annotated.png" style="padding:5px;" /></p>
 <p>While each application (emulator, etc.) can provide their own unique options within the pause screen, the following will always be available.</p>
 <ul>
-<li><code>Return to Browse</code> (<em>See #1 in screenshot above</em>) - Returns to the most recent <a href="#items-view">Items View</a>.</li>
+<li><code>Return to Browse (or Editor)</code> (<em>See #1 in screenshot above</em>) - Returns to the most recent <a href="#items-view">Items View</a> (or editor if launched from within the <a href="../editor">Editor</a>).</li>
 <li><code>View Controls</code> (<em>See #2 in screenshot above</em>) - Displays the gamepad and keyboard controls for the current item (game, etc.).</li>
-<li><code>Resume</code> (<em>See #3 in screenshot above</em>) - Resumes playing the current item (game, etc.).</li>
+<li><code>Application Settings</code> (<em>See #3 in screenshot above</em>) - Displays the settings for the current application (emulator, etc.). See the <a href="#application-settings-screen">Application Settings Screen</a> section for more information.</li>
+<li><code>Resume</code> (<em>See #4 in screenshot above</em>) - Resumes playing the current item (game, etc.).</li>
 </ul>
 <p>The majority of emulator-based applications support save states. Save states require <a href="../storage/">cloud storage</a> to be enabled.</p>
 <ul>
@@ -2750,6 +2807,30 @@
 <td>Show Pause Screen</td>
 <td><span class="twemoji" style="transform: scale(2.1); padding-right:5px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 9a1 1 0 0 1 1-1 1 1 0 0 1 1 1v4.47l1.21.13 4.94 2.19c.53.24.85.77.85 1.35v4.36c-.03.82-.68 1.47-1.5 1.5H11c-.38 0-.74-.15-1-.43l-4.9-4.2.74-.77c.19-.21.46-.32.74-.32h.22L10 19V9m1-4a4 4 0 0 1 4 4c0 1.5-.8 2.77-2 3.46v-1.22c.61-.55 1-1.35 1-2.24a3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .89.39 1.69 1 2.24v1.22C7.8 11.77 7 10.5 7 9a4 4 0 0 1 4-4z"/></svg></span> Tap</td>
 <td>Tap screen to show pause screen.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="application-settings-screen">Application Settings Screen</h3>
+<p>The application settings screen contains tabs with settings that are specific to the current application (emulator, etc). While many of the tabs are application-specific, the "Display Settings Tab" (detailed below), will be present for the majority of applications.</p>
+<h4 id="display-settings-tab_1">Display Settings Tab</h4>
+<p>The "Display Settings Tab" contains settings that are used to control the output display for the current application (emulator, etc.).</p>
+<p><img alt="" class="center zoomD" src="../assets/images/userguide/system-settings-display-setting-tab.png" style="padding:5px;" /></p>
+<p>The settings contained in this tab are detailed below:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Screen size</td>
+<td>The screen size to use when playing a game.<br><br>Options include:<br><ul><li><code>(Default)</code> : Use the global setting (found in the <a href="#settings-dialog">Player Settings Dialog</a> and <a href="../editor/workspace/settings#settings-dialog">Editor Settings Dialog</a>).</li><li><code>Native</code> : The application's native resolution</li><li><code>16:9</code> : Widescreen resolution</li><li><code>Fill</code> : Fill the entire contents of the screen</li></ul></td>
+</tr>
+<tr>
+<td>Bilinear filter</td>
+<td>Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</td>
 </tr>
 </tbody>
 </table>
