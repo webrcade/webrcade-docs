@@ -69,16 +69,27 @@ The Sony PlayStation Application includes a custom settings dialog.
 
 To access these settings, display the "Pause" screen and select the "PlayStation Settings" option (*See screenshot above*).
 
-![](../../../assets/images/apps/psx/psx-controller-settings.png){: class="center zoomD"}
+![](../../../assets/images/apps/psx/psx-playstation-settings.png){: class="center zoomD"}
 
-### Controller Tab
+### PlayStation Settings Tab (Session Only)
 
-The PlayStation Application "controller tab" settings are detailed below. It is important to note that the settings on this tab are *Session only* meaning they will not persist between gaming sessions.
+The PlayStation Application's "settings" tab is detailed below. It is important to note that the settings on this tab are *Session only* meaning they will not persist between gaming sessions.
 
 | __Field__ | __Description__ |
 | --- | --- |
 | Analog mode | Enables *Analog mode* on the PlayStation DualShock controller. Some games will automatically force this mode. However, this setting allows for forcing the controller into analog mode. |
 | Swap controllers (ports 1 and 2) | Swaps controllers 1 and 2. This is necessary in some games as they require the use of both controller ports (even during a single player game). |
+| Reset Disc | This resets the state of the CD that is currently mounted. This is only required if a game does not automatically support creating a game save prior to requesting a disc swap. In those particular cases, the only way to resume the game on the other disc is to do the following: <p><ol><li>Play the game to the point where it requests a disc swap.</li><li>Create a [save state](../../../storage/#save-states) at this point (requires [cloud-storage](../../../storage/) to be enabled).</li><li>Exit out of the game and subsequently load the game with the requested disc.<li>Restore the save state once the game is loaded.</li><li>Finally, open the pause menu, and enable the "Reset Disc" option.</li><li>At this point, the game should continue.</li><ol></p> |
+
+![](../../../assets/images/apps/psx/psx-advanced-settings.png){: class="center zoomD"}
+
+### Advanced Settings Tab
+
+The PlayStation Application's "advanced" tab settings are detailed below.
+
+| __Field__ | __Description__ |
+| --- | --- |
+| GPU Resolution | Controls the resolution to render each scene at internally.<br><br>This option will only affect 3D rendered items (not 2D). This improves the clarity of the visuals, primarily noticeable on larger screen resolutions. <br><br>NOTE: This setting significantly increases the required resources, and *will result in performance issues on a large number of devices*.  |
 
 ## Controls
 

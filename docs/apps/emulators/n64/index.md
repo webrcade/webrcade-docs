@@ -33,28 +33,6 @@ Due to its high resource requirements (see *warning* at top of this page), the f
 
 Android-based devices are not currently recommended at this time due to poor performance with this application.
 
-## iOS 16 Performance Issues
-
-!!! warning
-    iOS 16 has significantly affected the performance of the N64 application (emulator)
-
-The recent release of the iOS 16 operating system for iPhones/iPads has significantly affected the performance of the N64 application (emulator).
-
-The reduction in performance is caused by a *Safari Experimental Feature* that has been enabled by default in iOS 16.
-
-Performance of the N64 application (emulator) can be restored by disabling the experimental feature.
-
-![](../../../assets/images/apps/n64/gpuprocess-webgl.png){: class="center zoomD"}
-
-To disable the experimental feature, perform the following steps:
-
-* Open `Settings`, and select `Safari >` (*See screenshot above*)
-* On the `Safari` page, select `Advanced >` (*See screenshot above*)
-* On the `Advanced` page, select `Experimental Features >` (*See screenshot above*)
-* On the `Experimental Features` page, disable the `GPU Process: WebGL` feature (*See screenshot above*)
-* After completing these steps, the N64 application (emulator) should perform at a level similar to previous operating system versions
-
-
 ## Settings
 
 The N64 Application includes a custom settings dialog.
@@ -175,6 +153,29 @@ The following is an example of a complete feed that consists of a single N64 app
   ]
 }
 ```
+
+## iOS 16 through 16.4 Performance Issues
+
+!!! warning
+    iOS versions 16 through 16.4 significantly affected the performance of the N64 application (emulator)
+
+    This issue has been resolved in iOS 16.5+. Thus, *upgrading is the recommended way to resolve this issue*.
+
+iOS operating system versions 16 through 16.4 for iPhones/iPads significantly affected the performance of the N64 application (emulator).
+
+The reduction in performance was caused by a *Safari Experimental Feature* that was enabled by default in iOS 16 through 16.4.
+
+Performance of the N64 application (emulator) can be restored by disabling the experimental feature or upgrading to iOS version 16.5 or newer (recommended).
+
+![](../../../assets/images/apps/n64/gpuprocess-webgl.png){: class="center zoomD"}
+
+To disable the experimental feature, perform the following steps:
+
+* Open `Settings`, and select `Safari >` (*See screenshot above*)
+* On the `Safari` page, select `Advanced >` (*See screenshot above*)
+* On the `Advanced` page, select `Experimental Features >` (*See screenshot above*)
+* On the `Experimental Features` page, disable the `GPU Process: WebGL` feature (*See screenshot above*)
+* After completing these steps, the N64 application (emulator) should perform at a level similar to previous operating system versions
 
 ## References
 
