@@ -1486,8 +1486,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#controller-tab" class="md-nav__link">
-    Controller Tab
+  <a href="#playstation-settings-tab-session-only" class="md-nav__link">
+    PlayStation Settings Tab (Session Only)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-settings-tab" class="md-nav__link">
+    Advanced Settings Tab
   </a>
   
 </li>
@@ -2321,8 +2328,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#controller-tab" class="md-nav__link">
-    Controller Tab
+  <a href="#playstation-settings-tab-session-only" class="md-nav__link">
+    PlayStation Settings Tab (Session Only)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-settings-tab" class="md-nav__link">
+    Advanced Settings Tab
   </a>
   
 </li>
@@ -2532,9 +2546,9 @@ To increase the likelihood of a game with a larger disc size loading, you can op
 <p>The Sony PlayStation Application includes a custom settings dialog.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/apps/psx/psx-settings.png" /></p>
 <p>To access these settings, display the "Pause" screen and select the "PlayStation Settings" option (<em>See screenshot above</em>).</p>
-<p><img alt="" class="center zoomD" src="../../../assets/images/apps/psx/psx-controller-settings.png" /></p>
-<h3 id="controller-tab">Controller Tab</h3>
-<p>The PlayStation Application "controller tab" settings are detailed below. It is important to note that the settings on this tab are <em>Session only</em> meaning they will not persist between gaming sessions.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/apps/psx/psx-playstation-settings.png" /></p>
+<h3 id="playstation-settings-tab-session-only">PlayStation Settings Tab (Session Only)</h3>
+<p>The PlayStation Application's "settings" tab is detailed below. It is important to note that the settings on this tab are <em>Session only</em> meaning they will not persist between gaming sessions.</p>
 <table>
 <thead>
 <tr>
@@ -2550,6 +2564,27 @@ To increase the likelihood of a game with a larger disc size loading, you can op
 <tr>
 <td>Swap controllers (ports 1 and 2)</td>
 <td>Swaps controllers 1 and 2. This is necessary in some games as they require the use of both controller ports (even during a single player game).</td>
+</tr>
+<tr>
+<td>Reset Disc</td>
+<td>This resets the state of the CD that is currently mounted. This is only required if a game does not automatically support creating a game save prior to requesting a disc swap. In those particular cases, the only way to resume the game on the other disc is to do the following: <p><ol><li>Play the game to the point where it requests a disc swap.</li><li>Create a <a href="../../../storage/#save-states">save state</a> at this point (requires <a href="../../../storage/">cloud-storage</a> to be enabled).</li><li>Exit out of the game and subsequently load the game with the requested disc.<li>Restore the save state once the game is loaded.</li><li>Finally, open the pause menu, and enable the "Reset Disc" option.</li><li>At this point, the game should continue.</li><ol></p></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" class="center zoomD" src="../../../assets/images/apps/psx/psx-advanced-settings.png" /></p>
+<h3 id="advanced-settings-tab">Advanced Settings Tab</h3>
+<p>The PlayStation Application's "advanced" tab settings are detailed below.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPU Resolution</td>
+<td>Controls the resolution to render each scene at internally.<br><br>This option will only affect 3D rendered items (not 2D). This improves the clarity of the visuals, primarily noticeable on larger screen resolutions. <br><br>NOTE: This setting significantly increases the required resources, and <em>will result in performance issues on a large number of devices</em>.</td>
 </tr>
 </tbody>
 </table>

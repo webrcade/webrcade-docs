@@ -1183,13 +1183,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ios-16-performance-issues" class="md-nav__link">
-    iOS 16 Performance Issues
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#settings" class="md-nav__link">
     Settings
   </a>
@@ -1268,6 +1261,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ios-16-through-164-performance-issues" class="md-nav__link">
+    iOS 16 through 16.4 Performance Issues
+  </a>
   
 </li>
       
@@ -2279,13 +2279,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ios-16-performance-issues" class="md-nav__link">
-    iOS 16 Performance Issues
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#settings" class="md-nav__link">
     Settings
   </a>
@@ -2368,6 +2361,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ios-16-through-164-performance-issues" class="md-nav__link">
+    iOS 16 through 16.4 Performance Issues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
     References
   </a>
@@ -2424,23 +2424,6 @@ To enable the N64 application, refer to the <em>advanced settings</em> sections 
 <li>Xbox Series X|S gaming consoles</li>
 </ul>
 <p>Android-based devices are not currently recommended at this time due to poor performance with this application.</p>
-<h2 id="ios-16-performance-issues">iOS 16 Performance Issues</h2>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>iOS 16 has significantly affected the performance of the N64 application (emulator)</p>
-</div>
-<p>The recent release of the iOS 16 operating system for iPhones/iPads has significantly affected the performance of the N64 application (emulator).</p>
-<p>The reduction in performance is caused by a <em>Safari Experimental Feature</em> that has been enabled by default in iOS 16.</p>
-<p>Performance of the N64 application (emulator) can be restored by disabling the experimental feature.</p>
-<p><img alt="" class="center zoomD" src="../../../assets/images/apps/n64/gpuprocess-webgl.png" /></p>
-<p>To disable the experimental feature, perform the following steps:</p>
-<ul>
-<li>Open <code>Settings</code>, and select <code>Safari &gt;</code> (<em>See screenshot above</em>)</li>
-<li>On the <code>Safari</code> page, select <code>Advanced &gt;</code> (<em>See screenshot above</em>)</li>
-<li>On the <code>Advanced</code> page, select <code>Experimental Features &gt;</code> (<em>See screenshot above</em>)</li>
-<li>On the <code>Experimental Features</code> page, disable the <code>GPU Process: WebGL</code> feature (<em>See screenshot above</em>)</li>
-<li>After completing these steps, the N64 application (emulator) should perform at a level similar to previous operating system versions</li>
-</ul>
 <h2 id="settings">Settings</h2>
 <p>The N64 Application includes a custom settings dialog.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/apps/n64/n64-settings-button.png" /></p>
@@ -2689,6 +2672,24 @@ specified in the <code>props</code> object of a feed item.</p>
 <span class="w">  </span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div></p>
+<h2 id="ios-16-through-164-performance-issues">iOS 16 through 16.4 Performance Issues</h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>iOS versions 16 through 16.4 significantly affected the performance of the N64 application (emulator)</p>
+<p>This issue has been resolved in iOS 16.5+. Thus, <em>upgrading is the recommended way to resolve this issue</em>.</p>
+</div>
+<p>iOS operating system versions 16 through 16.4 for iPhones/iPads significantly affected the performance of the N64 application (emulator).</p>
+<p>The reduction in performance was caused by a <em>Safari Experimental Feature</em> that was enabled by default in iOS 16 through 16.4.</p>
+<p>Performance of the N64 application (emulator) can be restored by disabling the experimental feature or upgrading to iOS version 16.5 or newer (recommended).</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/apps/n64/gpuprocess-webgl.png" /></p>
+<p>To disable the experimental feature, perform the following steps:</p>
+<ul>
+<li>Open <code>Settings</code>, and select <code>Safari &gt;</code> (<em>See screenshot above</em>)</li>
+<li>On the <code>Safari</code> page, select <code>Advanced &gt;</code> (<em>See screenshot above</em>)</li>
+<li>On the <code>Advanced</code> page, select <code>Experimental Features &gt;</code> (<em>See screenshot above</em>)</li>
+<li>On the <code>Experimental Features</code> page, disable the <code>GPU Process: WebGL</code> feature (<em>See screenshot above</em>)</li>
+<li>After completing these steps, the N64 application (emulator) should perform at a level similar to previous operating system versions</li>
+</ul>
 <h2 id="references">References</h2>
 <ul>
 <li><a href="https://github.com/webrcade/webrcade-app-parallel-n64">Nintendo 64 Application GitHub Repository</a></li>
