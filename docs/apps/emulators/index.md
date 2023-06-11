@@ -6,6 +6,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 
 | __Emulator__ | __Description__ |
 |----------|------|
+| [3DO](3do/index.md) | Emulator for the [3DO Interactive Multiplayer](https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer) game console. |
 | [Arcade](arcade/index.md) | Emulator for various arcade hardware (both pre and post 90s) |
 | [Atari 2600](2600/index.md) | Emulator for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) game console |
 | [Atari 5200](5200/index.md) (Experimental) | Emulator for the [Atari 5200](https://en.wikipedia.org/wiki/Atari_5200) game console |

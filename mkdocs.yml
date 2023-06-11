@@ -28,6 +28,7 @@ nav:
     - Overview: apps/index.md
     - Emulators:
       - Overview: apps/emulators/index.md
+      - 3DO: apps/emulators/3do/index.md
       - Arcade: apps/emulators/arcade/index.md
       - Atari:
         - 2600: apps/emulators/2600/index.md
