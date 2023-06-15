@@ -1,6 +1,6 @@
 # Dropbox
 
-[Dropbox](https://dropbox.com/) can be used to host images, game-related files (ROMs, etc.), and webЯcade feed documents. 
+[Dropbox](https://dropbox.com/) can be used to host images, game-related files (ROMs, etc.), and webЯcade feed documents.
 
 !!! note
     Although it is possible to host images in Dropbox, it is *not recommended*. The time to retrieve images
@@ -18,13 +18,6 @@ The process to host files in Dropbox is as follows:
 * After clicking on the "`Copy link`" option, a pop-in stating that the link has been copied to the clipboard will appear (see screenshot below).
 
 ![](../../assets/images/feed/dropbox/linkcopied.png){: style="padding:5px 15px;" class="center zoomD"}
-
-* Copied Dropbox links must be modified to be compatible with webЯcade feeds. 
-     * The link below is the one copied in the example above:<br>`https://www.dropbox.com/s/mjp3odan08deqp2/DARC.sms?dl=0`
-     * To modify the link, perform the following:
-         * Replace `https://www.dropbox.com` with `https://dl.dropboxusercontent.com`
-         * Remove the `?dl=0` from the end of the link.
-     * The modified link from the example above is as follows:<br>`https://dl.dropboxusercontent.com/s/mjp3odan08deqp2/DARC.sms`
 
 ## Example
 
@@ -51,9 +44,9 @@ There is also a tab named, *"Shortened URLs*", wherein the link has been shorten
           ]
         }
       ]
-    }    
+    }
     ```
-=== "Shortened URL"    
+=== "Shortened URL"
     ``` json hl_lines="11"
     {
       "title": "Dropbox Example Feed",
@@ -72,7 +65,7 @@ There is also a tab named, *"Shortened URLs*", wherein the link has been shorten
           ]
         }
       ]
-    }    
+    }
     ```
 
 The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
