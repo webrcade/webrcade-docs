@@ -7,6 +7,7 @@ copyright: "&copy; Copyright webЯcade 2023"
 
 nav:
   - About: index.md
+  - Quick Start: quickstart/index.md
   - User Guide: userguide/index.md
   - Platforms:
     - Overview: platforms/index.md
@@ -24,6 +25,8 @@ nav:
       - Gamepads: platforms/android/gamepads.md
     - Xbox Series X|S:
       - Overview: platforms/xbox/index.md
+    - Steam Deck:
+      - Overview: platforms/steamdeck/index.md
   - Applications:
     - Overview: apps/index.md
     - Emulators:
@@ -98,6 +101,10 @@ nav:
       - Thumbnails: editor/thumbnails.md
   - Stand-alone: standalone/index.md
   - Cloud Storage: storage/index.md
+  - Advanced Settings:
+    - Overview: advancedsettings/index.md
+    - ownCloud: advancedsettings/owncloud.md
+    - Themes: advancedsettings/themes.md
 
 markdown_extensions:
   - attr_list
@@ -115,6 +122,11 @@ markdown_extensions:
 
 plugins:
   - search
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: True
+      css_style:
+        class: "center zoomD"
 
 extra:
   generator: false
@@ -129,7 +141,6 @@ extra:
       link: https://twitter.com/webrcade
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/webrcade
-
 
 extra_css:
   - stylesheets/extra.css
@@ -158,10 +169,3 @@ theme:
     - navigation.top
     - navigation.expand
     #- navigation.indexes
-
-
-
-
-
-
-

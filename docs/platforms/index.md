@@ -11,3 +11,4 @@ Clicking on the name of a *Platform* in the table will navigate to page containi
 | [iOS](./ios/index.md) |  iOS-compatible devices (iPad, iPod Touch, and iPhone) |
 | [Android](./android/index.md) | Android-compatible devices (phones, tablets, etc.)  |
 | [Xbox Series X\|S](./xbox/index.md) | Xbox Series X\|S gaming consoles |
+| [Steam Deck](./steamdeck/index.md) | Steam Deck |
