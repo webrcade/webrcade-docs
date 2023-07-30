@@ -1,35 +1,14 @@
-# Atari 7800
+# Atari 2600
 
 ## Overview
 
-The Atari 7800 application is an emulator for the [Atari 7800 ProSystem game console](https://en.wikipedia.org/wiki/Atari_7800).
+The Atari 2600 application is an emulator for the [Atari 2600 game console](https://en.wikipedia.org/wiki/Atari_2600).
+
 
 <figure>
-  <img src="../../../assets/images/apps/7800.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
-  <figcaption>Knight Guy in Low Res World: Castle Days by Vladimir Zuniga</figcaption>
+  <img src="../../../../assets/images/apps/2600.png" style="padding:5px 15px 0 15px;" class="center zoomD"/>
+  <figcaption>Slide Boy in Maze Land by Vladimir Zuniga</figcaption>
 </figure>
-
-## Settings
-
-The Atari 7800 Application includes a custom settings dialog.
-
-![](../../../assets/images/apps/7800/settings-button.png){: class="center zoomD"}
-
-To access these settings, display the "Pause" screen and select the "Atari 7800 Settings" option (*See screenshot above*).
-
-![](../../../assets/images/apps/7800/settings.png){: class="center zoomD"}
-
-### Atari 7800 Settings Tab (Session Only)
-
-The Atari 7800 Application's "settings" tab is detailed below. It is important to note that the settings on this tab are *Session only* meaning they will not persist between gaming sessions.
-
-| __Field__ | __Description__ |
-| --- | --- |
-| Left Difficulty Switch | Toggles between the `A` and `B` left difficulty switch options (is a physical switch on the 7800 console). |
-| Right Difficulty Switch | Toggles between the `A` and `B` right difficulty switch options (is a physical switch on the 7800 console). |
-| Dual Analog | Whether to enable twin stick style controls (player 1 uses player 2's joystick for firing, etc.). |
-
-
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
@@ -41,9 +20,7 @@ Keyboard support is only available for controller one.
 | __Name__ | __Keys__ | __Comments__ |
 |--------------------------|---------------------------------------------| |
 | Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Up_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Down_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Left_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Arrow_Right_Key_Dark.png){: class="control"}  | |
-| Fire 1 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} | |
-| Fire 2 | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} | |
-| Pause | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |
+| Fire | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} | |
 | Reset | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |
 | Select | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | The __Right Shift Key__.|
 | Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
@@ -55,10 +32,7 @@ Gamepad support is available for both controllers.
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
 | Move                         | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad.png){: class="control"} &nbsp;or&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} | |
-| Dual analog (if applicable)  | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick.png){: class="control"} | Player one's right analog stick can be used to produce input for player two's joystick (d-pad) for games that support a 2-stick mode (For example, the homebrew game TiME Salvo).  |
-| Fire 1                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} | |
-| Fire 2                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"} | |
-| Pause                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"} | |
+| Fire                         | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} | |
 | Reset                        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __Menu (Start) Button__. |
 | Reset<br>(Alternate)            | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Right Trigger__ and click (press down) on the __Right Thumbstick__. |
 | Select                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"}  | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __View (Back) Button__. |
@@ -71,46 +45,41 @@ Gamepad support is available for both controllers.
 
 ## Feed
 
-This section details how Atari 7800 application instances can be added to feeds.
+This section details how Atari 2600 application instances can be added to feeds.
 
 ### Type
 
-The type name for the Atari 7800 application is `js7800`.
-
-!!! note
-    The alias `7800` also currently maps to this application. In the future, the `7800` alias may be mapped
-    to another Atari 7800 application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+The type name for the Atari 2600 application is `javatari`.
 
 ### Properties
 
-The table below contains the properties that are specific to the Atari 7800 application. These properties are
+The table below contains the properties that are specific to the Atari 2600 application. These properties are
 specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| rom | URL | Yes | URL to an Atari 7800 ROM file or a zip file containing a ROM file. |
+| rom | URL | Yes | URL to an Atari 2600 ROM file or a zip file containing a ROM file. |
+| swap | Boolean | No | Whether to swap the controller ports. This is typically enabled when games default to using port 2 (versus port 1). |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
-
 
 ### Example
 
-The following is an example of a complete feed that consists of a single Atari 7800 application instance (`type` value of `7800`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent homebrew game TiME Salvo by Mike Saarna.
+The following is an example of a complete feed that consists of a single Atari 2600 application instance (`type` value of `2600`). The `rom` property value is a URL that points to a Dropbox location that contains the excellent homebrew game Blinky Goes Up by Jan Hermanns.
 
 ``` json hl_lines="11 13"
 {
-  "title": "7800 Feed",
-  "longTitle": "Atari 7800 Example Feed",
+  "title": "2600 Feed",
+  "longTitle": "Atari 2600 Example Feed",
   "categories": [
     {
-      "title": "7800 Games",
-      "longTitle": "Atari 7800 Games",
+      "title": "2600 Games",
+      "longTitle": "Atari 2600 Games",
       "items": [
         {
-          "title": "TiME Salvo",
-          "type": "7800",
+          "title": "Blinky Goes Up",
+          "type": "javatari",
           "props": {
-            "rom": "https://dl.dropboxusercontent.com/s/q57y608mjqhoshr/salvo.a78"
+            "rom": "https://dl.dropboxusercontent.com/s/kkqrl8av5pwvgn1/blinky.bin"
           }
         }
       ]
@@ -121,8 +90,8 @@ The following is an example of a complete feed that consists of a single Atari 7
 
 This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
 
-`https://tinyurl.com/7800-feed`
+`https://tinyurl.com/2600-feed`
 
 ## References
 
-- [Atari 7800 Application GitHub Repository](https://github.com/webrcade/webrcade-app-js7800)
+- [Atari 2600 Application GitHub Repository](https://github.com/webrcade/webrcade-app-javatari)
