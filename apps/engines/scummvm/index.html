@@ -2591,17 +2591,17 @@
 </tbody>
 </table>
 <h2 id="packaging-games">Packaging Games</h2>
-<p>ScummVM games must be packaged as an archive (<code>.zip</code>) file for use with webЯcade. This archive file can also be <em>(optionally)</em> converted to a <a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> (<code>.json</code>) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).</p>
+<p>ScummVM games must be packaged as an archive (<code>.zip</code>) file for use with webЯcade. This archive file can also be <em>(optionally)</em> converted to a webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> (<code>.json</code>) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>The  webЯcade editor's <a href="../editor/tools/repackage-archive.md">repackage archive tool</a> can be used
-to automatically generate archive manifests.</p>
+to automatically generate package archive manifests.</p>
 </div>
 <p>Each ScummVM game has its own specific file layout requirements. One of the best ways to determine this layout is via the <a href="https://wiki.scummvm.org/index.php?title=Category:Supported_Games">ScummVM Wiki</a>.</p>
 <p>For example, <a href="https://wiki.scummvm.org/index.php?title=Flight_of_the_Amazon_Queen">this ScummVM Wiki page</a> details the structure necessary for the game, "Flight of the Amazon Queen" (see the <em>Installation</em> and <em>Required Data Files</em> sections).</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>For ScummVM game archive (<code>.zip</code>) sizes that are over 100 megabytes in size, it is highly recommended that the <a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> (<code>.json</code>) layout be utilized. This will greatly
+<p>For ScummVM game archive (<code>.zip</code>) sizes that are over 100 megabytes in size, it is highly recommended that the webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> (<code>.json</code>) layout be utilized. This will greatly
 reduce the amount of memory necessary for the browser to load the game, and increase
 compatibility with devices with higher memory use limitations (iOS and Xbox).</p>
 </div>
@@ -2816,7 +2816,7 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>archive</td>
 <td>URL</td>
 <td>Yes</td>
-<td>URL to a ScummMVM game archive (<code>.zip</code>) or <a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> (<code>.json</code>) file.</td>
+<td>URL to a ScummMVM game archive (<code>.zip</code>) or webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> (<code>.json</code>) file.</td>
 </tr>
 <tr>
 <td>zoomLevel</td>
@@ -2827,7 +2827,7 @@ specified in the <code>props</code> object of a feed item.</p>
 </tbody>
 </table>
 <h3 id="example">Example</h3>
-<p>The following is an example of a complete feed that consists of a single ScummVM application instance (<code>type</code> value of <code>scumm</code>). The <code>archive</code> property value is a URL that points to a Dropbox location that contains a <a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> file for the game, "Flight of the Amazon".</p>
+<p>The following is an example of a complete feed that consists of a single ScummVM application instance (<code>type</code> value of <code>scumm</code>). The <code>archive</code> property value is a URL that points to a Dropbox location that contains a webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> file for the game, "Flight of the Amazon".</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ScummVM Feed&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>

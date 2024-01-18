@@ -2165,10 +2165,17 @@
                 
                 
                 <h1 id="generate-package-manifest-file">Generate Package Manifest File</h1>
-<p>ONLY AVAILABLE IF CLOUD IS ENABLED</p>
+<p>The "Generate Package Manifest File" tool generates and stores a webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> file for content that already exists within <a href="../../../storage/">cloud storage</a>. The generated manifest file will be written at the root of the selected folder.</p>
+<p>While this tool shares some similarities to the <a href="../repackage-archive/">Repackage Archive</a> tool, in practice it operates quite differently. This tool simply examines the content under an existing folder in cloud storage and then generates and persists a manifest file.</p>
+<p>By contrast, the <a href="../repackage-archive/">Repackage Archive</a> tool takes as input an existing archive file, optimizes it for minimized memory use in the browser, writes the resulting files to cloud storage, and then generates a manifest for the newly created files.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The "Generate Package Manifest File" tool is only available if <a href="../../../storage/">cloud storage</a> has been enabled.</p>
+</div>
 <h3 id="generate-manifest-dialog">Generate Manifest Dialog</h3>
+<p>The following dialog is used to configure and execute the generate manifest operation.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/generate-manifest/dialog.png" style="padding:5px 15px;" /></p>
-<p>The TODO dialog includes the following options:</p>
+<p>The dialog includes the following options:</p>
 <table>
 <thead>
 <tr>
@@ -2178,14 +2185,15 @@
 </thead>
 <tbody>
 <tr>
-<td>Package archive</td>
-<td>The package archive file (<code>.zip</code>) to create a package manifest file for.</td>
+<td>Package root folder</td>
+<td>The folder within cloud storage to generate a package manifest file for.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="select-cloud-folder-dialog">Select Cloud Folder Dialog</h3>
-<p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/generate-manifest/select-cloud-folder.png" style="padding:5px 15px;" /></p>
-<p>The TODO dialog includes the following options:</p>
+<p>The "Select Cloud Folder" dialog is used to select the folder in cloud storage to generate a manifest file for.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/repackage-archive/select-cloud-folder.png" style="padding:5px 15px;" /></p>
+<p>The dialog includes the following options:</p>
 <table>
 <thead>
 <tr>
@@ -2195,17 +2203,24 @@
 </thead>
 <tbody>
 <tr>
-<td>Compress (zip)</td>
-<td>Whether to compress the feed. This will create a zip file that contains a single file (the feed).<br><br>Using this option has been shown to greatly reduce the feed size.</td>
-</tr>
-<tr>
-<td>Base64 encoding (text)</td>
-<td>Whether to base64 encode the feed. This will force the feed to be in a text format (even if it is being compressed/zipped).<br><br>Using this option allows for posting compressed feeds on text pasting services (such as Pastebin). Additionally, it will avoid false positives for abusive language as the file is no longer human-readable (it is base64 encoded).</td>
+<td>Cloud Folder Tree</td>
+<td>Used to select the folder within <a href="../../../storage/">cloud storage</a>to generate a manifest file for.</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The folder must be a sub-folder beneath <code>Apps/webrcade</code> for Dropbox. This is the only portion
+of the Dropbox hierarchy that webЯcade has permission to write the resulting manifest file to.</p>
+</div>
 <h3 id="results">Results</h3>
+<p>If the generate manifest operation completes successfully, a dialog similar to the following will be displayed.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/generate-manifest/results-url.png" style="padding:5px 15px;" /></p>
+<p>The URL displayed is the webЯcade package archive manifest (<code>.json</code>) file in cloud storage that was created as a
+result of the generate manifest operation. The <code>COPY</code> button copies this URL to the clipboard. It can be used
+directly in the <code>Package Archive or Package Manifest (URL)</code> field on the <code>Properties</code> tab of a archive-based
+item (For example, <a href="../../../apps/engines/quake/">Quake</a> or <a href="../../../apps/engines/scummvm/">ScummVM</a>).</p>
+<p>If for some reason, you forget to copy the URL, it can be found within the cloud storage folder you selected.</p>
                 
                   
 
