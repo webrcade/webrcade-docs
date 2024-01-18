@@ -95,18 +95,18 @@ When touchpad mode is *enabled*, dragging the finger tends to act like using a t
 
 ## Packaging Games
 
-ScummVM games must be packaged as an archive (`.zip`) file for use with webЯcade. This archive file can also be *(optionally)* converted to a [webЯcade archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).
+ScummVM games must be packaged as an archive (`.zip`) file for use with webЯcade. This archive file can also be *(optionally)* converted to a webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).
 
 !!! important
     The  webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) can be used
-    to automatically generate archive manifests.
+    to automatically generate package archive manifests.
 
 Each ScummVM game has its own specific file layout requirements. One of the best ways to determine this layout is via the [ScummVM Wiki](https://wiki.scummvm.org/index.php?title=Category:Supported_Games).
 
 For example, [this ScummVM Wiki page](https://wiki.scummvm.org/index.php?title=Flight_of_the_Amazon_Queen) details the structure necessary for the game, "Flight of the Amazon Queen" (see the *Installation* and *Required Data Files* sections).
 
 !!! important
-    For ScummVM game archive (`.zip`) sizes that are over 100 megabytes in size, it is highly recommended that the [webЯcade archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout be utilized. This will greatly
+    For ScummVM game archive (`.zip`) sizes that are over 100 megabytes in size, it is highly recommended that the webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout be utilized. This will greatly
     reduce the amount of memory necessary for the browser to load the game, and increase
     compatibility with devices with higher memory use limitations (iOS and Xbox).
 
@@ -266,12 +266,12 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all ScummVM games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
-| archive | URL | Yes | URL to a ScummMVM game archive (`.zip`) or [webЯcade archive manifest](../../../advanced/archive-manifests.md) (`.json`) file. |
+| archive | URL | Yes | URL to a ScummMVM game archive (`.zip`) or webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example
 
-The following is an example of a complete feed that consists of a single ScummVM application instance (`type` value of `scumm`). The `archive` property value is a URL that points to a Dropbox location that contains a [webЯcade archive manifest](../../../advanced/archive-manifests.md) file for the game, "Flight of the Amazon".
+The following is an example of a complete feed that consists of a single ScummVM application instance (`type` value of `scumm`). The `archive` property value is a URL that points to a Dropbox location that contains a webЯcade [package archive manifest](../../../advanced/archive-manifests.md) file for the game, "Flight of the Amazon".
 
 ``` json hl_lines="9 12"
 {
