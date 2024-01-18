@@ -2171,6 +2171,19 @@
     Repackage Locally
   </a>
   
+    <nav class="md-nav" aria-label="Repackage Locally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#results_1" class="md-nav__link">
+    Results
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -2193,9 +2206,9 @@
                 
                 <h1 id="repackage-archive">Repackage Archive</h1>
 <p>The "Repackage Archive" tool provides the ability to automatically create a
-<a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> format and layout
+webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> format and layout
 from a selected package archive file (<code>.zip</code>).</p>
-<p>The webЯcade archive manifest format was developed to reduce the amount of memory required
+<p>The webЯcade package archive manifest format was developed to reduce the amount of memory required
 by applications (emulators and engines) whose content is a set of files packaged in a
 single archive (<code>.zip</code>) file. Examples of applications that utilize archive files include
 <a href="../../../apps/engines/quake/">Quake</a> and <a href="../../../apps/engines/scummvm/">ScummVM</a>.</p>
@@ -2204,14 +2217,14 @@ single archive (<code>.zip</code>) file. Examples of applications that utilize a
 <p>The "Repackage Archive" tool takes a significant amount of memory to operate, and therefore
 should only be used on platforms such as Windows or MacOS that are running the Chrome browser.</p>
 </div>
-<p>The "Repackage Archive" tool provides the ability to output the <a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> format layout <a href="#repackage-to-cloud">directly to cloud storage</a> or to <a href="#repackage-locally">download the results</a> of the repackage operation locally.</p>
+<p>The "Repackage Archive" tool provides the ability to output the webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> format layout <a href="#repackage-to-cloud">directly to cloud storage</a> or to <a href="#repackage-locally">download the results</a> of the repackage operation locally.</p>
 <h2 id="repackage-to-cloud">Repackage to Cloud</h2>
 <p>The following section details the steps required to create a
-<a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> format and layout directly to cloud storage
+webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> format and layout directly to cloud storage
 from a selected package archive file (<code>.zip</code>).</p>
 <h3 id="generate-manifest-dialog">Generate Manifest Dialog</h3>
 <p>The "Generate Manifest" dialog is used to select the package archive (<code>.zip</code>) from which to create the
-<a href="../../../advanced/archive-manifests/">webЯcade archive manifest</a> format and layout as well as the location
+webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> format and layout as well as the location
 in cloud storage to write the results to.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/repackage-archive/dialog.png" style="padding:5px 15px;" /></p>
 <p>The dialog includes the following options:</p>
@@ -2244,7 +2257,7 @@ in cloud storage to write the results to.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>The <code>Output to Cloud Storage</code> option will only be visible if <a href="../../../storage/">cloud storage</a> has been enabled
-for webЯcade for the current device.</p>
+for webЯcade on the current device.</p>
 </div>
 <h3 id="select-cloud-folder-dialog">Select Cloud Folder Dialog</h3>
 <p>The "Select Cloud Folder" dialog is used to select the location in cloud storage to write the results
@@ -2293,15 +2306,24 @@ section for details).
 <h3 id="results">Results</h3>
 <p>If the repackage operation completes successfully, a dialog similar to the following will be displayed.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/repackage-archive/result-url.png" style="padding:5px 15px;" /></p>
-<p>The URL displayed is the webЯcade archive manifest (<code>.json</code>) file in cloud storage that was created as a
+<p>The URL displayed is the webЯcade package archive manifest (<code>.json</code>) file in cloud storage that was created as a
 result of the repackage operation. The <code>COPY</code> button copies this URL to the clipboard. It can be used
-directly in the <code>Package Archive or Package Manifest (URL)</code> field on the <code>Properties</code> tab of a archive-based
+directly in the <code>Package Archive or Package Manifest (URL)</code> field on the <code>Properties</code> tab of an archive-based
 item (For example, <a href="../../../apps/engines/quake/">Quake</a> or <a href="../../../apps/engines/scummvm/">ScummVM</a>).</p>
 <p>If for some reason, you forget to copy the URL, it can be found within cloud storage at the location you
 selected as the destination for the repackage operation.</p>
 <h2 id="repackage-locally">Repackage Locally</h2>
+<p>In addition to being able to repackage directly to cloud storage, the "Repackage Archive" tool also provides the ability to generate and download a webЯcade <a href="../../../advanced/archive-manifests/">package archive manifest</a> format and layout from a selected package archive file (<code>.zip</code>).</p>
+<p>The content within the selected package archive file (<code>.zip</code>) will be organized to minimize memory use and a package archive manifest (.json) file will be generated. The results of the repackage operation will be presented as a new file (<code>.zip</code>) and made available for download.</p>
+<p>The resulting archive (<code>.zip</code>) file can be extracted and hosted on a web server, etc.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The generated package archive manifest file (<code>.json</code>) will include empty
+urls for each of the files. This assumes that all of the files will be able to be located relative to the package manifest file on the server. If this is not the case, the URLs for each of the files in the manifest will need to be updated appropriately.</p>
+</div>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/repackage-archive/dialog-no-cloud.png" style="padding:5px 15px;" /></p>
-<p>The TODO dialog includes the following options:</p>
+<p>To perform a local repackage archive operation, disable the "Output to Cloud Storage" option as shown above. If <a href="../../../storage/">cloud storage</a> has not been enabled, the option will not be visible and local repackaging will be the only mode of operation.</p>
+<p>The dialog includes the following options:</p>
 <table>
 <thead>
 <tr>
@@ -2316,7 +2338,11 @@ selected as the destination for the repackage operation.</p>
 </tr>
 </tbody>
 </table>
+<h3 id="results_1">Results</h3>
+<p>If the repackage operation completes successfully, a dialog similar to the following will be displayed.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/tools/repackage-archive/result-url-no-cloud.png" style="padding:5px 15px;" /></p>
+<p>The results of the repackage operation (<code>.zip</code>) can be downloaded
+by tapping or clicking on the resulting file name link (as shown above).</p>
                 
                   
 
