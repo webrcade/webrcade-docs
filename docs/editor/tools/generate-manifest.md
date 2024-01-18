@@ -45,7 +45,7 @@ If the generate manifest operation completes successfully, a dialog similar to t
 
 The URL displayed is the webЯcade package archive manifest (`.json`) file in cloud storage that was created as a
 result of the generate manifest operation. The `COPY` button copies this URL to the clipboard. It can be used
-directly in the `Package Archive or Package Manifest (URL)` field on the `Properties` tab of a archive-based
+directly in the `Package Archive or Package Manifest (URL)` field on the `Properties` tab of an archive-based
 item (For example, [Quake](../../../apps/engines/quake/) or [ScummVM](../../../apps/engines/scummvm/)).
 
 If for some reason, you forget to copy the URL, it can be found within the cloud storage folder you selected.
