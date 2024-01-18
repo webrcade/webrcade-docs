@@ -1,16 +1,16 @@
 
-# Archive Manifests
+# Package Archive Manifests
 
-The webЯcade archive manifest format was developed to reduce the amount of memory required
+The webЯcade package archive manifest format was developed to reduce the amount of memory required
 by applications (emulators and engines) whose content is a set of files packaged in a
 single archive (`.zip`) file. Examples of applications that utilize archive files include
 [Quake](../../apps/engines/quake/) and [ScummVM](../../apps/engines/scummvm/).
 
 !!! important
     The  webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) can be used
-    to automatically generate archive manifests.
+    to automatically generate package archive manifests.
 
-The webЯcade archive manifest is a (`.json`) file that includes a list (manifest) of URLs
+The webЯcade package archive manifest is a (`.json`) file that includes a list (manifest) of URLs
 to all of the other files that are required for the game, etc. WebЯcade will parse the manifest
 and then proceed to download and assemble all of the pieces required to play the content.
 
@@ -20,16 +20,16 @@ file (also in memory). Instead, it is able to download each file directly, thus 
 memory for the archive itself or the memory required by the extraction process.
 
 !!! important
-    For game archive (`.zip`) sizes that are over 100 megabytes in size, it is highly recommended that the webЯcade archive manifest (`.json`) layout be utilized. This will greatly
+    For game archive (`.zip`) sizes that are over 100 megabytes in size, it is highly recommended that the webЯcade package archive manifest (`.json`) layout be utilized. This will greatly
     reduce the amount of memory necessary for the browser to load the game, and increase
     compatibility with devices with higher memory use limitations (iOS and Xbox).
 
-While the rest of this document walks through the details of the webЯcade archive manifest format,
-it is typically much easier to use the webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) to automatically generate archive manifests.
+While the rest of this document walks through the details of the webЯcade package archive manifest format,
+it is typically much easier to use the webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) to automatically generate package archive manifests.
 
 ### Archive Format (JSON)
 
-This section details the [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) format of the webЯcade Archive Manifest along with fully-formed [concrete examples](#complete-examples).
+This section details the [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) format of the webЯcade Package Archive Manifest along with fully-formed [concrete examples](#complete-examples).
 
 ## Root Object
 
@@ -58,11 +58,11 @@ The table below contains the properties available for file objects.
 
 ### Basic Example
 
-The following is a basic example of a webЯcade archive manifest file.
+The following is a basic example of a webЯcade package archive manifest file.
 
 This particular manifest only includes two files. The first is a `.zip` file that contains a collection of small files that will be extracted. Sets of smaller files should be assembled into smaller archive files (50 megabytes or so) to reduce the time required to download each file individually. The second file is a much larger file that will be downloaded directly.
 
-Since the actual file URLs are empty, they will be downloaded relative to the location of the webЯcade archive manifest URL itself.
+Since the actual file URLs are empty, they will be downloaded relative to the location of the webЯcade package archive manifest URL itself.
 
 Also, since full paths are not provided in the `name` fields, each of these files will reside at the root of the game content.
 
@@ -87,7 +87,7 @@ Also, since full paths are not provided in the `name` fields, each of these file
 
 ### Advanced Example
 
-The following is a more advanced example of a webЯcade archive manifest file. It contains a
+The following is a more advanced example of a webЯcade package archive manifest file. It contains a
 large number of files, each with an explicit download URL. Many of the files are collections of
 smaller `.zip` files (50 megabytes or less) that will be extracted to reduce the overall download
 time of smaller individual files. The remaining files are larger in size, and will be downloaded

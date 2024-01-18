@@ -38,7 +38,7 @@ Use the `Application` pull-down to select the application to edit settings for (
 
 ![](../../assets/images/editor/feededitor/propertiestab-lynx.png){: class="center zoomD"}
 
-Once an application type is selected, its corresponding fields will be displayed. For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items. 
+Once an application type is selected, its corresponding fields will be displayed. For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items.
 
 ## Thumbnail Tab
 
@@ -50,7 +50,7 @@ The thumbnail tab allows a thumbnail for the feed to be specified. The thumbnail
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Thumbnail location (URL) | The location (URL) of a thumbnail image for the feed.<br><br>The dimensions of the image must be `400x300` or it may not be displayed (see [Thumbnails](../thumbnails.md) section for more information).<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
+| Thumbnail location (URL) | The location (URL) of a thumbnail image for the feed.<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 | Thumbnail image | The image corresponding to the specified URL in `Thumbnail location`.<br><br>Image-based URLs can be dragged and dropped on the image to set the `Thumbnail location` (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 
 ## Background Tab

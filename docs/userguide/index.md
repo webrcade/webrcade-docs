@@ -211,7 +211,11 @@ The following tables include the button mappings that can be used to display the
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Show Pause Screen | ![](../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} |  |
+| Show Pause Screen | ![](../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | Not supported by all applications.  |
+| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Ctrl_Key_Dark.png){: class="control"} +  ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | Supported by all applications. |
+| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Ctrl_Key_Dark.png){: class="control"} +  ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | Supported by all applications. |
+
+
 
 **Gamepad Controls**
 

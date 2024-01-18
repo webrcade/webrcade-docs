@@ -1,11 +1,11 @@
 # Category Editor
 
 The "Category Editor" is used to create and/or edit "category" entries within a webЯcade feed. Category entries provide a means of classifying items (games, etc.) into user-defined groups
-(by game type, console type, etc.). 
+(by game type, console type, etc.).
 
 For a feed to be considered valid it must contain at least one category object.
 
-  * Categories can be added to the active feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md). 
+  * Categories can be added to the active feed via the [Categories Tab](../workspace/categoriestab.md) of the [Feed Workspace](../workspace/index.md).
   * Items can be added to categories via the [Items Tab](../workspace/itemstab.md) of the [Feed Workspace](../workspace/index.md).
 
 !!! note
@@ -35,7 +35,7 @@ The thumbnail tab allows a thumbnail for the category to be specified. The thumb
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Thumbnail location (URL) | The location (URL) of a thumbnail image for the category.<br><br>The dimensions of the image must be `400x300` or it may not be displayed (see [Thumbnails](../thumbnails.md) section for more information).<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
+| Thumbnail location (URL) | The location (URL) of a thumbnail image for the category.<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 | Thumbnail image | The image corresponding to the specified URL in `Thumbnail location`.<br><br>Image-based URLs can be dragged and dropped on the image to set the `Thumbnail location` (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 
 ## Background Tab

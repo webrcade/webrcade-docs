@@ -14,6 +14,7 @@ Each of the actions located in the "Left Sidebar" are described in the table bel
 | [Test](#test-action) | ![](../assets/images/editor/icons/round_check_circle_white_24dp.png){: class="action"} | Displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md).<br><br>See the [Test Action](#test-action) section for more information.  |
 | [Load](#load-action) | ![](../assets/images/editor/icons/round_file_open_white_24dp.png){: class="action"} | Displays the "Load Feed" dialog.<br><br>See the [Load Action](#load-action) section for more information.
 | [Save](#save-action) | ![](../assets/images/editor/icons/round_save_white_24dp.png){: class="action"} | Saves the *active feed* (the feed currently being edited in the feed workspace) to the browser's *local* storage. The title of the feed is used to uniquely identify it.<br><br>See the [Save Action](#load-action) section for more information.  |
+| [Tools](#tools-action) | ![](../assets/images/editor/icons/tools.png){: class="action"} | Displays a context menu containing several tools.<br><br>See the [Tools](#tools-action) section for more information. |
 
 
 ## Actions
@@ -109,3 +110,17 @@ The "Save Action" saves the active feed (the feed currently being edited in the 
 ![](../assets/images/editor/sidebar/overwritefeed.png){: class="center zoomD"}
 
 If a feed already exists in the browser's local storage with the same title, a prompt for overwriting is displayed (see screenshot above).
+
+### Tools Action
+
+When the "Tools Action" is clicked, a context menu is displayed containing several tools (described in the table below).
+
+![](../assets/images/editor/tools/tools-menu-alt.png){: class="center zoomD"}
+
+
+| __Menu Item__ | __Icon__ | __Description__ |
+| --- | --- | --- |
+| [Repackage Archive](./tools/repackage-archive.md) | ![](../assets/images/editor/icons/zip.png){: class="action"} | The ["Repackage Archive"](./tools/repackage-archive.md) tool provides the ability to automatically create a webЯcade [package archive manifest](../advanced/archive-manifests.md) format and layout from a selected package archive file (`.zip`). |
+| [Generate Package Manifest File](./tools/generate-manifest.md) | ![](../assets/images/editor/icons/manifestfile.png){: class="action"} | <p>The ["Generate Package Manifest File"](./tools/generate-manifest.md) tool generates and stores a webЯcade [package archive manifest](../../advanced/archive-manifests.md) file for content that already exists within [cloud storage](../../storage/). The generated manifest file will be written at the root of the selected folder..</p><p>This tool is only available if [cloud storage](../../storage/) has been enabled for webЯcade on the current device.</p>
+  |
+

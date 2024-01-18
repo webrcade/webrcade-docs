@@ -2,10 +2,31 @@
 
 [Dropbox](https://dropbox.com/) can be used to host images, game-related files (ROMs, etc.), and webЯcade feed documents.
 
-!!! note
-    Although it is possible to host images in Dropbox, it is *not recommended*. The time to retrieve images
-    from Dropbox is significantly slower than dedicated image hosting sites (see [Imgur page](./imgur.md)), leading to an
-    inconsistent webЯcade player (front-end) experience (slow loading images with visible pop-ins, etc.).
+!!! important
+    <p>
+    By default, Dropbox URLs do not support downloading content directly (it first
+    presents a landing page with details about the file, etc.). Fortunately, webЯcade will automatically convert these URLs and allow for direct downloading of the associated
+    content.
+    </p>
+    <p>
+    However, this automatic conversion process will not take place when the Dropbox URL
+    is shortened via a link shortener (TinyURL, etc.). This is a fairly common practice
+    when the feed is hosted in Dropbox and a shortener is used to reduce the feed's
+    URL.
+    </p>
+    <p>
+    If you still wish to use a link shortener with a Dropbox URL (for a feed, etc.), you can modify the URL manually to support direct downloading prior to shortening it.
+    </p>
+    <p>
+    For Dropbox URLs that look similar to the following:
+    ```
+    https://www.dropbox.com/...njyKSC.a78?rlkey=wbv6ujv3gblk1uftj6j1jhv8x&dl=0
+    ```
+    Simply change `dl=0` to `dl=1` as shown below:
+    ```
+    https://www.dropbox.com/...njyKSC.a78?rlkey=wbv6ujv3gblk1uftj6j1jhv8x&dl=1
+    ```
+    </p>
 
 The process to host files in Dropbox is as follows:
 
@@ -18,6 +39,13 @@ The process to host files in Dropbox is as follows:
 * After clicking on the "`Copy link`" option, a pop-in stating that the link has been copied to the clipboard will appear (see screenshot below).
 
 ![](../../assets/images/feed/dropbox/linkcopied.png){: style="padding:5px 15px;" class="center zoomD"}
+
+!!! note
+    Although it is possible to host images in Dropbox, it is *not recommended*. The time to retrieve images
+    from Dropbox is significantly slower than dedicated image hosting sites (see [Imgur page](./imgur.md)), leading to an
+    inconsistent webЯcade player (front-end) experience (slow loading images with visible pop-ins, etc.).
+
+
 
 ## Example
 

@@ -98,7 +98,7 @@ When touchpad mode is *enabled*, dragging the finger tends to act like using a t
 ScummVM games must be packaged as an archive (`.zip`) file for use with webЯcade. This archive file can also be *(optionally)* converted to a webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).
 
 !!! important
-    The  webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) can be used
+    The  webЯcade editor's [repackage archive tool](../../../editor/tools/repackage-archive.md) can be used
     to automatically generate package archive manifests.
 
 Each ScummVM game has its own specific file layout requirements. One of the best ways to determine this layout is via the [ScummVM Wiki](https://wiki.scummvm.org/index.php?title=Category:Supported_Games).
@@ -226,7 +226,7 @@ The ScummVM application's "Virtual Keyboard Settings" tab is detailed below.
 | __Field__ | __Description__ |
 | --- | --- |
 | Transparency | <p>Toggles the degree of transparency the virtual keyboard should have.</p><p>A higher degree of transparency allows more of the game to be visible through the keyboard (which may make the keyboard itself less visible).</p> |
-| Clone on Enter | Whether the keyboard should be closed when the `Enter` key is pressed. |
+| Close on Enter | Whether the keyboard should be closed when the `Enter` key is pressed. |
 
 ### ScummVM Menu
 

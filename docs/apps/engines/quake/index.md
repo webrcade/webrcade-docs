@@ -32,7 +32,10 @@ The following table contains the basic keyboard and mouse mappings. Press the Es
 | Previous Weapon | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Q_Key_Dark.png){: class="control"} |
 | Next Weapon | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/E_Key_Dark.png){: class="control"} |
 | Show Quake Menu | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
-| Show WebЯcade Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} <br> *(One second)* | Hold for more than *one second* and then release. |
+| Show WebЯcade Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Ctrl_Key_Dark.png){: class="control"} +  ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | Displays the webЯcade pause screen.  |
+| Show WebЯcade Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Ctrl_Key_Dark.png){: class="control"} +  ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | Displays the webЯcade pause screen. |
+
+<!-- | Show WebЯcade Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} <br> *(One second)* | Hold for more than *one second* and then release. | -->
 
 #### Mouse Support (Pointer Lock)
 
@@ -62,12 +65,20 @@ Gamepad mappings are listed in the table below.
 
 ## Game Archive Layouts
 
-The Quake application requires that each game is packaged in an archive (`.zip`) file. The table below shows the file layout that is required for each game (select the tab below for a particular game to view its layout).
+The Quake application requires that each game is packaged in an archive (`.zip`) file. This archive file can also be *(optionally)* converted to a webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).
+
+!!! important
+    The  webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) can be used
+    to automatically generate package archive manifests.
+
+The table below shows the file layout that is required for each game (select the tab below for a particular game to view its layout).
 
 The music directory and files are *optional*.
 
 !!! important
-    Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade). Therefore, it is important to make the archive as small as possible. Any game archive (`.zip`) file exceeding 256 megabytes in size will utilize on on-the-fly decompression. Using this method for decompression greatly increases the time to access files and will result in significant lag.
+    Both the Safari (iOS and macOS) and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade). Therefore, it is important to make the archive as small as possible.
+    For Quake game archive (`.zip`) sizes that are over 100 megabytes in size, it is highly recommended that the webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout be utilized as it will greatly
+    reduce the amount of memory necessary for the browser to load the game.
     <p>
     If you are including music files, using a free online compression tool such as [Aspose](https://products.aspose.app/audio/compress/ogg) (which can compress music files in common formats and output `.ogg` files) can greatly reduce the overall archive size.
     </p>
@@ -194,7 +205,8 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| archive | URL | Yes | URL to a Quake game archive (`.zip`) file. |
+| uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all Quake games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
+| archive | URL | Yes | URL to a Quake game archive (`.zip`) or webЯcade manifest (`.json`) file. |
 | wadType | Numeric | No | The type of game contained in the specified archive.<br>(defaults to "Auto-detect")<br><ul><li>`0` : Auto-detect</li><li>`1` : Quake</li><li>`2` : Scourge of Armagon (Pack 1)</li><li>`3` : Dissolution of Eternity (Pack 2)</li><li>`4` : Dimension of the Past (Pack 3)</li><li>`100` : Custom</li></ul> |
 | wadPath | String | No | The path to the game within the archive (for example, `mycustomgame/`).<p>This property is only applicable if the `wadType` property is set to "Custom" (`100`).</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |

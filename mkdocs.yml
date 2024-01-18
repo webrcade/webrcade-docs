@@ -67,6 +67,9 @@ nav:
       - Overview: apps/engines/index.md
       - Doom: apps/engines/doom/index.md
       - Quake: apps/engines/quake/index.md
+      - ScummVM:
+         - Details: apps/engines/scummvm/index.md
+         - Compatibility: apps/engines/scummvm/compatibility.md
   - Feeds:
     - Overview: feeds/index.md
     - Format: feeds/format.md
@@ -93,11 +96,17 @@ nav:
       - Feed Editor: editor/dialogs/feed-dialog.md
       - Category Editor: editor/dialogs/category-dialog.md
       - Item Editor: editor/dialogs/item-dialog.md
+    - Tools:
+      - Repackage Archive: editor/tools/repackage-archive.md
+      - Generate Manifest: editor/tools/generate-manifest.md
     - General:
       - Drag and Drop: editor/draganddrop.md
-      - Thumbnails: editor/thumbnails.md
   - Stand-alone: standalone/index.md
   - Cloud Storage: storage/index.md
+  - Advanced:
+    - Overview: advanced/index.md
+    - Docker: advanced/docker.md
+    - Package Archive Manifests: advanced/archive-manifests.md
 
 markdown_extensions:
   - attr_list

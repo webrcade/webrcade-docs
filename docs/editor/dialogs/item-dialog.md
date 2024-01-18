@@ -1,6 +1,6 @@
 # Item Editor
 
-The "Item Editor" is used to create and/or edit "Item" entries within a webЯcade feed. Item entries correspond to items (games, etc.) that can be launched (played, etc.). Each item identifies an application type (the specific emulator or game engine, etc. to launch). The [Applications](../../apps/index.md) page contains a listing of all of the available applications. 
+The "Item Editor" is used to create and/or edit "Item" entries within a webЯcade feed. Item entries correspond to items (games, etc.) that can be launched (played, etc.). Each item identifies an application type (the specific emulator or game engine, etc. to launch). The [Applications](../../apps/index.md) page contains a listing of all of the available applications.
 
 !!! note
     The fields within the "Item Editor" support drag and drop functionality. See the [Drag and Drop](../draganddrop.md) section for more information. Specifically the sections demonstrating how to [Drag Text](../draganddrop.md#drag-text) and [Drag Images](../draganddrop.md#drag-images).
@@ -40,7 +40,7 @@ The thumbnail tab allows a thumbnail for the item to be specified. The thumbnail
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Thumbnail location (URL) | The location (URL) of a thumbnail image for the item.<br><br>The dimensions of the image must be `400x300` or it may not be displayed (see [Thumbnails](../thumbnails.md) section for more information).<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
+| Thumbnail location (URL) | The location (URL) of a thumbnail image for the item.<br><br>This field supports drag and drop of image-based URLs (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 | Thumbnail image | The image corresponding to the specified URL in `Thumbnail location`.<br><br>Image-based URLs can be dragged and dropped on the image to set the `Thumbnail location` (see [Drag Images](../draganddrop.md#drag-images) for more information). |
 
 ## Background Tab

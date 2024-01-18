@@ -8,3 +8,4 @@ Clicking on the name of an *Engine* in the table will navigate to a detailed pag
 |----------|------|
 | [Doom](../engines/doom/index.md) | The [Doom game engine](https://en.wikipedia.org/wiki/Doom_engine) that can be used to play the shareware version of Doom as well as the freely redistributable Freedoom games |
 | [Quake](../engines/quake/index.md) | The [Quake game engine](https://en.wikipedia.org/wiki/Quake_(video_game)) that can be used to play several different Quake games |
+| [ScummVM](../engines/scummvm/index.md) | The [ScummVM](https://en.wikipedia.org/wiki/ScummVM) application plays classic graphical adventure and role-playing games. |

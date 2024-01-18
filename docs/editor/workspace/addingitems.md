@@ -41,5 +41,5 @@ To add a disc or archive-based item, perform the following steps.
 
 * On the [Properties Tab](../dialogs/item-dialog.md#properties-tab) of the [Create Item Editor](../dialogs/item-dialog.md) perform the following steps:
     * For CD-based items, provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field) (*See #1 in screenshot above*).
-    * For archive-based items, select the archive (`.zip`) file in the "Archive (URL)"  text field (directly or via the chooser button to the right of the field).
+    * For archive-based items, select the package archive (`.zip`) file or [package manifest](../../advanced/archive-manifests.md) file (`.json`) in the "Package Archive or Package Manifest (URL)" text field (directly or via the chooser button to the right of the field).
 * Click the `OK` button to add the newly created item to the feed.
