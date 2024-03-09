@@ -82,7 +82,7 @@ This section details how Atari 2600 application instances can be added to feeds.
 
 ### Type
 
-The type name for the Atari 2600 application is `retro-stella`.
+The type name for the Atari 2600 application is `retro-stella-latest`.
 
 !!! note
     The alias `2600` also currently maps to this application. In the future, the `2600` alias may be mapped
