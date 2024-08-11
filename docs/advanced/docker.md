@@ -25,9 +25,9 @@ docker run -d \
 
 The arguments are as follows:
 
-| __Nme__ | __Required__ | __Description__ |
+| __Name__ | __Required__ | __Description__ |
 | --- | --- | --- |
-| name | No | The name to use for the webЯcade container. |
+| container-name | No | The name to use for the webЯcade container. |
 | host-console-port | Yes | The port used to access webRcade on the host system. |
 | host-content-path | No | An optional path on the host system that contains content (ROM files, `.CHD` files, etc.) to use with webЯcade feeds. |
 
