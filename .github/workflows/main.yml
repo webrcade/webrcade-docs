@@ -16,11 +16,11 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x          
-            
-    - name: Install Material             
-      run: pip install pip install git+https://${{ secrets.ACCESS_TOKEN }}@github.com/webrcade/mkdocs-material-insiders.git
-      
+        python-version: 3.x
+
+    - name: Install Material
+      run: pip install git+https://${{ secrets.ACCESS_TOKEN }}@github.com/webrcade/mkdocs-material-insiders.git
+
     - name: Build Documentation
       run: mkdocs build
 
