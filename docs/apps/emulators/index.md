@@ -14,6 +14,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Atari Lynx](lynx/index.md) | Emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console |
 | [Bandai WonderSwan](ws/index.md) | Emulator for the [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) and [WonderSwan Color](https://en.wikipedia.org/wiki/WonderSwan) handheld game consoles |
 | [ColecoVision](colecovision/index.md) | Emulator for the [ColecoVision](https://en.wikipedia.org/wiki/ColecoVision) game console |
+| [Commodore 64](commodore/index.md) | emulator for the [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) computer |
 | [NEC PC Engine](pce/index.md) | Emulator for the [PC Engine](https://en.wikipedia.org/wiki/TurboGrafx-16) and [TurboGrafx-16](https://en.wikipedia.org/wiki/TurboGrafx-16) game consoles |
 | [NEC PC Engine CD](pcecd/index.md) | Emulator for the [CD-ROM accessory](https://en.wikipedia.org/wiki/TurboGrafx-16#Add-ons) for the PC Engine |
 | [NEC SuperGrafx](sgx/index.md) | Emulator for the [PC Engine SuperGrafx](https://en.wikipedia.org/wiki/PC_Engine_SuperGrafx) game console |

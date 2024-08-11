@@ -38,6 +38,7 @@ nav:
       - Bandai:
         - WonderSwan: apps/emulators/ws/index.md
       - ColecoVision: apps/emulators/colecovision/index.md
+      - Commodore 64: apps/emulators/commodore/index.md
       - NEC:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
         - PC Engine CD (TurboGrafx-CD): apps/emulators/pcecd/index.md
