@@ -188,7 +188,7 @@ The Commodore 64 application's "Virtual Keyboard Settings" tab is detailed below
 | --- | --- |
 | Transparency | <p>Toggles the degree of transparency the virtual keyboard should have.</p><p>A higher degree of transparency allows more of the game to be visible through the keyboard (which may make the keyboard itself less visible).</p> |
 
-## Saved Games
+## Saving Changes to Media
 
 This application supports persisting changes to a game's media (disks, cartridge-based ram) into the browser's local storage or optionally to [cloud-based storage](../../../storage/index.md).
 
