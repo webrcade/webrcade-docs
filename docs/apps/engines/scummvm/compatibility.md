@@ -6,9 +6,10 @@ The following two sections provide information regarding compatibility testing t
 
 * The [Engines](#engines) section includes the list of ScummVM engines that have been tested with webЯcade. Unless otherwise noted, engines that are not "officially" supported by ScummVM have not been enabled within webЯcade.
 
+<!--
 TODO: Reference ScummVM Wiki?
-
 TODO: Refer to package manifest and tools? Similar !Important block that can be scattered on ScumMVM page, here, etc.
+-->
 
 ## Games
 
