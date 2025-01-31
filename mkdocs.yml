@@ -3,7 +3,7 @@ site_name: webЯcade Docs
 repo_url: https://github.com/webrcade/webrcade-docs
 edit_uri: edit/main/docs/
 dev_addr: '127.0.0.1:8080'
-copyright: "&copy; Copyright webЯcade 2024"
+copyright: "&copy; Copyright webЯcade 2025"
 
 nav:
   - About: index.md
@@ -39,6 +39,7 @@ nav:
         - WonderSwan: apps/emulators/ws/index.md
       - ColecoVision: apps/emulators/colecovision/index.md
       - Commodore 64: apps/emulators/commodore/index.md
+      - DOS: apps/emulators/dos/index.md
       - NEC:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
         - PC Engine CD (TurboGrafx-CD): apps/emulators/pcecd/index.md
