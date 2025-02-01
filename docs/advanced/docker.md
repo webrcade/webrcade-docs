@@ -52,12 +52,12 @@ docker run -d \
 
 Once the container has started, it can be accessed using the following URL structure:
 `http://<host-system>:<host-console-port-http>` or<br>
-`http://<host-system>:<host-console-port-https>`
+`https://<host-system>:<host-console-port-https>`
 
 If host-based content was exposed (see `host-content-path` above), it can be accessed with the following URL structure:
 
 `http://<host-system>:<host-console-port-http>/content` or <br>
-`http://<host-system>:<host-console-port-https>/content`
+`https://<host-system>:<host-console-port-https>/content`
 
 It is worth noting that the webRcade Docker container exposes its content with Cross-Origin Resource Sharing (CORS) headers that allow it to be served to any webЯcade instance.
 
