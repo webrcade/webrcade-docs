@@ -23,6 +23,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Nintendo 64](n64/index.md) (Experimental) | Emulator for the [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) game console |
 | [Nintendo NES](nes/index.md) | Emulator for the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) game console |
 | [Nintendo SNES](snes/index.md) |  Emulator for the [Super Nintendo Entertainment System](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) game console |
+| [Nintendo DS](nds/index.md) | Emulator for the [Nintendo DS](https://en.wikipedia.org/wiki/Nintendo_DS) handheld game console |
 | [Nintendo Game Boy](gb/index.md) |  Emulator for the [Game Boy](https://en.wikipedia.org/wiki/Game_Boy) handheld game console |
 | [Nintendo Game Boy Color](gbc/index.md) |  Emulator for the [Game Boy Color](https://en.wikipedia.org/wiki/Game_Boy_Color) handheld game console |
 | [Nintendo GBA](gba/index.md) |  Emulator for the [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance) handheld game console |

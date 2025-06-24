@@ -52,6 +52,7 @@ nav:
         - Game Boy: apps/emulators/gb/index.md
         - Game Boy Color: apps/emulators/gbc/index.md
         - Game Boy Advance: apps/emulators/gba/index.md
+        - DS: apps/emulators/nds/index.md
         - Virtual Boy: apps/emulators/vb/index.md
       - Sega:
         - SG-1000: apps/emulators/sg1000/index.md
