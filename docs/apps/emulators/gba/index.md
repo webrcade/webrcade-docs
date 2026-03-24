@@ -61,7 +61,7 @@ This section details how Game Boy Advance application instances can be added to 
 
 ### Type
 
-The type name for the Game Boy Advance application is `vba-m-gba`.
+The type name for the Game Boy Advance application is `retro-mgba-gba`.
 
 !!! note
     The alias `gba` also currently maps to this application. In the future, the `gba` alias may be mapped

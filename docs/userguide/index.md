@@ -173,6 +173,20 @@ The settings contained in this tab are detailed below:
 | Dropbox (link/unlink button) | This button is used to either *link* or *unlink* a Dropbox account with webЯcade depending on its current status.<br><br>It is important to note that this *linking* operation must be repeated for each unique browser and/or device being used with webЯcade. |
 | Status | Whether webЯcade is currently linked to Dropbox (cloud storage) within the current browser. |
 
+### Applications Tab
+
+The "Applications" tab is used to select the specific application (emulator implementation) to use for each application alias (e.g., `nes`, `snes`, `saturn`). This allows for overriding the default application that is used when a feed item specifies an alias type.
+
+![](../assets/images/userguide/settings-dialog-applications.png){: style="padding:5px;" class="center zoomD"}
+
+The settings contained in this tab are detailed below:
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Application Alias | The alias to configure. Use the left and right arrow buttons to cycle through the available aliases (e.g., `3DO`, `NES`, `SNES`, etc.). |
+| Mapped Application | The application (emulator implementation) to use for the selected alias. Use the left and right arrow buttons to cycle through the available options.<br><br>Options include:<br><ul><li>`(use default)` : Uses the feed-specified application for this alias, or falls back to the alias's default (which may change over time).</li><li>A specific application name (marked with `*` if it is the current default) : Always uses the selected application for this alias, regardless of what the feed specifies.</li></ul> |
+| Clear Selections | Pressing the `Clear` button resets all alias mappings back to `(use default)`. |
+
 ### Advanced Settings Tab
 
 The "Advanced" tab is used to view and/or modify settings that typically remain at their default values.
@@ -249,4 +263,20 @@ The settings contained in this tab are detailed below:
 | __Field__ | __Description__ |
 | --- | --- |
 | Screen size | The screen size to use when playing a game.<br><br>Options include:<br><ul><li>`(Default)` : Use the global setting (found in the [Player Settings Dialog](#settings-dialog) and [Editor Settings Dialog](../editor/workspace/settings#settings-dialog)).</li><li>`Native` : The application's native resolution</li><li>`16:9` : Widescreen resolution</li><li>`Fill` : Fill the entire contents of the screen</li></ul> |
-| Bilinear filter | Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced. |
+| Bilinear filter | Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.<br><br>Some emulators support multiple bilinear modes instead of a simple on/off toggle. In those cases, the following options are available:<br><ul><li>`Sharp` : Applies minimal smoothing, preserving a crisp pixel appearance.</li><li>`Soft` : Applies stronger smoothing for a softer, more blended look.</li><li>`Off` : Disables bilinear filtering entirely.</li></ul> |
+
+#### Shader Settings Tab
+
+The "Shader Settings Tab" is available for emulators that support graphical shaders. Shaders can be used to alter the visual appearance of the display — for example, to simulate the look of a CRT television.
+
+!!! note
+    The Shader Settings Tab is only present for emulators that support shaders. It will not appear for all applications.
+
+![](../assets/images/userguide/system-settings-shader-tab-active.png){: style="padding:5px;" class="center zoomD"}
+
+The settings contained in this tab are detailed below:
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Shader Category | The category of shader to apply. Use the left and right arrow buttons to cycle through the available categories.<br><br>Selecting `(Disabled)` disables shader support entirely — no shader will be applied. When a category is selected, the *Shader Name* field will appear. |
+| Shader Name | The specific shader to apply within the selected category. Use the left and right arrow buttons to cycle through the available shaders.<br><br>A brief description of the currently selected shader is displayed below. This field is only visible when a *Shader Category* other than `(Disabled)` is selected. |

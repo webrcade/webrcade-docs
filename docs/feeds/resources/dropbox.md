@@ -10,7 +10,7 @@
     </p>
     <p>
     However, this automatic conversion process will not take place when the Dropbox URL
-    is shortened via a link shortener (TinyURL, etc.). This is a fairly common practice
+    is shortened via a link shortener (is.gd, etc.). This is a fairly common practice
     when the feed is hosted in Dropbox and a shortener is used to reduce the feed's
     URL.
     </p>
@@ -51,50 +51,27 @@ The process to host files in Dropbox is as follows:
 
 The following is an example of a simple webЯcade feed that includes the Dropbox link to the excellent Sega Master System homebrew game Darc (outlined in the steps above).
 
-There is also a tab named, *"Shortened URLs*", wherein the link has been shortened (see [TinyURL page](./tinyurl.md#shortened-urls)). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
-=== "Full URL"
-    ``` json hl_lines="11"
+```json hl_lines="11"
+{
+  "title": "Dropbox Example Feed",
+  "categories": [
     {
-      "title": "Dropbox Example Feed",
-      "categories": [
+      "title": "Games",
+      "items": [
         {
-          "title": "Games",
-          "items": [
-            {
-              "title": "Darc",
-              "type": "sms",
-              "props": {
-                "rom": "https://dl.dropboxusercontent.com/s/mjp3odan08deqp2/DARC.sms",
-                "ym2413": true
-              }
-            }
-          ]
+          "title": "Darc",
+          "type": "sms",
+          "props": {
+            "rom": "https://dl.dropboxusercontent.com/s/mjp3odan08deqp2/DARC.sms",
+            "ym2413": true
+          }
         }
       ]
     }
-    ```
-=== "Shortened URL"
-    ``` json hl_lines="11"
-    {
-      "title": "Dropbox Example Feed",
-      "categories": [
-        {
-          "title": "Games",
-          "items": [
-            {
-              "title": "Darc",
-              "type": "sms",
-              "props": {
-                "rom": "https://tinyurl.com/4r9rww",
-                "ym2413": true
-              }
-            }
-          ]
-        }
-      ]
-    }
-    ```
+  ]
+}
+```
 
 The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
 

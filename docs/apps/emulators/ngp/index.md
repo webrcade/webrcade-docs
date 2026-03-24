@@ -55,8 +55,8 @@ This section details how Neo Geo Pocket  application instances can be added to f
 
 The type names for the Neo Geo Pocket application are listed below:
 
-   *  Neo Geo Pocket: `mednafen-ngp`
-   *  Neo Geo Pocket Color: `mednafen-ngc`
+   *  Neo Geo Pocket: `retro-mednafen-ngp`
+   *  Neo Geo Pocket Color: `retro-mednafen-ngc`
 
 !!! note
     The aliases `ngp` and `ngc` also currently map to the Neo Geo Pocket and Neo Geo Pocket Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.

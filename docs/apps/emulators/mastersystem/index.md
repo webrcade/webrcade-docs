@@ -52,7 +52,7 @@ This section details how Master System application instances can be added to fee
 
 ### Type
 
-The type name for the Master System application is `genplusgx-sms`.
+The type name for the Master System application is `retro-genplusgx-sms`.
 
 !!! note
     The alias `sms` also currently maps to this application. In the future, the `sms` alias may be mapped

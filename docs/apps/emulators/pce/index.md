@@ -63,7 +63,7 @@ This section details how PC Engine (TurboGrafx-16) application instances can be 
 
 ### Type
 
-The type name for the PC Engine (TurboGrafx-16) application is `mednafen-pce`.
+The type name for the PC Engine (TurboGrafx-16) application is `retro-mednafen-pce`.
 
 !!! note
     The alias `pce` also currently maps to this application. In the future, the `pce` alias may be mapped to another PC Engine (TurboGrafx-16) application (different emulator implementation) if it is determined to be a more appropriate default.

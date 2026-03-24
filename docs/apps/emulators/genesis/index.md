@@ -63,7 +63,7 @@ This section details how Genesis application instances can be added to feeds.
 
 ### Type
 
-The type name for the Genesis application is `genplusgx-md`.
+The type name for the Genesis application is `retro-genplusgx-md`.
 
 !!! note
     The alias `genesis` also currently maps to this application. In the future, the `genesis` alias may be mapped

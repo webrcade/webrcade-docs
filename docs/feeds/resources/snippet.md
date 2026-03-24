@@ -35,6 +35,6 @@ The example from above can be tested by adding a feed with the following URL wit
 
 `https://snippet.host/trksvx/raw`
 
-It is highly recommended that a link shortener such as [TinyURL](https://www.tinyurl.com) be utilized to alias the Snippet URL to a more memorable URL (see [TinyURL page](./tinyurl.md#aliased-urls)). The following TinyURL-based URL will redirect to the above Snippet URL.
+It is highly recommended that a link shortener such as [is.gd](https://is.gd/) be utilized to alias the Snippet URL to a more memorable URL (see [is.gd page](./isgd.md#aliased-urls)). The following is.gd-based URL will redirect to the above Snippet URL.
 
-`https://tinyurl.com/snippet-feed`
+`https://is.gd/snippetfeed`

@@ -40,6 +40,28 @@ Use the `Application` pull-down to select the application to edit settings for (
 
 Once an application type is selected, its corresponding fields will be displayed. For example, the *Atari Lynx Boot ROM* field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by [Atari Lynx](../../apps/emulators/lynx/index.md) items.
 
+## Applications Tab
+
+The applications tab is used to select the specific application (emulator implementation) to use for each application alias (e.g., `nes`, `snes`, `saturn`) *for this feed*. This allows for specifying preferred applications on a per-feed basis.
+
+![](../../assets/images/editor/feededitor/applicationstab.png){: class="center zoomD"}
+
+!!! note
+    Application mappings are resolved in the following order:
+
+    1. **Item-specific setting** — If a specific application (emulator) has been set for the item, it is used.
+    2. **User default setting** — If no item-specific mapping exists, the user’s default mapping from the [Settings Dialog](../workspace/settings.md#applications-tab) is used (if configured).
+    3. **Feed setting** — If no user mapping is set, the mapping defined in the feed is used.
+    4. **Global default** — If none of the above are set, the alias falls back to its global default application.
+
+### Fields
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Application Alias | The alias to configure. Use the dropdown to select from the available aliases (e.g., `NEC PC Engine`, `NEC SuperGrafx`, `NES`, `SNES`, etc.). |
+| Mapped Application | The application (emulator implementation) to use for the selected alias within this feed. Use the dropdown to select from the available options. |
+| Clear Selections | Pressing the `Clear Selections` button resets all alias mappings back to `(use default)`. |
+
 ## Thumbnail Tab
 
 The thumbnail tab allows a thumbnail for the feed to be specified. The thumbnail image will be displayed in the [webЯcade player](../../userguide/index.md).

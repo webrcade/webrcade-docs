@@ -63,7 +63,7 @@ This section details how SuperGrafx application instances can be added to feeds.
 
 ### Type
 
-The type name for the SuperGrafx application is `mednafen-sgx`.
+The type name for the SuperGrafx application is `retro-mednafen-sgx`.
 
 !!! note
     The alias `sgx` also currently maps to this application. In the future, the `sgx` alias may be mapped to another SuperGrafx application (different emulator implementation) if it is determined to be a more appropriate default.

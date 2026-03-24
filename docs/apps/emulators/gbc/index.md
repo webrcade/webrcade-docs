@@ -56,7 +56,7 @@ This section details how Game Boy Color application instances can be added to fe
 
 ### Type
 
-The type name for the Game Boy Color application is `vba-m-gbc`.
+The type name for the Game Boy Color application is `retro-sameboy-gbc`.
 
 !!! note
     The alias `gbc` also currently maps to this application. In the future, the `gbc` alias may be mapped

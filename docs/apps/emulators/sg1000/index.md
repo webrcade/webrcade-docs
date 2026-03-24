@@ -48,7 +48,7 @@ This section details how SG-1000 application instances can be added to feeds.
 
 ### Type
 
-The type name for the SG-1000 application is `genplusgx-sg`.
+The type name for the SG-1000 application is `retro-genplusgx-sg`.
 
 !!! note
     The alias `sg1000` also currently maps to this application. In the future, the `sg1000` alias may be mapped

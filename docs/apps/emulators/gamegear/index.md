@@ -53,7 +53,7 @@ This section details how Game Gear application instances can be added to feeds.
 
 ### Type
 
-The type name for the Game Gear application is `genplusgx-gg`.
+The type name for the Game Gear application is `retro-genplusgx-gg`.
 
 !!! note
     The alias `gg` also currently maps to this application. In the future, the `gg` alias may be mapped

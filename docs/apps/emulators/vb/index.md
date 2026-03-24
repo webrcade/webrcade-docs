@@ -60,7 +60,7 @@ This section details how Virtual Boy application instances can be added to feeds
 
 ### Type
 
-The type name for the Virtual Boy application is `mednafen-vb`.
+The type name for the Virtual Boy application is `retro-mednafen-vb`.
 
 !!! note
     The alias `vb` also currently maps to this application. In the future, the `vb` alias may be mapped

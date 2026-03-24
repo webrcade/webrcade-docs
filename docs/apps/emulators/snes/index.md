@@ -63,7 +63,7 @@ This section details how SNES application instances can be added to feeds.
 
 ### Type
 
-The type name for the SNES application is `snes9x`.
+The type name for the SNES application is `retro-snes9x`.
 
 !!! note
     The alias `snes` also currently maps to this application. In the future, the `snes` alias may be mapped

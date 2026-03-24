@@ -56,7 +56,7 @@ This section details how Game Boy application instances can be added to feeds.
 
 ### Type
 
-The type name for the Game Boy application is `vba-m-gb`.
+The type name for the Game Boy application is `retro-sameboy-gb`.
 
 !!! note
     The alias `gb` also currently maps to this application. In the future, the `gb` alias may be mapped

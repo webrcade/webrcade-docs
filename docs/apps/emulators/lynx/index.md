@@ -56,7 +56,7 @@ This section details how Atari Lynx application instances can be added to feeds.
 
 ### Type
 
-The type name for the Atari Lynx application is `mednafen-lnx`.
+The type name for the Atari Lynx application is `retro-mednafen-lynx`.
 
 !!! note
     The alias `lnx` also currently maps to this application. In the future, the `lnx` alias may be mapped

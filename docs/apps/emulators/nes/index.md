@@ -9,6 +9,32 @@ The Nintendo Entertainment System (NES) application is an emulator for the [Nint
   <figcaption>Sir Ababol by The Mojon Twins</figcaption>
 </figure>
 
+## BIOS Files
+
+The NES application supports the [Famicom Disk System (FDS)](https://en.wikipedia.org/wiki/Famicom_Disk_System). To play FDS games, an optional *FDS BIOS file* can be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [NES Feed Properties](#feed-properties) sections). 
+
+| __File__ | __Hash (MD5)__ | __Description__ |
+| --- | --- | --- |
+| `disksys.rom` | ca30b50f880eb660a320674ed365ef7a | Famicom Disk System BIOS |
+
+## Settings
+
+The NES Application includes a custom settings dialog.
+
+![](../../../assets/images/apps/nes/nes-settings.png){: class="center zoomD"}
+
+To access these settings, display the "Pause" screen and select the "NES Settings" option (*See screenshot above*).
+
+![](../../../assets/images/apps/nes/nes-settings-settings.png){: class="center zoomD"}
+
+### NES Settings Tab (Session Only)
+
+The NES Application's "settings" tab is detailed below. It is important to note that the settings on this tab are *Session only* meaning they will not persist between gaming sessions.
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Flip disk | Flips the currently inserted FDS disk. This is used for FDS games that require flipping the disk to access content on the other side. |
+
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
@@ -55,14 +81,22 @@ This section details how NES application instances can be added to feeds.
 
 ### Type
 
-The type name for the NES application is `fceux`.
+The type name for the NES application is `retro-fceumm`.
 
 !!! note
     The alias `nes` also currently maps to this application. In the future, the `nes` alias may be mapped
     to another NES application (different emulator implementation) if it is determined to be a
     more appropriate default.
 
-### Properties
+### Feed Properties
+
+The table below contains global NES feed properties. These properties must be specified in the `props` object of the feed's [Feed Object](../../../feeds/format.md#feed-object).
+
+| __Property__ | __Type__ | __Required__ | __Details__ |
+|----------|------|----------|---------|
+| fds_bios | URL | No | <p>An optional URL to the Famicom Disk System BIOS file (`disksys.rom`).</p><p>This is only required for playing FDS games.</p> |
+
+### Item Properties
 
 The table below contains the properties that are specific to the NES application. These properties are
 specified in the `props` object of a feed item.
@@ -70,7 +104,7 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
-| rom | URL | Yes | URL to an NES ROM file or a zip file containing a ROM file. |
+| rom | URL | Yes | URL to an NES or FDS ROM file (`.nes`, `.fds`) or a zip file containing a ROM file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example

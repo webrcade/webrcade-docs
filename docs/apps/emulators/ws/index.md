@@ -100,8 +100,8 @@ This section details how WonderSwan application instances can be added to feeds.
 
 The type names for the WonderSwan application are listed below:
 
-   *  WonderSwan: `mednafen-ws`
-   *  WonderSwan Color: `mednafen-wsc`
+   *  WonderSwan: `retro-mednafen-ws`
+   *  WonderSwan Color: `retro-mednafen-wsc`
 
 !!! note
     The aliases `ws` and `wsc` also currently map to the WonderSwan and WonderSwan Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.
