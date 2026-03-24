@@ -1257,6 +1257,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apps/emulators/pokemini/" class="md-nav__link">
+        Pokemini
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1354,6 +1368,20 @@
     <li class="md-nav__item">
       <a href="../../../apps/emulators/gamegear/" class="md-nav__link">
         Game Gear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apps/emulators/saturn/" class="md-nav__link">
+        Saturn (Experimental)
       </a>
     </li>
   
@@ -1828,8 +1856,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../feeds/resources/tinyurl/" class="md-nav__link">
-        TinyURL
+      <a href="../../../feeds/resources/isgd/" class="md-nav__link">
+        is.gd
       </a>
     </li>
   
@@ -2055,6 +2083,13 @@
         <li class="md-nav__item">
   <a href="#display-settings-tab" class="md-nav__link">
     Display Settings Tab
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications-tab" class="md-nav__link">
+    Applications Tab
   </a>
   
 </li>
@@ -2439,6 +2474,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#applications-tab" class="md-nav__link">
+    Applications Tab
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cloud-storage-tab" class="md-nav__link">
     Cloud Storage Tab
   </a>
@@ -2497,6 +2539,41 @@
 <tr>
 <td>Bilinear filter</td>
 <td>Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="applications-tab">Applications Tab</h3>
+<p>The "Applications" tab is used to select the specific application (emulator implementation) to use for each application alias (e.g., <code>nes</code>, <code>snes</code>, <code>saturn</code>). This allows for overriding the default application that is used when a feed item specifies an alias type.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/settingsdialog/settings-applicationstab.png" style="padding:5px;" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Application mappings are resolved in the following order:</p>
+<ol>
+<li><strong>Item-specific setting</strong> — If a specific application (emulator) has been set for the item, it is used.</li>
+<li><strong>User default setting</strong> — If no item-specific mapping exists, the user’s default mapping from the <a href="./#applications-tab">Settings Dialog</a> is used (if configured).</li>
+<li><strong>Feed setting</strong> — If no user mapping is set, the mapping defined in the feed is used.</li>
+<li><strong>Global default</strong> — If none of the above are set, the alias falls back to its global default application.</li>
+</ol>
+</div>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Alias</td>
+<td>The alias to configure. Use the dropdown to select from the available aliases (e.g., <code>NEC PC Engine</code>, <code>NES</code>, <code>SNES</code>, etc.).</td>
+</tr>
+<tr>
+<td>Mapped Application</td>
+<td>The application (emulator implementation) to use for the selected alias. Use the dropdown to select from the available options.</td>
+</tr>
+<tr>
+<td>Clear Selections</td>
+<td>Pressing the <code>Clear Selections</code> button resets all alias mappings back to <code>(use default)</code>.</td>
 </tr>
 </tbody>
 </table>
@@ -2605,7 +2682,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            &copy; Copyright webЯcade 2025
+            &copy; Copyright webЯcade 2026
           </div>
         
         

@@ -1257,6 +1257,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apps/emulators/pokemini/" class="md-nav__link">
+        Pokemini
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1354,6 +1368,20 @@
     <li class="md-nav__item">
       <a href="../../apps/emulators/gamegear/" class="md-nav__link">
         Game Gear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apps/emulators/saturn/" class="md-nav__link">
+        Saturn (Experimental)
       </a>
     </li>
   
@@ -1806,13 +1834,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#shorten-feed-urls" class="md-nav__link">
-    Shorten Feed URLs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#publish-feed" class="md-nav__link">
     Publish Feed
   </a>
@@ -1953,8 +1974,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../resources/tinyurl/" class="md-nav__link">
-        TinyURL
+      <a href="../resources/isgd/" class="md-nav__link">
+        is.gd
       </a>
     </li>
   
@@ -2564,13 +2585,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#shorten-feed-urls" class="md-nav__link">
-    Shorten Feed URLs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#publish-feed" class="md-nav__link">
     Publish Feed
   </a>
@@ -2610,7 +2624,7 @@
 </div>
 <p>The <a href="../format/">Format</a> of webЯcade feeds is JSON (JavaScript Object Notation), which is a text-based format. Thus, all that is required to follow along and develop the feed document is a simple text-based editor. Alternatively, using a JSON-specific editor such as <a href="https://www.tutorialspoint.com/online_json_editor.htm" target="_blank">Tutorials Point's Online JSON Editor</a> is recommended as it provides immediate feedback when errors are detected and allows for "beautifying" (reformatting) the document.</p>
 <h2 id="create-feed-object">Create Feed Object</h2>
-<p>The <a href="../format/#feed-object">Feed Object</a> is the root object in a webЯcade document that contains high-level meta-information about the feed. The only required fields are a <code>title</code> and an array of <code>categories</code>. </p>
+<p>The <a href="../format/#feed-object">Feed Object</a> is the root object in a webЯcade document that contains high-level meta-information about the feed. The only required fields are a <code>title</code> and an array of <code>categories</code>.</p>
 <p>Start by copying the example content below into the feed document you are creating. Update the <code>title</code>, <code>longTitle</code>, and <code>description</code> to reflect your specific feed. Alternatively, <code>longTitle</code> and <code>description</code> can be removed as they are optional (See the <a href="../format/#feed-object">Feed Object</a> documentation for more details).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
@@ -2638,7 +2652,7 @@
 </code></pre></div>
 <h2 id="create-category-object">Create Category Object</h2>
 <p><a href="../format/#category-object">Category objects</a> of a webЯcade feed provide a means of classifying items (games, etc.) into user-defined groups
-(by game type, console type, etc.). For a feed to be considered valid it must contain at least one category object. The only required category object fields are a <code>title</code> and an array of <code>items</code>. </p>
+(by game type, console type, etc.). For a feed to be considered valid it must contain at least one category object. The only required category object fields are a <code>title</code> and an array of <code>items</code>.</p>
 <p>Copy the highlighted lines below into the <code>categories</code> array of the feed document you are developing. Update the category <code>title</code> and <code>description</code> to reflect your specific feed. Alternatively, <code>description</code> can be removed as it is optional (See the <a href="../format/#category-object">Category Object</a> documentation for more details).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
@@ -2685,7 +2699,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="create-item-object">Create Item Object</h2>
-<p><a href="../format/#item-object">Item objects</a> within a webЯcade feed correspond to items (games, etc.) that can be launched (played, etc.). Each item object must contain an application <code>type</code> property value (the specific emulator or game engine, etc. to launch). </p>
+<p><a href="../format/#item-object">Item objects</a> within a webЯcade feed correspond to items (games, etc.) that can be launched (played, etc.). Each item object must contain an application <code>type</code> property value (the specific emulator or game engine, etc. to launch).</p>
 <p>The <a href="../../apps/">Applications</a> page contains a listing of all the available applications. The detailed page for each application contains a <em>"Feed"</em> section that includes the application-specific <code>type</code> value. In addition to the application <code>type</code>, item objects must include a <code>title</code>.</p>
 <p>Copy the highlighted lines below into the <code>items</code> array of the <a href="../format/#category-object">Category Object</a> that was created in the previous section. The <code>description</code> property can be removed as it is optional (See the <a href="../format/#item-object">Item Object</a> documentation for more details).</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
@@ -2716,10 +2730,10 @@
 <p>It is important to note that although only one item is being added in this tutorial, the webЯcade feed format supports multiple items per category (additional item objects would be separated by commas in the <code>items</code> array).</p>
 </div>
 <h3 id="add-item-properties">Add Item Properties</h3>
-<p>Each application type has a set of type-specific properties (both required and optional) that can be specified via the <code>props</code> property of an <a href="../format/#item-object">Item Object</a>. Each detailed application page contains a <em>"Feed"</em> section that includes the list of available type-specific properties. </p>
-<p>In this particular case, since we are using the NES application (<code>type</code> of <code>NES</code>), the <a href="../../apps/emulators/nes/#properties">NES Application Properties</a> section found within the <a href="../../apps/emulators/nes/">NES Application</a> page contains the set of applicable properties for this item.  </p>
+<p>Each application type has a set of type-specific properties (both required and optional) that can be specified via the <code>props</code> property of an <a href="../format/#item-object">Item Object</a>. Each detailed application page contains a <em>"Feed"</em> section that includes the list of available type-specific properties.</p>
+<p>In this particular case, since we are using the NES application (<code>type</code> of <code>NES</code>), the <a href="../../apps/emulators/nes/#properties">NES Application Properties</a> section found within the <a href="../../apps/emulators/nes/">NES Application</a> page contains the set of applicable properties for this item.</p>
 <p>The only required property in the <code>props</code> object for an NES application is <code>rom</code>. The <code>rom</code> property value must be set to a URL that points to a NES ROM file or a zip file containing a ROM file.</p>
-<p>For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the <a href="../resources/dropbox/">Dropbox Resource</a> page for details on hosting your own files on Dropbox). </p>
+<p>For this particular item, we will use a URL (see below) that points to the excellent NES homebrew game, "Super Uwol!" by the Mojon Twins. The ROM file we will be referring to is hosted on Dropbox (see the <a href="../resources/dropbox/">Dropbox Resource</a> page for details on hosting your own files on Dropbox).</p>
 <ul>
 <li>Super Uwol! Rom<br><code>https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes</code></li>
 </ul>
@@ -2787,76 +2801,8 @@
 <span class="w">  </span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
-<h2 id="shorten-feed-urls">Shorten Feed URLs</h2>
-<p>At this point we have a fully formed and valid feed document. An <em>optional</em> step that can be performed on the feed document is shortening the URLs that are contained within it. Shortening of URLs is recommended as it reduces the overall size of the feed document and mitigates false-positive blocking by simple URL filters. </p>
-<p>For each of the URLs present in the feed document perform the following:</p>
-<ul>
-<li>Follow the steps detailed in the TinyURL resource page to <a href="../resources/tinyurl/#shortened-urls">shorten URLs</a>.</li>
-</ul>
-<p>The two tabs below show the feed document with "Full URLs" (prior to shortening) and with "Shortened URLs" (after shortening).</p>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Full URLs</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
-<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/WxTQLOq.jpg&quot;</span><span class="p">,</span>
-</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/Xlz3eh9.jpg&quot;</span><span class="p">,</span>
-</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
-<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/N9EHEsC.png&quot;</span><span class="p">,</span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ddTEKVv.jpg&quot;</span><span class="p">,</span>
-</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/yJ2xKHK.png&quot;</span><span class="p">,</span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://i.imgur.com/ZUHJNjW.png&quot;</span><span class="p">,</span>
-</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dl.dropboxusercontent.com/s/csq3rb6wnopcv2p/super-uwol.nes&quot;</span>
-</span><span class="w">          </span><span class="p">}</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">]</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">]</span>
-<span class="p">}</span>
-</code></pre></div>
-</div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Shortened URLs</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Tutorial Feed&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;longTitle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WebЯcade Tutorial Feed&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A simple single game feed for the webЯcade tutorial.&quot;</span><span class="p">,</span>
-<span class="hll"><span class="w">  </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/5b8e2brx&quot;</span><span class="p">,</span>
-</span><span class="hll"><span class="w">  </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/yentv7y6&quot;</span><span class="p">,</span>
-</span><span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A category that contains a single game.&quot;</span><span class="p">,</span>
-<span class="hll"><span class="w">      </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/cepxkn7h&quot;</span><span class="p">,</span>
-</span><span class="hll"><span class="w">      </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/vsk6d3py&quot;</span><span class="p">,</span>
-</span><span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
-<span class="hll"><span class="w">          </span><span class="nt">&quot;thumbnail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/mh3epukr&quot;</span><span class="p">,</span>
-</span><span class="hll"><span class="w">          </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/eebpj6u7&quot;</span><span class="p">,</span>
-</span><span class="w">          </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/wfknhbhc&quot;</span>
-</span><span class="w">          </span><span class="p">}</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">]</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">]</span>
-<span class="p">}</span>
-</code></pre></div>
-</div>
-</div>
 <h2 id="publish-feed">Publish Feed</h2>
-<p>At this point, the feed can be published and shared for use with webЯcade. In this tutorial, we will utilize <a href="../resources/pastebin/">Pastebin</a> to host the feed document. </p>
+<p>At this point, the feed can be published and shared for use with webЯcade. In this tutorial, we will utilize <a href="../resources/pastebin/">Pastebin</a> to host the feed document.</p>
 <p>To host the feed document in Pastebin, perform the following:</p>
 <ul>
 <li>Follow the steps outlined on the <a href="../resources/pastebin/">Pastebin Resource</a> page.</li>
@@ -2866,15 +2812,15 @@
 <code>https://pastebin.com/raw/Fchkqw6g</code></p>
 <p>The feed can be tested by adding the feed URL within the webЯcade player ("Feeds" view).</p>
 <h2 id="alias-feed-url">Alias Feed URL</h2>
-<p>Although the feed is now available and published, the URL that was assigned by Pastebin is not very memorable. Fortunately, we can utilize a service such as TinyURL to create a more memorable URL that is aliased to the Pastebin URL.</p>
+<p>Although the feed is now available and published, the URL that was assigned by Pastebin is not very memorable. Fortunately, we can utilize a service such as <a href="https://is.gd/">is.gd</a> to create a more memorable URL that is aliased to the Pastebin URL.</p>
 <p>To create an alias for the feed URL, perform the following:</p>
 <ul>
-<li>Follow the steps detailed in the TinyURL resource page to <a href="../resources/tinyurl/#aliased-urls">alias URLs</a>.</li>
+<li>Follow the steps detailed in the is.gd resource page to <a href="../resources/isgd/#aliased-urls">alias URLs</a>.</li>
 <li>Provide the Pastebin URL from the previous step as the URL to alias</li>
 <li>Provide a name to alias to the Pastebin URL</li>
 </ul>
 <p>At this point, you should have an aliased URL similar to the following:
-<code>https://tinyurl.com/tutorial-feed</code></p>
+<code>https://is.gd/tutorialfeed</code></p>
 <p>The feed can be tested by adding the feed URL within the webЯcade player ("Feeds" view).</p>
                 
                   
@@ -2942,7 +2888,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            &copy; Copyright webЯcade 2025
+            &copy; Copyright webЯcade 2026
           </div>
         
         

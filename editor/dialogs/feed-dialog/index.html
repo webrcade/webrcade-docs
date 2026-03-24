@@ -1257,6 +1257,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apps/emulators/pokemini/" class="md-nav__link">
+        Pokemini
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1354,6 +1368,20 @@
     <li class="md-nav__item">
       <a href="../../../apps/emulators/gamegear/" class="md-nav__link">
         Game Gear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apps/emulators/saturn/" class="md-nav__link">
+        Saturn (Experimental)
       </a>
     </li>
   
@@ -1828,8 +1856,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../feeds/resources/tinyurl/" class="md-nav__link">
-        TinyURL
+      <a href="../../../feeds/resources/isgd/" class="md-nav__link">
+        is.gd
       </a>
     </li>
   
@@ -2156,6 +2184,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#applications-tab" class="md-nav__link">
+    Applications Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Applications Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_2" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#thumbnail-tab" class="md-nav__link">
     Thumbnail Tab
   </a>
@@ -2164,7 +2212,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fields_2" class="md-nav__link">
+  <a href="#fields_3" class="md-nav__link">
     Fields
   </a>
   
@@ -2184,7 +2232,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fields_3" class="md-nav__link">
+  <a href="#fields_4" class="md-nav__link">
     Fields
   </a>
   
@@ -2531,6 +2579,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#applications-tab" class="md-nav__link">
+    Applications Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Applications Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_2" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#thumbnail-tab" class="md-nav__link">
     Thumbnail Tab
   </a>
@@ -2539,7 +2607,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fields_2" class="md-nav__link">
+  <a href="#fields_3" class="md-nav__link">
     Fields
   </a>
   
@@ -2559,7 +2627,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fields_3" class="md-nav__link">
+  <a href="#fields_4" class="md-nav__link">
     Fields
   </a>
   
@@ -2645,10 +2713,46 @@
 </table>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/feededitor/propertiestab-lynx.png" /></p>
 <p>Once an application type is selected, its corresponding fields will be displayed. For example, the <em>Atari Lynx Boot ROM</em> field shown in the screenshot above, is used to specify the location (URL) of the Lynx Boot ROM that is required by <a href="../../../apps/emulators/lynx/">Atari Lynx</a> items.</p>
+<h2 id="applications-tab">Applications Tab</h2>
+<p>The applications tab is used to select the specific application (emulator implementation) to use for each application alias (e.g., <code>nes</code>, <code>snes</code>, <code>saturn</code>) <em>for this feed</em>. This allows for specifying preferred applications on a per-feed basis.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/feededitor/applicationstab.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Application mappings are resolved in the following order:</p>
+<ol>
+<li><strong>Item-specific setting</strong> — If a specific application (emulator) has been set for the item, it is used.</li>
+<li><strong>User default setting</strong> — If no item-specific mapping exists, the user’s default mapping from the <a href="../../workspace/settings/#applications-tab">Settings Dialog</a> is used (if configured).</li>
+<li><strong>Feed setting</strong> — If no user mapping is set, the mapping defined in the feed is used.</li>
+<li><strong>Global default</strong> — If none of the above are set, the alias falls back to its global default application.</li>
+</ol>
+</div>
+<h3 id="fields_2">Fields</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Alias</td>
+<td>The alias to configure. Use the dropdown to select from the available aliases (e.g., <code>NEC PC Engine</code>, <code>NEC SuperGrafx</code>, <code>NES</code>, <code>SNES</code>, etc.).</td>
+</tr>
+<tr>
+<td>Mapped Application</td>
+<td>The application (emulator implementation) to use for the selected alias within this feed. Use the dropdown to select from the available options.</td>
+</tr>
+<tr>
+<td>Clear Selections</td>
+<td>Pressing the <code>Clear Selections</code> button resets all alias mappings back to <code>(use default)</code>.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="thumbnail-tab">Thumbnail Tab</h2>
 <p>The thumbnail tab allows a thumbnail for the feed to be specified. The thumbnail image will be displayed in the <a href="../../../userguide/">webЯcade player</a>.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/feededitor/thumbnailtab.png" /></p>
-<h3 id="fields_2">Fields</h3>
+<h3 id="fields_3">Fields</h3>
 <table>
 <thead>
 <tr>
@@ -2670,7 +2774,7 @@
 <h2 id="background-tab">Background Tab</h2>
 <p>The background tab allows a background image for the feed to be specified. The background image will be displayed in the <a href="../../../userguide/">webЯcade player</a>.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/feededitor/backgroundtab.png" /></p>
-<h3 id="fields_3">Fields</h3>
+<h3 id="fields_4">Fields</h3>
 <table>
 <thead>
 <tr>
@@ -2759,7 +2863,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            &copy; Copyright webЯcade 2025
+            &copy; Copyright webЯcade 2026
           </div>
         
         

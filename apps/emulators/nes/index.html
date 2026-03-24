@@ -1199,6 +1199,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#bios-files" class="md-nav__link">
+    BIOS Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nes-settings-tab-session-only" class="md-nav__link">
+    NES Settings Tab (Session Only)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#controls" class="md-nav__link">
     Controls
   </a>
@@ -1248,8 +1275,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
-    Properties
+  <a href="#feed-properties" class="md-nav__link">
+    Feed Properties
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#item-properties" class="md-nav__link">
+    Item Properties
   </a>
   
 </li>
@@ -1380,6 +1414,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pokemini/" class="md-nav__link">
+        Pokemini
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1477,6 +1525,20 @@
     <li class="md-nav__item">
       <a href="../gamegear/" class="md-nav__link">
         Game Gear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../saturn/" class="md-nav__link">
+        Saturn (Experimental)
       </a>
     </li>
   
@@ -1951,8 +2013,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../feeds/resources/tinyurl/" class="md-nav__link">
-        TinyURL
+      <a href="../../../feeds/resources/isgd/" class="md-nav__link">
+        is.gd
       </a>
     </li>
   
@@ -2502,6 +2564,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#bios-files" class="md-nav__link">
+    BIOS Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nes-settings-tab-session-only" class="md-nav__link">
+    NES Settings Tab (Session Only)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#controls" class="md-nav__link">
     Controls
   </a>
@@ -2551,8 +2640,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
-    Properties
+  <a href="#feed-properties" class="md-nav__link">
+    Feed Properties
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#item-properties" class="md-nav__link">
+    Item Properties
   </a>
   
 </li>
@@ -2602,6 +2698,45 @@
   <figcaption>Sir Ababol by The Mojon Twins</figcaption>
 </figure>
 
+<h2 id="bios-files">BIOS Files</h2>
+<p>The NES application supports the <a href="https://en.wikipedia.org/wiki/Famicom_Disk_System">Famicom Disk System (FDS)</a>. To play FDS games, an optional <em>FDS BIOS file</em> can be specified globally within the feed (See the <a href="../../../editor/dialogs/feed-dialog/#properties-tab">Feed Properties Dialog</a> and <a href="#feed-properties">NES Feed Properties</a> sections). </p>
+<table>
+<thead>
+<tr>
+<th><strong>File</strong></th>
+<th><strong>Hash (MD5)</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>disksys.rom</code></td>
+<td>ca30b50f880eb660a320674ed365ef7a</td>
+<td>Famicom Disk System BIOS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings">Settings</h2>
+<p>The NES Application includes a custom settings dialog.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/apps/nes/nes-settings.png" /></p>
+<p>To access these settings, display the "Pause" screen and select the "NES Settings" option (<em>See screenshot above</em>).</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/apps/nes/nes-settings-settings.png" /></p>
+<h3 id="nes-settings-tab-session-only">NES Settings Tab (Session Only)</h3>
+<p>The NES Application's "settings" tab is detailed below. It is important to note that the settings on this tab are <em>Session only</em> meaning they will not persist between gaming sessions.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flip disk</td>
+<td>Flips the currently inserted FDS disk. This is used for FDS games that require flipping the disk to access content on the other side.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="controls">Controls</h2>
 <p>The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.</p>
 <h3 id="keyboard">Keyboard</h3>
@@ -2725,14 +2860,34 @@
 <h2 id="feed">Feed</h2>
 <p>This section details how NES application instances can be added to feeds.</p>
 <h3 id="type">Type</h3>
-<p>The type name for the NES application is <code>fceux</code>.</p>
+<p>The type name for the NES application is <code>retro-fceumm</code>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The alias <code>nes</code> also currently maps to this application. In the future, the <code>nes</code> alias may be mapped
 to another NES application (different emulator implementation) if it is determined to be a
 more appropriate default.</p>
 </div>
-<h3 id="properties">Properties</h3>
+<h3 id="feed-properties">Feed Properties</h3>
+<p>The table below contains global NES feed properties. These properties must be specified in the <code>props</code> object of the feed's <a href="../../../feeds/format/#feed-object">Feed Object</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Property</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Required</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fds_bios</td>
+<td>URL</td>
+<td>No</td>
+<td><p>An optional URL to the Famicom Disk System BIOS file (<code>disksys.rom</code>).</p><p>This is only required for playing FDS games.</p></td>
+</tr>
+</tbody>
+</table>
+<h3 id="item-properties">Item Properties</h3>
 <p>The table below contains the properties that are specific to the NES application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
 <table>
@@ -2755,7 +2910,7 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>rom</td>
 <td>URL</td>
 <td>Yes</td>
-<td>URL to an NES ROM file or a zip file containing a ROM file.</td>
+<td>URL to an NES or FDS ROM file (<code>.nes</code>, <code>.fds</code>) or a zip file containing a ROM file.</td>
 </tr>
 <tr>
 <td>zoomLevel</td>
@@ -2859,7 +3014,7 @@ specified in the <code>props</code> object of a feed item.</p>
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            &copy; Copyright webЯcade 2025
+            &copy; Copyright webЯcade 2026
           </div>
         
         

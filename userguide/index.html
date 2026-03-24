@@ -530,6 +530,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#applications-tab" class="md-nav__link">
+    Applications Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#advanced-settings-tab" class="md-nav__link">
     Advanced Settings Tab
   </a>
@@ -560,6 +567,13 @@
           <li class="md-nav__item">
   <a href="#display-settings-tab_1" class="md-nav__link">
     Display Settings Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shader-settings-tab" class="md-nav__link">
+    Shader Settings Tab
   </a>
   
 </li>
@@ -1448,6 +1462,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apps/emulators/pokemini/" class="md-nav__link">
+        Pokemini
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1545,6 +1573,20 @@
     <li class="md-nav__item">
       <a href="../apps/emulators/gamegear/" class="md-nav__link">
         Game Gear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apps/emulators/saturn/" class="md-nav__link">
+        Saturn (Experimental)
       </a>
     </li>
   
@@ -2019,8 +2061,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../feeds/resources/tinyurl/" class="md-nav__link">
-        TinyURL
+      <a href="../feeds/resources/isgd/" class="md-nav__link">
+        is.gd
       </a>
     </li>
   
@@ -2674,6 +2716,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#applications-tab" class="md-nav__link">
+    Applications Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#advanced-settings-tab" class="md-nav__link">
     Advanced Settings Tab
   </a>
@@ -2704,6 +2753,13 @@
           <li class="md-nav__item">
   <a href="#display-settings-tab_1" class="md-nav__link">
     Display Settings Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shader-settings-tab" class="md-nav__link">
+    Shader Settings Tab
   </a>
   
 </li>
@@ -2959,6 +3015,32 @@
 </tr>
 </tbody>
 </table>
+<h3 id="applications-tab">Applications Tab</h3>
+<p>The "Applications" tab is used to select the specific application (emulator implementation) to use for each application alias (e.g., <code>nes</code>, <code>snes</code>, <code>saturn</code>). This allows for overriding the default application that is used when a feed item specifies an alias type.</p>
+<p><img alt="" class="center zoomD" src="../assets/images/userguide/settings-dialog-applications.png" style="padding:5px;" /></p>
+<p>The settings contained in this tab are detailed below:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Alias</td>
+<td>The alias to configure. Use the left and right arrow buttons to cycle through the available aliases (e.g., <code>3DO</code>, <code>NES</code>, <code>SNES</code>, etc.).</td>
+</tr>
+<tr>
+<td>Mapped Application</td>
+<td>The application (emulator implementation) to use for the selected alias. Use the left and right arrow buttons to cycle through the available options.<br><br>Options include:<br><ul><li><code>(use default)</code> : Uses the feed-specified application for this alias, or falls back to the alias's default (which may change over time).</li><li>A specific application name (marked with <code>*</code> if it is the current default) : Always uses the selected application for this alias, regardless of what the feed specifies.</li></ul></td>
+</tr>
+<tr>
+<td>Clear Selections</td>
+<td>Pressing the <code>Clear</code> button resets all alias mappings back to <code>(use default)</code>.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="advanced-settings-tab">Advanced Settings Tab</h3>
 <p>The "Advanced" tab is used to view and/or modify settings that typically remain at their default values.</p>
 <p><img alt="" class="center zoomD" src="../assets/images/userguide/settings-dialog-advanced.png" style="padding:5px;" /></p>
@@ -3098,7 +3180,33 @@
 </tr>
 <tr>
 <td>Bilinear filter</td>
-<td>Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</td>
+<td>Performs bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.<br><br>Some emulators support multiple bilinear modes instead of a simple on/off toggle. In those cases, the following options are available:<br><ul><li><code>Sharp</code> : Applies minimal smoothing, preserving a crisp pixel appearance.</li><li><code>Soft</code> : Applies stronger smoothing for a softer, more blended look.</li><li><code>Off</code> : Disables bilinear filtering entirely.</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h4 id="shader-settings-tab">Shader Settings Tab</h4>
+<p>The "Shader Settings Tab" is available for emulators that support graphical shaders. Shaders can be used to alter the visual appearance of the display — for example, to simulate the look of a CRT television.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Shader Settings Tab is only present for emulators that support shaders. It will not appear for all applications.</p>
+</div>
+<p><img alt="" class="center zoomD" src="../assets/images/userguide/system-settings-shader-tab-active.png" style="padding:5px;" /></p>
+<p>The settings contained in this tab are detailed below:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shader Category</td>
+<td>The category of shader to apply. Use the left and right arrow buttons to cycle through the available categories.<br><br>Selecting <code>(Disabled)</code> disables shader support entirely — no shader will be applied. When a category is selected, the <em>Shader Name</em> field will appear.</td>
+</tr>
+<tr>
+<td>Shader Name</td>
+<td>The specific shader to apply within the selected category. Use the left and right arrow buttons to cycle through the available shaders.<br><br>A brief description of the currently selected shader is displayed below. This field is only visible when a <em>Shader Category</em> other than <code>(Disabled)</code> is selected.</td>
 </tr>
 </tbody>
 </table>
@@ -3168,7 +3276,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            &copy; Copyright webЯcade 2025
+            &copy; Copyright webЯcade 2026
           </div>
         
         

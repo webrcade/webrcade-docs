@@ -1257,6 +1257,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apps/emulators/pokemini/" class="md-nav__link">
+        Pokemini
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1354,6 +1368,20 @@
     <li class="md-nav__item">
       <a href="../../../apps/emulators/gamegear/" class="md-nav__link">
         Game Gear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apps/emulators/saturn/" class="md-nav__link">
+        Saturn (Experimental)
       </a>
     </li>
   
@@ -1874,8 +1902,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../tinyurl/" class="md-nav__link">
-        TinyURL
+      <a href="../isgd/" class="md-nav__link">
+        is.gd
       </a>
     </li>
   
@@ -2443,7 +2471,7 @@
                 
                 
                 <h1 id="internet-archive">Internet Archive</h1>
-<p>Content (ROMs, game files, artwork, etc.) stored in the <a href="https://archive.org">Internet Archive</a> can be utilized by webЯcade feeds. </p>
+<p>Content (ROMs, game files, artwork, etc.) stored in the <a href="https://archive.org">Internet Archive</a> can be utilized by webЯcade feeds.</p>
 <p>The following steps detail the process of adding an NES homebrew game (ROM file) hosted in the <a href="https://archive.org">Internet Archive</a> to a webЯcade feed:</p>
 <ul>
 <li>The first step is to search for content within the <a href="https://archive.org">Internet Archive</a>. Although, the <a href="https://archive.org">Internet Archive</a> does provide its own search mechanism, Google typically provides faster and more accurate search results.<br><br>To limit the Google search to the Internet Archive, add "<code>site:archive.org</code>" after your search criteria (see screenshot below).<br><br>In the example shown below, the full search text is as follows:<br><code>retro pie homebrew site:archive.org</code></li>
@@ -2464,9 +2492,9 @@ much larger downloads with a non-deterministic ROM file being executed.</li>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The Internet Archive supports descending into various archive file formats (.iso, .zip., etc.). However,
-It is important to note that although descending into archives may be supported, there exists a 
+It is important to note that although descending into archives may be supported, there exists a
 bug for certain formats (.7z, etc.) that results in contained content being downloaded as zero bytes (which is unusable). An easy way to validate that a file will be downloaded correctly is to open the link to the file in a new tab.
-If the downloaded content file size is greater than zero, it is being downloaded correctly. </p>
+If the downloaded content file size is greater than zero, it is being downloaded correctly.</p>
 </div>
 <p><img alt="" class="center zoomD" src="../../../assets/images/feed/inetarchive/view-iso-contents.png" style="padding:5px 15px;" /></p>
 <ul>
@@ -2478,8 +2506,6 @@ If the downloaded content file size is greater than zero, it is being downloaded
 </ul>
 <h2 id="example">Example</h2>
 <p>The following is an example of a simple webЯcade feed that contains the archive.org URL to the NES version of Super Uwol! obtained via the steps outlined above. See the <a href="../../format/">Feed Format page</a> for detailed information regarding the structure of webЯcade feeds.</p>
-<p>There is also a tab named, <em>"Shortened URLs</em>", wherein the Super Uwol! URL has been shortened (see <a href="../tinyurl/#shortened-urls">TinyURL page</a>). Shortening of <a href="https://archive.org">archive.org</a> URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.</p>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Full URL</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Archive.org Example Feed&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
@@ -2496,30 +2522,8 @@ If the downloaded content file size is greater than zero, it is being downloaded
 <span class="w">      </span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">]</span>
-<span class="p">}</span><span class="w">    </span>
+<span class="p">}</span>
 </code></pre></div>
-</div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Shortened URL</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Archive.org Example Feed&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;categories&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Games&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Super Uwol!&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nes&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;props&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="hll"><span class="w">            </span><span class="nt">&quot;rom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tinyurl.com/4d72vnrc&quot;</span>
-</span><span class="w">          </span><span class="p">}</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">]</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">]</span>
-<span class="p">}</span><span class="w">    </span>
-</code></pre></div>
-</div>
-</div>
 <p>The example from above can be tested by adding a feed with the following URL within the <a href="../../../userguide/">webЯcade player</a>:</p>
 <p><code>https://tinyurl.com/inet-archive-example</code></p>
                 
@@ -2588,7 +2592,7 @@ If the downloaded content file size is greater than zero, it is being downloaded
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            &copy; Copyright webЯcade 2025
+            &copy; Copyright webЯcade 2026
           </div>
         
         
