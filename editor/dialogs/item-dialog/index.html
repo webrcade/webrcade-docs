@@ -2031,6 +2031,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2228,6 +2242,46 @@
         
           <li class="md-nav__item">
   <a href="#fields_2" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheats-tab" class="md-nav__link">
+    Cheats Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheats Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_3" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-database-dialog" class="md-nav__link">
+    Cheat Database Dialog
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Database Dialog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_4" class="md-nav__link">
     Fields
   </a>
   
@@ -2572,6 +2626,46 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#cheats-tab" class="md-nav__link">
+    Cheats Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheats Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_3" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-database-dialog" class="md-nav__link">
+    Cheat Database Dialog
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Database Dialog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fields_4" class="md-nav__link">
+    Fields
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2679,6 +2773,51 @@
 </tr>
 </tbody>
 </table>
+<h2 id="cheats-tab">Cheats Tab</h2>
+<p>The cheats tab allows a cheat file to be associated with the item. The cheats tab is only available for <a href="../../../apps/">application types</a> that support cheats (see the <code>Cheats</code> column in each application type's <code>Types</code> table).</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/itemeditor/cheatstab.png" /></p>
+<h3 id="fields_3">Fields</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheat File (URL)</td>
+<td>The location (URL) of a RetroArch-format cheat file (<code>.cht</code>) for the item.<br><br>For supported application types, a <em>Browse Cheat Database...</em> option is available in the field's dropdown menu, which opens the <a href="#cheat-database-dialog">Cheat Database Dialog</a> for selecting a cheat file.<br><br>This field supports drag and drop of text-based URLs (see <a href="../../draganddrop/#drag-text">Drag Text</a> for more information).<br><br><strong>Note:</strong> The cheat file must match the specific region and variant of the ROM being used for cheats to function correctly.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cheat-database-dialog">Cheat Database Dialog</h2>
+<p>The "Cheat Database" dialog is used to locate and select a cheat file from the webЯcade cheat database.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/itemeditor/cheatdatabasedialog.png" /></p>
+<h3 id="fields_4">Fields</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Search</td>
+<td>Filters the list of cheat files by name. Pre-populated with the item's title when the dialog is opened.</td>
+</tr>
+<tr>
+<td>Cheat Files</td>
+<td>The left panel lists cheat files matching the current search. Click a row to select a file and preview its cheat names in the right panel.<br><br>Cheat files are listed by game name including region and variant (e.g., <em>Batman - The Video Game (USA)</em>). Select the entry that matches the specific ROM being used.</td>
+</tr>
+<tr>
+<td>Cheat Preview</td>
+<td>The right panel displays the cheat names contained in the selected cheat file.</td>
+</tr>
+</tbody>
+</table>
+<p>Clicking <em>OK</em> populates the <em>Cheat File (URL)</em> field in the <a href="#cheats-tab">Cheats Tab</a> with the URL of the selected cheat file.</p>
                 
                   
 

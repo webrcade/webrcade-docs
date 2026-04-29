@@ -1063,8 +1063,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2152,6 +2152,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2572,8 +2586,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2936,16 +2950,44 @@
 <p>Some WonderSwan cartridges include battery-backed SRAM as a means of preserving state between sessions. The WonderSwan application supports persisting this SRAM state into the browser's local storage or optionally to <a href="../../../storage/">cloud-based storage</a>. The SRAM contents will be persisted to storage whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.</p>
 <h2 id="feed">Feed</h2>
 <p>This section details how WonderSwan application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type names for the WonderSwan application are listed below:</p>
-<ul>
-<li>WonderSwan: <code>retro-mednafen-ws</code></li>
-<li>WonderSwan Color: <code>retro-mednafen-wsc</code></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The aliases <code>ws</code> and <code>wsc</code> also currently map to the WonderSwan and WonderSwan Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two WonderSwan and WonderSwan Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro Mednafen Wswan</em> is the default (⭐) and is mapped to the <code>ws</code> and <code>wsc</code> aliases for WonderSwan and WonderSwan Color respectively. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro Mednafen Wswan (WS) ⭐</td>
+<td><code>retro-mednafen-ws</code></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Libretro Mednafen Wswan (WSC) ⭐</td>
+<td><code>retro-mednafen-wsc</code></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Mednafen (WS)</td>
+<td><code>mednafen-ws</code></td>
+<td></td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Mednafen (WSC)</td>
+<td><code>mednafen-wsc</code></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="properties">Properties</h3>
 <p>The table below contains the properties that are specific to the WonderSwan application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
@@ -2960,6 +3002,12 @@ specified in the <code>props</code> object of a feed item.</p>
 </thead>
 <tbody>
 <tr>
+<td>language</td>
+<td>Numeric</td>
+<td>No</td>
+<td>The language to use for displaying game text (if applicable) (defaults to <code>English</code>).<br><ul><li><code>0</code> : English</li><li><code>1</code> : Japanese</li><ul></td>
+</tr>
+<tr>
 <td>rom</td>
 <td>URL</td>
 <td>Yes</td>
@@ -2970,12 +3018,6 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>Boolean</td>
 <td>No</td>
 <td>Whether to rotate the screen and controls (defaults to <code>false</code>).</td>
-</tr>
-<tr>
-<td>language</td>
-<td>Numeric</td>
-<td>No</td>
-<td>The language to use for displaying game text (if applicable) (defaults to <code>English</code>).<br><ul><li><code>0</code> : English</li><li><code>1</code> : Japanese</li><ul></td>
 </tr>
 <tr>
 <td>zoomLevel</td>
@@ -3010,7 +3052,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-wsc-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-mednafen">WonderSwan Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-mednafen-wswan">WonderSwan (Libretro Mednafen Wswan) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-mednafen">WonderSwan (Mednafen) GitHub Repository</a></li>
 </ul>
                 
                   

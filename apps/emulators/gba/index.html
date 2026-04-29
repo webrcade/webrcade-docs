@@ -1311,8 +1311,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2152,6 +2152,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2572,8 +2586,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2772,14 +2786,35 @@
 <p>Some Game Boy Advance cartridges include battery-backed SRAM as a means of preserving state between sessions. The Game Boy Advance application supports persisting this SRAM state into the browser's local storage or optionally to <a href="../../../storage/">cloud-based storage</a>. The SRAM contents will be persisted whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.</p>
 <h2 id="feed">Feed</h2>
 <p>This section details how Game Boy Advance application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type name for the Game Boy Advance application is <code>retro-mgba-gba</code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The alias <code>gba</code> also currently maps to this application. In the future, the <code>gba</code> alias may be mapped
-to another Nintendo Game Boy Advance application (different emulator implementation) if it is determined to be a
-more appropriate default.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two Game Boy Advance application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro mGBA</em> is the default (⭐) and is mapped to the <code>gba</code> alias. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Cheats</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro mGBA ⭐</td>
+<td><code>retro-mgba-gba</code></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>VBA-M</td>
+<td><code>vba-m-gba</code></td>
+<td></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="properties">Properties</h3>
 <p>The table below contains the properties that are specific to the Game Boy Advance application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
@@ -2793,6 +2828,30 @@ specified in the <code>props</code> object of a feed item.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>cheat</td>
+<td>URL</td>
+<td>No</td>
+<td>URL to a cheat file for the current ROM. See the <a href="../../../editor/dialogs/item-dialog/#cheats-tab">Cheats Tab</a> in the Item Editor for details on assigning cheat files.<br><br><em>(Libretro mGBA only)</em></td>
+</tr>
+<tr>
+<td>disableLookup</td>
+<td>Boolean</td>
+<td>No</td>
+<td><p>Disables looking up a game's settings based on Game ID.</p><p>This allows  all settings to be overridden even if the game is recognized. This is typically useful for "hacks" that are based on a standard game ID, but have unique settings (use of Real-time clock, etc.).</p></td>
+</tr>
+<tr>
+<td>flashSize</td>
+<td>Numeric</td>
+<td>No</td>
+<td>The size of the flash ram (only applicable for flash save type).<br><br>Valid values are 65536 and 131072.</td>
+</tr>
+<tr>
+<td>mirroring</td>
+<td>Boolean</td>
+<td>No</td>
+<td>Whether the cartridge utilizes mirrored memory addresses.</td>
+</tr>
 <tr>
 <td>rom</td>
 <td>URL</td>
@@ -2812,28 +2871,10 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>Whether the cartridge utilizes a real-time clock.</td>
 </tr>
 <tr>
-<td>mirroring</td>
-<td>Boolean</td>
-<td>No</td>
-<td>Whether the cartridge utilizes mirrored memory addresses.</td>
-</tr>
-<tr>
 <td>saveType</td>
 <td>Numeric</td>
 <td>No</td>
 <td>The type of save hardware utilized by the cartridge.<br><ul><li><code>0</code> : Auto Detect</li><li><code>1</code> : EEPROM</li><li><code>2</code> : SRAM</li><li><code>3</code> : Flash</li><li><code>4</code> : EEPROM + Sensor</li><li><code>5</code> : None</li></ul></td>
-</tr>
-<tr>
-<td>flashSize</td>
-<td>Numeric</td>
-<td>No</td>
-<td>The size of the flash ram (only applicable for flash save type).<br><br>Valid values are 65536 and 131072.</td>
-</tr>
-<tr>
-<td>disableLookup</td>
-<td>Boolean</td>
-<td>No</td>
-<td><p>Disables looking up a game's settings based on Game ID.</p><p>This allows  all settings to be overridden even if the game is recognized. This is typically useful for "hacks" that are based on a standard game ID, but have unique settings (use of Real-time clock, etc.).</p></td>
 </tr>
 <tr>
 <td>zoomLevel</td>
@@ -2869,7 +2910,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-gba-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-vba-m">Nintendo Game Boy Advance Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-mgba">Nintendo Game Boy Advance (Libretro mGBA) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-vba-m">Nintendo Game Boy Advance (VBA-M) GitHub Repository</a></li>
 </ul>
                 
                   

@@ -1268,8 +1268,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2186,6 +2186,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2633,8 +2647,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2699,7 +2713,7 @@
 </figure>
 
 <h2 id="bios-files">BIOS Files</h2>
-<p>The NES application supports the <a href="https://en.wikipedia.org/wiki/Famicom_Disk_System">Famicom Disk System (FDS)</a>. To play FDS games, an optional <em>FDS BIOS file</em> can be specified globally within the feed (See the <a href="../../../editor/dialogs/feed-dialog/#properties-tab">Feed Properties Dialog</a> and <a href="#feed-properties">NES Feed Properties</a> sections). </p>
+<p>The NES application supports the <a href="https://en.wikipedia.org/wiki/Famicom_Disk_System">Famicom Disk System (FDS)</a>. To play FDS games, an optional <em>FDS BIOS file</em> can be specified globally within the feed (See the <a href="../../../editor/dialogs/feed-dialog/#properties-tab">Feed Properties Dialog</a> and <a href="#feed-properties">NES Feed Properties</a> sections).</p>
 <table>
 <thead>
 <tr>
@@ -2859,14 +2873,38 @@
 <p>Some NES cartridges include battery-backed SRAM as a means of preserving state between sessions. The NES application supports persisting this SRAM state into the browser's local storage or optionally to <a href="../../../storage/">cloud-based storage</a>. The SRAM contents will be persisted to storage whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.</p>
 <h2 id="feed">Feed</h2>
 <p>This section details how NES application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type name for the NES application is <code>retro-fceumm</code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The alias <code>nes</code> also currently maps to this application. In the future, the <code>nes</code> alias may be mapped
-to another NES application (different emulator implementation) if it is determined to be a
-more appropriate default.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two NES application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro FCEUmm</em> is the default (⭐) and is mapped to the <code>nes</code> alias. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Cheats</strong></th>
+<th><strong>FDS</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro FCEUmm ⭐</td>
+<td><code>retro-fceumm</code></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>FCEUX</td>
+<td><code>fceux</code></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="feed-properties">Feed Properties</h3>
 <p>The table below contains global NES feed properties. These properties must be specified in the <code>props</code> object of the feed's <a href="../../../feeds/format/#feed-object">Feed Object</a>.</p>
 <table>
@@ -2883,7 +2921,7 @@ more appropriate default.</p>
 <td>fds_bios</td>
 <td>URL</td>
 <td>No</td>
-<td><p>An optional URL to the Famicom Disk System BIOS file (<code>disksys.rom</code>).</p><p>This is only required for playing FDS games.</p></td>
+<td><p>An optional URL to the Famicom Disk System BIOS file (<code>disksys.rom</code>).</p><p>This is only required for playing FDS games and only applies to the <em>Libretro FCEUmm</em> application type.</p></td>
 </tr>
 </tbody>
 </table>
@@ -2900,6 +2938,12 @@ specified in the <code>props</code> object of a feed item.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>cheat</td>
+<td>URL</td>
+<td>No</td>
+<td>URL to a cheat file for the current ROM. See the <a href="../../../editor/dialogs/item-dialog/#cheats-tab">Cheats Tab</a> in the Item Editor for details on assigning cheat files.<br><br><em>(Libretro FCEUmm only)</em></td>
+</tr>
 <tr>
 <td>pal</td>
 <td>Boolean</td>
@@ -2946,7 +2990,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-nes-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-fceux">Nintendo Entertainment System Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-fceumm">Nintendo Entertainment System (Libretro FCEUmm) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-fceux">Nintendo Entertainment System (FCEUX) GitHub Repository</a></li>
 </ul>
                 
                   

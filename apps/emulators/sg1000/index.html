@@ -1393,8 +1393,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2145,6 +2145,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2558,8 +2572,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2721,14 +2735,35 @@
 </table>
 <h2 id="feed">Feed</h2>
 <p>This section details how SG-1000 application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type name for the SG-1000 application is <code>retro-genplusgx-sg</code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The alias <code>sg1000</code> also currently maps to this application. In the future, the <code>sg1000</code> alias may be mapped
-to another Sega SG-1000 application (different emulator implementation) if it is determined to be a
-more appropriate default.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two Sega SG-1000 application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro Genesis Plus GX</em> is the default (⭐) and is mapped to the <code>sg1000</code> alias. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Cheats</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro Genesis Plus GX ⭐</td>
+<td><code>retro-genplusgx-sg</code></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Genesis Plus GX</td>
+<td><code>genplusgx-sg</code></td>
+<td></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="properties">Properties</h3>
 <p>The table below contains the properties that are specific to the SG-1000 application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
@@ -2742,6 +2777,12 @@ specified in the <code>props</code> object of a feed item.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>cheat</td>
+<td>URL</td>
+<td>No</td>
+<td>URL to a cheat file for the current ROM. See the <a href="../../../editor/dialogs/item-dialog/#cheats-tab">Cheats Tab</a> in the Item Editor for details on assigning cheat files.<br><br><em>(Libretro Genesis Plus GX only)</em></td>
+</tr>
 <tr>
 <td>pal</td>
 <td>Boolean</td>
@@ -2789,7 +2830,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-sg1000-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-genplusgx">Sega SG-1000 Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-genplusgx">Sega SG-1000 (Libretro Genesis Plus GX) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-genplusgx">Sega SG-1000 (Genesis Plus GX) GitHub Repository</a></li>
 </ul>
                 
                   

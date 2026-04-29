@@ -1414,8 +1414,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2152,6 +2152,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2572,8 +2586,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2737,14 +2751,35 @@
 <p>Some Master System cartridges include battery-backed SRAM as a means of preserving state between sessions. The Master System application supports persisting this SRAM state into the browser's local storage or optionally to <a href="../../../storage/">cloud-based storage</a>. The SRAM contents will be persisted to storage whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.</p>
 <h2 id="feed">Feed</h2>
 <p>This section details how Master System application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type name for the Master System application is <code>retro-genplusgx-sms</code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The alias <code>sms</code> also currently maps to this application. In the future, the <code>sms</code> alias may be mapped
-to another Sega Master System application (different emulator implementation) if it is determined to be a
-more appropriate default.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two Sega Master System application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro Genesis Plus GX</em> is the default (⭐) and is mapped to the <code>sms</code> alias. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Cheats</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro Genesis Plus GX ⭐</td>
+<td><code>retro-genplusgx-sms</code></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Genesis Plus GX</td>
+<td><code>genplusgx-sms</code></td>
+<td></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="properties">Properties</h3>
 <p>The table below contains the properties that are specific to the Master System application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
@@ -2759,6 +2794,18 @@ specified in the <code>props</code> object of a feed item.</p>
 </thead>
 <tbody>
 <tr>
+<td>cheat</td>
+<td>URL</td>
+<td>No</td>
+<td>URL to a cheat file for the current ROM. See the <a href="../../../editor/dialogs/item-dialog/#cheats-tab">Cheats Tab</a> in the Item Editor for details on assigning cheat files.<br><br><em>(Libretro Genesis Plus GX only)</em></td>
+</tr>
+<tr>
+<td>hwType</td>
+<td>Numeric</td>
+<td>No</td>
+<td>The type of hardware to emulate.<br>(defaults to Master System II)<br><ul><li><code>0</code> : Master System II</li><li><code>1</code> : Master System</li><li><code>2</code> : SG-1000</li></ul></td>
+</tr>
+<tr>
 <td>pal</td>
 <td>Boolean</td>
 <td>No</td>
@@ -2769,12 +2816,6 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>URL</td>
 <td>Yes</td>
 <td>URL to a Master System ROM file or a zip file containing a ROM file.</td>
-</tr>
-<tr>
-<td>hwType</td>
-<td>Numeric</td>
-<td>No</td>
-<td>The type of hardware to emulate.<br>(defaults to Master System II)<br><ul><li><code>0</code> : Master System II</li><li><code>1</code> : Master System</li><li><code>2</code> : SG-1000</li></ul></td>
 </tr>
 <tr>
 <td>ym2413</td>
@@ -2817,7 +2858,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-sms-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-genplusgx">Sega Master System Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-genplusgx">Sega Master System (Libretro Genesis Plus GX) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-genplusgx">Sega Master System (Genesis Plus GX) GitHub Repository</a></li>
 </ul>
                 
                   

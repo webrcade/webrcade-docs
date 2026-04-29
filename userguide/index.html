@@ -461,6 +461,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#search-button" class="md-nav__link">
+    Search Button
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -469,6 +476,13 @@
         <li class="md-nav__item">
   <a href="#items-view" class="md-nav__link">
     Items View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
   </a>
   
 </li>
@@ -574,6 +588,13 @@
           <li class="md-nav__item">
   <a href="#shader-settings-tab" class="md-nav__link">
     Shader Settings Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cheats-tab" class="md-nav__link">
+    Cheats Tab
   </a>
   
 </li>
@@ -2234,6 +2255,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2647,6 +2682,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#search-button" class="md-nav__link">
+    Search Button
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2655,6 +2697,13 @@
         <li class="md-nav__item">
   <a href="#items-view" class="md-nav__link">
     Items View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
   </a>
   
 </li>
@@ -2760,6 +2809,13 @@
           <li class="md-nav__item">
   <a href="#shader-settings-tab" class="md-nav__link">
     Shader Settings Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cheats-tab" class="md-nav__link">
+    Cheats Tab
   </a>
   
 </li>
@@ -2926,14 +2982,21 @@
 </ul>
 <h3 id="settings-button">Settings Button</h3>
 <p>The "Settings Button" (<em>See #5 in screenshot above</em>) is used to display the <a href="#settings-dialog">Settings Dialog</a>.</p>
+<h3 id="search-button">Search Button</h3>
+<p>The "Search Button" (<em>See #6 in screenshot above</em>) is available in the <a href="#items-view">Items View</a> and is used to search for items across all categories of the currently loaded feed. Clicking the search button opens the <a href="#search">Search</a> overlay.</p>
 <h2 id="items-view">Items View</h2>
 <p>The items view consists of items (primarily games) that can be played.</p>
 <p><img alt="" class="center zoomD" src="../assets/images/userguide/items-view-annotated.png" style="padding:5px;" /></p>
 <p>The thumbnail slider (<em>See #1 in screenshot above</em>) consists of the "items" contained within the <em>currently selected category</em> (<em>See #4 in screenshot above</em>). "Items" are typically games that can be played (<em>See #3 in screenshot above</em>). In the future, the type of items (application types) will be extended to include videos and other forms of content that can be played.</p>
 <p>The <em>application type</em> of the currently selected item is displayed directly under its title (<em>See #2 in screenshot above</em>). Refer to the <a href="../apps/">Applications</a> section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the <a href="../apps/emulators/snes/">Super Nintendo Application</a> type as an example).</p>
 <p>Clicking, tapping, or selecting (Gamepad <code>A</code> button) the title/flyout (<em>See #5 in screenshot above</em>) will navigate to the <a href="#categories-view">Categories View</a>.</p>
+<h2 id="search">Search</h2>
+<p>The search feature allows items (games, etc.) to be located across all categories of the currently loaded feed.</p>
+<p>Clicking the <a href="#search-button">Search Button</a> in the <a href="#items-view">Items View</a> opens the search overlay. As text is entered, the result count is updated and matching items are displayed in a <em>Search Results</em> slider below.</p>
+<p><img alt="" class="center zoomD" src="../assets/images/userguide/search.png" style="padding:5px;" /></p>
+<p>Clicking <em>Close</em> dismisses the overlay while retaining the current search results in the slider. Clicking <em>Reset</em> clears the search and returns to the normal items view.</p>
+<p>When the <em>Search Results</em> label is focused, hovered, or tapped, a <em>"Show Categories"</em> flyout will be displayed. Clicking, tapping, or selecting (Gamepad <code>A</code> button) the label/flyout will also clear the search and return to the normal items view.</p>
 <h2 id="categories-view">Categories View</h2>
-<p>The categories view consists of the categories that are included in the <em>current webЯcade feed</em>.</p>
 <p><img alt="" class="center zoomD" src="../assets/images/userguide/categories-view-annotated.png" style="padding:5px;" /></p>
 <p>The thumbnail slider (<em>See #1 in screenshot above</em>) consists of the categories included in the <em>current webЯcade feed</em>. The <code>Select</code> button (<em>See #2 in screenshot above</em>) can be pressed to display the "items" (See <a href="#items-view">Items View</a>) that comprise the currently selected category. The screen title for the categories view is always, "Categories" (<em>See #3 in screenshot above</em>).</p>
 <p>Clicking, tapping, or selecting (Gamepad <code>A</code> button) the title/flyout (<em>See #4 in screenshot above</em>) will navigate to the <a href="#feeds-view">Feeds View</a>.</p>
@@ -3077,7 +3140,7 @@
 <ul>
 <li><code>Save States</code> - Displays the save state management screen. (See the <a href="../storage/#save-states">Save States</a> section of the <a href="../storage/">Cloud Storage</a> documentation).</li>
 </ul>
-<p>The <em>application type</em> of the currently playing item (game, etc.) is displayed directly under its title (<em>See #4 in screenshot above</em>). Refer to the <a href="../apps/">Applications</a> section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the <a href="../apps/emulators/snes/">Super Nintendo Application</a> type as an example).</p>
+<p>The <em>application type</em> of the currently playing item (game, etc.) is displayed directly under its title (<em>See #5 in screenshot above</em>). Refer to the <a href="../apps/">Applications</a> section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the <a href="../apps/emulators/snes/">Super Nintendo Application</a> type as an example).</p>
 <p>The following tables include the button mappings that can be used to display the "Pause Screen" when an item (game, etc.) is running.</p>
 <p><strong>Keyboard Controls</strong></p>
 <table>
@@ -3185,7 +3248,7 @@
 </tbody>
 </table>
 <h4 id="shader-settings-tab">Shader Settings Tab</h4>
-<p>The "Shader Settings Tab" is available for emulators that support graphical shaders. Shaders can be used to alter the visual appearance of the display — for example, to simulate the look of a CRT television.</p>
+<p>The "Shader Settings Tab" is available for emulators that support graphical shaders. Shaders can be used to alter the visual appearance of the display, for example, to simulate the look of a CRT television.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The Shader Settings Tab is only present for emulators that support shaders. It will not appear for all applications.</p>
@@ -3202,7 +3265,7 @@
 <tbody>
 <tr>
 <td>Shader Category</td>
-<td>The category of shader to apply. Use the left and right arrow buttons to cycle through the available categories.<br><br>Selecting <code>(Disabled)</code> disables shader support entirely — no shader will be applied. When a category is selected, the <em>Shader Name</em> field will appear.</td>
+<td>The category of shader to apply. Use the left and right arrow buttons to cycle through the available categories.<br><br>Selecting <code>(Disabled)</code> disables shader support entirely (no shader will be applied). When a category is selected, the <em>Shader Name</em> field will appear.</td>
 </tr>
 <tr>
 <td>Shader Name</td>
@@ -3210,6 +3273,14 @@
 </tr>
 </tbody>
 </table>
+<h4 id="cheats-tab">Cheats Tab</h4>
+<p>The "Cheats Tab" is available for applications that have a cheat file assigned (see the <a href="../editor/dialogs/item-dialog/#cheats-tab">Cheats Tab</a> in the Item Editor). It provides the ability to enable or disable individual cheats while a game is running.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Cheats Tab is only present when a cheat file has been assigned to the item and the cheats have been successfully loaded. It will not appear for all applications.</p>
+</div>
+<p><img alt="" class="center zoomD" src="../assets/images/userguide/system-settings-cheats-tab-active.png" style="padding:5px;" /></p>
+<p>Each cheat is listed by name with a toggle switch. Pressing <em>OK</em> applies the current toggle states, activating enabled cheats and deactivating any that were previously enabled but are now toggled off. The enabled state of each cheat is persisted between sessions on the local device. Pressing <em>Cancel</em> closes the tab without applying any changes.</p>
                 
                   
 

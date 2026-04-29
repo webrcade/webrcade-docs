@@ -1545,8 +1545,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2152,6 +2152,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2572,8 +2586,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2737,16 +2751,44 @@
 <p>Some Neo Geo Pocket cartridges include flash memory as a means of preserving state between sessions. The Neo Geo Pocket application supports persisting this flash memory state into the browser's local storage or optionally to <a href="../../../storage/">cloud-based storage</a>. The flash memory contents will be persisted to storage whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support flash memory to ensure the state is properly persisted.</p>
 <h2 id="feed">Feed</h2>
 <p>This section details how Neo Geo Pocket  application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type names for the Neo Geo Pocket application are listed below:</p>
-<ul>
-<li>Neo Geo Pocket: <code>retro-mednafen-ngp</code></li>
-<li>Neo Geo Pocket Color: <code>retro-mednafen-ngc</code></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The aliases <code>ngp</code> and <code>ngc</code> also currently map to the Neo Geo Pocket and Neo Geo Pocket Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two Neo Geo Pocket and Neo Geo Pocket Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro Mednafen NGP</em> is the default (⭐) and is mapped to the <code>ngp</code> and <code>ngc</code> aliases for Neo Geo Pocket and Neo Geo Pocket Color respectively. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro Mednafen NGP (NGP) ⭐</td>
+<td><code>retro-mednafen-ngp</code></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Libretro Mednafen NGP (NGC) ⭐</td>
+<td><code>retro-mednafen-npc</code></td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>Mednafen (NGP)</td>
+<td><code>mednafen-ngp</code></td>
+<td></td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Mednafen (NGC)</td>
+<td><code>mednafen-ngc</code></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="properties">Properties</h3>
 <p>The table below contains the properties that are specific to the Neo Geo Pocket application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
@@ -2805,7 +2847,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-ngc-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-mednafen">Neo Geo Pocket Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-mednafen-ngp">Neo Geo Pocket (Libretro Mednafen NGP) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-mednafen">Neo Geo Pocket (Mednafen) GitHub Repository</a></li>
 </ul>
                 
                   

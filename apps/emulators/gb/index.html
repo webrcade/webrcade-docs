@@ -1283,8 +1283,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2152,6 +2152,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../editor/workspace/searchtab/" class="md-nav__link">
+        Search Tab
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2572,8 +2586,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#type" class="md-nav__link">
-    Type
+  <a href="#types" class="md-nav__link">
+    Types
   </a>
   
 </li>
@@ -2752,13 +2766,35 @@
 <p>Some Game Boy cartridges include battery-backed SRAM as a means of preserving state between sessions. The Game Boy application supports persisting this SRAM state into the browser's local storage or optionally to <a href="../../../storage/">cloud-based storage</a>. The SRAM contents will be persisted whenever the pause screen is displayed (or the game is exited). Therefore, the menu should be displayed periodically for games that support battery-backed SRAM to ensure the state is properly persisted.</p>
 <h2 id="feed">Feed</h2>
 <p>This section details how Game Boy application instances can be added to feeds.</p>
-<h3 id="type">Type</h3>
-<p>The type name for the Game Boy application is <code>retro-sameboy-gb</code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The alias <code>gb</code> also currently maps to this application. In the future, the <code>gb</code> alias may be mapped
-to another Nintendo Game Boy application (different emulator implementation) if it is determined to be a more appropriate default.</p>
-</div>
+<h3 id="types">Types</h3>
+<p>Two Game Boy application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. <em>Libretro SameBoy</em> is the default (⭐) and is mapped to the <code>gb</code> alias. The default can be overridden globally in <a href="../../../userguide/settings.md">Settings</a> &gt; <em>Applications</em>, or on a per-item basis in the <a href="../../../editor/">Feed Editor</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Type</strong></th>
+<th><strong>Filters</strong></th>
+<th><strong>Cheats</strong></th>
+<th><strong>Low CPU</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Libretro SameBoy ⭐</td>
+<td><code>retro-sameboy-gb</code></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+</tr>
+<tr>
+<td>VBA-M</td>
+<td><code>vba-m-gb</code></td>
+<td></td>
+<td></td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
 <h3 id="properties">Properties</h3>
 <p>The table below contains the properties that are specific to the Game Boy application. These properties are
 specified in the <code>props</code> object of a feed item.</p>
@@ -2773,16 +2809,16 @@ specified in the <code>props</code> object of a feed item.</p>
 </thead>
 <tbody>
 <tr>
-<td>rom</td>
-<td>URL</td>
-<td>Yes</td>
-<td>URL to a Game Boy ROM file or a zip file containing a ROM file.</td>
-</tr>
-<tr>
-<td>hwType</td>
+<td>border</td>
 <td>Numeric</td>
 <td>No</td>
-<td>The type of hardware to emulate (defaults to <code>Automatic</code>).<br><ul><li><code>0</code> : Automatic</li><li><code>1</code> : Game Boy Color</li><li><code>2</code> : Super Game Boy</li><li><code>3</code> : Game Boy</li><li><code>4</code> : Game Boy Advance</li><li><code>5</code> : Super Game Boy 2</li></ul></td>
+<td>Whether to display a border around the screen (defaults to <code>Off</code>).<br><ul><li><code>0</code> : Off</li><li><code>1</code> : On</li><li><code>2</code> : Automatic</li></ul></td>
+</tr>
+<tr>
+<td>cheat</td>
+<td>URL</td>
+<td>No</td>
+<td>URL to a cheat file for the current ROM. See the <a href="../../../editor/dialogs/item-dialog/#cheats-tab">Cheats Tab</a> in the Item Editor for details on assigning cheat files.<br><br><em>(Libretro SameBoy only)</em></td>
 </tr>
 <tr>
 <td>colors</td>
@@ -2791,16 +2827,22 @@ specified in the <code>props</code> object of a feed item.</p>
 <td>The category of colors to use for the display. (defaults to Grayscale).<br><ul><li><code>0</code> : Grayscale</li><li><code>1</code> : Greenscale</li><li><code>2</code> : Super Game Boy</li></ul></td>
 </tr>
 <tr>
+<td>hwType</td>
+<td>Numeric</td>
+<td>No</td>
+<td>The type of hardware to emulate (defaults to <code>Automatic</code>).<br><ul><li><code>0</code> : Automatic</li><li><code>1</code> : Game Boy Color</li><li><code>2</code> : Super Game Boy</li><li><code>3</code> : Game Boy</li><li><code>4</code> : Game Boy Advance</li><li><code>5</code> : Super Game Boy 2</li></ul></td>
+</tr>
+<tr>
 <td>palette</td>
 <td>Numeric</td>
 <td>No</td>
 <td>The specific palette to use within the selected color category (see <code>colors</code> property).<br><br> This value defaults to the first palette available within the selected color category.<br><br>Each color category has a set of palettes available for selection. The simplest way to determine a specific palette value for this property is by using the <a href="../../../editor/">Feed Editor</a>, selecting a palette, exporting the feed and viewing the numeric value for the selected palette.</td>
 </tr>
 <tr>
-<td>border</td>
-<td>Numeric</td>
-<td>No</td>
-<td>Whether to display a border around the screen (defaults to <code>Off</code>).<br><ul><li><code>0</code> : Off</li><li><code>1</code> : On</li><li><code>2</code> : Automatic</li></ul></td>
+<td>rom</td>
+<td>URL</td>
+<td>Yes</td>
+<td>URL to a Game Boy ROM file or a zip file containing a ROM file.</td>
 </tr>
 <tr>
 <td>zoomLevel</td>
@@ -2840,7 +2882,8 @@ specified in the <code>props</code> object of a feed item.</p>
 <p><code>https://tinyurl.com/sample-gb-feed</code></p>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="https://github.com/webrcade/webrcade-app-vba-m">Nintendo Game Boy Application GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-retro-sameboy">Nintendo Game Boy (Libretro SameBoy) GitHub Repository</a></li>
+<li><a href="https://github.com/webrcade/webrcade-app-vba-m">Nintendo Game Boy (VBA-M) GitHub Repository</a></li>
 </ul>
                 
                   
