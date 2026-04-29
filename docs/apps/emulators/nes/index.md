@@ -11,7 +11,7 @@ The Nintendo Entertainment System (NES) application is an emulator for the [Nint
 
 ## BIOS Files
 
-The NES application supports the [Famicom Disk System (FDS)](https://en.wikipedia.org/wiki/Famicom_Disk_System). To play FDS games, an optional *FDS BIOS file* can be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [NES Feed Properties](#feed-properties) sections). 
+The NES application supports the [Famicom Disk System (FDS)](https://en.wikipedia.org/wiki/Famicom_Disk_System). To play FDS games, an optional *FDS BIOS file* can be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [NES Feed Properties](#feed-properties) sections).
 
 | __File__ | __Hash (MD5)__ | __Description__ |
 | --- | --- | --- |
@@ -79,14 +79,14 @@ Some NES cartridges include battery-backed SRAM as a means of preserving state b
 
 This section details how NES application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the NES application is `retro-fceumm`.
+Two NES application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro FCEUmm* is the default (⭐) and is mapped to the `nes` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `nes` also currently maps to this application. In the future, the `nes` alias may be mapped
-    to another NES application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __FDS__ | __Low CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro FCEUmm ⭐ | `retro-fceumm` | ✅ | ✅ | ✅ | |
+| FCEUX | `fceux` | | | | ✅ |
 
 ### Feed Properties
 
@@ -94,7 +94,7 @@ The table below contains global NES feed properties. These properties must be sp
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| fds_bios | URL | No | <p>An optional URL to the Famicom Disk System BIOS file (`disksys.rom`).</p><p>This is only required for playing FDS games.</p> |
+| fds_bios | URL | No | <p>An optional URL to the Famicom Disk System BIOS file (`disksys.rom`).</p><p>This is only required for playing FDS games and only applies to the *Libretro FCEUmm* application type.</p> |
 
 ### Item Properties
 
@@ -103,6 +103,7 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro FCEUmm only)* |
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
 | rom | URL | Yes | URL to an NES or FDS ROM file (`.nes`, `.fds`) or a zip file containing a ROM file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
@@ -139,4 +140,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Nintendo Entertainment System Application GitHub Repository](https://github.com/webrcade/webrcade-app-fceux)
+- [Nintendo Entertainment System (Libretro FCEUmm) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-fceumm)
+- [Nintendo Entertainment System (FCEUX) GitHub Repository](https://github.com/webrcade/webrcade-app-fceux)

@@ -163,6 +163,7 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to a Nintendo DS ROM file, or a ZIP file containing one. |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files. |
 | screenLayout | String | No | Initial layout of the Nintendo DS screens. This can be changed after the game starts.<br><ul><li>`left-right` : Horizontal layout (touch screen on right)</li><li>`right-left` : Horizontal layout (touch screen on left)</li><li>`top-bottom` : Vertical layout (touch screen on bottom)</li><li>`bottom-top` : Vertical layout (touch screen on top)</li><li>`top-only` : Only display the top screen (non-touch)</li><li>`bottom-only` : Only display the bottom screen (touch)</li></ul> |
 | screenGap | Boolean | No | Whether to display a gap between the screens (only applicable to vertical layouts and book mode). |
 | bookMode | Boolean | No | Whether to display the screens as if the entire DS is rotated sideways, typically used for "book"-based games. |

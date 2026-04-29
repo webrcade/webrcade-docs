@@ -61,12 +61,14 @@ Some PC Engine cartridges include battery-backed SRAM as a means of preserving s
 
 This section details how PC Engine (TurboGrafx-16) application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the PC Engine (TurboGrafx-16) application is `retro-mednafen-pce`.
+Two PC Engine (TurboGrafx-16) application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen PCE Fast* is the default (⭐) and is mapped to the `pce` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `pce` also currently maps to this application. In the future, the `pce` alias may be mapped to another PC Engine (TurboGrafx-16) application (different emulator implementation) if it is determined to be a more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
+| --- | --- | --- | --- | --- |
+| Libretro Mednafen PCE Fast ⭐ | `retro-mednafen-pce` | ✅ | ✅ | |
+| Mednafen | `mednafen-pce` | | | ✅ |
 
 ### Properties
 
@@ -74,9 +76,10 @@ The table below contains the properties that are specific to the PC Engine (Turb
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| rom | URL | Yes | URL to a PC Engine (TurboGrafx-16) ROM file or a zip file containing a ROM file. |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro Mednafen PCE Fast only)* |
+| mapRunSelect | Boolean | No | Whether to map `RUN` and `SELECT` to standard buttons. |
 | pad6button | Boolean | No | Whether to use 6-button control pads (2 button is the default). |
-| mapRunSelect | Boolean | No | Whether to map `RUN` and `SELECT` to standard buttons.  |
+| rom | URL | Yes | URL to a PC Engine (TurboGrafx-16) ROM file or a zip file containing a ROM file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
@@ -110,4 +113,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [PC Engine (TurboGrafx-16) Application GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)
+- [PC Engine (TurboGrafx-16) (Libretro Mednafen PCE Fast) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-pce-fast)
+- [PC Engine (TurboGrafx-16) (Mednafen) GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)

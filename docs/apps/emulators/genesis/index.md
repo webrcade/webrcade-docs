@@ -61,14 +61,14 @@ Some Genesis include battery-backed SRAM as a means of preserving state between 
 
 This section details how Genesis application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Genesis application is `retro-genplusgx-md`.
+Two Sega Genesis application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Genesis Plus GX* is the default (⭐) and is mapped to the `genesis` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `genesis` also currently maps to this application. In the future, the `genesis` alias may be mapped
-    to another Genesis application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
+| --- | --- | --- | --- | --- |
+| Libretro Genesis Plus GX ⭐ | `retro-genplusgx-md` | ✅ | ✅ | |
+| Genesis Plus GX | `genplusgx-md` | | | ✅ |
 
 ### Properties
 
@@ -77,9 +77,10 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro Genesis Plus GX only)* |
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
-| rom | URL | Yes | URL to a Genesis ROM file or a zip file containing a ROM file. |
 | pad3button | Boolean | No | Whether to use 3-button control pads (6-button is the default). |
+| rom | URL | Yes | URL to a Genesis ROM file or a zip file containing a ROM file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
@@ -114,4 +115,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Sega Genesis Application GitHub Repository](https://github.com/webrcade/webrcade-app-genplusgx)
+- [Sega Genesis (Libretro Genesis Plus GX) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-genplusgx)
+- [Sega Genesis (Genesis Plus GX) GitHub Repository](https://github.com/webrcade/webrcade-app-genplusgx)

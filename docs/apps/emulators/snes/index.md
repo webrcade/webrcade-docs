@@ -61,14 +61,14 @@ Some SNES cartridges include battery-backed SRAM as a means of preserving state 
 
 This section details how SNES application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the SNES application is `retro-snes9x`.
+Two SNES application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro SNES9X* is the default (⭐) and is mapped to the `snes` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `snes` also currently maps to this application. In the future, the `snes` alias may be mapped
-    to another SNES application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
+| --- | --- | --- | --- | --- |
+| Libretro SNES9X ⭐ | `retro-snes9x` | ✅ | ✅ | |
+| SNES9X | `snes9x` | | | ✅ |
 
 ### Properties
 
@@ -77,9 +77,10 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro SNES9X only)* |
 | pal | Boolean | No | Whether to force PAL video mode for the specified ROM. |
-| rom | URL | Yes | URL to an SNES ROM file or a zip file containing a ROM file. |
 | port2 | Numeric | No | The type of controller that is plugged into port #2 (defaults to `Standard`).<br><ul><li>`0` : Standard controller</li><li>`1` : Multitap adapter (up to 5 controllers)</li></ul> |
+| rom | URL | Yes | URL to an SNES ROM file or a zip file containing a ROM file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
@@ -114,4 +115,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Super Nintendo Entertainment System Application GitHub Repository](https://github.com/webrcade/webrcade-app-snes9x)
+- [Super Nintendo Entertainment System (Libretro SNES9X) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-snes9x)
+- [Super Nintendo Entertainment System (SNES9X) GitHub Repository](https://github.com/webrcade/webrcade-app-snes9x)

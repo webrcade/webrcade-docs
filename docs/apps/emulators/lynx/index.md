@@ -54,14 +54,14 @@ Gamepad mappings are listed below.
 
 This section details how Atari Lynx application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Atari Lynx application is `retro-mednafen-lynx`.
+Two Atari Lynx application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen Lynx* is the default (⭐) and is mapped to the `lnx` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `lnx` also currently maps to this application. In the future, the `lnx` alias may be mapped
-    to another Atari Lynx application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
+| --- | --- | --- | --- | --- |
+| Libretro Mednafen Lynx ⭐ | `retro-mednafen-lynx` | ✅ | ✅ | |
+| Mednafen | `mednafen-lnx` | | | ✅ |
 
 ### Feed Properties
 
@@ -78,6 +78,7 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro Mednafen Lynx only)* |
 | rom | URL | Yes | URL to an Atari Lynx ROM file or a zip file containing a ROM file. |
 | rotation | Numeric | No | How many degrees the screen should be rotated.<br><br>Valid values are 0, 90, and 270. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
@@ -113,4 +114,5 @@ It is also worth noting that the *Lynx Boot Rom location* (`lnx_boot`) is specif
 
 ## References
 
-- [Atari Lynx Application GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)
+- [Atari Lynx (Libretro Mednafen Lynx) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-mednafen-lynx)
+- [Atari Lynx (Mednafen) GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)

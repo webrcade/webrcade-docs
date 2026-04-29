@@ -51,15 +51,16 @@ Some Neo Geo Pocket cartridges include flash memory as a means of preserving sta
 
 This section details how Neo Geo Pocket  application instances can be added to feeds.
 
-### Type
+### Types
 
-The type names for the Neo Geo Pocket application are listed below:
+Two Neo Geo Pocket and Neo Geo Pocket Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen NGP* is the default (⭐) and is mapped to the `ngp` and `ngc` aliases for Neo Geo Pocket and Neo Geo Pocket Color respectively. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-   *  Neo Geo Pocket: `retro-mednafen-ngp`
-   *  Neo Geo Pocket Color: `retro-mednafen-ngc`
-
-!!! note
-    The aliases `ngp` and `ngc` also currently map to the Neo Geo Pocket and Neo Geo Pocket Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.
+| __Name__ | __Type__ | __Filters__ | __Low CPU__ |
+| --- | --- | --- | --- |
+| Libretro Mednafen NGP (NGP) ⭐ | `retro-mednafen-ngp` | ✅ | |
+| Libretro Mednafen NGP (NGC) ⭐ | `retro-mednafen-npc` | ✅ | |
+| Mednafen (NGP) | `mednafen-ngp` | | ✅ |
+| Mednafen (NGC) | `mednafen-ngc` | | ✅ |
 
 ### Properties
 
@@ -103,4 +104,5 @@ This example can be tested by adding a feed with the following URL within the[we
 
 ## References
 
-- [Neo Geo Pocket Application GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)
+- [Neo Geo Pocket (Libretro Mednafen NGP) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-mednafen-ngp)
+- [Neo Geo Pocket (Mednafen) GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)

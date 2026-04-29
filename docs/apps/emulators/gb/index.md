@@ -54,13 +54,14 @@ Some Game Boy cartridges include battery-backed SRAM as a means of preserving st
 
 This section details how Game Boy application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Game Boy application is `retro-sameboy-gb`.
+Two Game Boy application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro SameBoy* is the default (⭐) and is mapped to the `gb` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `gb` also currently maps to this application. In the future, the `gb` alias may be mapped
-    to another Nintendo Game Boy application (different emulator implementation) if it is determined to be a more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
+| --- | --- | --- | --- | --- |
+| Libretro SameBoy ⭐ | `retro-sameboy-gb` | ✅ | ✅ | |
+| VBA-M | `vba-m-gb` | | | ✅ |
 
 ### Properties
 
@@ -69,11 +70,12 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| rom | URL | Yes | URL to a Game Boy ROM file or a zip file containing a ROM file. |
-| hwType | Numeric | No | The type of hardware to emulate (defaults to `Automatic`).<br><ul><li>`0` : Automatic</li><li>`1` : Game Boy Color</li><li>`2` : Super Game Boy</li><li>`3` : Game Boy</li><li>`4` : Game Boy Advance</li><li>`5` : Super Game Boy 2</li></ul> |
-| colors | Numeric | No | The category of colors to use for the display. (defaults to Grayscale).<br><ul><li>`0` : Grayscale</li><li>`1` : Greenscale</li><li>`2` : Super Game Boy</li></ul> |
-| palette | Numeric | No | The specific palette to use within the selected color category (see `colors` property).<br><br> This value defaults to the first palette available within the selected color category.<br><br>Each color category has a set of palettes available for selection. The simplest way to determine a specific palette value for this property is by using the [Feed Editor](../../../editor/index.md), selecting a palette, exporting the feed and viewing the numeric value for the selected palette.  |
 | border | Numeric | No | Whether to display a border around the screen (defaults to `Off`).<br><ul><li>`0` : Off</li><li>`1` : On</li><li>`2` : Automatic</li></ul> |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro SameBoy only)* |
+| colors | Numeric | No | The category of colors to use for the display. (defaults to Grayscale).<br><ul><li>`0` : Grayscale</li><li>`1` : Greenscale</li><li>`2` : Super Game Boy</li></ul> |
+| hwType | Numeric | No | The type of hardware to emulate (defaults to `Automatic`).<br><ul><li>`0` : Automatic</li><li>`1` : Game Boy Color</li><li>`2` : Super Game Boy</li><li>`3` : Game Boy</li><li>`4` : Game Boy Advance</li><li>`5` : Super Game Boy 2</li></ul> |
+| palette | Numeric | No | The specific palette to use within the selected color category (see `colors` property).<br><br> This value defaults to the first palette available within the selected color category.<br><br>Each color category has a set of palettes available for selection. The simplest way to determine a specific palette value for this property is by using the [Feed Editor](../../../editor/index.md), selecting a palette, exporting the feed and viewing the numeric value for the selected palette.  |
+| rom | URL | Yes | URL to a Game Boy ROM file or a zip file containing a ROM file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
@@ -113,4 +115,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Nintendo Game Boy Application GitHub Repository](https://github.com/webrcade/webrcade-app-vba-m)
+- [Nintendo Game Boy (Libretro SameBoy) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-sameboy)
+- [Nintendo Game Boy (VBA-M) GitHub Repository](https://github.com/webrcade/webrcade-app-vba-m)

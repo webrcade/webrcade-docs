@@ -207,6 +207,7 @@ specified in the `props` object of a feed item.
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all Quake games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
 | archive | URL | Yes | URL to a Quake game archive (`.zip`) or webЯcade manifest (`.json`) file. |
+| cheat | URL | No | URL to a cheat file for the current game. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files. |
 | wadType | Numeric | No | The type of game contained in the specified archive.<br>(defaults to "Auto-detect")<br><ul><li>`0` : Auto-detect</li><li>`1` : Quake</li><li>`2` : Scourge of Armagon (Pack 1)</li><li>`3` : Dissolution of Eternity (Pack 2)</li><li>`4` : Dimension of the Past (Pack 3)</li><li>`100` : Custom</li></ul> |
 | wadPath | String | No | The path to the game within the archive (for example, `mycustomgame/`).<p>This property is only applicable if the `wadType` property is set to "Custom" (`100`).</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |

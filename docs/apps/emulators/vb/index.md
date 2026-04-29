@@ -58,14 +58,14 @@ Some Virtual Boy cartridges include battery-backed SRAM as a means of preserving
 
 This section details how Virtual Boy application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Virtual Boy application is `retro-mednafen-vb`.
+Two Virtual Boy application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen VB* is the default (⭐) and is mapped to the `vb` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `vb` also currently maps to this application. In the future, the `vb` alias may be mapped
-    to another Virtual Boy application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Low CPU__ |
+| --- | --- | --- | --- |
+| Libretro Mednafen VB ⭐ | `retro-mednafen-vb` | ✅ | |
+| Mednafen | `mednafen-vb` | | ✅ |
 
 ### Properties
 
@@ -108,4 +108,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Virtual Boy Application GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)
+- [Virtual Boy (Libretro Mednafen VB) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-mednafen-vb)
+- [Virtual Boy (Mednafen) GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)

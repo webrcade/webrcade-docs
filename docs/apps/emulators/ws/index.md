@@ -96,15 +96,16 @@ Some WonderSwan cartridges include battery-backed SRAM as a means of preserving 
 
 This section details how WonderSwan application instances can be added to feeds.
 
-### Type
+### Types
 
-The type names for the WonderSwan application are listed below:
+Two WonderSwan and WonderSwan Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen Wswan* is the default (⭐) and is mapped to the `ws` and `wsc` aliases for WonderSwan and WonderSwan Color respectively. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-   *  WonderSwan: `retro-mednafen-ws`
-   *  WonderSwan Color: `retro-mednafen-wsc`
-
-!!! note
-    The aliases `ws` and `wsc` also currently map to the WonderSwan and WonderSwan Color applications respectively. In the future, these aliases may be mapped to different applications (different emulator implementations) if it is determined that there are more appropriate defaults.
+| __Name__ | __Type__ | __Filters__ | __Low CPU__ |
+| --- | --- | --- | --- |
+| Libretro Mednafen Wswan (WS) ⭐ | `retro-mednafen-ws` | ✅ | |
+| Libretro Mednafen Wswan (WSC) ⭐ | `retro-mednafen-wsc` | ✅ | |
+| Mednafen (WS) | `mednafen-ws` | | ✅ |
+| Mednafen (WSC) | `mednafen-wsc` | | ✅ |
 
 ### Properties
 
@@ -113,9 +114,9 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| language | Numeric | No | The language to use for displaying game text (if applicable) (defaults to `English`).<br><ul><li>`0` : English</li><li>`1` : Japanese</li><ul> |
 | rom | URL | Yes | URL to a WonderSwan (or Color) ROM file or a zip file containing a ROM file. |
 | rotated | Boolean | No | Whether to rotate the screen and controls (defaults to `false`). |
-| language | Numeric | No | The language to use for displaying game text (if applicable) (defaults to `English`).<br><ul><li>`0` : English</li><li>`1` : Japanese</li><ul> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
@@ -149,4 +150,5 @@ This example can be tested by adding a feed with the following URL within the[we
 
 ## References
 
-- [WonderSwan Application GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)
+- [WonderSwan (Libretro Mednafen Wswan) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-mednafen-wswan)
+- [WonderSwan (Mednafen) GitHub Repository](https://github.com/webrcade/webrcade-app-mednafen)

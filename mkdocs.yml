@@ -95,6 +95,7 @@ nav:
       - Tabs:
         - Categories Tab: editor/workspace/categoriestab.md
         - Items Tab: editor/workspace/itemstab.md
+        - Search Tab: editor/workspace/searchtab.md
       - Settings Dialog: editor/workspace/settings.md
       - Adding Items: editor/workspace/addingitems.md
     - Editors:

@@ -109,6 +109,7 @@ The table below contains the properties that are specific to the PC Engine CD ap
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all PC Engine CD games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
 | discs | Array of URLs | Yes | <p>Array of URLs to one or more (for multi-disc games) PC Engine CD game discs.</p><p>The PC Engine CD application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).</p> |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files. |
 | pad6button | Boolean | No | Whether to use 6-button control pads (2 button is the default). |
 | mapRunSelect | Boolean | No | Whether to map `RUN` and `SELECT` to standard buttons.  |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some PC Engine CD games. |

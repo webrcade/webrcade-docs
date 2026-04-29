@@ -139,6 +139,7 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to an Atari 5200 ROM file or a zip file containing a ROM file. |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files. |
 | swap | Boolean | No | Whether to swap the controller ports. This is typically enabled when games default to using port 2 (versus port 1). |
 | analog | Boolean | No | Whether to enable analog mode on the controllers. |
 | twinStick | Boolean | No | Whether to enable twin stick style controls (player 1 uses player 2's joystick for firing). |

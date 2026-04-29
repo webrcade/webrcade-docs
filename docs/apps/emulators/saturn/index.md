@@ -136,6 +136,7 @@ The table below contains the properties that are specific to the Saturn applicat
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all Saturn games).</p><p>This identifier is primarily used to associate persistent state with the game.</p> |
 | discs | Array of URLs | Yes | <p>Array of URLs to one or more (for multi-disc games) Saturn game discs.</p><p>The Saturn application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).</p> |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some Saturn games. |
 | forceEmulatedBios | Boolean | No | Forces use of the emulated (built-in) BIOS rather than the supplied BIOS file. |
 | ramExpansion | Numeric | No | Enables RAM expansion cartridge emulation (0 = disabled, 1 = 1MB, 2 = 4MB). Some games require a RAM expansion cartridge to run. |

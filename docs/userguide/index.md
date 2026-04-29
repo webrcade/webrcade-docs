@@ -75,6 +75,10 @@ Subsequently clicking, tapping, or selecting (Gamepad `A` button) the title/flyo
 
 The "Settings Button" (*See #5 in screenshot above*) is used to display the [Settings Dialog](#settings-dialog).
 
+### Search Button
+
+The "Search Button" (*See #6 in screenshot above*) is available in the [Items View](#items-view) and is used to search for items across all categories of the currently loaded feed. Clicking the search button opens the [Search](#search) overlay.
+
 ## Items View
 
 The items view consists of items (primarily games) that can be played.
@@ -87,9 +91,19 @@ The *application type* of the currently selected item is displayed directly unde
 
 Clicking, tapping, or selecting (Gamepad `A` button) the title/flyout (*See #5 in screenshot above*) will navigate to the [Categories View](#categories-view).
 
-## Categories View
+## Search
 
-The categories view consists of the categories that are included in the *current webЯcade feed*.
+The search feature allows items (games, etc.) to be located across all categories of the currently loaded feed.
+
+Clicking the [Search Button](#search-button) in the [Items View](#items-view) opens the search overlay. As text is entered, the result count is updated and matching items are displayed in a *Search Results* slider below.
+
+![](../assets/images/userguide/search.png){: style="padding:5px;" class="center zoomD"}
+
+Clicking *Close* dismisses the overlay while retaining the current search results in the slider. Clicking *Reset* clears the search and returns to the normal items view.
+
+When the *Search Results* label is focused, hovered, or tapped, a *"Show Categories"* flyout will be displayed. Clicking, tapping, or selecting (Gamepad `A` button) the label/flyout will also clear the search and return to the normal items view.
+
+## Categories View
 
 ![](../assets/images/userguide/categories-view-annotated.png){: style="padding:5px;" class="center zoomD"}
 
@@ -217,7 +231,7 @@ The majority of emulator-based applications support save states. Save states req
 
 * `Save States` - Displays the save state management screen. (See the [Save States](../storage/#save-states) section of the [Cloud Storage](../storage/) documentation).
 
-The *application type* of the currently playing item (game, etc.) is displayed directly under its title (*See #4 in screenshot above*). Refer to the [Applications](../apps/index.md) section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the [Super Nintendo Application](../apps/emulators/snes/index.md) type as an example).
+The *application type* of the currently playing item (game, etc.) is displayed directly under its title (*See #5 in screenshot above*). Refer to the [Applications](../apps/index.md) section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the [Super Nintendo Application](../apps/emulators/snes/index.md) type as an example).
 
 The following tables include the button mappings that can be used to display the "Pause Screen" when an item (game, etc.) is running.
 
@@ -267,7 +281,7 @@ The settings contained in this tab are detailed below:
 
 #### Shader Settings Tab
 
-The "Shader Settings Tab" is available for emulators that support graphical shaders. Shaders can be used to alter the visual appearance of the display — for example, to simulate the look of a CRT television.
+The "Shader Settings Tab" is available for emulators that support graphical shaders. Shaders can be used to alter the visual appearance of the display, for example, to simulate the look of a CRT television.
 
 !!! note
     The Shader Settings Tab is only present for emulators that support shaders. It will not appear for all applications.
@@ -278,5 +292,16 @@ The settings contained in this tab are detailed below:
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Shader Category | The category of shader to apply. Use the left and right arrow buttons to cycle through the available categories.<br><br>Selecting `(Disabled)` disables shader support entirely — no shader will be applied. When a category is selected, the *Shader Name* field will appear. |
+| Shader Category | The category of shader to apply. Use the left and right arrow buttons to cycle through the available categories.<br><br>Selecting `(Disabled)` disables shader support entirely (no shader will be applied). When a category is selected, the *Shader Name* field will appear. |
 | Shader Name | The specific shader to apply within the selected category. Use the left and right arrow buttons to cycle through the available shaders.<br><br>A brief description of the currently selected shader is displayed below. This field is only visible when a *Shader Category* other than `(Disabled)` is selected. |
+
+#### Cheats Tab
+
+The "Cheats Tab" is available for applications that have a cheat file assigned (see the [Cheats Tab](../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor). It provides the ability to enable or disable individual cheats while a game is running.
+
+!!! note
+    The Cheats Tab is only present when a cheat file has been assigned to the item and the cheats have been successfully loaded. It will not appear for all applications.
+
+![](../assets/images/userguide/system-settings-cheats-tab-active.png){: style="padding:5px;" class="center zoomD"}
+
+Each cheat is listed by name with a toggle switch. Pressing *OK* applies the current toggle states, activating enabled cheats and deactivating any that were previously enabled but are now toggled off. The enabled state of each cheat is persisted between sessions on the local device. Pressing *Cancel* closes the tab without applying any changes.

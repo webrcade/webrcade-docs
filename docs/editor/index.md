@@ -16,4 +16,4 @@ The editor consists of three primary components, as shown in the screenshot belo
 
 The [Sidebar](sidebar.md) *(#1 in screenshot above)* contains top-level actions that can be performed within the webЯcade editor, while the [Feed Workspace](workspace/index.md) *(#2 in screenshot above)* provides the ability to view and edit the contents of the *active feed* (the feed currently being edited).
 
-The header actions *(#3 in screenshot above)* include the ability to display the [Settings Dialog](workspace/settings.md) along with the ability to view documentation.
+The header actions *(#3 in screenshot above)* include the ability to search across the active feed (see the [Search Tab](workspace/searchtab.md)), display the [Settings Dialog](workspace/settings.md), and view documentation.

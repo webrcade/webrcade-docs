@@ -59,14 +59,14 @@ Some Game Boy Advance cartridges include battery-backed SRAM as a means of prese
 
 This section details how Game Boy Advance application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Game Boy Advance application is `retro-mgba-gba`.
+Two Game Boy Advance application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro mGBA* is the default (⭐) and is mapped to the `gba` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `gba` also currently maps to this application. In the future, the `gba` alias may be mapped
-    to another Nintendo Game Boy Advance application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
+| --- | --- | --- | --- | --- |
+| Libretro mGBA ⭐ | `retro-mgba-gba` | ✅ | ✅ | |
+| VBA-M | `vba-m-gba` | | | ✅ |
 
 ### Properties
 
@@ -75,13 +75,14 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro mGBA only)* |
+| disableLookup | Boolean | No | <p>Disables looking up a game's settings based on Game ID.</p><p>This allows  all settings to be overridden even if the game is recognized. This is typically useful for "hacks" that are based on a standard game ID, but have unique settings (use of Real-time clock, etc.).</p> |
+| flashSize | Numeric | No | The size of the flash ram (only applicable for flash save type).<br><br>Valid values are 65536 and 131072. |
+| mirroring | Boolean | No | Whether the cartridge utilizes mirrored memory addresses. |
 | rom | URL | Yes | URL to a Game Boy Advance ROM file or a zip file containing a ROM file. |
 | rotation | Numeric | No | How many degrees the screen should be rotated.<br><br>Valid values are 0, 90, 180, and 270. |
 | rtc | Boolean | No | Whether the cartridge utilizes a real-time clock. |
-| mirroring | Boolean | No | Whether the cartridge utilizes mirrored memory addresses. |
 | saveType | Numeric | No | The type of save hardware utilized by the cartridge.<br><ul><li>`0` : Auto Detect</li><li>`1` : EEPROM</li><li>`2` : SRAM</li><li>`3` : Flash</li><li>`4` : EEPROM + Sensor</li><li>`5` : None</li></ul> |
-| flashSize | Numeric | No | The size of the flash ram (only applicable for flash save type).<br><br>Valid values are 65536 and 131072. |
-| disableLookup | Boolean | No | <p>Disables looking up a game's settings based on Game ID.</p><p>This allows  all settings to be overridden even if the game is recognized. This is typically useful for "hacks" that are based on a standard game ID, but have unique settings (use of Real-time clock, etc.).</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
 
 ### Example
@@ -116,4 +117,5 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Nintendo Game Boy Advance Application GitHub Repository](https://github.com/webrcade/webrcade-app-vba-m)
+- [Nintendo Game Boy Advance (Libretro mGBA) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-mgba)
+- [Nintendo Game Boy Advance (VBA-M) GitHub Repository](https://github.com/webrcade/webrcade-app-vba-m)

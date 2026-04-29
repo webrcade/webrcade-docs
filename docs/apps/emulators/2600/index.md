@@ -80,14 +80,15 @@ The [Feed Editor](../../../editor/index.md) attempts to automatically detect and
 
 This section details how Atari 2600 application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Atari 2600 application is `retro-stella-latest`.
+Three Atari 2600 application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Stella* is the default (⭐) and is mapped to the `2600` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-!!! note
-    The alias `2600` also currently maps to this application. In the future, the `2600` alias may be mapped
-    to another Atari 2600 application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Paddle__ | __Low CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro Stella ⭐ | `retro-stella-latest` | ✅ | ✅ | ✅ | |
+| Libretro Stella 2014 | `retro-stella` | ✅ | ✅ | ✅ | |
+| Javatari | `javatari` | | | | ✅ |
 
 ### Properties
 
@@ -96,15 +97,16 @@ specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(Libretro Stella types only)* |
+| port0 | Numeric | No | The type of controller(s) to plug into port 0: <p><ul><li>`0` : Joystick</li><li>`1` : Single Paddle</li><li>`2` : Two Paddles</li></ul></p>Defaults to Joystick.<br><br>*(Libretro Stella types only)* |
+| port1 | Numeric | No | The type of controller(s) to plug into port 1: <p><ul><li>`0` : Joystick</li><li>`1` : Single Paddle</li><li>`2` : Two Paddles</li></ul></p>Defaults to Joystick.<br><br>*(Libretro Stella types only)* |
+| paddleSensitivity | Numeric | No | Adjusts the sensitivity of the paddle (range of `-99` to `99`). <p>Defaults to `0`.</p>*(Libretro Stella types only)* |
+| paddleCenter | Numeric | No | Adjusts the center position of the paddle (range of `-99` to `99`). <p>Defaults to `0`.</p>*(Libretro Stella types only)* |
+| paddleVertical | Boolean | No | <p>Whether the paddle should be horizontal (analog stick left to right) or vertical (analog stick top to bottom).</p><p>Defaults to `false` (horizontal).</p>*(Libretro Stella types only)* |
+| paddleInverted | Boolean | No | <p>Whether to invert the paddle input.</p><p>For example, if pressing left on the analog stick causes the on-screen object to move right.</p><p>Defaults to `false` (not inverted).</p>*(Libretro Stella types only)* |
 | rom | URL | Yes | URL to an Atari 2600 ROM file or a zip file containing a ROM file. |
 | swap | Boolean | No | Whether to swap the controller ports. This is typically enabled when games default to using port 2 (versus port 1). |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
-| port0 | Numeric | No | The type of controller(s) to plug into port 0: <p><ul><li>`0` : Joystick</li><li>`1` : Single Paddle</li><li>`2` : Two Paddles</li></ul></p>Defaults to Joystick. |
-| port1 | Numeric | No | The type of controller(s) to plug into port 1: <p><ul><li>`0` : Joystick</li><li>`1` : Single Paddle</li><li>`2` : Two Paddles</li></ul></p>Defaults to Joystick. |
-| paddleSensitivity | Numeric | No | Adjusts the sensitivity of the paddle (range of `-99` to `99`). <p>Defaults to `0`.</p> |
-| paddleCenter | Numeric | No | Adjusts the center position of the paddle (range of `-99` to `99`). <p>Defaults to `0`.</p> |
-| paddleVertical | Boolean | No | <p>Whether the paddle should be horizontal (analog stick left to right) or vertical (analog stick top to bottom).</p><p>Defaults to `false` (horizontal).</p> |
-| paddleInverted | Boolean | No | <p>Whether to invert the paddle input.</p><p>For example, if pressing left on the analog stick causes the on-screen object to move right.</p><p>Defaults to `false` (not inverted).</p>  |
 
 ### Example
 
@@ -138,4 +140,6 @@ This example can be tested by adding a feed with the following URL within the [w
 
 ## References
 
-- [Atari 2600 Application GitHub Repository](https://github.com/webrcade/webrcade-app-retro-stella-2014)
+- [Atari 2600 (Libretro Stella) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-stella)
+- [Atari 2600 (Libretro Stella 2014) GitHub Repository](https://github.com/webrcade/webrcade-app-retro-stella-2014)
+- [Atari 2600 (Javatari) GitHub Repository](https://github.com/webrcade/webrcade-app-javatari)
