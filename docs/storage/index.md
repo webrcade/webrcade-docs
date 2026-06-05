@@ -2,11 +2,12 @@
 
 ## Overview
 
-WebЯcade optionally supports linking each of your devices and/or browsers to cloud storage (currently limited to [Dropbox](https://www.dropbox.com)) as a means of sharing persistent state information between devices.
+WebЯcade optionally supports linking each of your devices and/or browsers to cloud storage (currently limited to [Dropbox](https://www.dropbox.com)) for two primary purposes:
 
-Examples of persistent state information include: [save states](#save-states), in-game saves, high scores, hardware configuration settings (for arcade-based systems), etc.
+* **Persistent state** — sharing save states, in-game saves, high scores, and hardware configuration settings between devices (see [Save States](#save-states)).
+* **File uploads** — uploading local game files (ROMs, disc images, BIOS files, images, and feeds) directly from the [Feed Editor](../editor/index.md) to your Dropbox account (see [File Uploads](#file-uploads)).
 
-The following sections detail how to link webЯcade to cloud storage within the WebЯcade [player](#player), [feed editor](#feed-editor), or when playing a game in [stand-alone](#stand-alone) mode.
+The following sections detail how to link webЯcade to cloud storage within the WebЯcade [player](#player), [feed editor](#feed-editor), or when playing a game in [stand-alone](#stand-alone) mode. Once linked, both persistent state and file upload features become available.
 
 !!! note
     The cloud storage linking processes described below must be performed once for each unique device
@@ -75,10 +76,14 @@ The Dropbox Linking page walks through the steps necessary to link webЯcade to 
 The linking process will include authenticating with Dropbox and confirming that
 webЯcade is allowed to access a restricted portion of the user's Dropbox account.
 
-## Save States
-
 !!! important
-    Save states are only available when cloud storage is enabled.
+    The features described below (file uploads and save states) are only available when cloud storage is enabled.
+
+## File Uploads
+
+When cloud storage is enabled in the editor, local files (ROMs, disc images, BIOS files, images, and feeds) can be uploaded directly to your linked Dropbox account. See [Adding Items: Local Files](../editor/workspace/addingitems-local.md) and [Drag and Drop: Local Files](../editor/draganddrop-local.md) for details.
+
+## Save States
 
 The majority of emulator-based applications support save states. Save states allow for saving and subsequently resuming at any point of a particular game (regardless of whether the game intrinsically supports saves).
 

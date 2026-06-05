@@ -112,7 +112,7 @@ nav:
     - Tools:
       - Repackage Archive: editor/tools/repackage-archive.md
       - Generate Manifest: editor/tools/generate-manifest.md
-    - General:
+    - Drag and Drop:
       - Drag and Drop (URL Links): editor/draganddrop.md
       - Drag and Drop (Local Files): editor/draganddrop-local.md
   - Stand-alone: standalone/index.md
