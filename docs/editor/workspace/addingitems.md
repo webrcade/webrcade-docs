@@ -1,45 +1,10 @@
 # Adding Items
 
-One of the predominant uses of the feed editor is adding items (games, etc.) to feeds. To simplify that process, the editor provides multiple methods of adding items which are detailed below.
+Items are the games, apps, and other content that make up your feed. Each item points to a game file and holds its title, description, artwork, and settings. Before you can play anything, you need to add it to a category in your feed.
 
-## Manual Item Creation
+The editor can pull in items two ways: directly from files on your computer, or from URLs pointing to files that are already hosted online. See each guide below for details on how items are identified and what steps are involved.
 
-Items can be manually created via the, *Create Item* action, within the [Items Table Toolbar](itemstab.md#items-table).
-
-Manually creating an item requires more effort than the other options detailed on this page, but it is sometimes necessary if the editor is unable to automatically determine the appropriate application type (emulator, etc.) for a ROM-based URL.
-
-## Add From Dropbox
-
-Items can be created for ROM files that are hosted in your Dropbox account. See the *Add From Dropbox* action in the [Items Table More Menu](itemstab.md#more-menu) for more information.
-
-## Create from ROM URLs
-
-Items can be created and added to feeds based on URLs that point to ROM files. See the *Create from URLs* action in the [Items Table More Menu](itemstab.md#more-menu) for more information.
-
-## Drag and Drop ROM URLs
-
-Items can also be created by dragging and dropping URLs that point to ROM files onto the editor workspace or its dialogs. See the [Drag and Drop ROM URLs](../draganddrop.md#drag-rom-urls) section for more information.
-
-## Disc and Archive-based Items
-
-Due to their large sizes, adding disc and archive-based items (games, etc.) in the [Feed Editor](../index.md) must be done manually (versus using auto-detection).
-
-To add a disc or archive-based item, perform the following steps.
-
-* Navigate to the "Items" tab in the Feed Editor (See [Feed Items Tab](itemstab.md) documentation).
-
-* Select the "Create Item" action in the "Items Table" toolbar (See [Items Table](itemstab.md#table-toolbar) documentation). The [Create Item Editor](../dialogs/item-dialog.md) will be displayed.
-
-![](../../assets/images/editor/workspace/create-item-autocomplete.png){: class="center zoomD"}
-
-* On the [General Tab](../dialogs/item-dialog.md#general-tab) of the [Create Item Editor](../dialogs/item-dialog.md) perform the following steps:
-    * Select the appropriate application (`Sony PlayStation`, etc.) in the "Application" pull-down (*See #1 in screenshot above*).
-    * In the "Title" field, start to type in the name of the game that is being added. An *autocomplete list* will be displayed directly below the *title* field (*See #2 in screenshot above*).
-    * Select one of the items in the *autocomplete list* to have the game's description and artwork retrieved (*See #3 in screenshot above*).
-
-![](../../assets/images/editor/workspace/create-item-discs.png){: class="center zoomD"}
-
-* On the [Properties Tab](../dialogs/item-dialog.md#properties-tab) of the [Create Item Editor](../dialogs/item-dialog.md) perform the following steps:
-    * For CD-based items, provide one or more Disc URLs in the "Discs (URLs)" multi-line text field (directly or via the chooser button to the right of the field) (*See #1 in screenshot above*).
-    * For archive-based items, select the package archive (`.zip`) file or [package manifest](../../advanced/archive-manifests.md) file (`.json`) in the "Package Archive or Package Manifest (URL)" text field (directly or via the chooser button to the right of the field).
-* Click the `OK` button to add the newly created item to the feed.
+| Guide | Use this when | What you do |
+| --- | --- | --- |
+| [Adding Items: From URL Links](addingitems-url.md) | Your games are already hosted online (Internet Archive, Dropbox, etc.) | Provide the URLs and the editor fetches and analyzes them for you |
+| [Adding Items: Local Files](addingitems-local.md) | Your game files are on your computer (requires [cloud storage](settings.md#cloud-storage-tab) to be enabled) | Drag them in or browse to select. The editor analyzes them, asks about anything it's unsure of, and uploads to your cloud storage |

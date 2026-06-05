@@ -154,6 +154,10 @@ This section details how PlayStation application instances can be added to feeds
 
 The type name for the PlayStation application is `beetle-psx`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `beetle-psx` ⭐ | ✅ | ✅ | ✅ | x |
+
 !!! note
     The alias `psx` also currently maps to this application. In the future, the `psx` alias may be mapped
     to another PlayStation application (different emulator implementation) if it is determined to be a

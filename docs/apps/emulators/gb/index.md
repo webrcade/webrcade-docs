@@ -58,10 +58,10 @@ This section details how Game Boy application instances can be added to feeds.
 
 Two Game Boy application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro SameBoy* is the default (⭐) and is mapped to the `gb` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
-| --- | --- | --- | --- | --- |
-| Libretro SameBoy ⭐ | `retro-sameboy-gb` | ✅ | ✅ | |
-| VBA-M | `vba-m-gb` | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro SameBoy ⭐ | `retro-sameboy-gb` | ✅ | ✅ | ✅ | x |
+| VBA-M | `vba-m-gb` | x | x | x | ✅ |
 
 ### Properties
 
@@ -109,9 +109,6 @@ The `hwType` value has been set to `5` to force the emulated hardware to be the 
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-gb-feed`
 
 ## References
 

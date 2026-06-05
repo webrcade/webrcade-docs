@@ -84,8 +84,8 @@ Gamepad mappings are listed below.
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
 | Move                         | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad.png){: class="control"} &nbsp;or&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} | |
-| Button A                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} | | |
-Button B                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"}  | |
+| Button A                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} | |
+| Button B                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"}  | |
 | Button C                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} | |
 | Button D                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"}  | |
 | Start                        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __Menu (Start) Button__. |
@@ -109,6 +109,10 @@ This section details how Neo Geo CD application instances can be added to feeds.
 ### Type
 
 The type name for the Neo Geo CD application is `retro-neocd`.
+
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-neocd` ⭐ | x | ✅ | ✅ | x |
 
 !!! note
     The alias `neogeocd` also currently maps to this application. In the future, the `neogeocd` alias may be mapped to another Neo Geo CD application (different emulator implementation) if it is determined to be a more appropriate default.

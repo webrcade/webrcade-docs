@@ -65,10 +65,10 @@ This section details how SNES application instances can be added to feeds.
 
 Two SNES application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro SNES9X* is the default (⭐) and is mapped to the `snes` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
-| --- | --- | --- | --- | --- |
-| Libretro SNES9X ⭐ | `retro-snes9x` | ✅ | ✅ | |
-| SNES9X | `snes9x` | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro SNES9X ⭐ | `retro-snes9x` | ✅ | ✅ | ✅ | x |
+| SNES9X | `snes9x` | x | x | x | ✅ |
 
 ### Properties
 
@@ -109,9 +109,6 @@ The following is an example of a complete feed that consists of a single SNES ap
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-snes-feed`
 
 ## References
 

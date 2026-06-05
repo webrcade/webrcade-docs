@@ -62,6 +62,28 @@ The applications tab is used to select the specific application (emulator implem
 | Mapped Application | The application (emulator implementation) to use for the selected alias within this feed. Use the dropdown to select from the available options. |
 | Clear Selections | Pressing the `Clear Selections` button resets all alias mappings back to `(use default)`. |
 
+## Cloud Storage Tab
+
+!!! note
+    The Cloud Storage tab is only shown when cloud storage has been enabled. See the [Cloud Storage](../workspace/settings.md#cloud-storage-tab) section of the Settings dialog for setup instructions.
+
+The Cloud Storage tab determines where this feed's content is stored in your cloud storage. The full storage path is built from the Cloud Location you select, the Sub-Directory, and the feed's name, combined into a single folder. All category content for this feed is stored inside that folder, each category in its own sub-folder.
+
+A read-only display at the bottom of the tab shows the full path as it will be used, and updates automatically as you make changes.
+
+![](../../assets/images/editor/feededitor/cloudstoragetab.png){: class="center zoomD"}
+
+### Fields
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Cloud Location | The folder in your cloud storage to use as the starting point for this feed. The Sub-Directory and feed name are appended to this to form the full storage path. Click *Select folder...* to choose a folder. Click the `X` to remove the selection. |
+| Sub-Directory (optional) | A sub-folder appended to the Cloud Location. The feed's name is then appended after this, giving a final storage path of `{Cloud Location}/{Sub-Directory}/{feed-name}/`. Defaults to `wrc-content`. Click *Reset* to return to the default. |
+| Storage Path | Read-only. Shows the full storage path for this feed as it will be used, and updates automatically as you adjust the fields above. |
+
+!!! note
+    Feed-level assets such as BIOS files are stored in a reserved `__feed__` sub-folder inside the feed's storage path (for example, `{feed-path}/__feed__/psx/` for PlayStation BIOS files). Category content sits alongside it, each category in its own sub-folder. See [Cloud Storage Tab](#cloud-storage-tab-1) in the Category Editor for how category paths are resolved.
+
 ## Thumbnail Tab
 
 The thumbnail tab allows a thumbnail for the feed to be specified. The thumbnail image will be displayed in the [webЯcade player](../../userguide/index.md).

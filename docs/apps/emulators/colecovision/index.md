@@ -177,6 +177,10 @@ This section details how ColecoVision application instances can be added to feed
 
 The type name for the ColecoVision application is `colem`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `colem` ⭐ | x | x | ✅ | ✅ |
+
 !!! note
     The alias `coleco` also currently maps to this application. In the future, the `coleco` alias may be mapped
     to another ColecoVision application (different emulator implementation) if it is determined to be a

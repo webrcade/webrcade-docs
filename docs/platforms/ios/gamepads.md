@@ -21,14 +21,14 @@ When this button sequence is pressed, a dialog similar to the following will be 
 
 ![](../../assets/images/platforms/ios/screen-recording-dialog.png){: style="padding:5px 15px;" class="center zoomD"}
 
-In addition to the annoyance of the dialog being displayed, other functions that are mapped to this button (select, etc.) are inconsistent in their behavior. 
+In addition to the annoyance of the dialog being displayed, other functions that are mapped to this button (select, etc.) are inconsistent in their behavior.
 
 There are two methods to avoid having this dialog appear.
 
-* [Disable](#disable) the screen capture button sequences for the controller.  
+* [Disable](#disable) the screen capture button sequences for the controller.
 * Use [Alternate Controls](#alternate-controls) mappings for the select button, etc.
 
-### Disable 
+### Disable
 
 To disable the screen capture button sequence for controllers, perform the following:
 
@@ -56,14 +56,14 @@ The following alternative button sequences be used to avoid using the PlayStatio
 | Show Pause Screen<br>(Alternate)        | ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
 
 ## Bluetooth Pairing
- 
-The iOS operating system provides two distinct methods for pairing Bluetooth controllers with an iOS device. The method to use depends on the type of Bluetooth controller which can lead to some confusion. 
 
-This section details the two methods that iOS supports for pairing Bluetooth controllers. Refer to the controller-specific sections (below) for steps that are unique to each controller, including which of these two methods should be utilized for a given controller. 
+The iOS operating system provides two distinct methods for pairing Bluetooth controllers with an iOS device. The method to use depends on the type of Bluetooth controller which can lead to some confusion.
+
+This section details the two methods that iOS supports for pairing Bluetooth controllers. Refer to the controller-specific sections (below) for steps that are unique to each controller, including which of these two methods should be utilized for a given controller.
 
 ### Pair via Bluetooth Settings
 
-The following steps detail how to pair compatible controllers via the `Bluetooth` option in `Settings` on iOS devices. 
+The following steps detail how to pair compatible controllers via the `Bluetooth` option in `Settings` on iOS devices.
 
 * Go to `Settings` > `Bluetooth` on the device (as shown in the screenshot below).
 * Enter pairing mode on the controller to pair (see controller-specific section for details).
@@ -97,7 +97,7 @@ The following steps outline the process to add compatible controllers via the `A
 
 ## Controllers
 
-The following sections provide details regarding controllers that have been tested for compatibility with webЯcade on iOS-compatible devices. 
+The following sections provide details regarding controllers that have been tested for compatibility with webЯcade on iOS-compatible devices.
 
 ### 8bitDo Lite
 
@@ -142,7 +142,7 @@ To connect the controller to an iOS device perform the following steps:
 
 #### Alternate Controls
 
-The Zero 2 does not have the necessary inputs to support the alternative control options. Therefore, the Zero 2 is limited to the following inputs for `Start`, `Select`, and `Show Pause Screen` actions. 
+The Zero 2 does not have the necessary inputs to support the alternative control options. Therefore, the Zero 2 is limited to the following inputs for `Start`, `Select`, and `Show Pause Screen` actions.
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |
@@ -163,7 +163,7 @@ To connect the controller to an iOS device perform the following steps:
 * Follow the basic steps outlined in the [Pair via Bluetooth Settings](#pair-via-bluetooth-settings) section above.
 * To enter pairing mode on the controller:
     * While pressing and holding the `Share` button (upper left on controller) press and hold the `PS` button (bottom center) until the light bar on the back flashes.
-* The controller should appear in the `OTHER DEVICES` list (see screenshot below). 
+* The controller should appear in the `OTHER DEVICES` list (see screenshot below).
 * The device should have a name similar to, `"DUALSHOCK 4 Wireless Controller"`.
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 
@@ -173,7 +173,7 @@ To connect the controller to an iOS device perform the following steps:
 
 This section contains information related to the [Xbox Wireless Controller](https://en.wikipedia.org/wiki/Xbox_Wireless_Controller) by Microsoft.
 
-![](../../assets/images/controllers/xboxone.png){: style="padding:15x 5px; max-width:300px" class="center"}
+![](../../assets/images/controllers/xboxone.png){: style="padding:15px 5px; max-width:300px" class="center"}
 
 #### Bluetooth Pairing
 
@@ -183,7 +183,7 @@ To connect the controller to an iOS device perform the following steps:
 * To enter pairing mode on the controller:
     * Turn on the controller by pressing the `Xbox` button (Xbox logo near the center top of the controller).
     * Press the controller’s `Pair` button for 3 seconds and release (small button on back near the `Left Bumper` button).
-* The controller should appear in the `OTHER DEVICES` list (see screenshot below). 
+* The controller should appear in the `OTHER DEVICES` list (see screenshot below).
 * The device should have a name similar to, `"Xbox Wireless Controller"`.
 * Tap on the controller in the list and follow on-screen instructions to complete the pairing process.
 

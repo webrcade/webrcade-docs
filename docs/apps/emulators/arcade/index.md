@@ -71,9 +71,15 @@ Unlike other applications, the Arcade application supports multiple types. Havin
 
 | __Type__ | __Alias__ | __Game List__ | __Description__ |
 | --- | --- | --- | --- |
-| `fbneo-arcade` | `arcade` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-arcade.txt)  | This type supports all of the games that are compatible with the Arcade application. |
-| `fbneo-capcom` | `arcade-capcom` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-capcom.txt)  | This type supports Capcom games that are compatible with the Arcade application. |
-| `fbneo-konami` | `arcade-konami` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-konami.txt)  | This type supports Konami games that are compatible with the Arcade application. |
+| `fbneo-arcade` | `arcade` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-arcade.txt) | This type supports all of the games that are compatible with the Arcade application. |
+| `fbneo-capcom` | `arcade-capcom` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-capcom.txt) | This type supports Capcom games that are compatible with the Arcade application. |
+| `fbneo-konami` | `arcade-konami` | [Supported Games](https://play.webrcade.com/app/neo/js/gamelist-konami.txt) | This type supports Konami games that are compatible with the Arcade application. |
+
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `fbneo-arcade` | x | x | x | ✅ |
+| `fbneo-capcom` | x | x | x | ✅ |
+| `fbneo-konami` | x | x | x | ✅ |
 
 !!! note
     The aliases listed above may be mapped to another arcade-based application (different emulator implementation)
@@ -117,9 +123,6 @@ The following is an example of a complete feed that consists of a single Arcade 
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-feed-arcade`
 
 ## References
 

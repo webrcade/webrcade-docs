@@ -55,6 +55,22 @@ For more information, refer to the [Cloud Storage](../../storage/index.md) secti
 | Enabled | Toggles whether cloud storage (via Dropbox) is enabled or not. |
 | Dropbox (link/unlink button) | This button is used to either *link* or *unlink* a Dropbox account with webЯcade depending on its current status.<br><br>It is important to note that this *linking* operation must be repeated for each unique browser and/or device being used with webЯcade. |
 
+### Achievements Tab
+
+The "Achievements" tab is used to configure [RetroAchievements](../../userguide/retroachievements.md) support.
+
+!!! note
+    A free [RetroAchievements](https://retroachievements.org){target=_blank} account is required to use this feature.
+
+![](../../assets/images/editor/settingsdialog/settings-achievementstab.png){: style="padding:5px;" class="center zoomD"}
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Enabled | Toggles RetroAchievements support on or off. |
+| Username | Your RetroAchievements account username. Only shown when *Enabled* is on and you are not yet logged in. |
+| Password | Your RetroAchievements account password. Only shown when *Enabled* is on and you are not yet logged in. |
+| Login To Retro Achievements | Only shown when *Enabled* is on. Authenticates with RetroAchievements using the username and password entered above. Once logged in, the button label changes to *Logout From Retro Achievements*. Click it to disconnect your account. |
+
 ### Advanced Settings Tab
 
 The "Advanced" tab is used to view and/or modify settings that typically remain at their default values.

@@ -57,6 +57,3 @@ The following is an example of a simple webЯcade feed that contains the archive
 }
 ```
 
-The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
-
-`https://tinyurl.com/inet-archive-example`

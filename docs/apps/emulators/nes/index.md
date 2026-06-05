@@ -83,10 +83,10 @@ This section details how NES application instances can be added to feeds.
 
 Two NES application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro FCEUmm* is the default (⭐) and is mapped to the `nes` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __FDS__ | __Low CPU__ |
-| --- | --- | --- | --- | --- | --- |
-| Libretro FCEUmm ⭐ | `retro-fceumm` | ✅ | ✅ | ✅ | |
-| FCEUX | `fceux` | | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __FDS__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- | --- |
+| Libretro FCEUmm ⭐ | `retro-fceumm` | ✅ | ✅ | ✅ | ✅ | x |
+| FCEUX | `fceux` | x | x | x | x | ✅ |
 
 ### Feed Properties
 
@@ -134,9 +134,6 @@ The following is an example of a complete feed that consists of a single NES app
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-nes-feed`
 
 ## References
 

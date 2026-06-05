@@ -84,11 +84,11 @@ This section details how Atari 2600 application instances can be added to feeds.
 
 Three Atari 2600 application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Stella* is the default (⭐) and is mapped to the `2600` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Paddle__ | __Low CPU__ |
-| --- | --- | --- | --- | --- | --- |
-| Libretro Stella ⭐ | `retro-stella-latest` | ✅ | ✅ | ✅ | |
-| Libretro Stella 2014 | `retro-stella` | ✅ | ✅ | ✅ | |
-| Javatari | `javatari` | | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Paddle__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- | --- |
+| Libretro Stella ⭐ | `retro-stella-latest` | ✅ | ✅ | ✅ | ✅ | x |
+| Libretro Stella 2014 | `retro-stella` | ✅ | ✅ | ✅ | ✅ | x |
+| Javatari | `javatari` | x | x | x | x | ✅ |
 
 ### Properties
 
@@ -134,9 +134,6 @@ The following is an example of a complete feed that consists of a single Atari 2
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/2600-feed`
 
 ## References
 

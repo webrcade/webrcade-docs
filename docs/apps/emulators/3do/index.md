@@ -111,6 +111,10 @@ This section details how 3DO application instances can be added to feeds.
 
 The type name for the 3DO application is `retro-opera`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-opera` ⭐ | x | ✅ | ✅ | x |
+
 !!! note
     The alias `3do` also currently maps to this application. In the future, the `3do` alias may be mapped to another 3DO application (different emulator implementation) if it is determined to be a more appropriate default.
 

@@ -73,6 +73,3 @@ The following is an example of a simple webЯcade feed that includes the Dropbox
 }
 ```
 
-The example from above can be tested by adding a feed with the following URL within the [webЯcade player](../../userguide/index.md):
-
-`https://tinyurl.com/dropbox-feed-example`

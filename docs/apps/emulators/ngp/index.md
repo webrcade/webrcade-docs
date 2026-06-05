@@ -55,12 +55,12 @@ This section details how Neo Geo Pocket  application instances can be added to f
 
 Two Neo Geo Pocket and Neo Geo Pocket Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen NGP* is the default (⭐) and is mapped to the `ngp` and `ngc` aliases for Neo Geo Pocket and Neo Geo Pocket Color respectively. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Low CPU__ |
-| --- | --- | --- | --- |
-| Libretro Mednafen NGP (NGP) ⭐ | `retro-mednafen-ngp` | ✅ | |
-| Libretro Mednafen NGP (NGC) ⭐ | `retro-mednafen-npc` | ✅ | |
-| Mednafen (NGP) | `mednafen-ngp` | | ✅ |
-| Mednafen (NGC) | `mednafen-ngc` | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro Mednafen NGP (NGP) ⭐ | `retro-mednafen-ngp` | x | ✅ | ✅ | x |
+| Libretro Mednafen NGP (NGC) ⭐ | `retro-mednafen-npc` | x | ✅ | ✅ | x |
+| Mednafen (NGP) | `mednafen-ngp` | x | x | x | ✅ |
+| Mednafen (NGC) | `mednafen-ngc` | x | x | x | ✅ |
 
 ### Properties
 
@@ -98,9 +98,6 @@ The following is an example of a complete feed that consists of a single Neo Geo
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the[webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-ngc-feed`
 
 ## References
 

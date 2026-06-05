@@ -1,5 +1,8 @@
 # Pastebin
 
+!!! note
+    [Snippet.host](./snippet.md) is the recommended option for hosting webЯcade feed documents. Pastebin remains functional but is no longer the preferred choice.
+
 [Pastebin](https://pastebin.com/) can be used to host webЯcade feed documents (see [Feed Format](../format.md)).
 
 !!! note

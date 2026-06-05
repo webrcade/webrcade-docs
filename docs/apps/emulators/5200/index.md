@@ -118,6 +118,10 @@ This section details how Atari 5200 application instances can be added to feeds.
 
 The type name for the Atari 5200 application is `retro-5200`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-5200` ⭐ | ✅ | ✅ | x | x |
+
 !!! note
     The alias `5200` also currently maps to this application. In the future, the `5200` alias may be mapped
     to another Atari 5200 application (different emulator implementation) if it is determined to be a

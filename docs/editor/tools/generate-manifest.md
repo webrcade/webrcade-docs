@@ -31,7 +31,7 @@ The dialog includes the following options:
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Cloud Folder Tree | Used to select the folder within [cloud storage](../../storage/index.md)to generate a manifest file for.  |
+| Cloud Folder Tree | Used to select the folder within [cloud storage](../../storage/index.md) to generate a manifest file for.  |
 
 !!! important
     The folder must be a sub-folder beneath `Apps/webrcade` for Dropbox. This is the only portion

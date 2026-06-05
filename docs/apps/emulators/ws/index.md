@@ -100,12 +100,12 @@ This section details how WonderSwan application instances can be added to feeds.
 
 Two WonderSwan and WonderSwan Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen Wswan* is the default (⭐) and is mapped to the `ws` and `wsc` aliases for WonderSwan and WonderSwan Color respectively. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Low CPU__ |
-| --- | --- | --- | --- |
-| Libretro Mednafen Wswan (WS) ⭐ | `retro-mednafen-ws` | ✅ | |
-| Libretro Mednafen Wswan (WSC) ⭐ | `retro-mednafen-wsc` | ✅ | |
-| Mednafen (WS) | `mednafen-ws` | | ✅ |
-| Mednafen (WSC) | `mednafen-wsc` | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro Mednafen Wswan (WS) ⭐ | `retro-mednafen-ws` | x | ✅ | ✅ | x |
+| Libretro Mednafen Wswan (WSC) ⭐ | `retro-mednafen-wsc` | x | ✅ | ✅ | x |
+| Mednafen (WS) | `mednafen-ws` | x | x | x | ✅ |
+| Mednafen (WSC) | `mednafen-wsc` | x | x | x | ✅ |
 
 ### Properties
 
@@ -144,9 +144,6 @@ The following is an example of a complete feed that consists of a single WonderS
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the[webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-wsc-feed`
 
 ## References
 

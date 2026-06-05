@@ -254,6 +254,10 @@ This section details how ScummVM application instances can be added to feeds.
 
 The type name for the ScummVM application is `scummvm`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `scummvm` ⭐ | x | x | x | ✅ |
+
 !!! note
     The alias `scumm` also currently maps to this application. In the future, the `scumm` alias may be mapped
     to another ScummVM application (different engine implementation) if it is determined to be a
@@ -295,9 +299,6 @@ The following is an example of a complete feed that consists of a single ScummVM
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`http://tinyurl.com/sample-scumm-feed`
 
 ## References
 

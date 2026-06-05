@@ -91,6 +91,10 @@ This section details how PC-FX application instances can be added to feeds.
 
 The type name for the PC-FX application is `beetle-pcfx`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `beetle-pcfx` ⭐ | x | ✅ | ✅ | x |
+
 !!! note
     The alias `pcfx` also currently maps to this application. In the future, the `pcfx` alias may be mapped to another PC-FX application (different emulator implementation) if it is determined to be a more appropriate default.
 

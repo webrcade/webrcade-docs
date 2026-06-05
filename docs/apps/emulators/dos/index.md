@@ -258,6 +258,10 @@ This section details how DOS application instances can be added to feeds.
 
 The type name for the DOS application is `retro-dosbox-pure`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-dosbox-pure` ⭐ | x | ✅ | x | x |
+
 !!! note
     The alias `dos` also currently maps to this application. In the future, the `dos` alias may be mapped
     to another DOS application (different engine implementation) if it is determined to be a
@@ -275,6 +279,7 @@ specified in the `props` object of a feed item.
 | autoStartPath | String | No | <p>A path to the binary to launch when the game starts.</p><p>Partial file names and paths are supported. For example, specifying `run.bat` would launch the first file it finds that matches, such as `first_run.bat`, `go_run.bat`, etc.</p><p>Using `autoStartPath` is equivalent to setting an "Auto Run" in the DOSBox Pure Start Menu when the game is first launched on a device. However, unlike the Start Menu option, this setting is part of the feed itself, ensuring the specified binary automatically launches on any device that uses the feed.</p>  |
 | controllerMode | Numeric | No | Specifies the mode for the gamepad when the game is first launched (defaults to 0).<br><ul><li>`0` : Gamepad mode</li><li>`1` : Mouse Emulation mode</li></ul>  |
 | mouseSpeed | Numeric | No | A numeric value ranging from `-5` to `5`, with `0` as the default. This controls the mouse speed for the current game. Positive values increase the mouse speed, while negative values slow it down. |
+| cpuSpeed | Numeric | No | Sets the initial CPU speed preset for the game. Defaults to `0` (auto). The CPU speed can also be changed during a session from the [DOS Settings](#dos-settings) tab on the pause screen.<br><ul><li>`0` : (default) Auto</li><li>`1` : 8086/8088, 4.77 MHz (1980)</li><li>`2` : 286, 6 MHz (1982)</li><li>`3` : 286, 12.5 MHz (1985)</li><li>`4` : 386, 20 MHz (1987)</li><li>`5` : 386DX, 33 MHz (1989)</li><li>`6` : 486DX, 33 MHz (1990)</li><li>`7` : 486DX2, 66 MHz (1992)</li><li>`8` : Pentium, 100 MHz (1995)</li><li>`9` : Pentium II, 300 MHz (1997)</li><li>`10` : Pentium III, 600 MHz (1999)</li><li>`11` : AMD Athlon, 1.2 GHz (2000)</li><li>`12` : Maximum Performance</li></ul> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example
@@ -303,9 +308,6 @@ The following is an example of a complete feed that consists of a single DOS app
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`http://tinyurl.com/sample-dos-feed`
 
 ## References
 

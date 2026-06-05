@@ -32,7 +32,7 @@ In addition to PC Engine CD Disc images, the following BIOS file must be specifi
 
 | __File__ | __Hash (MD5)__ |
 | --- | --- |
-| `syscard3.pce` | '38179df8f4ac870017db21ebcbf53114' |
+| `syscard3.pce` | `38179df8f4ac870017db21ebcbf53114` |
 
 ## Controls
 
@@ -89,6 +89,10 @@ This section details how PC Engine CD application instances can be added to feed
 ### Type
 
 The type name for the PC Engine CD application is `retro-pce-fast`.
+
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-pce-fast` ⭐ | ✅ | ✅ | ✅ | x |
 
 !!! note
     The alias `pcecd` also currently maps to this application. In the future, the `pcecd` alias may be mapped to another PC Engine CD application (different emulator implementation) if it is determined to be a more appropriate default.

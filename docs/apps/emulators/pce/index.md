@@ -65,10 +65,10 @@ This section details how PC Engine (TurboGrafx-16) application instances can be 
 
 Two PC Engine (TurboGrafx-16) application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen PCE Fast* is the default (⭐) and is mapped to the `pce` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
-| --- | --- | --- | --- | --- |
-| Libretro Mednafen PCE Fast ⭐ | `retro-mednafen-pce` | ✅ | ✅ | |
-| Mednafen | `mednafen-pce` | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro Mednafen PCE Fast ⭐ | `retro-mednafen-pce` | ✅ | ✅ | ✅ | x |
+| Mednafen | `mednafen-pce` | x | x | x | ✅ |
 
 ### Properties
 
@@ -107,9 +107,6 @@ The following is an example of a complete feed that consists of a single PC Engi
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-pce-feed`
 
 ## References
 

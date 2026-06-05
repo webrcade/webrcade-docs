@@ -127,7 +127,7 @@ Copy the highlighted lines below into the `items` array of the [Category Object]
         {
           "title": "Super Uwol!",
           "type": "nes",
-          "description": "Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune.",
+          "description": "Uwol enjoys a quiet retirement at his cozy house on the beach of Pepinoni (province of Badajoz) and doesn’t realize that somebody has stolen all his money from the bank. Uwol and his good ol’ friend Meemaid, the evil sorceress-turned-super heroine travel to the new and refurnished Storm Palace to regain the lost fortune."
         }
       ]
     }
@@ -225,27 +225,27 @@ Copy the URLs of the newly uploaded images from Imgur (as described in the [Imgu
 
 ## Publish Feed
 
-At this point, the feed can be published and shared for use with webЯcade. In this tutorial, we will utilize [Pastebin](resources/pastebin.md) to host the feed document.
+At this point, the feed can be published and shared for use with webЯcade. In this tutorial, we will utilize [Snippet.host](resources/snippet.md) to host the feed document.
 
-To host the feed document in Pastebin, perform the following:
+To host the feed document in Snippet.host, perform the following:
 
-* Follow the steps outlined on the [Pastebin Resource](resources/pastebin.md) page.
-* Copy the final version of the feed document you developed during this tutorial into the new "paste".
+* Follow the steps outlined on the [Snippet.host Resource](resources/snippet.md) page.
+* Copy the final version of the feed document you developed during this tutorial into the snippet content area.
 
 At this point you should have a URL for the webЯcade feed that resembles the following:
-`https://pastebin.com/raw/Fchkqw6g`
+`https://snippet.host/trksvx/raw`
 
 The feed can be tested by adding the feed URL within the webЯcade player ("Feeds" view).
 
 ## Alias Feed URL
 
-Although the feed is now available and published, the URL that was assigned by Pastebin is not very memorable. Fortunately, we can utilize a service such as [is.gd](https://is.gd/) to create a more memorable URL that is aliased to the Pastebin URL.
+Although the feed is now available and published, the URL that was assigned by Snippet.host is not very memorable. Fortunately, we can utilize a service such as [is.gd](https://is.gd/) to create a more memorable URL that is aliased to the Snippet.host URL.
 
 To create an alias for the feed URL, perform the following:
 
 * Follow the steps detailed in the is.gd resource page to [alias URLs](resources/isgd.md#aliased-urls).
-* Provide the Pastebin URL from the previous step as the URL to alias
-* Provide a name to alias to the Pastebin URL
+* Provide the Snippet.host URL from the previous step as the URL to alias
+* Provide a name to alias to the Snippet.host URL
 
 At this point, you should have an aliased URL similar to the following:
 `https://is.gd/tutorialfeed`

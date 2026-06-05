@@ -4,7 +4,7 @@ The "Feed Items Tab" consists of the items (games, etc.) contained in the curren
 
 ![](../../assets/images/editor/workspace/itemstab-annotated.png){: class="center zoomD"}
 
-The category drop-down list (*See #1 in screenshot above*) is used to selected the category whose items are displayed.
+The category drop-down list (*See #1 in screenshot above*) is used to select the category whose items are displayed. The pencil icon button next to the drop-down opens the [Category Editor](../dialogs/category-dialog.md) for the currently selected category.
 
 ## Items Table
 
@@ -23,6 +23,7 @@ The following table describes the various item-based actions that can be perform
 | Copy | ![](../../assets/images/editor/icons/round_content_copy_white_24dp.png){: class="action"} | Copies the selected items and stores them on the clipboard. |
 | Paste | ![](../../assets/images/editor/icons/round_content_paste_white_24dp.png){: class="action"} | Pastes the items that are on the clipboard into the current category.  |
 | Delete | ![](../../assets/images/editor/icons/round_delete_white_24dp.png){: class="action"} | Deletes the currently selected items. |
+| Merge | ![](../../assets/images/editor/icons/round_layers_white_24dp.svg){: class="action"} | Combines two or more selected items of the same application type into a single item with an ordered disc or media list. Only enabled when the selection meets the eligibility requirements. Click to open the [Merge Items](merge-dialog.md) dialog. |
 | More | ![](../../assets/images/editor/icons/round_more_horiz_white_24dp.png){: class="action"} | Displays the [More Menu](#more-menu). |
 
 ### Table Columns
@@ -45,14 +46,18 @@ The "More Menu" provides additional actions that can be performed on the items t
 
 | __Menu Item__ | __Icon__ | __Description__ |
 | --- | --- | --- |
-| Create From URLs | ![](../../assets/images/editor/icons/round_auto_awesome_white_24dp.png){: class="action"} | Displays the "Create Items From URLs" dialog.<br><br>See the [Create From URLS](#create-from-urls) section for complete information. |
-| Add from Dropbox | ![](../../assets/images/editor/icons/dropbox.png){: class="action"} | Displays the "Dropbox chooser".<br><br>See the [Add from Dropbox](#add-from-dropbox) section for complete information.   |
-| Copy stand-alone link (URL) | ![](../../assets/images/editor/icons/outline_link_white_24dp.png){: class="action"} | Creates a stand-alone link (direct link) to the selected item (game, etc.).<br><br>Stand-alone links can be shared, hosted via embedding, or added directly to mobile device home screens.<br><br>See the [Stand-alone](../../standalone/index.md) section for more information. |
+| Add from URLs... | ![](../../assets/images/editor/icons/round_auto_awesome_white_24dp.png){: class="action"} | Displays the "Create Items From URLs" dialog.<br><br>See [Adding Items: URL-based](addingitems-url.md#create-from-urls). |
+| Add from Dropbox... | ![](../../assets/images/editor/icons/dropbox.png){: class="action"} | Displays the "Dropbox chooser".<br><br>See [Adding Items: URL-based](addingitems-url.md#add-from-dropbox). |
+| Add from files... | ![](../../assets/images/editor/icons/round_insert_drive_file_white_24dp.svg){: class="action"} | Adds one or more files from your local device.<br><br>See [Adding Items: Local Files](addingitems-local.md). |
+| Add from folder... | ![](../../assets/images/editor/icons/round_folder_open_white_24dp.svg){: class="action"} | Adds files recursively from a selected local folder.<br><br>See [Adding Items: Local Files](addingitems-local.md). |
+| Copy stand-alone link... | ![](../../assets/images/editor/icons/outline_link_white_24dp.png){: class="action"} | Opens the *Copy Stand-alone Link* dialog for the selected item. The dialog displays a direct link that can be copied to the clipboard. Enable the *Shortened URL* toggle to generate a shortened link via is.gd.<br><br>Stand-alone links can be shared, hosted via embedding, or added directly to mobile device home screens.<br><br>See the [Stand-alone](../../standalone/index.md) section for more information. |
 | Analyze | ![](../../assets/images/editor/icons/round_find_in_page_white_24dp.png){: class="action"} |  *Analyzes* the currently selected items.<br><br>Analysis of an item consists of determining and updating the following aspects of the item (if able to be discovered):<br><ul><li>The [Application](../../apps/index.md) for the item. (for ROM-based items)</li><li>The [Properties](../dialogs/item-dialog.md#properties-tab) for the item. (for ROM-based items)</li><li>The title (and long title) for the item.</li><li>The artwork (thumbnail and background images) for the item.</li></ul> The *analyze* operation is similar to *scraping* functionality found in other front-ends. The primary difference is that the *analyze* operation attempts to determine the application type and related properties in addition to meta-data (titles and artwork). |
 
-### Add From Dropbox
+For source-specific workflows, see [Adding Items Overview](addingitems.md).
 
-The "Add From Dropbox" action provides the ability to select one or more ROM files via the "Dropbox chooser" (see screenshot below) and have a set of corresponding items created and added to the current category (the chooser will prompt for login credentials if necessary).
+### Add from Dropbox...
+
+The *Add from Dropbox...* action provides the ability to select one or more ROM files via the "Dropbox chooser" (see screenshot below) and have a set of corresponding items created and added to the current category (the chooser will prompt for login credentials if necessary).
 
 ![](../../assets/images/editor/workspace/dropbox.png){: class="center zoomD"}
 
@@ -65,9 +70,9 @@ An *analyze* operation is performed on each of the selected ROMs that attempts t
 
 If the *analyze* operation is unable to determine an appropriate [Application](../../apps/index.md) for a particular ROM, a corresponding item will not be created. In such cases, manual creation of an item via the "Create Item" action of the [Items Table Toolbar](#table-toolbar) is required.
 
-### Create From URLs
+### Add from URLs...
 
-The "Create From URLs" action provides the ability to specify one or more URLs that point to ROM files and have a set of corresponding items created and added to the current category.
+The *Add from URLs...* action provides the ability to specify one or more URLs that point to ROM files and have a set of corresponding items created and added to the current category.
 
 ![](../../assets/images/editor/workspace/itemsfromurls.png){: class="center zoomD"}
 

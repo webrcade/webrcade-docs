@@ -115,6 +115,10 @@ This section details how Saturn application instances can be added to feeds.
 
 The type name for the Saturn application is `retro-yabause`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-yabause` ⭐ | ✅ | ✅ | ✅ | x |
+
 !!! note
     The alias `saturn` also currently maps to this application. In the future, the `saturn` alias may be mapped
     to another Saturn application (different emulator implementation) if it is determined to be a
@@ -151,7 +155,7 @@ It is also worth noting that the *Saturn BIOS location* (`saturn_bios`) is speci
 {
   "title": "Sega Saturn",
   "props": {
-    "saturn_bios": "https://<host>/saturn_bios.bin",
+    "saturn_bios": "https://<host>/saturn_bios.bin"
   },
   "categories": [
     {

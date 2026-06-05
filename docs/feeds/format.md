@@ -19,6 +19,8 @@ The table below contains the properties available for the feed object.
 | thumbnail | URL | No | The location (URL) of a thumbnail image for the feed. |
 | background | URL | No | The location (URL) of a background image for the feed. |
 | props | Type-specific properties | No | Type-specific application properties that are global within the feed. For example, the [Atari Lynx Boot ROM](../apps/emulators/lynx/index.md#feed-properties) and [Neo Geo BIOS](../apps/emulators/neogeo/index.md#feed-properties) are specified within this set of properties.  |
+| cloudLocation | String | No | The root folder in cloud storage where this feed's content is stored. Typically set via the [Feed Editor Cloud Storage tab](../editor/dialogs/feed-dialog.md#cloud-storage-tab) rather than by hand. |
+| cloudSubdir | String | No | A sub-directory appended to `cloudLocation`. The feed's name is appended after this to form the full storage path. Defaults to `wrc-content`. Typically set via the [Feed Editor Cloud Storage tab](../editor/dialogs/feed-dialog.md#cloud-storage-tab) rather than by hand. |
 
 ### Example
 
@@ -78,6 +80,9 @@ The table below contains the properties available for category objects.
 | description | String | No | A description of the category. |
 | thumbnail | URL | No | The location (URL) of a thumbnail image for the category. |
 | background | URL | No | The location (URL) of a background image for the category. |
+| cloudLocation | String | No | An optional cloud storage path that overrides the feed's cloud root for this category. When set, this category's content is stored at this location rather than inside the feed's cloud path. Typically set via the [Category Editor Cloud Storage tab](../editor/dialogs/category-dialog.md#cloud-storage-tab) rather than by hand. |
+| cloudSubdir | String | No | The sub-directory within the cloud path where this category's content is stored. Defaults to the category title in lowercase with spaces replaced by hyphens. Typically set via the [Category Editor Cloud Storage tab](../editor/dialogs/category-dialog.md#cloud-storage-tab) rather than by hand. |
+| defaultType | String | No | The default application type assigned to files that cannot be analyzed automatically when adding local files to this category. Typically set via the [Category Editor Cloud Storage tab](../editor/dialogs/category-dialog.md#cloud-storage-tab) rather than by hand. |
 
 ### Example
 
@@ -181,7 +186,7 @@ The item that is selected in the webЯcade player (Items view) below corresponds
 
 The following is a complete example of a webЯcade feed that consists of two categories (Shooters and Puzzlers), wherein each category containing three items (games).
 
-There is also a tab named, *"Shortened URLs*", wherein the links have been shortened (see [TinyURL page](./resources/tinyurl.md#shortened-urls)). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
+There is also a tab named, *"Shortened URLs"*, wherein the links have been shortened using a URL shortener such as [is.gd](./resources/isgd.md). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
 === "Full URLs"
     ``` json

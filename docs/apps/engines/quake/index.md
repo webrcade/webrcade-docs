@@ -193,6 +193,10 @@ This section details how Quake application instances can be added to feeds.
 
 The type name for the Quake application is `tyrquake`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `tyrquake` ⭐ | ✅ | ✅ | x | ✅ |
+
 !!! note
     The alias `quake` also currently maps to this application. In the future, the `quake` alias may be mapped
     to another Quake application (different engine implementation) if it is determined to be a
@@ -237,9 +241,6 @@ The following is an example of a complete feed that consists of a single Quake a
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-quake-feed`
 
 ## References
 

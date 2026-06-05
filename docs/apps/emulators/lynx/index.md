@@ -58,10 +58,10 @@ This section details how Atari Lynx application instances can be added to feeds.
 
 Two Atari Lynx application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Mednafen Lynx* is the default (⭐) and is mapped to the `lnx` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
-| --- | --- | --- | --- | --- |
-| Libretro Mednafen Lynx ⭐ | `retro-mednafen-lynx` | ✅ | ✅ | |
-| Mednafen | `mednafen-lnx` | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro Mednafen Lynx ⭐ | `retro-mednafen-lynx` | ✅ | ✅ | ✅ | x |
+| Mednafen | `mednafen-lnx` | x | x | x | ✅ |
 
 ### Feed Properties
 

@@ -16,7 +16,7 @@ is.gd allows you to create custom, human-readable (aliased) URLs that point to y
 ### How to Create an Aliased URL
 
 1. Go to [is.gd](https://is.gd/).
-2. Paste your long URL (such as a Pastebin feed URL) into the input box.
+2. Paste your long URL (such as a Snippet.host feed URL) into the input box.
 3. Click on `"Further options/custom URL"` to expand the options.
 4. Enter your desired alias in the "Custom short URL" field (e.g., `tutorialfeed`).
 5. Click the `"Shorten!"` button.
@@ -26,7 +26,7 @@ is.gd allows you to create custom, human-readable (aliased) URLs that point to y
 
 Original URL:
 ```
-https://pastebin.com/raw/Fchkqw6g
+https://snippet.host/trksvx/raw
 ```
 Aliased with is.gd:
 ```

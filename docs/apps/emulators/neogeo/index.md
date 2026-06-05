@@ -48,7 +48,7 @@ Gamepad mappings are listed below.
 | --- | --- | --- |
 | Move                         | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Dpad.png){: class="control"} &nbsp;or&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick.png){: class="control"} | |
 | Button A                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} | | |
-Button B                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"}  | |
+| Button B                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"}  | |
 | Button C                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} | |
 | Button D                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"}  | |
 | Start                        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __Menu (Start) Button__. |
@@ -72,6 +72,10 @@ This section details how Neo Geo application instances can be added to feeds.
 ### Type
 
 The type name for the Neo Geo application is `fbneo-neogeo`.
+
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `fbneo-neogeo` ⭐ | x | x | x | ✅ |
 
 !!! note
     The alias `neogeo` also currently maps to this application. In the future, the `neogeo` alias may be mapped

@@ -54,6 +54,10 @@ This section details how Pokémon Mini application instances can be added to fee
 
 The type name for the Pokémon Mini application is `retro-pokemini`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-pokemini` ⭐ | x | ✅ | ✅ | x |
+
 !!! note
     The alias `pokemini` also currently maps to this application. In the future, the `pokemini` alias may be mapped
     to another Pokémon Mini application (different emulator implementation) if it is determined to be a

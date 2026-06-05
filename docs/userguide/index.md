@@ -184,8 +184,9 @@ The settings contained in this tab are detailed below:
 | __Field__ | __Description__ |
 | --- | --- |
 | Enabled | Toggles whether cloud storage (via Dropbox) is enabled or not. |
-| Dropbox (link/unlink button) | This button is used to either *link* or *unlink* a Dropbox account with webЯcade depending on its current status.<br><br>It is important to note that this *linking* operation must be repeated for each unique browser and/or device being used with webЯcade. |
-| Status | Whether webЯcade is currently linked to Dropbox (cloud storage) within the current browser. |
+| Dropbox (link/unlink button) | Only shown when *Enabled* is on. This button is used to either *link* or *unlink* a Dropbox account with webЯcade depending on its current status.<br><br>It is important to note that this *linking* operation must be repeated for each unique browser and/or device being used with webЯcade. |
+| Status | Only shown when *Enabled* is on. Whether webЯcade is currently linked to Dropbox (cloud storage) within the current browser. |
+| Disable saves after state load | Only shown when *Enabled* is on. When toggled on, in-game saves are disabled for the remainder of the session after a save state is loaded. This prevents a save state load from inadvertently overwriting the game's native save file in cloud storage. |
 
 ### Applications Tab
 
@@ -213,6 +214,27 @@ The settings contained in this tab are detailed below:
 | --- | --- |
 | Experimental apps | Enables whether *experimental* applications are displayed in the webЯcade *[player](../userguide/index.md)* or *[feed editor](../editor/index.md)*.<br><br>Applications are typically designated as *experimental* based on high resource requirements or due to instability and defects. |
 | Hide title bar | Hides the webЯcade title bar at the top of the player (the *settings* button is still displayed in the upper-right corner).<br><br>This can be useful in situations where it is difficult to consistently tap the *settings* button (typically on mobile). Enabling this options provides a larger settings button without the presence of the title bar. |
+
+### Achievements Tab
+
+The "Achievements" tab is used to configure [RetroAchievements](retroachievements.md) support in the webЯcade player.
+
+!!! note
+    A free [RetroAchievements](https://retroachievements.org){target=_blank} account is required to use this feature.
+
+![](../assets/images/userguide/settings-dialog-achievements.png){: style="padding:5px;" class="center zoomD"}
+
+The settings contained in this tab are detailed below:
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Enabled | Toggles RetroAchievements support on or off. |
+| Username | Your RetroAchievements account username. Only shown when *Enabled* is on and you are not yet logged in. |
+| Password | Your RetroAchievements account password. Only shown when *Enabled* is on and you are not yet logged in. |
+| RetroAchievements | Only shown when *Enabled* is on. Select *Login* to authenticate with RetroAchievements using the username and password entered above. Once logged in, the button changes to *Logout*. Select it to disconnect your account. |
+| Status | Indicates whether your account is currently logged in (*Linked*) or not (*Unlinked*). Only shown when *Enabled* is on. |
+
+For full details on RetroAchievements support, see the [RetroAchievements](retroachievements.md) page.
 
 ## Pause Screen
 

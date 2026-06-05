@@ -141,6 +141,10 @@ This section details how Nintendo DS application instances can be added to feeds
 
 The type name for the Nintendo DS application is `retro-melonds`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-melonds` ⭐ | ✅ | ✅ | ✅ | x |
+
 !!! note
     The alias `nds` also currently maps to this application. In the future, the `nds` alias may be mapped
     to another Nintendo DS (different emulator implementation) if it is determined to be a
@@ -169,6 +173,7 @@ specified in the `props` object of a feed item.
 | bookMode | Boolean | No | Whether to display the screens as if the entire DS is rotated sideways, typically used for "book"-based games. |
 | dualAnalog | Boolean | No | Whether the game uses the stylus as a dual analog control. When this is enabled, the right analog stick of the gamepad will automatically reset as it reaches the end of the screen. This greatly simplifies playing dual-analog based games (typically FPS games). |
 | microphone | Boolean | No | Indicates whether the game uses the microphone. Displays a microphone icon for touch or mouse interaction. |
+| firmwareLanguage | Numeric | No | The language to use for the DS firmware. Only applies when a `firmware.bin` file is provided (see [BIOS Files](#bios-files-optional)). Defaults to `0` (auto).<br><ul><li>`0` : Auto (use the language stored in the firmware file)</li><li>`1` : English</li><li>`2` : Japanese</li><li>`3` : French</li><li>`4` : German</li><li>`5` : Italian</li><li>`6` : Spanish</li></ul> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example

@@ -8,6 +8,11 @@ The editor also includes a ROM *analyzer* that is capable of determining the app
 
 The editor provides [several ways](workspace/addingitems.md) to create and add items (games, etc.) to feeds. The simplest way being to simply [drag and drop ROM-based links](draganddrop.md#drag-rom-urls) into the editor's [workspace](workspace/index.md).
 
+Item ingestion is documented as two distinct paths:
+
+* [Adding Items: URL-based](workspace/addingitems-url.md)
+* [Adding Items: Local Files](workspace/addingitems-local.md)
+
 ## Components
 
 The editor consists of three primary components, as shown in the screenshot below.

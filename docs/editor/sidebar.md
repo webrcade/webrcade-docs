@@ -10,7 +10,7 @@ Each of the actions located in the "Left Sidebar" are described in the table bel
 | --- | --- | --- |
 | [New](#new-action) | ![](../assets/images/editor/icons/round_note_add_white_24dp.png){: class="action"} | Displays a context menu containing several options for creating a new feed.<br><br>See the [New Action](#new-action) section for more information. |
 | [Import](#import-action) | ![](../assets/images/editor/icons/round_publish_white_24dp.png){: class="action"} | Displays the "Import Feed" dialog.<br><br>See the [Import Action](#import-action) section for more information.   |
-| [Export](#export-action) | ![](../assets/images/editor/icons/round_file_download_white_24dp.png){: class="action"} | Exports the *active feed* (the feed currently being edited in the feed workspace) to JSON format and downloads the resulting file.<br><br>See the [Export Action](#export-action) section for more information.  |
+| [Export](#export-action) | ![](../assets/images/editor/icons/round_file_download_white_24dp.png){: class="action"} | Exports the *active feed* (the feed currently being edited in the feed workspace) to JSON format. The feed can be saved as a local file download or uploaded directly to cloud storage.<br><br>See the [Export Action](#export-action) section for more information.  |
 | [Test](#test-action) | ![](../assets/images/editor/icons/round_check_circle_white_24dp.png){: class="action"} | Displays the *active feed* (the feed currently being edited in the feed workspace) in the [webЯcade player](../userguide/index.md).<br><br>See the [Test Action](#test-action) section for more information.  |
 | [Load](#load-action) | ![](../assets/images/editor/icons/round_file_open_white_24dp.png){: class="action"} | Displays the "Load Feed" dialog.<br><br>See the [Load Action](#load-action) section for more information.
 | [Save](#save-action) | ![](../assets/images/editor/icons/round_save_white_24dp.png){: class="action"} | Saves the *active feed* (the feed currently being edited in the feed workspace) to the browser's *local* storage. The title of the feed is used to uniquely identify it.<br><br>See the [Save Action](#load-action) section for more information.  |
@@ -59,18 +59,46 @@ If a valid feed is found in the selected file, a copy of the feed will become th
 
 ### Export Action
 
-The "Export Action" exports the *active feed* (the feed currently being edited in the feed workspace).
+The "Export Action" exports the *active feed* (the feed currently being edited in the feed workspace). The "Export Feed" dialog includes two tabs: **Local file** and **Cloud storage**. The Cloud storage tab is only available when [cloud storage](../storage/index.md) has been enabled.
 
-![](../assets/images/editor/sidebar/exportfile.png){: class="center zoomD"}
-
-The export dialog includes the following options:
+The following options appear on both tabs:
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Compress (zip) | Whether to compress the feed. This will create a zip file that contains a single file (the feed).<br><br>Using this option has been shown to greatly reduce the feed size. |
-| Base64 encoding (text) | Whether to base64 encode the feed. This will force the feed to be in a text format (even if it is being compressed/zipped).<br><br>Using this option allows for posting compressed feeds on text pasting services (such as Pastebin). Additionally, it will avoid false positives for abusive language as the file is no longer human-readable (it is base64 encoded). |
+| Compress (zip) | Whether to compress the feed into a `.zip` file.<br><br>Compression has been shown to greatly reduce feed file size. |
+| Base64 encoding (text) | Whether to Base64-encode the feed, forcing it into a plain-text format even when compressed.<br><br>This allows compressed feeds to be posted to text-pasting services such as [Snippet.host](https://snippet.host/){target=_blank}. It also avoids false positives for restricted language since the content is no longer human-readable. |
 
-Once exported, the file (or its contents) can be shared for use by others (or between your devices) using a cloud-based hosting service such as Pastebin or Dropbox (See the [Pastebin Resource](../feeds/resources/pastebin.md) and [Dropbox Resource](../feeds/resources/dropbox.md) documentation sections).
+#### Local File Tab
+
+The **Local file** tab downloads the exported feed directly to your device.
+
+![](../assets/images/editor/sidebar/exportfile.png){: class="center zoomD"}
+
+Click **OK** to download the file. The filename is derived from the feed title with an extension of `.json`, `.zip`, or `.b64` depending on the options selected.
+
+Once downloaded, the file (or its contents) can be shared using a hosting service such as [Snippet.host](../feeds/resources/snippet.md) or [Dropbox](../feeds/resources/dropbox.md). See the [Feed Resources](../feeds/resources/index.md) section for more options.
+
+#### Cloud Storage Tab
+
+The **Cloud storage** tab uploads the exported feed directly to your linked Dropbox account and provides a shareable URL.
+
+![](../assets/images/editor/sidebar/exportcloud.png){: class="center zoomD"}
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Destination Folder | The root folder in your cloud storage where the feed will be saved. Click **Select...** to browse and choose a folder. Defaults to the root of your Dropbox. |
+| Sub-Folder (optional) | An optional sub-folder appended to the Destination Folder. Defaults to `/feeds`. Leave blank to export directly into the Destination Folder. |
+
+The full destination path is shown below the fields and updates automatically as you adjust the settings.
+
+Click **OK** to upload the feed. Once complete, a dialog opens displaying the shareable URL for the uploaded feed.
+
+![](../assets/images/editor/sidebar/exportcloudurl.png){: class="center zoomD"}
+
+The URL can be copied to the clipboard for use in the [webЯcade player](../userguide/index.md) or shared with others.
+
+!!! tip
+    For a shorter, more memorable feed URL, consider using a link shortener such as [tiny.cc](https://tiny.cc){target=_blank}, which supports custom link endings (e.g. `tiny.cc/myfeed`). Because re-exporting to the same path produces the same Dropbox URL, your shortened link will continue to work after future exports.
 
 ### Test Action
 
@@ -101,7 +129,7 @@ The following table describes the columns that comprise the "Load Feed" table.
 | --- | --- | --- |
 | Feed | | The title of the feed associated with the row. |
 | Load | ![](../assets/images/editor/icons/round_file_open_white_24dp.png){: class="action"} | When the load icon is clicked, the feed associated with the row is retrieved, a copy of the feed is made, and it becomes the *active feed* (the feed currently being edited in the feed workspace).  |
-| Location | | Whether the feed is a located locally (in the browser's local storage) or remotely (via a URL).<br><br>If the feed is *remote* its associated URL is displayed. |
+| Location | | Whether the feed is located locally (in the browser's local storage) or remotely (via a URL).<br><br>If the feed is *remote* its associated URL is displayed. |
 
 ### Save Action
 

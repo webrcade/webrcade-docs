@@ -77,6 +77,10 @@ This section details how Atari 7800 application instances can be added to feeds.
 
 The type name for the Atari 7800 application is `js7800`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `js7800` ⭐ | x | x | x | ✅ |
+
 !!! note
     The alias `7800` also currently maps to this application. In the future, the `7800` alias may be mapped
     to another Atari 7800 application (different emulator implementation) if it is determined to be a
@@ -119,9 +123,6 @@ The following is an example of a complete feed that consists of a single Atari 7
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/7800-feed`
 
 ## References
 

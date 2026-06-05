@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Classic Doom application is a [Doom game engine](https://en.wikipedia.org/wiki/Doom_engine) that can be used to play the shareware version of Doom as well as the freely redistributable Freedoom games. 
+The Classic Doom application is a [Doom game engine](https://en.wikipedia.org/wiki/Doom_engine) that can be used to play the shareware version of Doom as well as the freely redistributable Freedoom games.
 
 <figure>
   <img src="../../../assets/images/apps/doom.png" style="padding:5px 15px  0 15px;" class="center zoomD"/>
@@ -20,14 +20,14 @@ The following table contains the basic keyboard and mouse mappings. Press the eq
 
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
-| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/W_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/D_Key_Dark.png){: class="control"}  | |                  
-| Turn | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Mouse_Simple_Key_Dark.png){: class="control"}  | Move mouse left or right to turn in the corresponding direction. |                  
-| Fire | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Mouse_Left_Key_Dark.png){: class="control"} | |                  
-| Move Forward | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Mouse_Right_Key_Dark.png){: class="control"} | | 
-| Run | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | |                
-| Use | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Space_Key_Dark.png){: class="control"} | |                
-| Select Weapon | Number Keys 1 through 9 | Press the equal (`=`) key while playing a game to view what weapon each numeric key is mapped to. |                
-| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | | 
+| Move | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/W_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} ![](../../../assets/images/controller/Keyboard & Mouse/Dark/D_Key_Dark.png){: class="control"}  | |
+| Turn | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Mouse_Simple_Key_Dark.png){: class="control"}  | Move mouse left or right to turn in the corresponding direction. |
+| Fire | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Mouse_Left_Key_Dark.png){: class="control"} | |
+| Move Forward | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Mouse_Right_Key_Dark.png){: class="control"} | |
+| Run | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | |
+| Use | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Space_Key_Dark.png){: class="control"} | |
+| Select Weapon | Number Keys 1 through 9 | Press the equal (`=`) key while playing a game to view what weapon each numeric key is mapped to. |
+| Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
 
 #### Mouse Support (Pointer Lock)
 
@@ -54,8 +54,8 @@ Gamepad mappings are listed in the table below.
 
 The following table lists the buttons to use when presented with a Yes/No prompt.
 
-| __Name__ | <div style="min-width:140px">__Gamepad__</div> | 
-| --- | --- | 
+| __Name__ | <div style="min-width:140px">__Gamepad__</div> |
+| --- | --- |
 | Yes                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} |
 | No                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"}  |
 
@@ -63,23 +63,27 @@ The following table lists the buttons to use when presented with a Yes/No prompt
 
 This application supports persisting game saves into the browser's local storage. Saved games can be loaded and resumed on subsequent gaming sessions.
 
-## Feed 
+## Feed
 
 This section details how Classic Doom application instances can be added to feeds.
 
 ### Type
 
-The type name for the Classic Doom application is `prboom`. 
+The type name for the Classic Doom application is `prboom`.
+
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `prboom` ⭐ | x | x | x | ✅ |
 
 !!! note
     The alias `doom` also currently maps to this application. In the future, the `doom` alias may be mapped
-    to another Classic Doom application (different engine implementation) if it is determined to be a 
+    to another Classic Doom application (different engine implementation) if it is determined to be a
     more appropriate default.
 
 ### Properties
 
 The table below contains the properties that are specific to the Classic Doom application. These properties are
-specified in the `props` object of a feed item. 
+specified in the `props` object of a feed item.
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
@@ -110,9 +114,6 @@ The following is an example of a complete feed that consists of a single Classic
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-doom-feed`
 
 ## References
 

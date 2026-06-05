@@ -58,10 +58,10 @@ This section details how Game Boy Color application instances can be added to fe
 
 Two Game Boy Color application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro SameBoy* is the default (⭐) and is mapped to the `gbc` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
-| --- | --- | --- | --- | --- |
-| Libretro SameBoy ⭐ | `retro-sameboy-gbc` | ✅ | ✅ | |
-| VBA-M | `vba-m-gbc` | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro SameBoy ⭐ | `retro-sameboy-gbc` | ✅ | ✅ | ✅ | x |
+| VBA-M | `vba-m-gbc` | x | x | x | ✅ |
 
 ### Properties
 
@@ -100,9 +100,6 @@ The following is an example of a complete feed that consists of a single Game Bo
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-gbc-feed`
 
 ## References
 

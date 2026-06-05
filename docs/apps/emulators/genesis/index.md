@@ -65,10 +65,10 @@ This section details how Genesis application instances can be added to feeds.
 
 Two Sega Genesis application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. *Libretro Genesis Plus GX* is the default (⭐) and is mapped to the `genesis` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
-| __Name__ | __Type__ | __Filters__ | __Cheats__ | __Low CPU__ |
-| --- | --- | --- | --- | --- |
-| Libretro Genesis Plus GX ⭐ | `retro-genplusgx-md` | ✅ | ✅ | |
-| Genesis Plus GX | `genplusgx-md` | | | ✅ |
+| __Name__ | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- | --- |
+| Libretro Genesis Plus GX ⭐ | `retro-genplusgx-md` | ✅ | ✅ | ✅ | x |
+| Genesis Plus GX | `genplusgx-md` | x | x | x | ✅ |
 
 ### Properties
 
@@ -109,9 +109,6 @@ The following is an example of a complete feed that consists of a single Genesis
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-genesis-feed`
 
 ## References
 

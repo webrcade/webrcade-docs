@@ -101,6 +101,17 @@ label.md-nav__link {
     color: rgb(206, 206, 206);
 }
 
+/* Center only capability table headers (identified by wrapped header labels). */
+.md-typeset table:not([class]):has(th strong br) th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.md-typeset .capability-negative {
+    color: #ff5f56;
+    font-weight: 700;
+}
+
 .md-typeset h1 {
     color: rgb(167, 167, 167);
 }
@@ -157,14 +168,14 @@ figcaption {
 }
 
 #lb-img img {
-    /* You might want to play around with 
+    /* You might want to play around with
        width, height, max-width, max-height
        to fit portrait / landscape pictures properly. */
     max-width: 95vw;
     max-height: 95vh;
     object-fit: contain;
     width: 100vw;
-    height: auto; 
+    height: auto;
 
     /* ALTERNATE EXAMPLE
     width: 100%;

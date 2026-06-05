@@ -29,7 +29,7 @@ The default keyboard and gamepad mappings are listed in the tables below. It is 
 
 ### Keyboard
 
-A computer physical keyboard maps to the Commdore 64 keyboard using a "positional" mapping approach (the computer keyboard maps closely to the actual location of Commodore 64 keys).
+A computer physical keyboard maps to the Commodore 64 keyboard using a "positional" mapping approach (the computer keyboard maps closely to the actual location of Commodore 64 keys).
 
 The easiest way to determine these mappings is to use the test program below. Click on the test program, and press keyboard keys to see how they map to the Commodore keys.
 
@@ -200,7 +200,11 @@ This section details how Commodore 64 application instances can be added to feed
 
 ### Type
 
-The type name for the ScummVM application is `retro-commodore-c64`.
+The type name for the Commodore 64 application is `retro-commodore-c64`.
+
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-commodore-c64` ⭐ | x | ✅ | x | x |
 
 !!! note
     The alias `commodore-c64` also currently maps to this application. In the future, the `commodore-c64` alias may be mapped
@@ -226,13 +230,13 @@ specified in the `props` object of a feed item.
 | media | Array of URLs | No | <p>An optional array of URLs that point to the media (disks, tapes, cartridges, programs) for the game.</p>  |
 | swap | Boolean | No | Whether to swap the controller ports. |
 | region | Numeric | No | Sets the region of the computer.<br>(defaults to "auto")<br><ul><li>`0` : (auto)</li><li>`1` : NTSC</li><li>`2` : PAL</li></ul> |
-| saveDisks | Numeric | No | <p>The count of "save disks" to create for the game.<p>Save disks can be used in a variety of ways (save programs that are created, save disks for the game being played, etc.).</p><p>Defaults to 1 save disk.</p> |
+| saveDisks | Numeric | No | <p>The count of "save disks" to create for the game.</p><p>Save disks can be used in a variety of ways (save programs that are created, save disks for the game being played, etc.).</p><p>Defaults to 1 save disk.</p> |
 | disableAutoload | Boolean | No | <p>Whether to disable auto-loading of the Commodore 64 media (disk, tape, etc.). If disabled, boots to the Commodore 64 prompt.</p><p>(Defaults to `false`, auto-loading is enabled)</p> |
 | jiffydos | Numeric | No | <p>Whether to enable the use of JiffyDOS BIOS files (if they are present).</p><p><ul><li>`0` : (auto)</li><li>`1` : Disabled</li></ul></p><p>Default to `auto`, which will utilize the JiffyDOS BIOS files if they are present.</p> |
-| disableTrueDriveEmulation | Boolean | No | <p>Whether to disable true drive emulation (TDE). True drive emulation mimics the behavior of original Commdore disk drives, at a significantly reduced speed.<p>Disabling true drive emulation significantly increases loading speeds, but may result in compatibility issues.</p><p>Utilizing [JIffyDOS BIOS files](#jiffydos-bios-files) is an alternative to disabling true drive emulation with the added benefit of much better compatibility.</p></p><p>(Defaults to `false`, true drive emulation is enabled)</p> |
+| disableTrueDriveEmulation | Boolean | No | <p>Whether to disable true drive emulation (TDE). True drive emulation mimics the behavior of original Commodore disk drives, at a significantly reduced speed.</p><p>Disabling true drive emulation significantly increases loading speeds, but may result in compatibility issues.</p><p>Utilizing [JIffyDOS BIOS files](#jiffydos-bios-files) is an alternative to disabling true drive emulation with the added benefit of much better compatibility.</p></p><p>(Defaults to `false`, true drive emulation is enabled)</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
-| ramExpansion | Numeric | No | <p>The amount of RAM to add to the computer.</p><p><ul><li>`0` : (none)</li><li>`1` : 128kB (1700)</li><li>`2` : 256kB (1764)</li><li>`3` : 512kB (1750)</li><li>`4` : 1024kB</li><li>`5` : 2048kB</li><li>`6` : 4096kB</li><li>`7` : 8192kB</li><li>`8` : 16384kB</li></ul></p><p>Defaults to `0`, no RAM expansion.<p> |
-| mappings | Map of Strings (key-value pairs) | No | <p>Game-specific mappings of Commodore 64 keys and joystick controls to the gamepad.</p><p>The simplest way to determine these mappings is by creating a Commodore 64 item in the [Feed Editor](../../../editor/index.md) and exporting it.</p><p>The following is a simple example of a set of mappings. The `key` is the gamepad controller button and the `value` is the Commdore 64 key or joystick control that it is mapped to.</p><p>``{``<br>&nbsp;&nbsp;&nbsp;&nbsp;``start": "return",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"a": "fire1",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"b": "fire2",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"y": "space",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"lb": "runstop",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"rb": "f1"``<br>``}``</p></ul> |
+| ramExpansion | Numeric | No | <p>The amount of RAM to add to the computer.</p><p><ul><li>`0` : (none)</li><li>`1` : 128kB (1700)</li><li>`2` : 256kB (1764)</li><li>`3` : 512kB (1750)</li><li>`4` : 1024kB</li><li>`5` : 2048kB</li><li>`6` : 4096kB</li><li>`7` : 8192kB</li><li>`8` : 16384kB</li></ul></p><p>Defaults to `0`, no RAM expansion.</p> |
+| mappings | Map of Strings (key-value pairs) | No | <p>Game-specific mappings of Commodore 64 keys and joystick controls to the gamepad.</p><p>The simplest way to determine these mappings is by creating a Commodore 64 item in the [Feed Editor](../../../editor/index.md) and exporting it.</p><p>The following is a simple example of a set of mappings. The `key` is the gamepad controller button and the `value` is the Commodore 64 key or joystick control that it is mapped to.</p><p>``{``<br>&nbsp;&nbsp;&nbsp;&nbsp;``start": "return",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"a": "fire1",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"b": "fire2",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"y": "space",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"lb": "runstop",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"rb": "f1"``<br>``}``</p></ul> |
 
 ### Example
 
@@ -262,9 +266,6 @@ The following is an example of a complete feed that consists of a single Commodo
 }
 ```
 
-This example can be tested by adding a feed with the following URL within the [webЯcade player](../../../userguide/index.md):
-
-`https://tinyurl.com/sample-c64-feed`
 
 ## References
 

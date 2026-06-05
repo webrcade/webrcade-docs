@@ -99,6 +99,10 @@ This section details how Sega CD application instances can be added to feeds.
 
 The type name for the Sega CD application is `retro-genplusgx-segacd`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `retro-genplusgx-segacd` ⭐ | ✅ | ✅ | ✅ | x |
+
 !!! note
     The alias `segacd` also currently maps to this application. In the future, the `segacd` alias may be mapped to another Sega CD application (different emulator implementation) if it is determined to be a
     more appropriate default.

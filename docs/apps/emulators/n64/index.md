@@ -114,6 +114,10 @@ This section details how N64 application instances can be added to feeds.
 
 The type name for the N64 application is `parallel-n64`.
 
+| __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
+| --- | --- | --- | --- | --- |
+| `parallel-n64` ⭐ | x | x | ✅ | x |
+
 !!! note
     The alias `n64` also currently maps to this application. In the future, the `n64` alias may be mapped
     to another N64 application (different emulator implementation) if it is determined to be a
