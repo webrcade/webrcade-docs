@@ -26,6 +26,30 @@ var zoomImg = function () {
   lb.classList.add("show");
 };
 
+var updateCapabilityMarkers = function () {
+  var tables = document.querySelectorAll(".md-typeset table:not([class])");
+  for (var table of tables) {
+    var headers = table.querySelectorAll("thead th");
+    var isCapabilityTable = false;
+    for (var th of headers) {
+      if (th.innerHTML.indexOf("Retro<br>Achievements") !== -1) {
+        isCapabilityTable = true;
+        break;
+      }
+    }
+    if (!isCapabilityTable) {
+      continue;
+    }
+
+    var cells = table.querySelectorAll("tbody td");
+    for (var cell of cells) {
+      if (cell.textContent.trim() === "x") {
+        cell.innerHTML = '<span class="capability-negative">❌</span>';
+      }
+    }
+  }
+};
+
 window.addEventListener("load", function(){
   // (D) ATTACH ON CLICK EVENTS TO ALL .ZOOMD IMAGES
   var images = document.getElementsByClassName("zoomD");
@@ -38,5 +62,7 @@ window.addEventListener("load", function(){
   // (E) CLICK EVENT TO HIDE THE LIGHTBOX
   document.getElementById("lb-back").addEventListener("click", function(){
     this.classList.remove("show");
-  })
+  });
+
+  updateCapabilityMarkers();
 });
