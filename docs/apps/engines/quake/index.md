@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Quake application is a [Quake game engine](https://en.wikipedia.org/wiki/Quake_(video_game)) that can be used to play the several different Quake games.
+The Quake application is a [Quake game engine](https://en.wikipedia.org/wiki/Quake_(video_game)) that can be used to play several different Quake games.
 
 <figure>
   <img src="../../../assets/images/apps/quake.png" style="padding:5px 15px  0 15px;" class="center zoomD"/>
@@ -68,7 +68,7 @@ Gamepad mappings are listed in the table below.
 The Quake application requires that each game is packaged in an archive (`.zip`) file. This archive file can also be *(optionally)* converted to a webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) layout to reduce browser memory use and increase compatibility with memory limited devices (iOS and Xbox).
 
 !!! important
-    The  webЯcade editor's [repackage archive tool](../editor/tools/repackage-archive.md) can be used
+    The webЯcade editor's [repackage archive tool](../../../editor/tools/repackage-archive.md) can be used
     to automatically generate package archive manifests.
 
 The table below shows the file layout that is required for each game (select the tab below for a particular game to view its layout).

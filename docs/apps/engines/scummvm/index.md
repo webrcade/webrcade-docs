@@ -70,7 +70,7 @@ This mode can be toggled via the "Toggle Touch Mode" button within the [On-scree
 
 #### Touchpad Mode: <span style="color:#ee5755">Disabled</span>
 
-When touchpad mode is *disabled*, the cursor will move directly to where the finger is tapped. While this mode can be fairly intuitive, it does have a tenancy to obstruct visibility to items that are beneath the finger. Additionally, it makes it difficult to navigate and click on the edges of the screen.
+When touchpad mode is *disabled*, the cursor will move directly to where the finger is tapped. While this mode can be fairly intuitive, it does have a tendency to obstruct visibility to items that are beneath the finger. Additionally, it makes it difficult to navigate and click on the edges of the screen.
 
 | __Gesture__ | __Description__ |
 | --- | --- |
@@ -271,7 +271,7 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | uid | String | Yes | <p>A unique identifier for the particular game (must be unique across all ScummVM games).</p><p>This identifier is primarily used to associate persistent state with the game.</p>|
-| archive | URL | Yes | URL to a ScummMVM game archive (`.zip`) or webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) file. |
+| archive | URL | Yes | URL to a ScummVM game archive (`.zip`) or webЯcade [package archive manifest](../../../advanced/archive-manifests.md) (`.json`) file. |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example

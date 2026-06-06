@@ -4,12 +4,9 @@
 
 This page provides information on how to obtain the optimal experience when using webЯcade with an Android-compatible device.
 
+
 !!! note
-    Recent changes to the audio components of the Chrome browser have negatively affected the performance
-    of webЯcade on Android devices (due to typically lower single core performance). Therefore, to avoid audio issues (pops and stutters), an Android device with good performance benchmarks is required (a Samsung S10 was used for testing and didn't appear to exhibit any issues).<p>A new audio layer
-    is being developed for a future webЯcade update that will reduce the performance
-    requirements.</p>
-    
+    For the best experience, a mid-to-high-end Android device is recommended. Lower-end devices may exhibit audio issues (pops and stutters) due to limited single-core performance.
 
 ## Gamepad Support
 

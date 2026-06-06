@@ -46,7 +46,7 @@ It is important to note that these options must be disabled *for each* controlle
 
 ### Alternate Controls
 
-The following alternative button sequences be used to avoid using the PlayStation DualShock 4 `"Share" button` (or equivalent button on other controllers) which causes the screen recording dialog being displayed.
+The following alternative button sequences can be used to avoid using the PlayStation DualShock 4 `"Share" button` (or equivalent button on other controllers), which causes the screen recording dialog to be displayed.
 
 | __Name__ | <div style="min-width:140px">__Gamepad__</div> | __Comments__ |
 | --- | --- | --- |

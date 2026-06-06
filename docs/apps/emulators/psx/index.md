@@ -191,7 +191,7 @@ specified in the `props` object of a feed item.
 
 The following is an example of a complete feed that consists of a single PlayStation application instance (`type` value of `psx`). The `discs` property value contains a URL that points to a Dropbox location that contains the excellent homebrew game Magic Castle by KAIGA. The `uid` property value contains a unique identifier for this specific game (must be unique across all PlayStation games).
 
-It is also worth noting that the *PlayStation BIOS locations* (`psx_bios`) is specified globally within the [Feed Object's](../../../feeds/format.md#feed-object) `props` object.
+It is also worth noting that the *PlayStation BIOS locations* (`psx_bios`) are specified globally within the [Feed Object's](../../../feeds/format.md#feed-object) `props` object.
 
 ``` json hl_lines="4-8 16 18-21"
 {

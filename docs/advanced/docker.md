@@ -32,8 +32,8 @@ The arguments are as follows:
 | __Name__ | __Required__ | __Description__ |
 | --- | --- | --- |
 | container-name | No | The name to use for the webЯcade container. |
-| host-console-port-http | Yes | The port used to access webRcade on the host system via HTTP. |
-| host-console-port-https | No | The port used to access webRcade on the host system via HTTPS. |
+| host-console-port-http | Yes | The port used to access webЯcade on the host system via HTTP. |
+| host-console-port-https | No | The port used to access webЯcade on the host system via HTTPS. |
 | host-content-path | No | An optional path on the host system that contains content (ROM files, `.CHD` files, etc.) to use with webЯcade feeds. |
 
 The following is an example of the `run` command with argument values provided.
@@ -59,9 +59,9 @@ If host-based content was exposed (see `host-content-path` above), it can be acc
 `http://<host-system>:<host-console-port-http>/content` or <br>
 `https://<host-system>:<host-console-port-https>/content`
 
-It is worth noting that the webRcade Docker container exposes its content with Cross-Origin Resource Sharing (CORS) headers that allow it to be served to any webЯcade instance.
+It is worth noting that the webЯcade Docker container exposes its content with Cross-Origin Resource Sharing (CORS) headers that allow it to be served to any webЯcade instance.
 
-Therefore, this content could also be used via the public webRcade server (this requires connectivity from the device that is accessing the public server and the private webRcade Docker instance).
+Therefore, this content could also be used via the public webЯcade server (this requires connectivity from the device that is accessing the public server and the private webЯcade Docker instance).
 
 ## SSL Support (HTTPS)
 

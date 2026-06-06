@@ -85,8 +85,7 @@ The items view consists of items (primarily games) that can be played.
 
 ![](../assets/images/userguide/items-view-annotated.png){: style="padding:5px;" class="center zoomD"}
 
-The thumbnail slider (*See #1 in screenshot above*) consists of the "items" contained within the *currently selected category* (*See #4 in screenshot above*). "Items" are typically games that can be played (*See #3 in screenshot above*). In the future, the type of items (application types) will be extended to include videos and other forms of content that can be played.
-
+The thumbnail slider (*See #1 in screenshot above*) consists of the "items" contained within the *currently selected category* (*See #4 in screenshot above*). "Items" are typically games that can be played (*See #3 in screenshot above*).
 The *application type* of the currently selected item is displayed directly under its title (*See #2 in screenshot above*). Refer to the [Applications](../apps/index.md) section for a complete list of available applications. Each detailed application page includes keyboard and gamepad control mappings along with addition information for the specific type (See the [Super Nintendo Application](../apps/emulators/snes/index.md) type as an example).
 
 Clicking, tapping, or selecting (Gamepad `A` button) the title/flyout (*See #5 in screenshot above*) will navigate to the [Categories View](#categories-view).

@@ -31,7 +31,7 @@ Due to its high resource requirements (see *warning* at top of this page), the f
 * iPhone 11 or iPad 9th Generation (or newer)
 * Xbox Series X|S gaming consoles
 
-Android-based devices are not currently recommended at this time due to poor performance with this application.
+Android-based devices are not currently recommended due to poor performance with this application.
 
 ## Settings
 

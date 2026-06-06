@@ -31,7 +31,7 @@ The following table contains the basic keyboard and mouse mappings. Press the eq
 
 #### Mouse Support (Pointer Lock)
 
-This application supports Pointer Lock on compatible browsers. Pointer lock binds mouse input to the game window, preventing the game from losing mouse input when the mouse travels outside the window. This functionality is critical when playing a 3rd person shooter. To enable pointer lock, double click on the game window (this may have to be repeated a couple of times). Once the pointer is "locked", the pointer (arrow, etc.) will no longer be visible. To "unlock" from the window, press the escape key (this may also have to be repeated a couple of times).
+This application supports Pointer Lock on compatible browsers. Pointer lock binds mouse input to the game window, preventing the game from losing mouse input when the mouse travels outside the window. This functionality is critical when playing a first-person shooter. To enable pointer lock, double click on the game window (this may have to be repeated a couple of times). Once the pointer is "locked", the pointer (arrow, etc.) will no longer be visible. To "unlock" from the window, press the escape key (this may also have to be repeated a couple of times).
 
 ### Gamepad
 

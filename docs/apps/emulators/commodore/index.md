@@ -160,7 +160,7 @@ The Commodore 64 Application's "settings" tab is detailed below. It is important
 | __Field__ | __Description__ |
 | --- | --- |
 | Swap controllers | Swaps the controller ports. |
-| Current Media | Displays the current media (Disk, tape, cartrdige, etc.). This control is used to swap to another disk of a multi-disk game, etc. |
+| Current Media | Displays the current media (Disk, tape, cartridge, etc.). This control is used to swap to another disk of a multi-disk game, etc. |
 
 #### Display Settings Tab
 
@@ -217,7 +217,7 @@ The table below contains global Commodore 64 feed properties. These properties m
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| commodore8bit_bios | Array of URLs | No | <p>An optional array of URLs to Commodore 64 BIOS files.</p><p>See [JIffyDOS BIOS files](#jiffydos-bios-files).</p>  |
+| commodore8bit_bios | Array of URLs | No | <p>An optional array of URLs to Commodore 64 BIOS files.</p><p>See [JiffyDOS BIOS files](#jiffydos-bios-files).</p>  |
 
 ### Item Properties
 

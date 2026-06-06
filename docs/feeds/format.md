@@ -285,34 +285,34 @@ There is also a tab named, *"Shortened URLs"*, wherein the links have been short
       "title": "Example Feed",
       "longTitle": "WebЯcade Example Feed",
       "description": "A simple example feed that demonstrates the use of optional properties, multiple categories, and multiple games.",
-      "thumbnail": "http://tiny.cc/t1nluz",
-      "background": "http://tiny.cc/u1nluz",
+      "thumbnail": "https://tiny.cc/t1nluz",
+      "background": "https://tiny.cc/u1nluz",
       "categories": [
         {
           "title": "Shooters",
           "longTitle": "Shooter Games",
           "description": "A \"shoot 'em up\", also known as a \"shmup\" or \"STG\" (the common Japanese abbreviation for \"shooting games\"), is a game in which the protagonist combats a large number of enemies by shooting at them while dodging their fire.",
-          "thumbnail": "http://tiny.cc/w1nluz",
-          "background": "http://tiny.cc/z1nluz",
+          "thumbnail": "https://tiny.cc/w1nluz",
+          "background": "https://tiny.cc/z1nluz",
           "items": [
             {
               "title": "Astro Force",
               "type": "sms",
               "description": "Astro Force is a nod to classic Shoot ’em ups from back in the day. Heavily inspired by Thunder force, RSG, Aleste, Gaiares, MSX Nemesis, and R-Type. Astro Force features 6 stages, 30+ enemy types, and 11 bosses.",
-              "thumbnail": "http://tiny.cc/02nluz",
-              "background": "http://tiny.cc/22nluz",
+              "thumbnail": "https://tiny.cc/02nluz",
+              "background": "https://tiny.cc/22nluz",
               "props": {
-                "rom": "http://tiny.cc/52nluz"
+                "rom": "https://tiny.cc/52nluz"
               }
             },
             {
               "title": "Blade Buster",
               "type": "nes",
               "description": "Blade Buster is a score attack shmup that comes with two game modes; two and five minutes, each ending with an epic boss battle.",
-              "thumbnail": "http://tiny.cc/62nluz",
-              "background": "http://tiny.cc/72nluz",
+              "thumbnail": "https://tiny.cc/62nluz",
+              "background": "https://tiny.cc/72nluz",
               "props": {
-                "rom": "http://tiny.cc/82nluz"
+                "rom": "https://tiny.cc/82nluz"
               }
             },
             {
@@ -322,7 +322,7 @@ There is also a tab named, *"Shortened URLs"*, wherein the links have been short
               "thumbnail": "https://i.imgur.com/b0hu9rV.png",
               "background": "https://i.imgur.com/o0zxHO3.png",
               "props": {
-                "rom": "http://tiny.cc/z2nluz"
+                "rom": "https://tiny.cc/z2nluz"
               }
             }
           ]
@@ -331,27 +331,27 @@ There is also a tab named, *"Shortened URLs"*, wherein the links have been short
           "title": "Puzzlers",
           "longTitle": "Puzzle Games",
           "description": "Puzzle video games make up a broad genre of video games that emphasize puzzle-solving. The types of puzzles can test many problem-solving skills including logic, pattern recognition, sequence solving, spatial recognition, and word completion.",
-          "thumbnail": "http://tiny.cc/a2nluz",
-          "background": "http://tiny.cc/b2nluz",
+          "thumbnail": "https://tiny.cc/a2nluz",
+          "background": "https://tiny.cc/b2nluz",
           "items": [
             {
               "title": "Alter Ego",
               "type": "nes",
               "description": "You control a hero who has a phantom twin, his alter ego. When the hero moves, his alter ego moves in a mirrored fashion. In some levels the movements are mirrored horizontally, in others vertically. You can switch between the hero and his alter ego a limited number of times per level.",
-              "thumbnail": "http://tiny.cc/d2nluz",
-              "background": "http://tiny.cc/g2nluz",
+              "thumbnail": "https://tiny.cc/d2nluz",
+              "background": "https://tiny.cc/g2nluz",
               "props": {
-                "rom": "http://tiny.cc/h2nluz"
+                "rom": "https://tiny.cc/h2nluz"
               }
             },
             {
               "title": "Skipp and Friends",
               "type": "snes",
               "description": "The object of the game is to move all three characters to the exit in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.",
-              "thumbnail": "http://tiny.cc/j2nluz",
-              "background": "http://tiny.cc/l2nluz",
+              "thumbnail": "https://tiny.cc/j2nluz",
+              "background": "https://tiny.cc/l2nluz",
               "props": {
-                "rom": "http://tiny.cc/n2nluz"
+                "rom": "https://tiny.cc/n2nluz"
               }
             },
             {
@@ -359,10 +359,10 @@ There is also a tab named, *"Shortened URLs"*, wherein the links have been short
               "longTitle": "Slide Boy in Mazeland",
               "type": "7800",
               "description": "Slide your way out of dangerous mazes, avoid the obstacles, activate some switches and exit each room before the time run out.",
-              "thumbnail": "http://tiny.cc/63nluz",
-              "background": "http://tiny.cc/q2nluz",
+              "thumbnail": "https://tiny.cc/63nluz",
+              "background": "https://tiny.cc/q2nluz",
               "props": {
-                "rom": "http://tiny.cc/r2nluz"
+                "rom": "https://tiny.cc/r2nluz"
               }
             }
           ]
@@ -373,4 +373,4 @@ There is also a tab named, *"Shortened URLs"*, wherein the links have been short
 
 This example can be tested by adding a feed with the following URL within the [webЯcade player](../userguide/index.md):
 
-`http://tiny.cc/example-feed`
+`https://tiny.cc/example-feed`

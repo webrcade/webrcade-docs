@@ -11,7 +11,7 @@ single archive (`.zip`) file. Examples of applications that utilize archive file
 
 !!! important
     The "Repackage Archive" tool takes a significant amount of memory to operate, and therefore
-    should only be used on platforms such as Windows or MacOS that are running the Chrome browser.
+    should only be used on platforms such as Windows or macOS that are running the Chrome browser.
 
 The "Repackage Archive" tool provides the ability to output the webЯcade [package archive manifest](../../advanced/archive-manifests.md) format layout [directly to cloud storage](#repackage-to-cloud) or to [download the results](#repackage-locally) of the repackage operation locally.
 
@@ -21,7 +21,7 @@ The following section details the steps required to create a
 webЯcade [package archive manifest](../../advanced/archive-manifests.md) format and layout directly to cloud storage
 from a selected package archive file (`.zip`).
 
-### Generate Manifest Dialog
+### Repackage Archive Dialog
 
 The "Generate Manifest" dialog is used to select the package archive (`.zip`) from which to create the
 webЯcade [package archive manifest](../../advanced/archive-manifests.md) format and layout as well as the location
@@ -70,7 +70,7 @@ Press the `REPACKAGE` button to proceed and perform the repackage operation.
 !!! important
     <p>
     If you receive the following error when attempting to perform the repackage operation, the
-    Dropbox token linked to webRcade needs to be updated to have the appropriate permissions.
+    Dropbox token linked to webЯcade needs to be updated to have the appropriate permissions.
     </p>
     <p>
     ```
@@ -79,7 +79,7 @@ Press the `REPACKAGE` button to proceed and perform the repackage operation.
     ```
     </p>
     <p>
-    To update the Dropbox token, unlink and relink Dropbox with webRcade (see the [cloud storage](../../../storage)
+    To update the Dropbox token, unlink and relink Dropbox with webЯcade (see the [cloud storage](../../../storage)
     section for details).
     </p>
 

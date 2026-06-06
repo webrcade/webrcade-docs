@@ -105,7 +105,7 @@ The Nintendo DS application includes a set of on-screen controls which are detai
 
 The Nintendo DS Application includes a custom settings dialog.
 
-To access these settings, display the "Pause" screen and select the "DS Settings" option (*See screenshot above*).
+To access these settings, display the "Pause" screen and select the "DS Settings" option (*See screenshot below*).
 
 <figure>
   <img src="../../../assets/images/apps/nds/pause.png" style="margin:5px 15px  0 15px; border-radius: 10px; box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);" class="center zoomD"/>

@@ -107,7 +107,7 @@ The key button will continue to be pressed until the keyboard key is released. T
 | __Name__ | <div style="min-width:140px">__Keys__</div> | __Comments__ |
 |--------------------------|---------------------------------------------| |
 | Press key (0-9) | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/0_Key_Dark.png){: class="control"} - ![](../../../assets/images/controller/Keyboard & Mouse/Dark/9_Key_Dark.png){: class="control"}  |  |
-| Press key (Asterick) | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Minus_Key_Dark.png){: class="control"} |  |
+| Press key (Asterisk) | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Minus_Key_Dark.png){: class="control"} |  |
 | Press key (Pound) | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Equals_Key_Dark.png){: class="control"}  |  |
 
 ## Feed
