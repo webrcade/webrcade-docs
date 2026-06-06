@@ -2,7 +2,7 @@
 
 [Snippet.host](https://snippet.host/) can be used to host webЯcade feed documents (see [Feed Format](../format.md)).
 
-In many ways, using [Snippet.host](https://snippet.host/) is superior to Pastebin. It is less restrictive in terms of document sizes and content validation procedures. Further, it does not require verification of accounts that are created.
+In many ways, using [Snippet.host](https://snippet.host/) is superior to Pastebin. It is less restrictive in terms of document sizes and content validation procedures.
 
 !!! note
     Although creating and logging into a [Snippet.host](https://snippet.host/) account is not required, it is
@@ -21,11 +21,11 @@ To host a feed in [Snippet.host](https://snippet.host/), perform the following s
 
 ![](../../assets/images/feed/snippet/paste.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* Click the "`create snippet`" button to create the new snippet containing the webЯcade feed (see screenshot above).
+* Click the "`create snippet`" button to create the new snippet containing the webЯcade feed (see screenshot below).
 
 ![](../../assets/images/feed/snippet/create.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* After the snippet has been created, click the "`raw`" link (located directly above the feed) to view the raw content feed (see screenshot above).
+* After the snippet has been created, click the "`raw`" link (located directly above the feed) to view the raw content feed (see screenshot below).
 
 ![](../../assets/images/feed/snippet/raw.png){: style="padding:5px 15px;" class="center zoomD"}
 

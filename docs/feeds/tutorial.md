@@ -142,7 +142,7 @@ Copy the highlighted lines below into the `items` array of the [Category Object]
 
 Each application type has a set of type-specific properties (both required and optional) that can be specified via the `props` property of an [Item Object](./format.md#item-object). Each detailed application page contains a *"Feed"* section that includes the list of available type-specific properties.
 
-In this particular case, since we are using the NES application (`type` of `NES`), the [NES Application Properties](../apps/emulators/nes/index.md#properties) section found within the [NES Application](../apps/emulators/nes/index.md) page contains the set of applicable properties for this item.
+In this particular case, since we are using the NES application (`type` of `nes`), the [NES Application Properties](../apps/emulators/nes/index.md#properties) section found within the [NES Application](../apps/emulators/nes/index.md) page contains the set of applicable properties for this item.
 
 The only required property in the `props` object for an NES application is `rom`. The `rom` property value must be set to a URL that points to a NES ROM file or a zip file containing a ROM file.
 

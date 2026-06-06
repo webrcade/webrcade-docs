@@ -186,7 +186,7 @@ The item that is selected in the webЯcade player (Items view) below corresponds
 
 The following is a complete example of a webЯcade feed that consists of two categories (Shooters and Puzzlers), wherein each category containing three items (games).
 
-There is also a tab named, *"Shortened URLs"*, wherein the links have been shortened using a URL shortener such as [is.gd](./resources/isgd.md). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
+There is also a tab named, *"Shortened URLs"*, wherein the links have been shortened using a URL shortener such as [tiny.cc](https://tiny.cc). Shortening of URLs is recommended as it reduces the size of the overall feed and mitigates false-positive blocking by simple URL filters.
 
 === "Full URLs"
     ``` json

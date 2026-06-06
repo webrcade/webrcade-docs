@@ -36,7 +36,7 @@ The dialog includes the following options:
 | Package Archive | The package archive (`.zip`) file to repackage.<br/><br/>The `"Select File..."` button displays a file chooser used to select a package archive (`.zip`) file.  |
 | Output to Cloud Storage | Whether the package archive (`.zip`) should be repackaged and written directly to [cloud storage](../../storage/index.md).  |
 | Destination Folder | The folder within cloud storage to write the results of the repackage operation to.<br/><br/>The `"Select Folder..."` button displays the [Select Cloud Folder](#select-cloud-folder-dialog) Dialog used to select the destination folder. |
-| Sub-Folders to Create (optional) | Additional sub-folders to create under the destination folder. The results of the repackage operation wil be written to the last sub-folder.<br/><br/>Multiple sub-folders must be separated by a forward slash.  |
+| Sub-Folders to Create (optional) | Additional sub-folders to create under the destination folder. The results of the repackage operation will be written to the last sub-folder.<br/><br/>Multiple sub-folders must be separated by a forward slash.  |
 
 !!! important
     The `Output to Cloud Storage` option will only be visible if [cloud storage](../../../storage/) has been enabled

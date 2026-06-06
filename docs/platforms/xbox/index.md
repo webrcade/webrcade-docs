@@ -7,14 +7,12 @@ This page provides information on how to obtain the optimal experience when usin
 *It is important to note that while webЯcade is fully functional on previous generations of Xbox One consoles, there will most likely be performance issues.*
 
 !!! note
-    The Xbox Series X|S Edge browser was recently updated to use Blink as its browser engine
-    (part of Chromium). As this is a very recent change, several defects have been detected
-    and reported (see [View button defect](#view-button-defect), below). This page will be updated
-    to reflect newly reported bugs and if previous defects have been resolved.
+    The Xbox Series X|S Edge browser uses Blink as its browser engine (part of Chromium).
+    Several defects have been detected and reported (see [View button defect](#view-button-defect), below).
 
 ## Browser Support
 
-The recommended browser for use with webЯcade on Xbox Series X|S consoles is Microsoft Edge which is based on the Blink browser engine. There are other browsers available on the Xbox, but they all appear to use the EdgeHTML browser core which is less performant.
+The recommended browser for use with webЯcade on Xbox Series X|S consoles is Microsoft Edge, which is based on the Blink browser engine.
 
 ## Launching webЯcade
 

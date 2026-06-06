@@ -6,7 +6,7 @@ The feed workspace contains several components that provide the ability to view 
 
 The workspace is broken into several distinct components which are detailed in the [Components](#components) section below.
 
-One of the primary workspace activities is adding new items (games, etc.) to the active feed. The webЯcade editor provides several different methods to add items, which are detailed in the [Adding Items](addingitems.md) section. Probably the simplest method of adding items to a feed is by "dragging and dropping" ROM-based URLs onto the workspace (see the [Drag ROMs](../draganddrop.md#dra-roms-urls) section for more information).
+One of the primary workspace activities is adding new items (games, etc.) to the active feed. The webЯcade editor provides several different methods to add items, which are detailed in the [Adding Items](addingitems.md) section. Probably the simplest method of adding items to a feed is by "dragging and dropping" ROM-based URLs onto the workspace (see the [Drag ROMs](../draganddrop.md#url-links) section for more information).
 
 ## Components
 
@@ -14,8 +14,8 @@ The following table contains the primary components of the feed workspace. Click
 
 | __Component__ | __Description__ |
 | --- | --- |
-| [Feed Properties](../dialogs/feed-dialog.md) | The feed properties section *(See #1 in screeenshot above)* contains high-level meta-information about the feed. Specifically, it displays the *title* of the feed along with its *thumbnail* image.<br><br>Clicking on the *pencil icon* will display the [Feed Properties Editor](../dialogs/feed-dialog.md) which allows for editing of the feed's meta-information (title, thumbnail and background images, etc.).  |
-| [Categories Tab](categoriestab.md) | The [Feed Categories Tab](categoriestab.md) *(See #2 in screeenshot above)* consists of the categories associated with the active feed. |
-| [Items Tab](itemstab.md) | The [Feed Items Tab](itemstab.md) *(See #3 in screeenshot above)* consists of the items (games, etc.) contained in the currently selected category of the active feed. |
+| [Feed Properties](../dialogs/feed-dialog.md) | The feed properties section *(See #1 in screenshot above)* contains high-level meta-information about the feed. Specifically, it displays the *title* of the feed along with its *thumbnail* image.<br><br>Clicking on the *pencil icon* will display the [Feed Properties Editor](../dialogs/feed-dialog.md) which allows for editing of the feed's meta-information (title, thumbnail and background images, etc.).  |
+| [Categories Tab](categoriestab.md) | The [Feed Categories Tab](categoriestab.md) *(See #2 in screenshot above)* consists of the categories associated with the active feed. |
+| [Items Tab](itemstab.md) | The [Feed Items Tab](itemstab.md) *(See #3 in screenshot above)* consists of the items (games, etc.) contained in the currently selected category of the active feed. |
 
 

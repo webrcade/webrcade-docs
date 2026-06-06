@@ -12,7 +12,7 @@ The following steps detail the process of adding an NES homebrew game (ROM file)
 
 ![](../../assets/images/feed/inetarchive/search-google-results.png){: style="padding:5px 15px;" class="center zoomD"}
 
-* If the Internet Archive page contains downloadable files, a content box titled, "`DOWNLOAD OPTIONS`" should appear on the right side of the page (the page may need to be scrolled to make the content box visible).<br><br>Click the "`SHOW ALL`" link in the context box to view all of the downloadable files (see screenshot below).
+* If the Internet Archive page contains downloadable files, a content box titled, "`DOWNLOAD OPTIONS`" should appear on the right side of the page (the page may need to be scrolled to make the content box visible).<br><br>Click the "`SHOW ALL`" link in the content box to view all of the downloadable files (see screenshot below).
 
 ![](../../assets/images/feed/inetarchive/show-all.png){: style="padding:5px 15px;" class="center zoomD"}
 
@@ -21,7 +21,7 @@ much larger downloads with a non-deterministic ROM file being executed.
 
 !!! note
     The Internet Archive supports descending into various archive file formats (.iso, .zip., etc.). However,
-    It is important to note that although descending into archives may be supported, there exists a
+    it is important to note that although descending into archives may be supported, there exists a
     bug for certain formats (.7z, etc.) that results in contained content being downloaded as zero bytes (which is unusable). An easy way to validate that a file will be downloaded correctly is to open the link to the file in a new tab.
     If the downloaded content file size is greater than zero, it is being downloaded correctly.
 
