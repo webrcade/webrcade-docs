@@ -174,6 +174,9 @@ specified in the `props` object of a feed item.
 | dualAnalog | Boolean | No | Whether the game uses the stylus as a dual analog control. When this is enabled, the right analog stick of the gamepad will automatically reset as it reaches the end of the screen. This greatly simplifies playing dual-analog based games (typically FPS games). |
 | microphone | Boolean | No | Indicates whether the game uses the microphone. Displays a microphone icon for touch or mouse interaction. |
 | firmwareLanguage | Numeric | No | The language to use for the DS firmware. Only applies when a `firmware.bin` file is provided (see [BIOS Files](#bios-files-optional)). Defaults to `0` (auto).<br><ul><li>`0` : Auto (use the language stored in the firmware file)</li><li>`1` : English</li><li>`2` : Japanese</li><li>`3` : French</li><li>`4` : German</li><li>`5` : Italian</li><li>`6` : Spanish</li></ul> |
+| homebrewSdCard | Boolean | No | Enables DLDI SD card support for homebrew games that access the SD card for file storage. Defaults to `false`. |
+| sdCardArchive | URL | No | URL to a ZIP file containing files to preload onto the SD card. Requires `homebrewSdCard` to be enabled. |
+| sdCardPath | String | No | The path within the SD card where the files from `sdCardArchive` will be placed. Defaults to `/` (root of the SD card). |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example

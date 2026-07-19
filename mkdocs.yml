@@ -31,17 +31,24 @@ nav:
     - Emulators:
       - Overview: apps/emulators/index.md
       - 3DO: apps/emulators/3do/index.md
+      - Apple:
+        - Apple II: apps/emulators/apple2/index.md
+        - Apple IIGS (Experimental): apps/emulators/apple2gs/index.md
       - Arcade: apps/emulators/arcade/index.md
       - Atari:
         - 2600: apps/emulators/2600/index.md
         - 5200 (Experimental): apps/emulators/5200/index.md
         - 7800: apps/emulators/7800/index.md
         - Lynx: apps/emulators/lynx/index.md
+      - Bally:
+        - Astrocade: apps/emulators/astrocade/index.md
       - Bandai:
         - WonderSwan: apps/emulators/ws/index.md
       - ColecoVision: apps/emulators/colecovision/index.md
       - Commodore 64: apps/emulators/commodore/index.md
       - DOS: apps/emulators/dos/index.md
+      - Philips:
+        - CD-i: apps/emulators/cdi/index.md
       - NEC:
         - PC Engine (TurboGrafx-16): apps/emulators/pce/index.md
         - PC Engine CD (TurboGrafx-CD): apps/emulators/pcecd/index.md

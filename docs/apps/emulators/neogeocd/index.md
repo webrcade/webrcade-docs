@@ -54,7 +54,7 @@ The Neo Geo CD Application "display tab" settings are detailed below.
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Force bilinear filter | <p>Forces bilinear interpolation on the output display. Enabling bilinear filtering produces display output where pixels are not as sharp and pronounced.</p><p>Enabling this setting will override the global bilinear filter setting for the Neo Geo CD application.</p>  |
+| Bilinear filter | The type of bilinear filter to apply to the output display.<br><br>Options include:<br><ul><li>`Sharp` : Applies a sharp bilinear filter</li><li>`Soft` : Applies a soft bilinear filter</li><li>`Off` : Disables bilinear filtering</li></ul> |
 
 ![](../../../assets/images/apps/pcecd/neogeocd-display-settings.png){: class="center zoomD"} -->
 

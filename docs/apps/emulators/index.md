@@ -7,11 +7,14 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | __Emulator__ | __Description__ |
 |----------|------|
 | [3DO](3do/index.md) | Emulator for the [3DO Interactive Multiplayer](https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer) game console. |
+| [Apple II](apple2/index.md) | Emulator for the [Apple IIe](https://en.wikipedia.org/wiki/Apple_IIe) personal computer |
+| [Apple IIGS](apple2gs/index.md) (Experimental) | Emulator for the [Apple IIGS](https://en.wikipedia.org/wiki/Apple_IIGS) personal computer |
 | [Arcade](arcade/index.md) | Emulator for various arcade hardware (both pre and post 90s) |
 | [Atari 2600](2600/index.md) | Emulator for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) game console |
 | [Atari 5200](5200/index.md) (Experimental) | Emulator for the [Atari 5200](https://en.wikipedia.org/wiki/Atari_5200) game console |
 | [Atari 7800](7800/index.md) | Emulator for the [Atari 7800 ProSystem](https://en.wikipedia.org/wiki/Atari_7800) game console |
 | [Atari Lynx](lynx/index.md) | Emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console |
+| [Bally Astrocade](astrocade/index.md) | Emulator for the [Bally Astrocade](https://en.wikipedia.org/wiki/Bally_Astrocade) home video game console |
 | [Bandai WonderSwan](ws/index.md) | Emulator for the [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) and [WonderSwan Color](https://en.wikipedia.org/wiki/WonderSwan) handheld game consoles |
 | [ColecoVision](colecovision/index.md) | Emulator for the [ColecoVision](https://en.wikipedia.org/wiki/ColecoVision) game console |
 | [Commodore 64](commodore/index.md) | Emulator for the [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) computer |
@@ -29,6 +32,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Nintendo GBA](gba/index.md) |  Emulator for the [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance) handheld game console |
 | [Nintendo Virtual Boy](vb/index.md) |  Emulator for the  [Virtual Boy](https://en.wikipedia.org/wiki/Virtual_Boy) game console |
 | [Nintendo Pokemini](pokemini/index.md) | Emulator for the [Pokémon Mini](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mini) handheld game console |
+| [Philips CD-i](cdi/index.md) | Emulator for the [Philips CD-i](https://en.wikipedia.org/wiki/CD-i) multimedia entertainment system |
 | [Sega SG-1000](sg1000/index.md) | Emulator for the [Sega SG-1000](https://en.wikipedia.org/wiki/SG-1000) game console |
 | [Sega Master System](mastersystem/index.md) | Emulator for the [Sega Master System](https://en.wikipedia.org/wiki/Master_System) game console |
 | [Sega Genesis](genesis/index.md) | Emulator for the [Sega Genesis](https://en.wikipedia.org/wiki/Sega_Genesis) game console |
