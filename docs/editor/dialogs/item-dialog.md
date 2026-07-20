@@ -18,7 +18,35 @@ The general tab consists of basic information about the item (title, description
 | Title |  A title for the item. |
 | Long title | A long title for the item (will be used in locations with additional room for display). |
 | Description | A description of the item. |
-| Application |  The application (emulator, etc.) associated with the item.<br><br>Refer to the [Applications](../../apps/index.md) page for a list of available applications. |
+| Application |  The application (emulator, etc.) associated with the item.<br><br>The dropdown lists all available application types. Clicking the `Browse...` button opens the [Select Application Dialog](#select-application-dialog) for a visual, categorized view of all available applications.<br><br>Refer to the [Applications](../../apps/index.md) page for a list of available applications. |
+
+## Select Application Dialog
+
+The "Select Application" dialog provides a visual, categorized way to browse and select an application type for an item. It is opened by clicking the `Browse...` button next to the `Application` field in the [General Tab](#general-tab).
+
+![](../../assets/images/editor/itemeditor/select-application-general.png){: class="center zoomD"}
+
+### Search
+
+Type in the `Search` field to narrow the results by name. The search applies to both the `General` and `Specific` tabs.
+
+### Category List
+
+The left panel shows categories for quickly jumping to a section in the right panel.
+
+### General Tab
+
+The `General` tab lists application aliases (e.g., `NES`, `SNES`, `Saturn`). Each alias is associated with a default application (emulator). Aliases are displayed as tiles, grouped by category. A `Recent` section appears at the top if application aliases have been recently selected.
+
+Click a type to select it, then click `OK` to apply the selection to the `Application` field.
+
+### Specific Tab
+
+The `Specific` tab lists the specific applications (emulator implementations) available for each application alias. Use this tab when a specific application (emulator) needs to be selected for an item rather than an application alias.
+
+![](../../assets/images/editor/itemeditor/select-application-specific.png){: class="center zoomD"}
+
+Each entry displays the application (emulator) name and a `default` badge if it is the current default for that alias. Click a type to select it, then click `OK` to apply the selection to the `Application` field.
 
 ## Properties Tab
 
