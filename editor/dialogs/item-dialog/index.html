@@ -2459,6 +2459,47 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#select-application-dialog" class="md-nav__link">
+    Select Application Dialog
+  </a>
+  
+    <nav class="md-nav" aria-label="Select Application Dialog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#category-list" class="md-nav__link">
+    Category List
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-tab_1" class="md-nav__link">
+    General Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#specific-tab" class="md-nav__link">
+    Specific Tab
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#properties-tab" class="md-nav__link">
     Properties Tab
   </a>
@@ -2910,6 +2951,47 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#select-application-dialog" class="md-nav__link">
+    Select Application Dialog
+  </a>
+  
+    <nav class="md-nav" aria-label="Select Application Dialog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#category-list" class="md-nav__link">
+    Category List
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-tab_1" class="md-nav__link">
+    General Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#specific-tab" class="md-nav__link">
+    Specific Tab
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#properties-tab" class="md-nav__link">
     Properties Tab
   </a>
@@ -3046,10 +3128,24 @@
 </tr>
 <tr>
 <td>Application</td>
-<td>The application (emulator, etc.) associated with the item.<br><br>Refer to the <a href="../../../apps/">Applications</a> page for a list of available applications.</td>
+<td>The application (emulator, etc.) associated with the item.<br><br>The dropdown lists all available application types. Clicking the <code>Browse...</code> button opens the <a href="#select-application-dialog">Select Application Dialog</a> for a visual, categorized view of all available applications.<br><br>Refer to the <a href="../../../apps/">Applications</a> page for a list of available applications.</td>
 </tr>
 </tbody>
 </table>
+<h2 id="select-application-dialog">Select Application Dialog</h2>
+<p>The "Select Application" dialog provides a visual, categorized way to browse and select an application type for an item. It is opened by clicking the <code>Browse...</code> button next to the <code>Application</code> field in the <a href="#general-tab">General Tab</a>.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/itemeditor/select-application-general.png" /></p>
+<h3 id="search">Search</h3>
+<p>Type in the <code>Search</code> field to narrow the results by name. The search applies to both the <code>General</code> and <code>Specific</code> tabs.</p>
+<h3 id="category-list">Category List</h3>
+<p>The left panel shows categories for quickly jumping to a section in the right panel.</p>
+<h3 id="general-tab_1">General Tab</h3>
+<p>The <code>General</code> tab lists application aliases (e.g., <code>NES</code>, <code>SNES</code>, <code>Saturn</code>). Each alias is associated with a default application (emulator). Aliases are displayed as tiles, grouped by category. A <code>Recent</code> section appears at the top if application aliases have been recently selected.</p>
+<p>Click a type to select it, then click <code>OK</code> to apply the selection to the <code>Application</code> field.</p>
+<h3 id="specific-tab">Specific Tab</h3>
+<p>The <code>Specific</code> tab lists the specific applications (emulator implementations) available for each application alias. Use this tab when a specific application (emulator) needs to be selected for an item rather than an application alias.</p>
+<p><img alt="" class="center zoomD" src="../../../assets/images/editor/itemeditor/select-application-specific.png" /></p>
+<p>Each entry displays the application (emulator) name and a <code>default</code> badge if it is the current default for that alias. Click a type to select it, then click <code>OK</code> to apply the selection to the <code>Application</code> field.</p>
 <h2 id="properties-tab">Properties Tab</h2>
 <p>The properties tab consists of fields that are specific to the <a href="../../../apps/">Application</a> type that is associated with the item being edited.</p>
 <p><img alt="" class="center zoomD" src="../../../assets/images/editor/itemeditor/propstab.png" /></p>
