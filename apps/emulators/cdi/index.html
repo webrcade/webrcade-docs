@@ -1269,6 +1269,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#adding-games-feed-editor" class="md-nav__link">
+    Adding Games (Feed Editor)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#bios-file" class="md-nav__link">
     BIOS File
   </a>
@@ -2915,6 +2922,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#adding-games-feed-editor" class="md-nav__link">
+    Adding Games (Feed Editor)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#bios-file" class="md-nav__link">
     BIOS File
   </a>
@@ -3059,6 +3073,23 @@
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>The <a href="https://en.wikipedia.org/wiki/CD-i#Digital_Video_Cartridge">Digital Video Cartridge (DVC)</a> is not supported. The DVC was an optional hardware add-on for the Philips CD-i that provided MPEG-1 video decoding, enabling full-motion video (FMV) playback in supported titles. Games that require the DVC may fail to load entirely or will not display their video content correctly.</p>
+</div>
+<h2 id="adding-games-feed-editor">Adding Games (Feed Editor)</h2>
+<p>Due to large Disc image sizes, adding Philips CD-i games in the <a href="../../../editor/">Feed Editor</a> must be done manually (versus using auto-detection).</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The Philips CD-i application only supports the <code>.CHD</code> disc file format (<code>.ISO</code>, <code>.BIN</code>, and <code>.CUE</code> are not supported).</p>
+</div>
+<p>See the <a href="../../../editor/workspace/addingitems/#disc-and-archive-based-items">Disc and Archive-based Items</a> section for the list of steps required to add a Philips CD-i game in the <a href="../../../editor/">Feed Editor</a>.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).
+<p>
+The current limit is around 450 megabytes. Therefore, loading larger disc sizes may fail.
+</p>
+<p>
+To increase the likelihood of a game with a larger disc size loading, you can optionally choose to launch the game using a standalone-based link (versus launching the game within the webЯcade player or editor). See the <a href="../../../standalone/">Standalone</a> section of this documentation for further information (On Xbox, you would most likely want to bookmark the direct link. On iOS, you would most likely want to add the game to the home screen).
+</p></p>
 </div>
 <h2 id="bios-file">BIOS File</h2>
 <p>In addition to Philips CD-i disc images, a <em>Philips CD-i BIOS</em> file must be specified globally within the feed (See the <a href="../../../editor/dialogs/feed-dialog/#properties-tab">Feed Properties Dialog</a> and <a href="#feed-properties">Philips CD-i Feed Properties</a> sections).</p>
@@ -3252,7 +3283,7 @@ more appropriate default.</p>
 <td>discs</td>
 <td>Array of URLs</td>
 <td>Yes</td>
-<td>Array of URLs to Philips CD-i disc image files (<code>.chd</code>).</td>
+<td><p>Array of URLs to one or more (for multi-disc games) Philips CD-i game discs.</p><p>The Philips CD-i application only supports the <code>.CHD</code> disc file format (<code>.ISO</code>, <code>.BIN</code>, and <code>.CUE</code> are not supported).</p></td>
 </tr>
 <tr>
 <td>zoomLevel</td>
