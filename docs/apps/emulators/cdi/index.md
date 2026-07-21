@@ -12,6 +12,24 @@ The Philips CD-i application is an emulator for the [Philips CD-i](https://en.wi
 !!! important
     The [Digital Video Cartridge (DVC)](https://en.wikipedia.org/wiki/CD-i#Digital_Video_Cartridge) is not supported. The DVC was an optional hardware add-on for the Philips CD-i that provided MPEG-1 video decoding, enabling full-motion video (FMV) playback in supported titles. Games that require the DVC may fail to load entirely or will not display their video content correctly.
 
+## Adding Games (Feed Editor)
+
+Due to large Disc image sizes, adding Philips CD-i games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
+
+!!! important
+    The Philips CD-i application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).
+
+See the [Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for the list of steps required to add a Philips CD-i game in the [Feed Editor](../../../editor/index.md).
+
+!!! important
+    Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).
+    <p>
+    The current limit is around 450 megabytes. Therefore, loading larger disc sizes may fail.
+    </p>
+    <p>
+    To increase the likelihood of a game with a larger disc size loading, you can optionally choose to launch the game using a standalone-based link (versus launching the game within the webЯcade player or editor). See the [Standalone](../../../standalone/index.md) section of this documentation for further information (On Xbox, you would most likely want to bookmark the direct link. On iOS, you would most likely want to add the game to the home screen).
+    </p>
+
 ## BIOS File
 
 In addition to Philips CD-i disc images, a *Philips CD-i BIOS* file must be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Philips CD-i Feed Properties](#feed-properties) sections).
@@ -98,7 +116,7 @@ The table below contains the properties that are specific to the Philips CD-i ap
 
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
-| discs | Array of URLs | Yes | Array of URLs to Philips CD-i disc image files (`.chd`). |
+| discs | Array of URLs | Yes | <p>Array of URLs to one or more (for multi-disc games) Philips CD-i game discs.</p><p>The Philips CD-i application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example
