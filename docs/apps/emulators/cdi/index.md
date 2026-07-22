@@ -40,7 +40,7 @@ In addition to Philips CD-i disc images, a *Philips CD-i BIOS* file must be spec
 
 ## Controls
 
-The keyboard and gamepad mappings are listed in the tables below.
+The emulator supports one controller. The keyboard and gamepad mappings are listed in the tables below.
 
 ### Keyboard
 

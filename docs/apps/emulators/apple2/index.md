@@ -23,7 +23,7 @@ In addition to Apple II disk images, BIOS files must be specified globally withi
 
 ## Default Controls
 
-The default keyboard and gamepad mappings are listed in the tables below. It is important to note that these are merely the default settings and can be modified on a game-by-game basis.
+The emulator supports one controller. The default keyboard and gamepad mappings are listed in the tables below. It is important to note that these are merely the default settings and can be modified on a game-by-game basis.
 
 ### Keyboard
 

@@ -25,7 +25,7 @@ The use of JiffyDOS can be disabled on a game-by-game basis if there are compati
 
 ## Default Controls
 
-The default keyboard and gamepad mappings are listed in the tables below. It is important to note that these are merely the default settings and can be modified on a game-by-game basis.
+The emulator supports up to two controllers. The default keyboard and gamepad mappings are listed in the tables below. It is important to note that these are merely the default settings and can be modified on a game-by-game basis.
 
 ### Keyboard
 

@@ -19,7 +19,7 @@ In addition to Bally Astrocade ROM files, a *Bally Astrocade BIOS* file must be 
 
 ## Controls
 
-The Bally Astrocade hand controller features an integrated joystick, a trigger button, a paddle (rotary knob), and a 24-key keypad. The keyboard, gamepad mappings, and keypad interaction are listed below.
+The emulator supports up to four controllers. The Bally Astrocade hand controller features an integrated joystick, a trigger button, a paddle (rotary knob), and a 24-key keypad. The keyboard, gamepad mappings, and keypad interaction are listed below.
 
 ### Keyboard
 
