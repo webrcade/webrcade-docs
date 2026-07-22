@@ -216,7 +216,7 @@ The table below contains the properties that are specific to the Apple IIGS appl
 
 The following is an example of a complete feed that consists of a single Apple IIGS application instance (`type` value of `apple2gs`).
 
-``` json hl_lines="4 12 14"
+``` json hl_lines="4-7 15 17"
 {
   "title": "Apple IIGS",
   "props": {

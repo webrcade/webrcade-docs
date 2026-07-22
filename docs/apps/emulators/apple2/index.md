@@ -188,7 +188,7 @@ The table below contains the properties that are specific to the Apple II applic
 
 The following is an example of a complete feed that consists of a single Apple II application instance (`type` value of `apple2`).
 
-``` json hl_lines="4 12 14"
+``` json hl_lines="4-10 18 20"
 {
   "title": "Apple II",
   "props": {
