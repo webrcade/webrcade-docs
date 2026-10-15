@@ -1,4 +1,4 @@
-# Sega Saturn (Experimental)
+﻿# Sega Saturn (Experimental)
 
 !!! warning
     The Sega Saturn application is currently designated as an *experimental* application.
@@ -10,10 +10,7 @@
     <li>Many games exhibit compatibility issues and defects.</li>
     </ul>
     <p>
-    By default, *Experimental* applications are not displayed in the webЯcade *[player](../../../userguide/index.md)* or *[feed editor](../../../editor/index.md)*.
-    </p>
-    <p>
-    To enable the Saturn application, refer to the *advanced settings* sections of the player ([player advanced settings](../../../userguide/index.md#advanced-settings-tab)) or editor ([editor advanced settings](../../../editor/workspace/settings.md#advanced-tab)).
+    Applications marked as *experimental* are flagged with an "Experimental" tag in the feed editor's [Select Application Dialog](../../../editor/dialogs/item-dialog.md#select-application-dialog), but are otherwise fully available for use in both the editor and the webЯcade player. There is no separate setting required to enable them.
     </p>
 
 ## Overview
@@ -33,12 +30,10 @@ Due to its high resource requirements (see *warning* at top of this page), the f
 
 ## Adding Games (Feed Editor)
 
-Due to large Disc image sizes, adding Saturn games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
-
 !!! important
     The Saturn application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).
 
-See the [Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for the list of steps required to add a Saturn game in the [Feed Editor](../../../editor/index.md).
+To add a Saturn game in the [Feed Editor](../../../editor/index.md): if your content is on your computer, see [Adding Items: Local Files](../../../editor/workspace/addingitems-local.md); if it's already hosted online, see [Adding Items: From URLs (Manual)](../../../editor/workspace/addingitems-url.md#manual-item-creation).
 
 !!! important
     Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).
@@ -71,8 +66,8 @@ Keyboard support is only available for controller one.
 | Button A | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Z_Key_Dark.png){: class="control"} | |
 | Button B | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/X_Key_Dark.png){: class="control"} | |
 | Button C | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/C_Key_Dark.png){: class="control"} | |
-| Button X | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} | |
-| Button Y | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |
+| Button X | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/S_Key_Dark.png){: class="control"} | |
+| Button Y | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/A_Key_Dark.png){: class="control"} | |
 | Button Z | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/D_Key_Dark.png){: class="control"} | |
 | Left Bumper | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Q_Key_Dark.png){: class="control"} | |
 | Right Bumper | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/E_Key_Dark.png){: class="control"} | |
@@ -90,8 +85,8 @@ Gamepad support is available for all controllers.
 | Button A | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} | |
 | Button B | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_A.png){: class="control"} | |
 | Button C | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_B.png){: class="control"} | |
-| Button X | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"} | |
-| Button Y | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | |
+| Button X | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LB.png){: class="control"} | |
+| Button Y | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Y.png){: class="control"} | |
 | Button Z | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RB.png){: class="control"} | |
 | Left Bumper | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} | |
 | Right Bumper | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RT.png){: class="control"} | |

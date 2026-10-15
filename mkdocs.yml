@@ -33,13 +33,15 @@ nav:
       - 3DO: apps/emulators/3do/index.md
       - Apple:
         - Apple II: apps/emulators/apple2/index.md
-        - Apple IIGS (Experimental): apps/emulators/apple2gs/index.md
+        - Apple IIGS: apps/emulators/apple2gs/index.md
       - Arcade: apps/emulators/arcade/index.md
       - Atari:
         - 2600: apps/emulators/2600/index.md
-        - 5200 (Experimental): apps/emulators/5200/index.md
+        - 5200: apps/emulators/5200/index.md
         - 7800: apps/emulators/7800/index.md
         - Lynx: apps/emulators/lynx/index.md
+        - Jaguar (Experimental): apps/emulators/jaguar/index.md
+        - Jaguar CD (Experimental): apps/emulators/jaguarcd/index.md
       - Bally:
         - Astrocade: apps/emulators/astrocade/index.md
       - Bandai:
@@ -57,7 +59,7 @@ nav:
       - Nintendo:
         - NES: apps/emulators/nes/index.md
         - SNES: apps/emulators/snes/index.md
-        - N64 (Experimental): apps/emulators/n64/index.md
+        - N64: apps/emulators/n64/index.md
         - Game Boy: apps/emulators/gb/index.md
         - Game Boy Color: apps/emulators/gbc/index.md
         - Game Boy Advance: apps/emulators/gba/index.md
@@ -70,13 +72,17 @@ nav:
         - Genesis: apps/emulators/genesis/index.md
         - Sega CD: apps/emulators/segacd/index.md
         - Game Gear: apps/emulators/gamegear/index.md
+        - 32X: apps/emulators/32x/index.md
+        - 32X CD: apps/emulators/32xcd/index.md
         - Saturn (Experimental): apps/emulators/saturn/index.md
+        - Dreamcast (Experimental): apps/emulators/dreamcast/index.md
       - SNK:
         - Neo Geo: apps/emulators/neogeo/index.md
         - Neo Geo CD: apps/emulators/neogeocd/index.md
         - Neo Geo Pocket: apps/emulators/ngp/index.md
       - Sony:
         - PlayStation: apps/emulators/psx/index.md
+        - PSP (Experimental): apps/emulators/psp/index.md
     - Engines:
       - Overview: apps/engines/index.md
       - Doom: apps/engines/doom/index.md

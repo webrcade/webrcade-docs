@@ -1,4 +1,4 @@
-
+﻿
 # Quake
 
 ## Overview
@@ -177,9 +177,7 @@ The music directory and files are *optional*.
 
 ## Adding Games (Feed Editor)
 
-Due to large game archive (`.zip`) sizes, adding Quake-based games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
-
-See the [Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for the list of steps required to add a Quake-based game in the [Feed Editor](../../../editor/index.md).
+To add a Quake-based game in the [Feed Editor](../../../editor/index.md): if your content is on your computer, see [Adding Items: Local Files](../../../editor/workspace/addingitems-local.md); if it's already hosted online, see [Adding Items: From URLs (Manual)](../../../editor/workspace/addingitems-url.md#manual-item-creation).
 
 ## Saved Games
 

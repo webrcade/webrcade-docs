@@ -30,10 +30,10 @@ The "Applications" tab is used to select the specific application (emulator impl
 !!! note
     Application mappings are resolved in the following order:
 
-    1. **Item-specific setting** — If a specific application (emulator) has been set for the item, it is used.
-    2. **User default setting** — If no item-specific mapping exists, the user’s default mapping from the [Settings Dialog](../workspace/settings.md#applications-tab) is used (if configured).
-    3. **Feed setting** — If no user mapping is set, the mapping defined in the feed is used.
-    4. **Global default** — If none of the above are set, the alias falls back to its global default application.
+    1. **Item-specific setting**: If a specific application (emulator) has been set for the item, it is used.
+    2. **User default setting**: If no item-specific mapping exists, the user’s default mapping from the [Settings Dialog](../workspace/settings.md#applications-tab) is used (if configured).
+    3. **Feed setting**: If no user mapping is set, the mapping defined in the feed is used.
+    4. **Global default**: If none of the above are set, the alias falls back to its global default application.
 
 
 | __Field__ | __Description__ |
@@ -71,12 +71,10 @@ The "Achievements" tab is used to configure [RetroAchievements](../../userguide/
 | Password | Your RetroAchievements account password. Only shown when *Enabled* is on and you are not yet logged in. |
 | Login To Retro Achievements | Only shown when *Enabled* is on. Authenticates with RetroAchievements using the username and password entered above. Once logged in, the button label changes to *Logout From Retro Achievements*. Click it to disconnect your account. |
 
-### Advanced Settings Tab
+### Editor Tab
 
-The "Advanced" tab is used to view and/or modify settings that typically remain at their default values.
-
-![](../../assets/images/editor/settingsdialog/settings-advancedtab.png){: style="padding:5px;" class="center zoomD"}
+The "Editor" tab is used to view and/or modify settings that are specific to the Feed Editor.
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Experimental apps | Enables whether *experimental* applications are displayed in the webЯcade *[player](../../userguide/index.md)* or *[feed editor](../../editor/index.md)*.<br><br>Applications are typically designated as *experimental* based on high resource requirements or due to instability and defects. |
+| Use classic URL entry fields | Shows URL fields (Discs, Media, BIOS, etc.) as simple text boxes instead of the enhanced list view. See the [Adding Items](addingitems.md) section for details on the enhanced list view. |

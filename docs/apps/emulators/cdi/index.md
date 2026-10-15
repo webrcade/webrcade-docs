@@ -1,4 +1,4 @@
-# Philips CD-i
+﻿# Philips CD-i
 
 ## Overview
 
@@ -14,12 +14,10 @@ The Philips CD-i application is an emulator for the [Philips CD-i](https://en.wi
 
 ## Adding Games (Feed Editor)
 
-Due to large Disc image sizes, adding Philips CD-i games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
-
 !!! important
     The Philips CD-i application only supports the `.CHD` disc file format (`.ISO`, `.BIN`, and `.CUE` are not supported).
 
-See the [Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for the list of steps required to add a Philips CD-i game in the [Feed Editor](../../../editor/index.md).
+To add a Philips CD-i game in the [Feed Editor](../../../editor/index.md): if your content is on your computer, see [Adding Items: Local Files](../../../editor/workspace/addingitems-local.md); if it's already hosted online, see [Adding Items: From URLs (Manual)](../../../editor/workspace/addingitems-url.md#manual-item-creation).
 
 !!! important
     Both the iOS Safari and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).

@@ -49,10 +49,10 @@ The applications tab is used to select the specific application (emulator implem
 !!! note
     Application mappings are resolved in the following order:
 
-    1. **Item-specific setting** — If a specific application (emulator) has been set for the item, it is used.
-    2. **User default setting** — If no item-specific mapping exists, the user’s default mapping from the [Settings Dialog](../workspace/settings.md#applications-tab) is used (if configured).
-    3. **Feed setting** — If no user mapping is set, the mapping defined in the feed is used.
-    4. **Global default** — If none of the above are set, the alias falls back to its global default application.
+    1. **Item-specific setting**: If a specific application (emulator) has been set for the item, it is used.
+    2. **User default setting**: If no item-specific mapping exists, the user’s default mapping from the [Settings Dialog](../workspace/settings.md#applications-tab) is used (if configured).
+    3. **Feed setting**: If no user mapping is set, the mapping defined in the feed is used.
+    4. **Global default**: If none of the above are set, the alias falls back to its global default application.
 
 ### Fields
 

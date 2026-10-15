@@ -9,27 +9,6 @@ The Atari 7800 application is an emulator for the [Atari 7800 ProSystem game con
   <figcaption>Knight Guy in Low Res World: Castle Days by Vladimir Zuniga</figcaption>
 </figure>
 
-## Settings
-
-The Atari 7800 Application includes a custom settings dialog.
-
-![](../../../assets/images/apps/7800/settings-button.png){: class="center zoomD"}
-
-To access these settings, display the "Pause" screen and select the "Atari 7800 Settings" option (*See screenshot above*).
-
-![](../../../assets/images/apps/7800/settings.png){: class="center zoomD"}
-
-### Atari 7800 Settings Tab (Session Only)
-
-The Atari 7800 Application's "settings" tab is detailed below. It is important to note that the settings on this tab are *Session only* meaning they will not persist between gaming sessions.
-
-| __Field__ | __Description__ |
-| --- | --- |
-| Left Difficulty Switch | Toggles between the `A` and `B` left difficulty switch options (is a physical switch on the 7800 console). |
-| Right Difficulty Switch | Toggles between the `A` and `B` right difficulty switch options (is a physical switch on the 7800 console). |
-| Dual Analog | Whether to enable twin stick style controls (player 1 uses player 2's joystick for firing, etc.). |
-
-
 ## Controls
 
 The emulator supports up to two controllers. The keyboard and gamepad mappings are listed in the tables below.
@@ -47,6 +26,7 @@ Keyboard support is only available for controller one.
 | Reset | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Enter_Key_Dark.png){: class="control"} | |
 | Select | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | The __Right Shift Key__.|
 | Show Pause Screen | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Esc_Key_Dark.png){: class="control"} | |
+| Show Pause Screen<br>(Alternate) | ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Ctrl_Key_Dark.png){: class="control"} + ![](../../../assets/images/controller/Keyboard & Mouse/Dark/Shift_Key_Dark.png){: class="control"} | Hold the __Control Key__ and press the __Shift Key__ to show the webЯcade pause screen. |
 
 ### Gamepad
 
@@ -63,28 +43,60 @@ Gamepad support is available for both controllers.
 | Reset<br>(Alternate)            | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Right Trigger__ and click (press down) on the __Right Thumbstick__. |
 | Select                       | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"}  | Not available for Xbox and not recommended for iOS (see alternate)<br><br>Press the __View (Back) Button__. |
 | Select<br>(Alternate)           | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_RT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Right Trigger__ and click (press down) on the __Left Thumbstick__. |
-| Show Pause Screen                    | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Menu.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __Left Trigger__ and press the __Menu (Start) Button__. |
-| Show Pause Screen<br>(Alternate)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __Left Trigger__ and press the __View (Back) Button__. |
-| Show Pause Screen<br>(Alternate 2)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox and not recommended for iOS (see alternate 3 or 4)<br><br>Hold down the __X Button__ and press the __View (Back) Button__. |
-| Show Pause Screen<br>(Alternate 3)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
-| Show Pause Screen<br>(Alternate 4)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Right_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Right Thumbstick__. |
+| Show Pause Screen                    | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_X.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_View.png){: class="control"} | Not available for Xbox.<br><br>Hold down the __X Button__ and press the __View (Back) Button__. |
+| Show Pause Screen<br>(Alternate)        | ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_LT.png){: class="control"} &nbsp;and&nbsp; ![](../../../assets/images/controller/Xbox Series X/XboxSeriesX_Left_Stick_Click.png){: class="control"} | Hold down the __Left Trigger__ and click (press down) on the __Left Thumbstick__. |
+
+## On-screen Controls
+
+<figure>
+  <img src="../../../assets/images/apps/7800/onscreen.png" style="margin:5px 15px 0 15px; border-radius: 10px; box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);" class="center zoomD"/>
+  <figcaption>On-screen Controls</figcaption>
+</figure>
+
+The Atari 7800 application includes an on-screen control which is detailed below.
+
+| __Button__ |  | __Description__ |
+| --- | --- | --- |
+| Pause (Show Pause Screen) | <img src="../../../assets/images/overlay/pause-button-v2.svg" style="border-radius: 10px; width: 44px;"/> | Displays the webЯcade pause screen. |
+
+Whether this button is always displayed, or only displayed once touch, mouse, or keyboard input is detected, can be configured via the "On-screen controls" field on the [Display Settings](#display-settings-tab) tab.
+
+## Pause Screen
+
+The Atari 7800 application's pause screen provides access to application settings.
+
+![](../../../assets/images/apps/7800/settings.png){: class="center zoomD"}
+
+### Atari 7800 Settings Tab (Session Only)
+
+The settings on this tab are *Session only*, meaning they will not persist between gaming sessions.
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Left Difficulty Switch | Toggles between the `A` and `B` left difficulty switch options (is a physical switch on the 7800 console). |
+| Right Difficulty Switch | Toggles between the `A` and `B` right difficulty switch options (is a physical switch on the 7800 console). |
+| Dual Analog | Whether to enable twin stick style controls (player 1 uses player 2's joystick for firing, etc.). |
+
+### Display Settings Tab
+
+| __Field__ | __Description__ |
+| --- | --- |
+| Screen size | The screen size to use when playing a game.<br><br>Options include:<br><ul><li>`Native` : The application's native resolution</li><li>`16:9` : Widescreen resolution</li><li>`Fill` : Fill the entire contents of the screen</li></ul> |
+| Bilinear filter | The type of bilinear filter to apply to the output display. |
+| On-screen controls | Toggle whether the on-screen controls should always be displayed, or only displayed once touch, mouse, or keyboard input has been detected. |
 
 ## Feed
 
 This section details how Atari 7800 application instances can be added to feeds.
 
-### Type
+### Types
 
-The type name for the Atari 7800 application is `js7800`.
+Two Atari 7800 application types are available, each offering different trade-offs in compatibility, features, and system resource requirements. The type below marked with a ⭐ is the default, and is mapped to the `7800` alias. The default can be overridden globally in [Settings](../../../userguide/settings.md) > *Applications*, or on a per-item basis in the [Feed Editor](../../../editor/index.md).
 
 | __Type__ | __Cheats__ | __Shaders__ | __Retro<br>Achievements__ | __Low<br>CPU__ |
 | --- | --- | --- | --- | --- |
-| `js7800` ⭐ | x | x | x | ✅ |
-
-!!! note
-    The alias `7800` also currently maps to this application. In the future, the `7800` alias may be mapped
-    to another Atari 7800 application (different emulator implementation) if it is determined to be a
-    more appropriate default.
+| `retro-prosystem` ⭐ | ✅ | ✅ | ✅ | x |
+| `js7800` | x | x | x | ✅ |
 
 ### Properties
 
@@ -94,8 +106,8 @@ specified in the `props` object of a feed item.
 | __Property__ | __Type__ | __Required__ | __Details__ |
 |----------|------|----------|---------|
 | rom | URL | Yes | URL to an Atari 7800 ROM file or a zip file containing a ROM file. |
+| cheat | URL | No | URL to a cheat file for the current ROM. See the [Cheats Tab](../../../editor/dialogs/item-dialog.md#cheats-tab) in the Item Editor for details on assigning cheat files.<br><br>*(`retro-prosystem` type only)* |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40).<br><br>This property is typically used to hide the black borders that are present on some games. |
-
 
 ### Example
 
@@ -126,4 +138,5 @@ The following is an example of a complete feed that consists of a single Atari 7
 
 ## References
 
-- [Atari 7800 Application GitHub Repository](https://github.com/webrcade/webrcade-app-js7800)
+- [Atari 7800 Application GitHub Repository (`retro-prosystem`)](https://github.com/webrcade/webrcade-app-retro-prosystem)
+- [Atari 7800 Application GitHub Repository (`js7800`)](https://github.com/webrcade/webrcade-app-js7800)

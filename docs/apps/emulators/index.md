@@ -8,11 +8,13 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 |----------|------|
 | [3DO](3do/index.md) | Emulator for the [3DO Interactive Multiplayer](https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer) game console. |
 | [Apple II](apple2/index.md) | Emulator for the [Apple IIe](https://en.wikipedia.org/wiki/Apple_IIe) personal computer |
-| [Apple IIGS](apple2gs/index.md) (Experimental) | Emulator for the [Apple IIGS](https://en.wikipedia.org/wiki/Apple_IIGS) personal computer |
+| [Apple IIGS](apple2gs/index.md) | Emulator for the [Apple IIGS](https://en.wikipedia.org/wiki/Apple_IIGS) personal computer |
 | [Arcade](arcade/index.md) | Emulator for various arcade hardware (both pre and post 90s) |
 | [Atari 2600](2600/index.md) | Emulator for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) game console |
-| [Atari 5200](5200/index.md) (Experimental) | Emulator for the [Atari 5200](https://en.wikipedia.org/wiki/Atari_5200) game console |
+| [Atari 5200](5200/index.md) | Emulator for the [Atari 5200](https://en.wikipedia.org/wiki/Atari_5200) game console |
 | [Atari 7800](7800/index.md) | Emulator for the [Atari 7800 ProSystem](https://en.wikipedia.org/wiki/Atari_7800) game console |
+| [Atari Jaguar](jaguar/index.md) (Experimental) | Emulator for the [Atari Jaguar](https://en.wikipedia.org/wiki/Atari_Jaguar) game console |
+| [Atari Jaguar CD](jaguarcd/index.md) (Experimental) | Emulator for the [Atari Jaguar CD](https://en.wikipedia.org/wiki/Atari_Jaguar_CD) add-on |
 | [Atari Lynx](lynx/index.md) | Emulator for the [Atari Lynx](https://en.wikipedia.org/wiki/Atari_Lynx) handheld game console |
 | [Bally Astrocade](astrocade/index.md) | Emulator for the [Bally Astrocade](https://en.wikipedia.org/wiki/Bally_Astrocade) home video game console |
 | [Bandai WonderSwan](ws/index.md) | Emulator for the [WonderSwan](https://en.wikipedia.org/wiki/WonderSwan) and [WonderSwan Color](https://en.wikipedia.org/wiki/WonderSwan) handheld game consoles |
@@ -23,7 +25,7 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [NEC PC Engine CD](pcecd/index.md) | Emulator for the [CD-ROM accessory](https://en.wikipedia.org/wiki/TurboGrafx-16#Add-ons) for the PC Engine |
 | [NEC SuperGrafx](sgx/index.md) | Emulator for the [PC Engine SuperGrafx](https://en.wikipedia.org/wiki/PC_Engine_SuperGrafx) game console |
 | [NEC PC-FX](pcfx/index.md) | Emulator for the [PC-FX](https://en.wikipedia.org/wiki/PC-FX) game console |
-| [Nintendo 64](n64/index.md) (Experimental) | Emulator for the [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) game console |
+| [Nintendo 64](n64/index.md) | Emulator for the [Nintendo 64](https://en.wikipedia.org/wiki/Nintendo_64) game console |
 | [Nintendo NES](nes/index.md) | Emulator for the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) game console |
 | [Nintendo SNES](snes/index.md) |  Emulator for the [Super Nintendo Entertainment System](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) game console |
 | [Nintendo DS](nds/index.md) | Emulator for the [Nintendo DS](https://en.wikipedia.org/wiki/Nintendo_DS) handheld game console |
@@ -38,9 +40,13 @@ Clicking on the name of an *Emulator* in the table will navigate to a detailed p
 | [Sega Genesis](genesis/index.md) | Emulator for the [Sega Genesis](https://en.wikipedia.org/wiki/Sega_Genesis) game console |
 | [Sega CD](segacd/index.md) | Emulator for the [Sega CD (CD-ROM accessory)](https://en.wikipedia.org/wiki/Sega_CD) for the Sega Genesis |
 | [Sega Game Gear](gamegear/index.md) | Emulator for the [Sega Game Gear](https://en.wikipedia.org/wiki/Game_Gear) handheld game console |
+| [Sega 32X](32x/index.md) | Emulator for the [Sega 32X](https://en.wikipedia.org/wiki/32X) add-on for the Sega Genesis |
+| [Sega 32X CD](32xcd/index.md) | Emulator for Sega CD titles that require the Sega 32X add-on |
 | [Sega Saturn](saturn/index.md) (Experimental) | Emulator for the [Sega Saturn](https://en.wikipedia.org/wiki/Sega_Saturn) game console |
+| [Sega Dreamcast](dreamcast/index.md) (Experimental) | Emulator for the [Sega Dreamcast](https://en.wikipedia.org/wiki/Dreamcast) game console |
 | [SNK Neo Geo](neogeo/index.md) | Emulator for the [Neo Geo](https://en.wikipedia.org/wiki/Neo_Geo_(system)) MVS (arcade) and AES (console) systems |
 | [SNK Neo Geo CD](neogeocd/index.md) | Emulator for the [Neo Geo CD](https://en.wikipedia.org/wiki/Neo_Geo_CD) game console |
 | [SNK Neo Geo Pocket](ngp/index.md) | Emulator for the [Neo Geo Pocket](https://en.wikipedia.org/wiki/Neo_Geo_Pocket) and [Neo Geo Pocket Color](https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color) handheld game consoles |
 | [Sony PlayStation](psx/index.md) | Emulator for the [Sony PlayStation](https://en.wikipedia.org/wiki/PlayStation_(console)) game console |
+| [Sony PSP](psp/index.md) (Experimental) | Emulator for the [Sony PlayStation Portable](https://en.wikipedia.org/wiki/PlayStation_Portable) game console |
 

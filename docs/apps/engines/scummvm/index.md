@@ -1,4 +1,4 @@
-
+﻿
 # ScummVM
 
 ## Overview
@@ -113,9 +113,7 @@ For example, [this ScummVM Wiki page](https://wiki.scummvm.org/index.php?title=F
 
 ## Adding Games (Feed Editor)
 
-Due to the variability of packaging ScummVM games, adding ScummVM-based games in the [Feed Editor](../../../editor/index.md) must be done manually (versus using auto-detection).
-
-See the [Adding Disc and Archive-based Items](../../../editor/workspace/addingitems.md#disc-and-archive-based-items) section for details on adding ScummVM-based games in the [Feed Editor](../../../editor/index.md).
+For details on adding ScummVM-based games in the [Feed Editor](../../../editor/index.md): if your content is on your computer, see [Adding Items: Local Files](../../../editor/workspace/addingitems-local.md); if it's already hosted online, see [Adding Items: From URLs (Manual)](../../../editor/workspace/addingitems-url.md#manual-item-creation).
 
 !!! important
     Both the Safari (iOS and macOS) and Xbox Series X|S Edge browsers limit the amount of memory that can be consumed by a particular web application (such as webЯcade).

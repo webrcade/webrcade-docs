@@ -1,4 +1,4 @@
-# Apple IIGS (Experimental)
+# Apple IIGS
 
 ## Overview
 
@@ -9,21 +9,8 @@ The Apple IIGS application is an emulator for the [Apple IIGS](https://en.wikipe
   <figcaption>Apple IIGS</figcaption>
 </figure>
 
-!!! warning
-    The Apple IIGS application is currently designated as an *experimental* application.
-    <p>
-    This designation has been applied due to the following:
-    </p>
-    <ul>
-    <li>Many games exhibit compatibility issues and defects.</li>
-    <li>The application may exhibit instability.</li>
-    </ul>
-    <p>
-    By default, *Experimental* applications are not displayed in the webЯcade *[player](../../../userguide/index.md)* or *[feed editor](../../../editor/index.md)*.
-    </p>
-    <p>
-    To enable the Apple IIGS application, refer to the *advanced settings* sections of the player ([player advanced settings](../../../userguide/index.md#advanced-settings-tab)) or editor ([editor advanced settings](../../../editor/workspace/settings.md#advanced-tab)).
-    </p>
+!!! note
+    Many games exhibit compatibility issues and defects, and the application may exhibit instability.
 
 ## BIOS Files
 
@@ -209,7 +196,7 @@ The table below contains the properties that are specific to the Apple IIGS appl
 | cpuSpeed | Numeric | No | The CPU speed to emulate.<br><ul><li>`0` : Default (2.8 MHz)</li><li>`1` : 4 MHz</li><li>`2` : 5 MHz</li><li>`3` : 7 MHz (ZipGS)</li><li>`4` : 8 MHz (ZipGS)</li><li>`5` : 10 MHz</li><li>`6` : 12 MHz (ZipGS)</li><li>`7` : 16 MHz (ZipGS)</li></ul> |
 | enable2nd525 | Boolean | No | Enable a second 5.25" floppy drive. Useful for games that require simultaneous access to two disks. Defaults to `false`. |
 | enable2nd35 | Boolean | No | Enable a second 3.5" floppy drive. Useful for games that require simultaneous access to two disks. Defaults to `false`. |
-| mappings | Map of Strings (key-value pairs) | No | <p>Game-specific mappings of Apple IIGS keys and joystick controls to the gamepad.</p><p>The simplest way to determine these mappings is by creating an Apple IIGS item in the [Feed Editor](../../../editor/index.md) and exporting it.</p><p>The following is a simple example of a set of mappings. The `key` is the gamepad controller button and the `value` is the Apple IIGS key or joystick control that it is mapped to.</p><p>``{``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"a": "button0",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"b": "button1",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"x": "openapple",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"y": "closedapple",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"lt": "return",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"rt": "space"``<br>``}``</p><p>*Note: `lb` and `rb` always function as mouse buttons regardless of mappings — any key action mapped to them will fire in addition to the mouse click.*</p> |
+| mappings | Map of Strings (key-value pairs) | No | <p>Game-specific mappings of Apple IIGS keys and joystick controls to the gamepad.</p><p>The simplest way to determine these mappings is by creating an Apple IIGS item in the [Feed Editor](../../../editor/index.md) and exporting it.</p><p>The following is a simple example of a set of mappings. The `key` is the gamepad controller button and the `value` is the Apple IIGS key or joystick control that it is mapped to.</p><p>``{``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"a": "button0",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"b": "button1",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"x": "openapple",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"y": "closedapple",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"lt": "return",``<br>&nbsp;&nbsp;&nbsp;&nbsp;``"rt": "space"``<br>``}``</p><p>*Note: `lb` and `rb` always function as mouse buttons regardless of mappings. Any key action mapped to them will fire in addition to the mouse click.*</p> |
 | zoomLevel | Numeric | No | A numeric value indicating how much the display image should be zoomed in (0-40). |
 
 ### Example

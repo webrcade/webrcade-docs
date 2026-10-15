@@ -211,7 +211,6 @@ The settings contained in this tab are detailed below:
 
 | __Field__ | __Description__ |
 | --- | --- |
-| Experimental apps | Enables whether *experimental* applications are displayed in the webЯcade *[player](../userguide/index.md)* or *[feed editor](../editor/index.md)*.<br><br>Applications are typically designated as *experimental* based on high resource requirements or due to instability and defects. |
 | Hide title bar | Hides the webЯcade title bar at the top of the player (the *settings* button is still displayed in the upper-right corner).<br><br>This can be useful in situations where it is difficult to consistently tap the *settings* button (typically on mobile). Enabling this options provides a larger settings button without the presence of the title bar. |
 
 ### Achievements Tab

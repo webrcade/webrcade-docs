@@ -11,14 +11,14 @@ The Nintendo DS application is an emulator for the [Nintendo DS](https://en.wiki
 
 !!! important
     A Nintendo DS ROM can be specified using a direct URL to a ROM file or a ZIP file containing one; however,
-    using a ZIP file—especially for larger games (200MB or more)—can significantly increase memory usage in the
+    using a ZIP file (especially for larger games, 200MB or more) can significantly increase memory usage in the
     browser, so direct ROM links are recommended for memory-constrained devices such as the Xbox Series X|S.
 
 ## BIOS Files (Optional)
 
 In addition to Nintendo DS ROM files, optional BIOS and firmware files can be specified globally within the feed (See the [Feed Properties Dialog](../../../editor/dialogs/feed-dialog.md#properties-tab) and [Nintendo DS Feed Properties](#feed-properties) sections).
 
-Adding these files can improve game compatibility, accuracy, and boot behavior—particularly for titles that rely on specific hardware initialization or firmware routines. While not strictly required for most games, they are recommended for the best experience.
+Adding these files can improve game compatibility, accuracy, and boot behavior, particularly for titles that rely on specific hardware initialization or firmware routines. While not strictly required for most games, they are recommended for the best experience.
 
 | __File__ | __Hash (MD5)__ |
 | --- | --- |

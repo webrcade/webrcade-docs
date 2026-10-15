@@ -4,8 +4,8 @@
 
 WebЯcade optionally supports linking each of your devices and/or browsers to cloud storage (currently limited to [Dropbox](https://www.dropbox.com)) for two primary purposes:
 
-* **Persistent state** — sharing save states, in-game saves, high scores, and hardware configuration settings between devices (see [Save States](#save-states)).
-* **File uploads** — uploading local game files (ROMs, disc images, BIOS files, images, and feeds) directly from the [Feed Editor](../editor/index.md) to your Dropbox account (see [File Uploads](#file-uploads)).
+* **Persistent state**: sharing save states, in-game saves, high scores, and hardware configuration settings between devices (see [Save States](#save-states)).
+* **File uploads**: uploading local game files (ROMs, disc images, BIOS files, images, and feeds) directly from the [Feed Editor](../editor/index.md) to your Dropbox account (see [File Uploads](#file-uploads)).
 
 The following sections detail how to link webЯcade to cloud storage within the WebЯcade [player](#player), [feed editor](#feed-editor), or when playing a game in [stand-alone](#stand-alone) mode. Once linked, both persistent state and file upload features become available.
 
